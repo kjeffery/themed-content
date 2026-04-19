@@ -1,0 +1,41 @@
+{
+  "destination" : "disneyland-resort",
+  "eventClosures" : [
+    {
+      "edgeIDs" : [
+        "castle-fantasy",
+        "fantasy-small-world",
+        "gate-ms",
+        "hub-castle",
+        "ms-north-hub",
+        "ms-south-north"
+      ],
+      "id" : "1F7E2784-AA28-4956-8D67-9225A7440822",
+      "leadMinutes" : 15,
+      "mode" : {
+        "closed" : {
+
+        }
+      },
+      "showEntityID" : "C60E9DE0-DF2B-4484-9B05-299939DC247A",
+      "trailMinutes" : 10
+    }
+  ],
+  "formatVersion" : 1,
+  "manualClosures" : [
+    {
+      "edgeIDs" : [
+        "fantasy-small-world"
+      ],
+      "endDate" : "2026-05-19T22:51:03Z",
+      "id" : "F37BF0B2-4194-4525-995B-68AB2621ED96",
+      "mode" : {
+        "closed" : {
+
+        }
+      },
+      "reason" : "Walkway construction",
+      "startDate" : "2026-04-18T22:51:03Z"
+    }
+  ]
+}

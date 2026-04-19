@@ -1,0 +1,5 @@
+# Raw exports from the in-app debug tool — only the hashed copy written by
+# tools/publish.py should be committed.
+/closures.json
+/graph.json
+/weights.json

@@ -1,5 +1,12 @@
 {
-  "manifestVersion": 1,
-  "generatedAt": "2026-04-19T00:00:00Z",
-  "files": []
+  "files": [
+    {
+      "bytes": 841,
+      "path": "closures-b8e5127bd28c8249.json",
+      "role": "closures",
+      "sha256": "b8e5127bd28c82494bfc871640a01a5442c9a598cd2140db3c5ef436de423fa7"
+    }
+  ],
+  "generatedAt": "2026-04-19T22:57:55Z",
+  "manifestVersion": 1
 }
