@@ -13,12 +13,12 @@
       "sha256": "41bc890c6d4b8a8e196d86314c0d4680e4015de8b9491a5b85bf2367ab12a008"
     },
     {
-      "bytes": 216,
-      "path": "weights-5687b796b94d3e92.json",
+      "bytes": 241,
+      "path": "weights-d1a2bd3ddd59d6bd.json",
       "role": "weights",
-      "sha256": "5687b796b94d3e92c4ff3809c7eff48ed8d45c7939cae372032a1a8df21f7a64"
+      "sha256": "d1a2bd3ddd59d6bdb8b10603d71f387211aaf64cf06c9fcdd7bece4d1e6925ad"
     }
   ],
-  "generatedAt": "2026-04-20T14:29:36Z",
+  "generatedAt": "2026-04-21T17:10:56Z",
   "manifestVersion": 1
 }

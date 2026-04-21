@@ -1,0 +1,14 @@
+{
+  "accessibility": {
+    "covered": -5,
+    "indoor": -5,
+    "narrow": 10,
+    "stairs": 50,
+    "steep": 20
+  },
+  "closurePenaltyMultiplier": 1,
+  "crowdWeight": 1,
+  "distanceWeight": 1,
+  "formatVersion": 1,
+  "walkMultiplier": 1.4
+}
