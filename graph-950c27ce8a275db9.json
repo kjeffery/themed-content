@@ -2997,6 +2997,2184 @@
       "elevationMeters": 42.806,
       "id": "junction-37b62db5",
       "kind": "junction"
+    },
+    {
+      "coord": {
+        "latitude": 33.8107214,
+        "longitude": -117.9190771
+      },
+      "elevationMeters": 41.6,
+      "id": "osm-shop-node1231986295",
+      "kind": "shop",
+      "name": "Crystal Arcade",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8153967,
+        "longitude": -117.9188045
+      },
+      "elevationMeters": 44.128,
+      "id": "osm-restroom-node1231986357",
+      "kind": "restroom",
+      "name": "Toontown Restroom",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.810984,
+        "longitude": -117.9215852
+      },
+      "elevationMeters": 43.007,
+      "id": "osm-restroom-node1231986370",
+      "kind": "restroom",
+      "name": "New Orleans Restroom",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.812049,
+        "longitude": -117.919921
+      },
+      "elevationMeters": 41.606,
+      "id": "osm-shop-node1231986494",
+      "kind": "shop",
+      "name": "Bonanza Outfitters",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8108562,
+        "longitude": -117.9190784
+      },
+      "elevationMeters": 41.667,
+      "id": "osm-shop-node1231986549",
+      "kind": "shop",
+      "name": "New Century Jewelry Shop",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8117628,
+        "longitude": -117.9181745
+      },
+      "elevationMeters": 42.406,
+      "id": "osm-restroom-node1231986564",
+      "kind": "restroom",
+      "name": "Restroom",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.811174,
+        "longitude": -117.9188261
+      },
+      "elevationMeters": 41.52,
+      "id": "osm-shop-node1231986576",
+      "kind": "shop",
+      "name": "Castle Brothers",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8129714,
+        "longitude": -117.9219558
+      },
+      "elevationMeters": 44.096,
+      "id": "osm-restroom-node1231986581",
+      "kind": "restroom",
+      "name": "Fort Wilderness Restroom",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8122414,
+        "longitude": -117.9162925
+      },
+      "elevationMeters": 42.935,
+      "id": "osm-restroom-node1231986590",
+      "kind": "restroom",
+      "name": "Innoventions Restroom",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8118444,
+        "longitude": -117.9198463
+      },
+      "elevationMeters": 41.437,
+      "id": "osm-restroom-node1231986599",
+      "kind": "restroom",
+      "name": "Adventureland Restroom",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8126456,
+        "longitude": -117.9225377
+      },
+      "elevationMeters": 41.363,
+      "id": "osm-restroom-node1231986646",
+      "kind": "restroom",
+      "name": "Hungry Bear Restroom",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8129005,
+        "longitude": -117.9184912
+      },
+      "elevationMeters": 42.846,
+      "id": "osm-restroom-node1231986668",
+      "kind": "restroom",
+      "name": "Restroom",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8124015,
+        "longitude": -117.9219802
+      },
+      "elevationMeters": 42.08,
+      "id": "osm-shop-node1231986700",
+      "kind": "shop",
+      "name": "Bayou Country Fruit Cart",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8106072,
+        "longitude": -117.9188482
+      },
+      "elevationMeters": 41.83,
+      "id": "osm-shop-node1231986749",
+      "kind": "shop",
+      "name": "Main Street Magic Shop",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8103642,
+        "longitude": -117.9194308
+      },
+      "elevationMeters": 42.655,
+      "id": "osm-restroom-node1231986764",
+      "kind": "restroom",
+      "name": "City Hall Restrooms",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8105849,
+        "longitude": -117.9193536
+      },
+      "elevationMeters": 41.643,
+      "id": "osm-shop-node1231986827",
+      "kind": "shop",
+      "name": "Carriage Place Clothing CO.",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8135221,
+        "longitude": -117.9196481
+      },
+      "elevationMeters": 43.337,
+      "id": "osm-restroom-node1231986958",
+      "kind": "restroom",
+      "name": "Village Haus Restroom",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8120658,
+        "longitude": -117.9232446
+      },
+      "elevationMeters": 41.34,
+      "id": "osm-shop-node1231986985",
+      "kind": "shop",
+      "name": "Louis' Critter Club",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8112878,
+        "longitude": -117.9188212
+      },
+      "elevationMeters": 42.093,
+      "id": "osm-shop-node1231986994",
+      "kind": "shop",
+      "name": "Silhouette Studio",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8105862,
+        "longitude": -117.9191115
+      },
+      "elevationMeters": 41.587,
+      "id": "osm-shop-node1231987032",
+      "kind": "shop",
+      "name": "Emporium",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8113616,
+        "longitude": -117.9176971
+      },
+      "elevationMeters": 41.879,
+      "id": "osm-restroom-node1231987053",
+      "kind": "restroom",
+      "name": "Space Mountain Exit Restrooms",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8117413,
+        "longitude": -117.9195089
+      },
+      "elevationMeters": 42.445,
+      "id": "osm-restroom-node1231987100",
+      "kind": "restroom",
+      "name": "Tiki Restrooms",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8124966,
+        "longitude": -117.9197532
+      },
+      "elevationMeters": 42.128,
+      "id": "osm-restroom-node1231987111",
+      "kind": "restroom",
+      "name": "Zocalo Restroom",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8121614,
+        "longitude": -117.9232643
+      },
+      "elevationMeters": 41.412,
+      "id": "osm-shop-node1231987186",
+      "kind": "shop",
+      "name": "Pooh Corner",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8113269,
+        "longitude": -117.9191133
+      },
+      "elevationMeters": 41.489,
+      "id": "osm-shop-node1231987200",
+      "kind": "shop",
+      "name": "Candy Palace",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8122578,
+        "longitude": -117.9232603
+      },
+      "elevationMeters": 41.456,
+      "id": "osm-shop-node1231987202",
+      "kind": "shop",
+      "name": "Pooh Corner",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8100798,
+        "longitude": -117.9183862
+      },
+      "elevationMeters": 41.981,
+      "id": "osm-restroom-node1231987349",
+      "kind": "restroom",
+      "name": "Opera House Restroom",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8111728,
+        "longitude": -117.9216625
+      },
+      "elevationMeters": 42.904,
+      "id": "osm-shop-node1231987358",
+      "kind": "shop",
+      "name": "Mint Julep Bar",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8120517,
+        "longitude": -117.9199974
+      },
+      "elevationMeters": 41.772,
+      "id": "osm-shop-node1231987404",
+      "kind": "shop",
+      "name": "Dry Goods",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8137806,
+        "longitude": -117.9180498
+      },
+      "elevationMeters": 42.784,
+      "id": "osm-shop-node1233368367",
+      "kind": "shop",
+      "name": "Lemonade Small World",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8113306,
+        "longitude": -117.9188225
+      },
+      "elevationMeters": 41.935,
+      "id": "osm-shop-node1233368433",
+      "kind": "shop",
+      "name": "China Closet",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8129306,
+        "longitude": -117.9188678
+      },
+      "elevationMeters": 42.857,
+      "id": "osm-shop-node1233368510",
+      "kind": "shop",
+      "name": "Merlin\u2019s Marvelous Miscellany",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8129422,
+        "longitude": -117.9191257
+      },
+      "elevationMeters": 42.845,
+      "id": "osm-shop-node1233368704",
+      "kind": "shop",
+      "name": "Bibbidi Bobbidi Boutique",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8113981,
+        "longitude": -117.9188198
+      },
+      "elevationMeters": 41.566,
+      "id": "osm-shop-node1233368830",
+      "kind": "shop",
+      "name": "Plaza Point Holiday Shoppe",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8105576,
+        "longitude": -117.9188247
+      },
+      "elevationMeters": 41.669,
+      "id": "osm-shop-node1233368963",
+      "kind": "shop",
+      "name": "Disney Showcase",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8128815,
+        "longitude": -117.9190469
+      },
+      "elevationMeters": 42.549,
+      "id": "osm-shop-node1233368967",
+      "kind": "shop",
+      "name": "Fantasyland Merch Cart",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8102665,
+        "longitude": -117.9191049
+      },
+      "elevationMeters": 41.974,
+      "id": "osm-shop-node1235706910",
+      "kind": "shop",
+      "name": "Popcorn Town Square",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8126085,
+        "longitude": -117.9180928
+      },
+      "elevationMeters": 42.176,
+      "id": "osm-shop-node1235706938",
+      "kind": "shop",
+      "name": "Pixie Hollow Costume Stand",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8120868,
+        "longitude": -117.9170818
+      },
+      "elevationMeters": 42.513,
+      "id": "osm-shop-node1235707193",
+      "kind": "shop",
+      "name": "Tomorrow Landing",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8106618,
+        "longitude": -117.9188482
+      },
+      "elevationMeters": 41.77,
+      "id": "osm-shop-node1235707449",
+      "kind": "shop",
+      "name": "20th Century Music Company",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.811645,
+        "longitude": -117.9216755
+      },
+      "elevationMeters": 42.39,
+      "id": "osm-shop-node1238328163",
+      "kind": "shop",
+      "name": "Popcorn New Orleans Square",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8122415,
+        "longitude": -117.9175754
+      },
+      "elevationMeters": 42.182,
+      "id": "osm-shop-node1238328215",
+      "kind": "shop",
+      "name": "Little Green Men Store Command",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8155927,
+        "longitude": -117.9184247
+      },
+      "elevationMeters": 44.558,
+      "id": "osm-shop-node1239137436",
+      "kind": "shop",
+      "name": "Engineear Souvenirs",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8111829,
+        "longitude": -117.9187362
+      },
+      "elevationMeters": 41.544,
+      "id": "osm-shop-node1250664342",
+      "kind": "shop",
+      "name": "Chester Drawer's: Togs for Toddlers",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8112449,
+        "longitude": -117.9188219
+      },
+      "elevationMeters": 41.593,
+      "id": "osm-shop-node1250664527",
+      "kind": "shop",
+      "name": "Crystal Arts",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8110448,
+        "longitude": -117.9188232
+      },
+      "elevationMeters": 41.574,
+      "id": "osm-shop-node1250664637",
+      "kind": "shop",
+      "name": "Disney Clothiers LTD.",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8127926,
+        "longitude": -117.9190259
+      },
+      "elevationMeters": 42.534,
+      "id": "osm-shop-node1250664651",
+      "kind": "shop",
+      "name": "Enchanted Chamber",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8120333,
+        "longitude": -117.9204787
+      },
+      "elevationMeters": 41.335,
+      "id": "osm-shop-node1253627796",
+      "kind": "shop",
+      "name": "Popcorn Frontierland",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8121007,
+        "longitude": -117.9174754
+      },
+      "elevationMeters": 42.949,
+      "id": "osm-shop-node1253627817",
+      "kind": "shop",
+      "name": "Churros Tomorrowland",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8130966,
+        "longitude": -117.9208739
+      },
+      "elevationMeters": 42.079,
+      "id": "osm-shop-node1253627931",
+      "kind": "shop",
+      "name": "Pretzel Frontierland",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8110109,
+        "longitude": -117.9213795
+      },
+      "elevationMeters": 43.009,
+      "id": "osm-shop-node1256492261",
+      "kind": "shop",
+      "name": "Eudora\u2019s Chic Boutique",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8120563,
+        "longitude": -117.9201452
+      },
+      "elevationMeters": 41.877,
+      "id": "osm-shop-node1256492281",
+      "kind": "shop",
+      "name": "Crockett and Russell Hat Co.",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8110898,
+        "longitude": -117.9213487
+      },
+      "elevationMeters": 42.919,
+      "id": "osm-shop-node1256492296",
+      "kind": "shop",
+      "name": "Cristal d'Orleans",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8112009,
+        "longitude": -117.9209965
+      },
+      "elevationMeters": 42.881,
+      "id": "osm-shop-node1256492299",
+      "kind": "shop",
+      "name": "Port Royal Curios and Curiosities",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8110803,
+        "longitude": -117.921266
+      },
+      "elevationMeters": 44.543,
+      "id": "osm-shop-node1256492308",
+      "kind": "shop",
+      "name": "Scenic Art",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8110637,
+        "longitude": -117.921509
+      },
+      "elevationMeters": 42.971,
+      "id": "osm-shop-node1256492314",
+      "kind": "shop",
+      "name": "Pandora",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8111524,
+        "longitude": -117.9214412
+      },
+      "elevationMeters": 42.969,
+      "id": "osm-shop-node1256492317",
+      "kind": "shop",
+      "name": "Mlle. Antoinette\u2019s Parfumerie",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8120553,
+        "longitude": -117.9200684
+      },
+      "elevationMeters": 41.825,
+      "id": "osm-shop-node1256492327",
+      "kind": "shop",
+      "name": "Silver Spurs Supplies",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8110908,
+        "longitude": -117.9211168
+      },
+      "elevationMeters": 42.967,
+      "id": "osm-shop-node1256492348",
+      "kind": "shop",
+      "name": "Pieces of Eight",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8109985,
+        "longitude": -117.9215137
+      },
+      "elevationMeters": 42.879,
+      "id": "osm-shop-node1256492358",
+      "kind": "shop",
+      "name": "Art",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8121633,
+        "longitude": -117.9203583
+      },
+      "elevationMeters": 41.428,
+      "id": "osm-shop-node1261832028",
+      "kind": "shop",
+      "name": "Churros Frontierland",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8143342,
+        "longitude": -117.9182641
+      },
+      "elevationMeters": 43.35,
+      "id": "osm-shop-node1275181785",
+      "kind": "shop",
+      "name": "Popcorn Fantasyland Theatre",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8113311,
+        "longitude": -117.9175556
+      },
+      "elevationMeters": 41.878,
+      "id": "osm-shop-node1301607820",
+      "kind": "shop",
+      "name": "Spaceport Document Control",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8102616,
+        "longitude": -117.9188157
+      },
+      "elevationMeters": 41.918,
+      "id": "osm-shop-node1435149708",
+      "kind": "shop",
+      "name": "Churros Town Square",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8109286,
+        "longitude": -117.9190784
+      },
+      "elevationMeters": 41.758,
+      "id": "osm-shop-node1439325863",
+      "kind": "shop",
+      "name": "Fortuosity Shop",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8119787,
+        "longitude": -117.9171676
+      },
+      "elevationMeters": 42.679,
+      "id": "osm-shop-node1488768779",
+      "kind": "shop",
+      "name": "Tomorrowland Fruit Cart",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.813629,
+        "longitude": -117.9179845
+      },
+      "elevationMeters": 43.016,
+      "id": "osm-shop-node2149453148",
+      "kind": "shop",
+      "name": "Popcorn Small World",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8099936,
+        "longitude": -117.919531
+      },
+      "elevationMeters": 42.546,
+      "id": "osm-restroom-node2947255367",
+      "kind": "restroom",
+      "name": "Special Accommodation Toilets",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8118207,
+        "longitude": -117.9218082
+      },
+      "elevationMeters": 42.768,
+      "id": "osm-shop-node3054583131",
+      "kind": "shop",
+      "name": "Churros New Orleans Square",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8120665,
+        "longitude": -117.9174189
+      },
+      "elevationMeters": 42.256,
+      "id": "osm-shop-node3054593398",
+      "kind": "shop",
+      "name": "Pretzels Tomorrowland",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8112844,
+        "longitude": -117.9213588
+      },
+      "elevationMeters": 42.738,
+      "id": "osm-shop-node3684585243",
+      "kind": "shop",
+      "name": "Parasols Personalized",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8119654,
+        "longitude": -117.9170924
+      },
+      "elevationMeters": 42.298,
+      "id": "osm-shop-node3687742175",
+      "kind": "shop",
+      "name": "Popcorn Tomorrowland",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8121098,
+        "longitude": -117.9167354
+      },
+      "elevationMeters": 43.6,
+      "id": "osm-shop-node3894528689",
+      "kind": "shop",
+      "name": "Star Wars: Launch Bay Shop",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8134668,
+        "longitude": -117.9192838
+      },
+      "elevationMeters": 43.509,
+      "id": "osm-shop-node4679391517",
+      "kind": "shop",
+      "name": "Royal Reception",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8116329,
+        "longitude": -117.9200492
+      },
+      "elevationMeters": 41.33,
+      "id": "osm-shop-node4916167089",
+      "kind": "shop",
+      "name": "Tropical Imports",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8133355,
+        "longitude": -117.9173584
+      },
+      "elevationMeters": 43.547,
+      "id": "osm-shop-node5355006918",
+      "kind": "shop",
+      "name": "Fairytale Arts",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8121267,
+        "longitude": -117.9196723
+      },
+      "elevationMeters": 41.379,
+      "id": "osm-shop-node5839606116",
+      "kind": "shop",
+      "name": "Frontierland Pin Cart",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8105613,
+        "longitude": -117.918606
+      },
+      "elevationMeters": 41.584,
+      "id": "osm-shop-node5839606117",
+      "kind": "shop",
+      "name": "Main Street Pin Cart",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8144533,
+        "longitude": -117.9217796
+      },
+      "elevationMeters": 43.23,
+      "id": "osm-shop-node6348919344",
+      "kind": "shop",
+      "name": "Toydarian Toymaker",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8146259,
+        "longitude": -117.9212114
+      },
+      "elevationMeters": 42.76,
+      "id": "osm-shop-node6348919345",
+      "kind": "shop",
+      "name": "Dok-Ondar\u2019s Den of Antiquities",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8144229,
+        "longitude": -117.9210312
+      },
+      "elevationMeters": 42.092,
+      "id": "osm-shop-node6348919347",
+      "kind": "shop",
+      "name": "Savi's Workshop",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8144613,
+        "longitude": -117.9217017
+      },
+      "elevationMeters": 43.19,
+      "id": "osm-shop-node6348919348",
+      "kind": "shop",
+      "name": "Black Spire Outfitters",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8139772,
+        "longitude": -117.9228161
+      },
+      "elevationMeters": 43.232,
+      "id": "osm-shop-node6348919349",
+      "kind": "shop",
+      "name": "Resistance Supply",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8143492,
+        "longitude": -117.9217422
+      },
+      "elevationMeters": 43.518,
+      "id": "osm-shop-node6348919350",
+      "kind": "shop",
+      "name": "Creature Stall",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8142776,
+        "longitude": -117.9209873
+      },
+      "elevationMeters": 42.244,
+      "id": "osm-shop-node6348919351",
+      "kind": "shop",
+      "name": "Droid Depot",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8144536,
+        "longitude": -117.9216461
+      },
+      "elevationMeters": 43.407,
+      "id": "osm-shop-node6348928545",
+      "kind": "shop",
+      "name": "Kat Saka's Kettle",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8144178,
+        "longitude": -117.9219262
+      },
+      "elevationMeters": 43.475,
+      "id": "osm-restroom-node6499181068",
+      "kind": "restroom",
+      "name": "Marketplace Restroom",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8142254,
+        "longitude": -117.9206465
+      },
+      "elevationMeters": 42.111,
+      "id": "osm-restroom-node6499181069",
+      "kind": "restroom",
+      "name": "SWGE Service Yard Restroom",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.81436,
+        "longitude": -117.9216757
+      },
+      "elevationMeters": 43.399,
+      "id": "osm-shop-node6499192485",
+      "kind": "shop",
+      "name": "Jewls of Bith",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.815411,
+        "longitude": -117.918707
+      },
+      "elevationMeters": 44.165,
+      "id": "osm-shop-node10588517982",
+      "kind": "shop",
+      "name": "Good Boy! Grocers",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8153977,
+        "longitude": -117.9192943
+      },
+      "elevationMeters": 45.148,
+      "id": "osm-shop-node10745415284",
+      "kind": "shop",
+      "name": "Popcorn Toontown",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8176862,
+        "longitude": -117.921181
+      },
+      "elevationMeters": 43.187,
+      "id": "osm-shop-way49737141",
+      "kind": "shop",
+      "name": "Vehicle Service Garage",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8144561,
+        "longitude": -117.9180665
+      },
+      "elevationMeters": 43.801,
+      "id": "osm-shop-way49884550",
+      "kind": "shop",
+      "name": "\"it's a small world\" Toy Shop",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8121574,
+        "longitude": -117.9232718
+      },
+      "elevationMeters": 41.392,
+      "id": "osm-shop-way49884652",
+      "kind": "shop",
+      "name": "Gift (shop)",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8123783,
+        "longitude": -117.92224
+      },
+      "elevationMeters": 42.253,
+      "id": "osm-shop-way107526295",
+      "kind": "shop",
+      "name": "Ray's Berets",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8142297,
+        "longitude": -117.918122
+      },
+      "elevationMeters": 43.199,
+      "id": "osm-shop-way107526343",
+      "kind": "shop",
+      "name": "Fantasy Faire Gifts",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8129871,
+        "longitude": -117.9220035
+      },
+      "elevationMeters": 44.136,
+      "id": "osm-restroom-way109193409",
+      "kind": "restroom",
+      "name": "Fort Wilderness",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8136899,
+        "longitude": -117.9195538
+      },
+      "elevationMeters": 43.155,
+      "id": "osm-shop-way109193427",
+      "kind": "shop",
+      "name": "Village Haus Fruit Cart",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8109613,
+        "longitude": -117.9188365
+      },
+      "elevationMeters": 41.538,
+      "id": "osm-shop-way122901024",
+      "kind": "shop",
+      "name": "Main Street Fruit Cart",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8099685,
+        "longitude": -117.9193564
+      },
+      "elevationMeters": 41.634,
+      "id": "osm-shop-way129585687",
+      "kind": "shop",
+      "name": "Guide 1",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8099568,
+        "longitude": -117.9185662
+      },
+      "elevationMeters": 42.258,
+      "id": "osm-shop-way130357789",
+      "kind": "shop",
+      "name": "Guide 2",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.812323,
+        "longitude": -117.9164177
+      },
+      "elevationMeters": 42.753,
+      "id": "osm-shop-way130359131",
+      "kind": "shop",
+      "name": "Winner's Circle",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8136825,
+        "longitude": -117.9179036
+      },
+      "elevationMeters": 42.679,
+      "id": "osm-shop-way131234742",
+      "kind": "shop",
+      "name": "Le Petit Chalet",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8143601,
+        "longitude": -117.9185192
+      },
+      "elevationMeters": 44.739,
+      "id": "osm-restroom-way133953462",
+      "kind": "restroom",
+      "name": "Fantasyland Theatre Restroom",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8109372,
+        "longitude": -117.9193026
+      },
+      "elevationMeters": 41.602,
+      "id": "osm-restroom-way134497639",
+      "kind": "restroom",
+      "name": "Restroom",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8118478,
+        "longitude": -117.9173952
+      },
+      "elevationMeters": 42.603,
+      "id": "osm-shop-way168831480",
+      "kind": "shop",
+      "name": "Star Trader",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8097707,
+        "longitude": -117.9184182
+      },
+      "elevationMeters": 41.954,
+      "id": "osm-shop-way176381375",
+      "kind": "shop",
+      "name": "Stroller Rental",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8101386,
+        "longitude": -117.9184866
+      },
+      "elevationMeters": 41.936,
+      "id": "osm-shop-way177629827",
+      "kind": "shop",
+      "name": "Disneyana",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8104084,
+        "longitude": -117.9185094
+      },
+      "elevationMeters": 41.911,
+      "id": "osm-shop-way177633124",
+      "kind": "shop",
+      "name": "Mad Hatter of Main Street",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8134352,
+        "longitude": -117.9185397
+      },
+      "elevationMeters": 43.221,
+      "id": "osm-shop-way185405977",
+      "kind": "shop",
+      "name": "Mad Hatter of Fantasyland",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8141278,
+        "longitude": -117.9180724
+      },
+      "elevationMeters": 43.152,
+      "id": "osm-shop-way186353389",
+      "kind": "shop",
+      "name": "Pretzel Small World",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8124115,
+        "longitude": -117.9205594
+      },
+      "elevationMeters": 41.123,
+      "id": "osm-shop-way199112090",
+      "kind": "shop",
+      "name": "Ship To Shore Market Place",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8124546,
+        "longitude": -117.9195796
+      },
+      "elevationMeters": 42.215,
+      "id": "osm-shop-way202732676",
+      "kind": "shop",
+      "name": "Fairy Tale Treasures",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8122277,
+        "longitude": -117.9197213
+      },
+      "elevationMeters": 41.592,
+      "id": "osm-shop-way203325172",
+      "kind": "shop",
+      "name": "Westward Ho Trading Co.",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8112719,
+        "longitude": -117.9211114
+      },
+      "elevationMeters": 42.735,
+      "id": "osm-shop-way203427468",
+      "kind": "shop",
+      "name": "New Orleans Candy Cart",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8119586,
+        "longitude": -117.9190543
+      },
+      "elevationMeters": 41.549,
+      "id": "osm-shop-way263614281",
+      "kind": "shop",
+      "name": "Popcorn Hub",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8121863,
+        "longitude": -117.9191108
+      },
+      "elevationMeters": 41.818,
+      "id": "osm-shop-way263614282",
+      "kind": "shop",
+      "name": "Hot Foods Hub",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8123798,
+        "longitude": -117.9188023
+      },
+      "elevationMeters": 41.638,
+      "id": "osm-shop-way337030852",
+      "kind": "shop",
+      "name": "Churros Hub",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8120407,
+        "longitude": -117.917364
+      },
+      "elevationMeters": 42.104,
+      "id": "osm-shop-way338754265",
+      "kind": "shop",
+      "name": "Disney Vacation Club Information Both",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8120983,
+        "longitude": -117.9168991
+      },
+      "elevationMeters": 43.773,
+      "id": "osm-shop-way370679746",
+      "kind": "shop",
+      "name": "Lemonade Tomorrowland",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8117426,
+        "longitude": -117.91993
+      },
+      "elevationMeters": 41.553,
+      "id": "osm-shop-way500610785",
+      "kind": "shop",
+      "name": "Adventureland Bazaar",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8123639,
+        "longitude": -117.9209826
+      },
+      "elevationMeters": 40.68,
+      "id": "osm-restroom-way506400611",
+      "kind": "restroom",
+      "name": "Harper's Mill Restroom",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8136712,
+        "longitude": -117.9193319
+      },
+      "elevationMeters": 43.33,
+      "id": "osm-shop-way524591576",
+      "kind": "shop",
+      "name": "Churros Fantasyland",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8138029,
+        "longitude": -117.9178623
+      },
+      "elevationMeters": 42.598,
+      "id": "osm-shop-way524593085",
+      "kind": "shop",
+      "name": "Churros Small World",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8119556,
+        "longitude": -117.9199502
+      },
+      "elevationMeters": 41.626,
+      "id": "osm-shop-way524871039",
+      "kind": "shop",
+      "name": "Pioneer Mercantile",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8145417,
+        "longitude": -117.9203437
+      },
+      "elevationMeters": 42.114,
+      "id": "osm-shop-way617512969",
+      "kind": "shop",
+      "name": "First Order Cargo",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8144274,
+        "longitude": -117.9207009
+      },
+      "elevationMeters": 42.097,
+      "id": "osm-shop-way694322088",
+      "kind": "shop",
+      "name": "Milk Stand",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8124332,
+        "longitude": -117.9224092
+      },
+      "elevationMeters": 42.098,
+      "id": "osm-shop-way699780150",
+      "kind": "shop",
+      "name": "Churros and Lemonade Bayou Country",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8097992,
+        "longitude": -117.9194498
+      },
+      "elevationMeters": 41.585,
+      "id": "osm-shop-way997592571",
+      "kind": "shop",
+      "name": "Photo Concierge",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8098163,
+        "longitude": -117.9193688
+      },
+      "elevationMeters": 41.352,
+      "id": "osm-shop-way997592572",
+      "kind": "shop",
+      "name": "Newsstand",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8119579,
+        "longitude": -117.9221531
+      },
+      "elevationMeters": 43.034,
+      "id": "osm-shop-way1329126145",
+      "kind": "shop",
+      "name": "Madame Leota\u2019s Somewhere Beyond",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8056239,
+        "longitude": -117.9197489
+      },
+      "elevationMeters": 40.536,
+      "id": "osm-restroom-node1231834624",
+      "kind": "restroom",
+      "name": "Pacific Wharf Restroom",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8045496,
+        "longitude": -117.9214746
+      },
+      "elevationMeters": 40.096,
+      "id": "osm-shop-node1231986587",
+      "kind": "shop",
+      "name": "Midway Mercantile",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8077507,
+        "longitude": -117.9174254
+      },
+      "elevationMeters": 41.384,
+      "id": "osm-shop-node1231986596",
+      "kind": "shop",
+      "name": "Fairfax Market",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8075123,
+        "longitude": -117.9178607
+      },
+      "elevationMeters": 41.614,
+      "id": "osm-shop-node1231986773",
+      "kind": "shop",
+      "name": "Off the Page",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8073282,
+        "longitude": -117.9180939
+      },
+      "elevationMeters": 41.499,
+      "id": "osm-restroom-node1231986832",
+      "kind": "restroom",
+      "name": "Hollywood Boulevard Restroom",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8078952,
+        "longitude": -117.9168573
+      },
+      "elevationMeters": 41.435,
+      "id": "osm-restroom-node1231987014",
+      "kind": "restroom",
+      "name": "Backlot Restroom",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8067768,
+        "longitude": -117.9168087
+      },
+      "elevationMeters": 41.445,
+      "id": "osm-shop-node1231987055",
+      "kind": "shop",
+      "name": "Collector's Warehouse",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8062298,
+        "longitude": -117.9234703
+      },
+      "elevationMeters": 40.49,
+      "id": "osm-restroom-node1231987077",
+      "kind": "restroom",
+      "name": "Paradise Garden Restroom",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8077692,
+        "longitude": -117.9183938
+      },
+      "elevationMeters": 41.555,
+      "id": "osm-shop-node1233368489",
+      "kind": "shop",
+      "name": "Gone Hollywood",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8049592,
+        "longitude": -117.9226204
+      },
+      "elevationMeters": 39.673,
+      "id": "osm-shop-node1239335722",
+      "kind": "shop",
+      "name": "Bing Bong\u2019s Sweet Stuff",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8066503,
+        "longitude": -117.9198027
+      },
+      "elevationMeters": 43.469,
+      "id": "osm-restroom-node1239570205",
+      "kind": "restroom",
+      "name": "Golden Vine Restroom",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8067262,
+        "longitude": -117.9211633
+      },
+      "elevationMeters": 41.629,
+      "id": "osm-shop-node1274023761",
+      "kind": "shop",
+      "name": "Churros Grizzly Peak",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8075954,
+        "longitude": -117.9178992
+      },
+      "elevationMeters": 41.307,
+      "id": "osm-shop-node1291037908",
+      "kind": "shop",
+      "name": "Disney Vacation Club Information",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8065035,
+        "longitude": -117.9207924
+      },
+      "elevationMeters": 41.992,
+      "id": "osm-restroom-node1291285700",
+      "kind": "restroom",
+      "name": "San Fransico Restroom",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8062684,
+        "longitude": -117.9207858
+      },
+      "elevationMeters": 41.97,
+      "id": "osm-shop-node1312730797",
+      "kind": "shop",
+      "name": "Embarcadero Gifts",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8053703,
+        "longitude": -117.9187105
+      },
+      "elevationMeters": 40.382,
+      "id": "osm-shop-node1324541869",
+      "kind": "shop",
+      "name": "Ramone's House of Body Art",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8047524,
+        "longitude": -117.9216224
+      },
+      "elevationMeters": 40.0,
+      "id": "osm-shop-node1339084381",
+      "kind": "shop",
+      "name": "Se\u00f1or Buzz Churros",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8080123,
+        "longitude": -117.9191349
+      },
+      "elevationMeters": 41.194,
+      "id": "osm-shop-node1421476451",
+      "kind": "shop",
+      "name": "Trolley Treats",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8081571,
+        "longitude": -117.9191322
+      },
+      "elevationMeters": 41.272,
+      "id": "osm-shop-node1483196892",
+      "kind": "shop",
+      "name": "Julius Katz & Sons",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8082139,
+        "longitude": -117.9191335
+      },
+      "elevationMeters": 41.3,
+      "id": "osm-shop-node1483196897",
+      "kind": "shop",
+      "name": "Julius Katz",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8085839,
+        "longitude": -117.9187701
+      },
+      "elevationMeters": 41.111,
+      "id": "osm-shop-node1483196902",
+      "kind": "shop",
+      "name": "Oswald's Filling Station",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8082663,
+        "longitude": -117.9192074
+      },
+      "elevationMeters": 41.24,
+      "id": "osm-shop-node1483210917",
+      "kind": "shop",
+      "name": "Kingswell Shop",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8082886,
+        "longitude": -117.919092
+      },
+      "elevationMeters": 41.184,
+      "id": "osm-shop-node1483210923",
+      "kind": "shop",
+      "name": "Mortimer's Market",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8080813,
+        "longitude": -117.9191309
+      },
+      "elevationMeters": 41.255,
+      "id": "osm-shop-node1483210928",
+      "kind": "shop",
+      "name": "Atwater Ink & Paint",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8084491,
+        "longitude": -117.9192583
+      },
+      "elevationMeters": 41.17,
+      "id": "osm-restroom-node1483212401",
+      "kind": "restroom",
+      "name": "Buena Vista Street Restroom",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8056262,
+        "longitude": -117.9192101
+      },
+      "elevationMeters": 40.522,
+      "id": "osm-restroom-node1789288823",
+      "kind": "restroom",
+      "name": "Carsland Restroom",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8076482,
+        "longitude": -117.9194911
+      },
+      "elevationMeters": 41.126,
+      "id": "osm-shop-node1791245484",
+      "kind": "shop",
+      "name": "Willie's Churros",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8052968,
+        "longitude": -117.9186207
+      },
+      "elevationMeters": 40.192,
+      "id": "osm-shop-node2105235950",
+      "kind": "shop",
+      "name": "Lubeorama",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8062625,
+        "longitude": -117.9226275
+      },
+      "elevationMeters": 40.54,
+      "id": "osm-shop-node3240495825",
+      "kind": "shop",
+      "name": "Churros Paradise Park",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8078057,
+        "longitude": -117.9200195
+      },
+      "elevationMeters": 43.095,
+      "id": "osm-shop-node3648076388",
+      "kind": "shop",
+      "name": "Grizzly Peak Refreshments",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8048443,
+        "longitude": -117.9220765
+      },
+      "elevationMeters": 39.437,
+      "id": "osm-shop-node3688860645",
+      "kind": "shop",
+      "name": "Popcorn Pixar Pier",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8067385,
+        "longitude": -117.9195735
+      },
+      "elevationMeters": 40.893,
+      "id": "osm-shop-node4094775731",
+      "kind": "shop",
+      "name": "Disney Vacation Club Info Kiosk",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8045033,
+        "longitude": -117.9209152
+      },
+      "elevationMeters": 39.864,
+      "id": "osm-shop-node5710327419",
+      "kind": "shop",
+      "name": "Jack Jack Cookie Num Nums",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8053492,
+        "longitude": -117.9209434
+      },
+      "elevationMeters": 38.16,
+      "id": "osm-restroom-node5732928383",
+      "kind": "restroom",
+      "name": "Restroom",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8077649,
+        "longitude": -117.9178436
+      },
+      "elevationMeters": 41.425,
+      "id": "osm-shop-node6204580034",
+      "kind": "shop",
+      "name": "Churros Hollywood",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8073259,
+        "longitude": -117.9170363
+      },
+      "elevationMeters": 40.959,
+      "id": "osm-shop-node8796534683",
+      "kind": "shop",
+      "name": "Shawarma Palace Too",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8043661,
+        "longitude": -117.92127
+      },
+      "elevationMeters": 39.761,
+      "id": "osm-restroom-node10979160041",
+      "kind": "restroom",
+      "name": "Boardwalk Restroom",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8054839,
+        "longitude": -117.9202464
+      },
+      "elevationMeters": 40.447,
+      "id": "osm-shop-node11007934978",
+      "kind": "shop",
+      "name": "Maker's Market",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8064348,
+        "longitude": -117.9176104
+      },
+      "elevationMeters": 40.935,
+      "id": "osm-shop-node11115174185",
+      "kind": "shop",
+      "name": "Avengers Vault",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8067787,
+        "longitude": -117.918137
+      },
+      "elevationMeters": 40.936,
+      "id": "osm-restroom-way49824626",
+      "kind": "restroom",
+      "name": "Avengers Campus Restroom",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8052916,
+        "longitude": -117.920621
+      },
+      "elevationMeters": 38.18,
+      "id": "osm-shop-way49824676",
+      "kind": "shop",
+      "name": "Knick's Knacks",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8043722,
+        "longitude": -117.9212577
+      },
+      "elevationMeters": 39.772,
+      "id": "osm-restroom-way49824808",
+      "kind": "restroom",
+      "name": "Boardwalk Restroom",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8078912,
+        "longitude": -117.920137
+      },
+      "elevationMeters": 41.098,
+      "id": "osm-shop-way49824834",
+      "kind": "shop",
+      "name": "Humphrey's Service & Supplies",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8084613,
+        "longitude": -117.9177847
+      },
+      "elevationMeters": 41.44,
+      "id": "osm-shop-way49824919",
+      "kind": "shop",
+      "name": "Super Store",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8077476,
+        "longitude": -117.9209403
+      },
+      "elevationMeters": 42.105,
+      "id": "osm-shop-way107809248",
+      "kind": "shop",
+      "name": "Disney Vacation Club Info Booth",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8065677,
+        "longitude": -117.9207808
+      },
+      "elevationMeters": 41.845,
+      "id": "osm-shop-way112098411",
+      "kind": "shop",
+      "name": "Kiosk (shop)",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.80574,
+        "longitude": -117.9186189
+      },
+      "elevationMeters": 40.498,
+      "id": "osm-shop-way112392312",
+      "kind": "shop",
+      "name": "Radiator Springs Curious",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8061031,
+        "longitude": -117.9223771
+      },
+      "elevationMeters": 40.727,
+      "id": "osm-shop-way151680281",
+      "kind": "shop",
+      "name": "Lemonade Paradise Park",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8073406,
+        "longitude": -117.9181166
+      },
+      "elevationMeters": 41.499,
+      "id": "osm-restroom-way168831184",
+      "kind": "restroom",
+      "name": "Hollywood Boulevard Restroom",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8059466,
+        "longitude": -117.9192937
+      },
+      "elevationMeters": 40.684,
+      "id": "osm-shop-way169075698",
+      "kind": "shop",
+      "name": "Sarge's Surplus Hut",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8062793,
+        "longitude": -117.9225476
+      },
+      "elevationMeters": 40.568,
+      "id": "osm-shop-way170560564",
+      "kind": "shop",
+      "name": "Paradise Pier Sunglass Hut",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8077376,
+        "longitude": -117.9186435
+      },
+      "elevationMeters": 41.413,
+      "id": "osm-shop-way173555734",
+      "kind": "shop",
+      "name": "Hot Popcorn Limited",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8082034,
+        "longitude": -117.9204467
+      },
+      "elevationMeters": 40.984,
+      "id": "osm-shop-way175020011",
+      "kind": "shop",
+      "name": "Popcorn Grizzly Peak",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8079984,
+        "longitude": -117.9203499
+      },
+      "elevationMeters": 41.906,
+      "id": "osm-restroom-way263321293",
+      "kind": "restroom",
+      "name": "Grizzly Peak Airfield Restroom",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8080373,
+        "longitude": -117.9176442
+      },
+      "elevationMeters": 41.25,
+      "id": "osm-shop-way329418327",
+      "kind": "shop",
+      "name": "Super Store",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8083512,
+        "longitude": -117.918627
+      },
+      "elevationMeters": 41.383,
+      "id": "osm-shop-way337090677",
+      "kind": "shop",
+      "name": "Los Feliz Five and Dime",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8063008,
+        "longitude": -117.9222133
+      },
+      "elevationMeters": 40.747,
+      "id": "osm-shop-way337265672",
+      "kind": "shop",
+      "name": "Seaside Suveniors",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8060937,
+        "longitude": -117.919449
+      },
+      "elevationMeters": 40.918,
+      "id": "osm-shop-way338062802",
+      "kind": "shop",
+      "name": "Fillmore's Taste-in",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8055018,
+        "longitude": -117.9229989
+      },
+      "elevationMeters": 39.846,
+      "id": "osm-shop-way371816041",
+      "kind": "shop",
+      "name": "Chiller Paradise Park",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8059126,
+        "longitude": -117.9207544
+      },
+      "elevationMeters": 41.668,
+      "id": "osm-shop-way422344418",
+      "kind": "shop",
+      "name": "Laod Bhang's Pin Traders",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8082224,
+        "longitude": -117.9187074
+      },
+      "elevationMeters": 41.419,
+      "id": "osm-shop-way432205356",
+      "kind": "shop",
+      "name": "Big Top Toys",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8079861,
+        "longitude": -117.918717
+      },
+      "elevationMeters": 41.364,
+      "id": "osm-shop-way432205361",
+      "kind": "shop",
+      "name": "Elias & Company Department Store",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8072848,
+        "longitude": -117.920903
+      },
+      "elevationMeters": 41.986,
+      "id": "osm-shop-way437242279",
+      "kind": "shop",
+      "name": "Rushin' River Outfitters",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8063893,
+        "longitude": -117.9185079
+      },
+      "elevationMeters": 40.942,
+      "id": "osm-shop-way721815747",
+      "kind": "shop",
+      "name": "WEB Suppliers",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8071164,
+        "longitude": -117.9170108
+      },
+      "elevationMeters": 40.961,
+      "id": "osm-shop-way936424720",
+      "kind": "shop",
+      "name": "Terran Treats",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8066488,
+        "longitude": -117.9180177
+      },
+      "elevationMeters": 40.86,
+      "id": "osm-shop-way951845315",
+      "kind": "shop",
+      "name": "Campus Supply Module",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8065247,
+        "longitude": -117.9181199
+      },
+      "elevationMeters": 40.799,
+      "id": "osm-shop-way983748360",
+      "kind": "shop",
+      "name": "Shawarma Palace",
+      "park": "california-adventure"
     }
   ]
 }
