@@ -62,24 +62,484 @@
       "meters": 110
     },
     {
-      "a": "fantasy-jct",
+      "a": "cd670bff",
       "accessibility": [],
-      "b": "small-world",
+      "b": "f8d61baa",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 3.274,
-      "elevationLossMeters": 4.162,
-      "id": "fantasy-small-world",
-      "meters": 160
+      "elevationGainMeters": 0.02,
+      "elevationLossMeters": 0.103,
+      "id": "cd670bff--f8d61baa",
+      "meters": 27.288213721488184
     },
     {
-      "a": "tomorrow-jct",
+      "a": "f8d61baa",
+      "accessibility": [],
+      "b": "goofysplayhouse",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0,
+      "elevationLossMeters": 0.39,
+      "id": "f8d61baa--goofysplayhouse",
+      "meters": 30.163981499153817
+    },
+    {
+      "a": "rogerrabbitscartoonspin",
+      "accessibility": [],
+      "b": "cd670bff",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.669,
+      "elevationLossMeters": 0.296,
+      "id": "rogerrabbitscartoonspin--cd670bff",
+      "meters": 43.92171218168367
+    },
+    {
+      "a": "rogerrabbitscartoonspin",
+      "accessibility": [],
+      "b": "f8d61baa",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.863,
+      "elevationLossMeters": 0.26,
+      "id": "rogerrabbitscartoonspin--f8d61baa",
+      "meters": 62.584149936867924
+    },
+    {
+      "a": "goofysplayhouse",
+      "accessibility": [],
+      "b": "cd670bff",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.549,
+      "elevationLossMeters": 0.076,
+      "id": "goofysplayhouse--cd670bff",
+      "meters": 43.837866801436945
+    },
+    {
+      "a": "goofysplayhouse",
+      "accessibility": [],
+      "b": "donaldsboat",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.14,
+      "elevationLossMeters": 0.324,
+      "id": "goofysplayhouse--donaldsboat",
+      "meters": 31.001722996215555
+    },
+    {
+      "a": "donaldsboat",
+      "accessibility": [],
+      "b": "gadgetsgocoaster",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.657,
+      "elevationLossMeters": 0,
+      "id": "donaldsboat--gadgetsgocoaster",
+      "meters": 14.600813108514153
+    },
+    {
+      "a": "gadgetsgocoaster",
+      "accessibility": [],
+      "b": "5a107a57",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.04,
+      "elevationLossMeters": 0.38,
+      "id": "gadgetsgocoaster--5a107a57",
+      "meters": 19.364428430798966
+    },
+    {
+      "a": "5a107a57",
+      "accessibility": [],
+      "b": "mickeyshouseandmeetmickey",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.24,
+      "elevationLossMeters": 0,
+      "id": "5a107a57--mickeyshouseandmeetmickey",
+      "meters": 4.286467080477653
+    },
+    {
+      "a": "mickeyshouseandmeetmickey",
+      "accessibility": [],
+      "b": "minnieshouse",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.308,
+      "elevationLossMeters": 0.3,
+      "id": "mickeyshouseandmeetmickey--minnieshouse",
+      "meters": 13.434845950187581
+    },
+    {
+      "a": "goofysplayhouse",
+      "accessibility": [],
+      "b": "minnieshouse",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.754,
+      "elevationLossMeters": 0.848,
+      "id": "goofysplayhouse--minnieshouse",
+      "meters": 45.88531499450393
+    },
+    {
+      "a": "donaldsboat",
+      "accessibility": [],
+      "b": "minnieshouse",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.117,
+      "elevationLossMeters": 0.027,
+      "id": "donaldsboat--minnieshouse",
+      "meters": 32.666112756737995
+    },
+    {
+      "a": "5a107a57",
+      "accessibility": [],
+      "b": "donaldsboat",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0,
+      "elevationLossMeters": 0.17,
+      "id": "5a107a57--donaldsboat",
+      "meters": 27.9108561079012
+    },
+    {
+      "a": "gadgetsgocoaster",
+      "accessibility": [],
+      "b": "minnieshouse",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.428,
+      "elevationLossMeters": 0.244,
+      "id": "gadgetsgocoaster--minnieshouse",
+      "meters": 29.741824192357484
+    },
+    {
+      "a": "5a107a57",
+      "accessibility": [],
+      "b": "minnieshouse",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.1,
+      "elevationLossMeters": 0.18,
+      "id": "5a107a57--minnieshouse",
+      "meters": 13.772820630001286
+    },
+    {
+      "a": "mickeyshouseandmeetmickey",
+      "accessibility": [],
+      "b": "goofysplayhouse",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.469,
+      "elevationLossMeters": 0.983,
+      "id": "mickeyshouseandmeetmickey--goofysplayhouse",
+      "meters": 53.60670502898881
+    },
+    {
+      "a": "goofysplayhouse",
+      "accessibility": [],
+      "b": "junction-7c33a264",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0,
+      "elevationLossMeters": 0.13,
+      "id": "goofysplayhouse--junction-7c33a264",
+      "meters": 21.16960913166481
+    },
+    {
+      "a": "junction-7c33a264",
+      "accessibility": [],
+      "b": "rogerrabbitscartoonspin",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.37,
+      "elevationLossMeters": 0.215,
+      "id": "junction-7c33a264--rogerrabbitscartoonspin",
+      "meters": 34.942823040838064
+    },
+    {
+      "a": "cd670bff",
+      "accessibility": [],
+      "b": "junction-7c33a264",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0,
+      "elevationLossMeters": 0.539,
+      "id": "cd670bff--junction-7c33a264",
+      "meters": 30.796732245370357
+    },
+    {
+      "a": "f8d61baa",
+      "accessibility": [],
+      "b": "junction-7c33a264",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.283,
+      "elevationLossMeters": 0.803,
+      "id": "f8d61baa--junction-7c33a264",
+      "meters": 33.023959649359064
+    },
+    {
+      "a": "junction-7c33a264",
+      "accessibility": [],
+      "b": "junction-035aa7a0",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0,
+      "elevationLossMeters": 1.297,
+      "id": "junction-7c33a264--junction-035aa7a0",
+      "meters": 30.61481860083329
+    },
+    {
+      "a": "junction-035aa7a0",
+      "accessibility": [],
+      "b": "junction-1e7c9a74",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0,
+      "elevationLossMeters": 0.679,
+      "id": "junction-035aa7a0--junction-1e7c9a74",
+      "meters": 12.221128209614681
+    },
+    {
+      "a": "junction-1e7c9a74",
+      "accessibility": [],
+      "b": "junction-ef5ebbfe",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.469,
+      "elevationLossMeters": 0.26,
+      "id": "junction-1e7c9a74--junction-ef5ebbfe",
+      "meters": 22.070523070185676
+    },
+    {
+      "a": "junction-ef5ebbfe",
+      "accessibility": [],
+      "b": "junction-ee568cc0",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 1.402,
+      "elevationLossMeters": 0,
+      "id": "junction-ef5ebbfe--junction-ee568cc0",
+      "meters": 18.895489954433014
+    },
+    {
+      "a": "junction-ee568cc0",
+      "accessibility": [],
+      "b": "34f7bd8a",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.462,
+      "elevationLossMeters": 0.219,
+      "id": "junction-ee568cc0--34f7bd8a",
+      "meters": 33.60897618490445
+    },
+    {
+      "a": "34f7bd8a",
       "accessibility": [],
       "b": "small-world",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 4.615,
-      "elevationLossMeters": 3.975,
-      "id": "tomorrow-small-world",
-      "meters": 210
+      "elevationGainMeters": 0.023,
+      "elevationLossMeters": 0.163,
+      "id": "34f7bd8a--small-world",
+      "meters": 14.063026713794324
+    },
+    {
+      "a": "junction-30f7c1c9",
+      "accessibility": [],
+      "b": "junction-5b11c732",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.0,
+      "elevationLossMeters": 0.514,
+      "id": "junction-30f7c1c9--junction-5b11c732",
+      "meters": 61.21225695080205
+    },
+    {
+      "a": "junction-5b11c732",
+      "accessibility": [],
+      "b": "junction-b55ad2a8",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.057,
+      "elevationLossMeters": 0.0,
+      "id": "junction-5b11c732--junction-b55ad2a8",
+      "meters": 13.938396797152292
+    },
+    {
+      "a": "junction-b55ad2a8",
+      "accessibility": [],
+      "b": "junction-786b08e6",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.179,
+      "elevationLossMeters": 0.0,
+      "id": "junction-b55ad2a8--junction-786b08e6",
+      "meters": 16.977930767239336
+    },
+    {
+      "a": "junction-b55ad2a8",
+      "accessibility": [],
+      "b": "storybooklandcanalboats",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.305,
+      "elevationLossMeters": 0.0,
+      "id": "junction-b55ad2a8--storybooklandcanalboats",
+      "meters": 13.967326393823743
+    },
+    {
+      "a": "storybooklandcanalboats",
+      "accessibility": [],
+      "b": "junction-786b08e6",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.0,
+      "elevationLossMeters": 0.126,
+      "id": "storybooklandcanalboats--junction-786b08e6",
+      "meters": 12.771657793801058
+    },
+    {
+      "a": "junction-786b08e6",
+      "accessibility": [],
+      "b": "aliceinwonderland",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.074,
+      "elevationLossMeters": 0.079,
+      "id": "junction-786b08e6--aliceinwonderland",
+      "meters": 26.364605454295134
+    },
+    {
+      "a": "aliceinwonderland",
+      "accessibility": [],
+      "b": "madteaparty",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.358,
+      "elevationLossMeters": 0.351,
+      "id": "aliceinwonderland--madteaparty",
+      "meters": 28.492800614726587
+    },
+    {
+      "a": "junction-30f7c1c9",
+      "accessibility": [],
+      "b": "34f7bd8a",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.082,
+      "elevationLossMeters": 0.088,
+      "id": "junction-30f7c1c9--34f7bd8a",
+      "meters": 15.724910122616485
+    },
+    {
+      "a": "junction-30f7c1c9",
+      "accessibility": [],
+      "b": "junction-3fd14776",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.0,
+      "elevationLossMeters": 0.106,
+      "id": "junction-30f7c1c9--junction-3fd14776",
+      "meters": 16.29873679517335
+    },
+    {
+      "a": "34f7bd8a",
+      "accessibility": [],
+      "b": "junction-3fd14776",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.0,
+      "elevationLossMeters": 0.099,
+      "id": "34f7bd8a--junction-3fd14776",
+      "meters": 15.993927110683165
+    },
+    {
+      "a": "junction-a6f1172c",
+      "accessibility": [],
+      "b": "junction-3fd14776",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.0,
+      "elevationLossMeters": 0.125,
+      "id": "junction-a6f1172c--junction-3fd14776",
+      "meters": 14.749658751721986
+    },
+    {
+      "a": "junction-a6f1172c",
+      "accessibility": [],
+      "b": "34f7bd8a",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.0,
+      "elevationLossMeters": 0.026,
+      "id": "junction-a6f1172c--34f7bd8a",
+      "meters": 9.340430082641623
+    },
+    {
+      "a": "junction-a6f1172c",
+      "accessibility": [],
+      "b": "small-world",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.0,
+      "elevationLossMeters": 0.064,
+      "id": "junction-a6f1172c--small-world",
+      "meters": 13.080243197300579
+    },
+    {
+      "a": "junction-3fd14776",
+      "accessibility": [],
+      "b": "small-world",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.125,
+      "elevationLossMeters": 0.064,
+      "id": "junction-3fd14776--small-world",
+      "meters": 27.193753840050782
+    },
+    {
+      "a": "junction-3fd14776",
+      "accessibility": [],
+      "b": "junction-df7b6847",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.0,
+      "elevationLossMeters": 0.17,
+      "id": "junction-3fd14776--junction-df7b6847",
+      "meters": 16.258907240502307
+    },
+    {
+      "a": "junction-df7b6847",
+      "accessibility": [],
+      "b": "78568c55",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.71,
+      "elevationLossMeters": 0.0,
+      "id": "junction-df7b6847--78568c55",
+      "meters": 12.634732700122754
+    },
+    {
+      "a": "78568c55",
+      "accessibility": [],
+      "b": "junction-37b62db5",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.0,
+      "elevationLossMeters": 0.86,
+      "id": "78568c55--junction-37b62db5",
+      "meters": 12.746423156249342
+    },
+    {
+      "a": "junction-37b62db5",
+      "accessibility": [],
+      "b": "junction-5b11c732",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.0,
+      "elevationLossMeters": 0.088,
+      "id": "junction-37b62db5--junction-5b11c732",
+      "meters": 14.451765528387105
+    },
+    {
+      "a": "junction-df7b6847",
+      "accessibility": [],
+      "b": "junction-37b62db5",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.0,
+      "elevationLossMeters": 0.15,
+      "id": "junction-df7b6847--junction-37b62db5",
+      "meters": 14.499538182620098
+    },
+    {
+      "a": "junction-ee568cc0",
+      "accessibility": [],
+      "b": "troubadourtavern",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 1.951,
+      "elevationLossMeters": 0.0,
+      "id": "junction-ee568cc0--troubadourtavern",
+      "meters": 44.10868889575083
+    },
+    {
+      "a": "troubadourtavern",
+      "accessibility": [],
+      "b": "888525b0",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.115,
+      "elevationLossMeters": 0.0,
+      "id": "troubadourtavern--888525b0",
+      "meters": 14.30649343368972
+    },
+    {
+      "a": "888525b0",
+      "accessibility": [],
+      "b": "95a9cde3",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.0,
+      "elevationLossMeters": 0.36,
+      "id": "888525b0--95a9cde3",
+      "meters": 11.98814709197912
     }
   ],
   "formatVersion": 1,
@@ -2417,6 +2877,126 @@
       "name": "Operation: Playtime! - featuring the Green Army Patrol",
       "park": "california-adventure",
       "themeParksEntityID": "AF195DCB-A69E-499A-B659-6751EE871F79"
+    },
+    {
+      "coord": {
+        "latitude": 33.81523643159692,
+        "longitude": -117.91846121154698
+      },
+      "elevationMeters": 43.407,
+      "id": "junction-7c33a264",
+      "kind": "junction"
+    },
+    {
+      "coord": {
+        "latitude": 33.8149763544481,
+        "longitude": -117.91835245933967
+      },
+      "elevationMeters": 42.242,
+      "id": "junction-035aa7a0",
+      "kind": "junction"
+    },
+    {
+      "coord": {
+        "latitude": 33.814875620128745,
+        "longitude": -117.91829955286042
+      },
+      "elevationMeters": 41.277,
+      "id": "junction-1e7c9a74",
+      "kind": "junction"
+    },
+    {
+      "coord": {
+        "latitude": 33.81467842472377,
+        "longitude": -117.91827236480859
+      },
+      "elevationMeters": 41.634,
+      "id": "junction-ef5ebbfe",
+      "kind": "junction"
+    },
+    {
+      "coord": {
+        "latitude": 33.814510533540854,
+        "longitude": -117.91824076788352
+      },
+      "elevationMeters": 43.037,
+      "id": "junction-ee568cc0",
+      "kind": "junction"
+    },
+    {
+      "coord": {
+        "latitude": 33.81434025589755,
+        "longitude": -117.91809470749254
+      },
+      "elevationMeters": 43.232,
+      "id": "junction-30f7c1c9",
+      "kind": "junction"
+    },
+    {
+      "coord": {
+        "latitude": 33.813817978817625,
+        "longitude": -117.91797599948458
+      },
+      "elevationMeters": 42.718,
+      "id": "junction-5b11c732",
+      "kind": "junction",
+      "userEdited": true
+    },
+    {
+      "coord": {
+        "latitude": 33.813669159066954,
+        "longitude": -117.9180569879557
+      },
+      "elevationMeters": 42.776,
+      "id": "junction-b55ad2a8",
+      "kind": "junction",
+      "userEdited": true
+    },
+    {
+      "coord": {
+        "latitude": 33.81353069856743,
+        "longitude": -117.91813282997576
+      },
+      "elevationMeters": 42.955,
+      "id": "junction-786b08e6",
+      "kind": "junction",
+      "userEdited": true
+    },
+    {
+      "coord": {
+        "latitude": 33.81422431513556,
+        "longitude": -117.9179867668372
+      },
+      "elevationMeters": 43.126,
+      "id": "junction-3fd14776",
+      "kind": "junction"
+    },
+    {
+      "coord": {
+        "latitude": 33.81429920434329,
+        "longitude": -117.91785499242839
+      },
+      "elevationMeters": 43.252,
+      "id": "junction-a6f1172c",
+      "kind": "junction"
+    },
+    {
+      "coord": {
+        "latitude": 33.81407830393462,
+        "longitude": -117.91797736816143
+      },
+      "elevationMeters": 42.956,
+      "id": "junction-df7b6847",
+      "kind": "junction"
+    },
+    {
+      "coord": {
+        "latitude": 33.81394793621265,
+        "longitude": -117.9179740154016
+      },
+      "elevationMeters": 42.806,
+      "id": "junction-37b62db5",
+      "kind": "junction"
     }
   ]
 }
