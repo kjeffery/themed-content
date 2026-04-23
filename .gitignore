@@ -3,3 +3,7 @@
 /closures.json
 /graph.json
 /weights.json
+/menus.json
+
+# Local Python venv for tools/.
+.venv/

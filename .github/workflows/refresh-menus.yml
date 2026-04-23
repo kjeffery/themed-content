@@ -1,0 +1,42 @@
+name: Refresh Disney menus
+
+# Runs daily at 11:00 UTC (4am PT / 3am PST). Off-hours so the scrape is
+# cheap and the commit is ready well before morning app opens.
+on:
+  schedule:
+    - cron: "0 11 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install requests
+
+      - name: Fetch menus
+        run: python tools/fetch_disney_menus.py --out menus.json
+
+      - name: Publish (content-address + update manifest)
+        run: python tools/publish.py menus.json
+
+      - name: Commit if changed
+        run: |
+          git config user.name "themed-bot"
+          git config user.email "themed-bot@users.noreply.github.com"
+          if git diff --quiet -- manifest.json; then
+            echo "No change — skipping commit."
+            exit 0
+          fi
+          git add manifest.json menus-*.json
+          git commit -m "Refresh menus ($(date -u +%Y-%m-%d))"
+          git push
