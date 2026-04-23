@@ -21,7 +21,7 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-KNOWN_ROLES = ("graph", "closures", "weights")
+KNOWN_ROLES = ("graph", "closures", "weights", "ride_metadata")
 
 
 def infer_role(path: Path) -> str:

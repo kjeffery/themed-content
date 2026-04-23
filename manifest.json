@@ -13,12 +13,18 @@
       "sha256": "34fcbf7622cd002ee0aad7bec5919a30c81dc371ff8d8340c557927261966b6b"
     },
     {
+      "bytes": 6911,
+      "path": "ride_metadata-9763c00618f26fe7.json",
+      "role": "ride_metadata",
+      "sha256": "9763c00618f26fe73047f8b8310937753900dabdf1a6b166eaba27ecd1d88c28"
+    },
+    {
       "bytes": 241,
       "path": "weights-d1a2bd3ddd59d6bd.json",
       "role": "weights",
       "sha256": "d1a2bd3ddd59d6bdb8b10603d71f387211aaf64cf06c9fcdd7bece4d1e6925ad"
     }
   ],
-  "generatedAt": "2026-04-22T17:36:42Z",
+  "generatedAt": "2026-04-23T17:36:41Z",
   "manifestVersion": 1
 }
