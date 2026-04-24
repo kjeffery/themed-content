@@ -18,6 +18,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import sys
 import time
 from datetime import date
@@ -135,6 +136,89 @@ def park_for_park_ids(park_ids: list[str] | None) -> str | None:
     return None
 
 
+# ---------------------------------------------------------------------------
+# Dietary-tag mining
+# ---------------------------------------------------------------------------
+# Disney's dining API doesn't expose structured dietary flags — the flags they
+# *do* publish live in the free-text `title` + `description` fields. Mining
+# recovers a useful subset: Disney uses a fairly consistent vocabulary
+# ("Plant-based X", "[Vegetarian]", "Gluten-Friendly Bun", "Dairy-free
+# Cheese"), so pattern matching produces high-precision tags for the items
+# that bother to carry them (~4% of items / 59 of 117 restaurants at current
+# writing).
+#
+# What we explicitly DO NOT mine:
+#   • nut-free — allergen severity asymmetry. A false negative on gluten
+#     or dairy causes discomfort; a false negative on a nut allergy can
+#     be fatal. We don't publish what we can't stand behind.
+#   • spicy — too noisy ("not-so-spicy Hot Dog" would false-positive).
+#   • "contains-X" warnings — Disney's allergen callouts are incomplete;
+#     an incomplete "safe for you" list is worse than none.
+
+_TAG_PATTERNS: list[tuple[str, list[re.Pattern]]] = [
+    ("vegan", [
+        re.compile(r"\bvegan\b", re.IGNORECASE),
+        re.compile(r"\bplant[- ]based\b", re.IGNORECASE),
+    ]),
+    ("vegetarian", [
+        re.compile(r"\bvegetarian\b", re.IGNORECASE),
+    ]),
+    ("gluten-free", [
+        re.compile(r"\bmade\s+without\s+gluten\b", re.IGNORECASE),
+        re.compile(r"\bgluten[- ](?:free|friendly)\b", re.IGNORECASE),
+    ]),
+    ("dairy-free", [
+        re.compile(r"\bdairy[- ]free\b", re.IGNORECASE),
+    ]),
+]
+
+# Rejection contexts: match in the ~24 chars *before* a hit. If any of these
+# fire, the hit describes an upsell or substitute — not a property of the
+# base item. "Sub a Gluten Free crust" on a regular pizza would otherwise
+# mistag the pizza. The patterns anchor to end-of-window so they only fire
+# when the suspect phrasing immediately precedes the keyword.
+_SUBSTITUTE_CONTEXT = re.compile(
+    r"(?:\bsub(?:stitute)?(?:\s+(?:a|an))?"
+    r"|\badd(?:\s+(?:a|an))?"
+    r"|\boption\s+to"
+    r"|\bor(?:\s+(?:a|an))?)\s*$",
+    re.IGNORECASE,
+)
+# "not-so-spicy" would have lit the spicy pattern; defensively apply the
+# same guard to everything so a future tag addition doesn't re-introduce
+# the bug.
+_NEGATION_PREFIX = re.compile(r"\bnot[- ]so[- ]$", re.IGNORECASE)
+
+
+def mine_dietary_tags(name: str | None, description: str | None) -> list[str] | None:
+    """Scan an item's name + description for Disney's dietary vocabulary.
+
+    Returns the sorted list of tag strings found (in the same raw form
+    `MenuItemDietaryTag(raw:)` on the Swift side normalizes), or `None`
+    when no tag fires — callers serialize that as `tags: null` and old
+    clients without a dietary reader stay happy.
+    """
+    text = f"{name or ''}   {description or ''}"  # gap keeps word boundaries clean
+    if not text.strip():
+        return None
+    found: set[str] = set()
+    for tag, patterns in _TAG_PATTERNS:
+        if tag in found:
+            continue
+        for pattern in patterns:
+            for match in pattern.finditer(text):
+                pre = text[max(0, match.start() - 24):match.start()]
+                if _SUBSTITUTE_CONTEXT.search(pre):
+                    continue
+                if _NEGATION_PREFIX.search(pre):
+                    continue
+                found.add(tag)
+                break  # one confirming hit is enough
+            if tag in found:
+                break
+    return sorted(found) if found else None
+
+
 def normalize_restaurant(entity: dict, raw_menu: dict | None, tpw_bridge: dict[str, str]) -> dict | None:
     url_friendly_id = entity.get("urlFriendlyId")
     if not url_friendly_id:
@@ -152,13 +236,23 @@ def normalize_restaurant(entity: dict, raw_menu: dict | None, tpw_bridge: dict[s
             for item in group.get("items", []) or []:
                 prices = item.get("prices") or []
                 price_cents = cents(prices[0].get("withoutTax")) if prices else None
+                name = item.get("title") or "Unknown"
+                description = item.get("description") or None
                 items_out.append({
                     "id": str(item.get("id") or item.get("title", "")),
-                    "name": item.get("title") or "Unknown",
-                    "description": item.get("description") or None,
+                    "name": name,
+                    "description": description,
                     "priceCents": price_cents,
+                    # Disney's public menu API omits `calories` in every
+                    # sample we've inspected, but leave the read in place
+                    # in case it ever surfaces — renders as `null` when
+                    # absent (Swift decodes to Int?).
                     "calories": item.get("calories"),
-                    "tags": item.get("dietaryTags") or None,
+                    # `dietaryTags` is also absent from Disney's feed — we
+                    # mine the name/description instead. See
+                    # `mine_dietary_tags` above for the vocabulary and
+                    # safeguards.
+                    "tags": mine_dietary_tags(name, description),
                 })
             if items_out:
                 groups_out.append({
