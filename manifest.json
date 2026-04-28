@@ -1,10 +1,10 @@
 {
   "files": [
     {
-      "bytes": 841,
-      "path": "closures-b8e5127bd28c8249.json",
+      "bytes": 428,
+      "path": "closures-4f6d20265c09547a.json",
       "role": "closures",
-      "sha256": "b8e5127bd28c82494bfc871640a01a5442c9a598cd2140db3c5ef436de423fa7"
+      "sha256": "4f6d20265c09547a24636ed46d390cd95270f281fdfbf1337c51dd7aeca06a4a"
     },
     {
       "bytes": 262222,
@@ -31,6 +31,6 @@
       "sha256": "d1a2bd3ddd59d6bdb8b10603d71f387211aaf64cf06c9fcdd7bece4d1e6925ad"
     }
   ],
-  "generatedAt": "2026-04-27T12:23:52Z",
+  "generatedAt": "2026-04-28T01:20:48Z",
   "manifestVersion": 1
 }
