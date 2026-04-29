@@ -13,10 +13,10 @@
       "sha256": "5c28910ac76396e12433f329408cc6d82a80efe34e6255f368d2570708016934"
     },
     {
-      "bytes": 3413471,
-      "path": "menus-2e342d132386163d.json",
+      "bytes": 3440669,
+      "path": "menus-31211539aad6647b.json",
       "role": "menus",
-      "sha256": "2e342d132386163df11e5b9b0820cef349c377f60cc9fe8b8c04b7b7b3b4e976"
+      "sha256": "31211539aad6647b412ba2ea523b4b86d2713cc49742cd9add655b977304e0f2"
     },
     {
       "bytes": 6911,
@@ -31,6 +31,6 @@
       "sha256": "d1a2bd3ddd59d6bdb8b10603d71f387211aaf64cf06c9fcdd7bece4d1e6925ad"
     }
   ],
-  "generatedAt": "2026-04-28T12:27:47Z",
+  "generatedAt": "2026-04-29T12:20:30Z",
   "manifestVersion": 1
 }
