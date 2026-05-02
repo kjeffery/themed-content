@@ -2934,16 +2934,6 @@
     {
       "a": "junction-25208e37",
       "accessibility": [],
-      "b": "junction-d2f4ac47",
-      "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.18,
-      "elevationLossMeters": 0.04,
-      "id": "junction-25208e37--junction-d2f4ac47",
-      "meters": 6.567013189668839
-    },
-    {
-      "a": "junction-25208e37",
-      "accessibility": [],
       "b": "junction-a9b270db",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.02,
@@ -2972,96 +2962,6 @@
       "meters": 8.82568847346141
     },
     {
-      "a": "junction-d2f4ac47",
-      "accessibility": [],
-      "b": "junction-a9b270db",
-      "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
-      "elevationLossMeters": 0.14,
-      "id": "junction-d2f4ac47--junction-a9b270db",
-      "meters": 11.978906051997201
-    },
-    {
-      "a": "junction-d2f4ac47",
-      "accessibility": [],
-      "b": "junction-300195a8",
-      "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.034,
-      "elevationLossMeters": 0.18,
-      "id": "junction-d2f4ac47--junction-300195a8",
-      "meters": 10.203161976052428
-    },
-    {
-      "a": "junction-d2f4ac47",
-      "accessibility": [],
-      "b": "refreshmentcorner",
-      "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.111,
-      "elevationLossMeters": 0.1,
-      "id": "junction-d2f4ac47--refreshmentcorner",
-      "meters": 14.418877708704118
-    },
-    {
-      "a": "junction-a9b270db",
-      "accessibility": [],
-      "b": "refreshmentcorner",
-      "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.15,
-      "elevationLossMeters": 0.0,
-      "id": "junction-a9b270db--refreshmentcorner",
-      "meters": 14.903994870112214
-    },
-    {
-      "a": "junction-d2f4ac47",
-      "accessibility": [],
-      "b": "junction-c2766d8d",
-      "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.023,
-      "elevationLossMeters": 0.0,
-      "id": "junction-d2f4ac47--junction-c2766d8d",
-      "meters": 7.027847818414793
-    },
-    {
-      "a": "junction-d2f4ac47",
-      "accessibility": [],
-      "b": "junction-38a74109",
-      "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.06,
-      "elevationLossMeters": 0.177,
-      "id": "junction-d2f4ac47--junction-38a74109",
-      "meters": 9.652040626616035
-    },
-    {
-      "a": "junction-d2f4ac47",
-      "accessibility": [],
-      "b": "junction-03ed3411",
-      "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.109,
-      "elevationLossMeters": 0.097,
-      "id": "junction-d2f4ac47--junction-03ed3411",
-      "meters": 15.459256471031503
-    },
-    {
-      "a": "junction-c2766d8d",
-      "accessibility": [],
-      "b": "junction-38a74109",
-      "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
-      "elevationLossMeters": 0.14,
-      "id": "junction-c2766d8d--junction-38a74109",
-      "meters": 5.899360332855837
-    },
-    {
-      "a": "junction-c2766d8d",
-      "accessibility": [],
-      "b": "junction-25208e37",
-      "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.037,
-      "elevationLossMeters": 0.2,
-      "id": "junction-c2766d8d--junction-25208e37",
-      "meters": 9.193047123816942
-    },
-    {
       "a": "junction-38a74109",
       "accessibility": [],
       "b": "junction-25208e37",
@@ -3072,141 +2972,11 @@
       "meters": 7.128744281816766
     },
     {
-      "a": "junction-38a74109",
-      "accessibility": [],
-      "b": "junction-03ed3411",
-      "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.16,
-      "elevationLossMeters": 0.031,
-      "id": "junction-38a74109--junction-03ed3411",
-      "meters": 6.920182603571463
-    },
-    {
-      "a": "junction-25208e37",
-      "accessibility": [],
-      "b": "junction-03ed3411",
-      "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.16,
-      "elevationLossMeters": 0.008,
-      "id": "junction-25208e37--junction-03ed3411",
-      "meters": 10.298981896819818
-    },
-    {
-      "a": "refreshmentcorner",
-      "accessibility": [],
-      "b": "junction-03ed3411",
-      "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.02,
-      "elevationLossMeters": 0.018,
-      "id": "refreshmentcorner--junction-03ed3411",
-      "meters": 13.546410713604608
-    },
-    {
-      "a": "junction-c2766d8d",
-      "accessibility": [],
-      "b": "junction-470e160d",
-      "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.034,
-      "elevationLossMeters": 0.0,
-      "id": "junction-c2766d8d--junction-470e160d",
-      "meters": 5.58605066592574
-    },
-    {
-      "a": "junction-c2766d8d",
-      "accessibility": [],
-      "b": "junction-8d5142fb",
-      "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.08,
-      "elevationLossMeters": 0.186,
-      "id": "junction-c2766d8d--junction-8d5142fb",
-      "meters": 11.695125775412516
-    },
-    {
-      "a": "junction-c2766d8d",
-      "accessibility": [],
-      "b": "junction-2080ea98",
-      "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
-      "elevationLossMeters": 0.126,
-      "id": "junction-c2766d8d--junction-2080ea98",
-      "meters": 7.677235261405361
-    },
-    {
-      "a": "junction-470e160d",
-      "accessibility": [],
-      "b": "junction-7eb7baaa",
-      "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
-      "elevationLossMeters": 0.02,
-      "id": "junction-470e160d--junction-7eb7baaa",
-      "meters": 4.2447079642051575
-    },
-    {
-      "a": "junction-470e160d",
-      "accessibility": [],
-      "b": "junction-8d5142fb",
-      "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.04,
-      "elevationLossMeters": 0.18,
-      "id": "junction-470e160d--junction-8d5142fb",
-      "meters": 7.703470548903624
-    },
-    {
-      "a": "junction-470e160d",
-      "accessibility": [],
-      "b": "junction-38a74109",
-      "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
-      "elevationLossMeters": 0.174,
-      "id": "junction-470e160d--junction-38a74109",
-      "meters": 8.177305593194287
-    },
-    {
-      "a": "junction-470e160d",
-      "accessibility": [],
-      "b": "junction-2080ea98",
-      "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.04,
-      "elevationLossMeters": 0.2,
-      "id": "junction-470e160d--junction-2080ea98",
-      "meters": 5.931441130899402
-    },
-    {
-      "a": "junction-7eb7baaa",
-      "accessibility": [],
-      "b": "junction-8d5142fb",
-      "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.06,
-      "elevationLossMeters": 0.18,
-      "id": "junction-7eb7baaa--junction-8d5142fb",
-      "meters": 6.332563867712767
-    },
-    {
-      "a": "junction-7eb7baaa",
-      "accessibility": [],
-      "b": "junction-38a74109",
-      "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.046,
-      "elevationLossMeters": 0.2,
-      "id": "junction-7eb7baaa--junction-38a74109",
-      "meters": 11.444068955518059
-    },
-    {
-      "a": "junction-7eb7baaa",
-      "accessibility": [],
-      "b": "junction-2080ea98",
-      "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.02,
-      "elevationLossMeters": 0.16,
-      "id": "junction-7eb7baaa--junction-2080ea98",
-      "meters": 7.542898684411756
-    },
-    {
       "a": "junction-8d5142fb",
       "accessibility": [],
       "b": "junction-2080ea98",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.02,
       "id": "junction-8d5142fb--junction-2080ea98",
       "meters": 4.842149640614936
@@ -3220,16 +2990,6 @@
       "elevationLossMeters": 0.02,
       "id": "junction-38a74109--junction-2080ea98",
       "meters": 4.996718866392937
-    },
-    {
-      "a": "junction-2080ea98",
-      "accessibility": [],
-      "b": "junction-03ed3411",
-      "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.143,
-      "elevationLossMeters": 0.028,
-      "id": "junction-2080ea98--junction-03ed3411",
-      "meters": 8.34136791631033
     },
     {
       "a": "junction-38a74109",
@@ -3254,16 +3014,6 @@
     {
       "a": "junction-8d5142fb",
       "accessibility": [],
-      "b": "junction-03ed3411",
-      "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.163,
-      "elevationLossMeters": 0.068,
-      "id": "junction-8d5142fb--junction-03ed3411",
-      "meters": 11.37822686381622
-    },
-    {
-      "a": "junction-8d5142fb",
-      "accessibility": [],
       "b": "fortunetellers",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.243,
@@ -3274,59 +3024,9 @@
     {
       "a": "fortunetellers",
       "accessibility": [],
-      "b": "junction-03ed3411",
-      "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
-      "elevationLossMeters": 0.08,
-      "id": "fortunetellers--junction-03ed3411",
-      "meters": 9.794603261981418
-    },
-    {
-      "a": "junction-03ed3411",
-      "accessibility": [],
-      "b": "osm-shop-node1231987200",
-      "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.131,
-      "elevationLossMeters": 0.06,
-      "id": "junction-03ed3411--osm-shop-node1231987200",
-      "meters": 6.144875195043064
-    },
-    {
-      "a": "junction-c2766d8d",
-      "accessibility": [],
-      "b": "osm-shop-node1233368433",
-      "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.507,
-      "elevationLossMeters": 0.0,
-      "id": "junction-c2766d8d--osm-shop-node1233368433",
-      "meters": 7.964547750614143
-    },
-    {
-      "a": "junction-470e160d",
-      "accessibility": [],
-      "b": "osm-shop-node1231986994",
-      "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.712,
-      "elevationLossMeters": 0.08,
-      "id": "junction-470e160d--osm-shop-node1231986994",
-      "meters": 7.747120246196549
-    },
-    {
-      "a": "junction-7eb7baaa",
-      "accessibility": [],
-      "b": "osm-shop-node1250664527",
-      "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.192,
-      "elevationLossMeters": 0.04,
-      "id": "junction-7eb7baaa--osm-shop-node1250664527",
-      "meters": 7.57777847528993
-    },
-    {
-      "a": "fortunetellers",
-      "accessibility": [],
       "b": "gibsongirlicecreamparlor",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.093,
       "id": "fortunetellers--gibsongirlicecreamparlor",
       "meters": 10.973389030293388
@@ -3387,7 +3087,7 @@
       "b": "junction-18861e7b",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.012,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-f7f19d34--junction-18861e7b",
       "meters": 3.9958887098170415
     },
@@ -3400,66 +3100,6 @@
       "elevationLossMeters": 0.089,
       "id": "junction-f7f19d34--fortunetellers",
       "meters": 12.938899318766072
-    },
-    {
-      "a": "junction-8d5142fb",
-      "accessibility": [],
-      "b": "junction-4615126d",
-      "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.12,
-      "elevationLossMeters": 0.023,
-      "id": "junction-8d5142fb--junction-4615126d",
-      "meters": 9.71089850310723
-    },
-    {
-      "a": "junction-4615126d",
-      "accessibility": [],
-      "b": "junction-18861e7b",
-      "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.06,
-      "elevationLossMeters": 0.12,
-      "id": "junction-4615126d--junction-18861e7b",
-      "meters": 6.279014539607048
-    },
-    {
-      "a": "junction-4615126d",
-      "accessibility": [],
-      "b": "junction-7eb7baaa",
-      "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.023,
-      "elevationLossMeters": 0.0,
-      "id": "junction-4615126d--junction-7eb7baaa",
-      "meters": 7.808129885996588
-    },
-    {
-      "a": "junction-18861e7b",
-      "accessibility": [],
-      "b": "junction-7eb7baaa",
-      "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.143,
-      "elevationLossMeters": 0.06,
-      "id": "junction-18861e7b--junction-7eb7baaa",
-      "meters": 9.79867456773563
-    },
-    {
-      "a": "junction-4615126d",
-      "accessibility": [],
-      "b": "junction-f7f19d34",
-      "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.02,
-      "elevationLossMeters": 0.092,
-      "id": "junction-4615126d--junction-f7f19d34",
-      "meters": 7.208303059746097
-    },
-    {
-      "a": "osm-shop-node1231986576",
-      "accessibility": [],
-      "b": "junction-4615126d",
-      "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
-      "elevationLossMeters": 0.102,
-      "id": "osm-shop-node1231986576--junction-4615126d",
-      "meters": 7.376984545461673
     },
     {
       "a": "gibsongirlicecreamparlor",
@@ -3532,31 +3172,11 @@
       "meters": 11.687155717030159
     },
     {
-      "a": "junction-f9d16a40",
-      "accessibility": [],
-      "b": "junction-4615126d",
-      "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
-      "elevationLossMeters": 0.035,
-      "id": "junction-f9d16a40--junction-4615126d",
-      "meters": 13.573320995221522
-    },
-    {
-      "a": "junction-ae0a01df",
-      "accessibility": [],
-      "b": "junction-4615126d",
-      "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.132,
-      "elevationLossMeters": 0.067,
-      "id": "junction-ae0a01df--junction-4615126d",
-      "meters": 16.406111514542673
-    },
-    {
       "a": "junction-fbc7fcf2",
       "accessibility": [],
       "b": "junction-ae0a01df",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.007,
       "id": "junction-fbc7fcf2--junction-ae0a01df",
       "meters": 3.9350407534687424
@@ -3596,7 +3216,7 @@
       "accessibility": [],
       "b": "ms-south",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.093,
       "id": "junction-f9d16a40--ms-south",
       "meters": 5.2356551778620055
@@ -3607,7 +3227,7 @@
       "b": "junction-fbc7fcf2",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.04,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "ff9c3639--junction-fbc7fcf2",
       "meters": 3.3818928858789623
     },
@@ -3647,7 +3267,7 @@
       "b": "junction-e5f2f3fd",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.058,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "ms-south--junction-e5f2f3fd",
       "meters": 5.043695159964235
     },
@@ -3656,7 +3276,7 @@
       "accessibility": [],
       "b": "junction-e5f2f3fd",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.12,
       "id": "osm-shop-way122901024--junction-e5f2f3fd",
       "meters": 5.487111612314746
@@ -3677,7 +3297,7 @@
       "b": "junction-7bdb1bdf",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.06,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-2a508292--junction-7bdb1bdf",
       "meters": 7.513240010962067
     },
@@ -3697,7 +3317,7 @@
       "b": "junction-a1089749",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.173,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-fc4bb376--junction-a1089749",
       "meters": 6.747684579319712
     },
@@ -3707,7 +3327,7 @@
       "b": "junction-2a508292",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.168,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-a1089749--junction-2a508292",
       "meters": 5.024140966339591
     },
@@ -3717,7 +3337,7 @@
       "b": "junction-d1ab8293",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.094,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-7bdb1bdf--junction-d1ab8293",
       "meters": 6.206831579661717
     },
@@ -3746,7 +3366,7 @@
       "accessibility": [],
       "b": "astroorbitor",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.56,
       "id": "junction-182acdee--astroorbitor",
       "meters": 5.761483728895071
@@ -3757,7 +3377,7 @@
       "b": "junction-a7162d0a",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.18,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-66322aee--junction-a7162d0a",
       "meters": 7.634153379870904
     },
@@ -3767,7 +3387,7 @@
       "b": "junction-f8e01ee0",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.197,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-a7162d0a--junction-f8e01ee0",
       "meters": 5.987692573440382
     },
@@ -3777,7 +3397,7 @@
       "b": "junction-cd30af7d",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.174,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-f8e01ee0--junction-cd30af7d",
       "meters": 6.603618156594385
     },
@@ -3786,7 +3406,7 @@
       "accessibility": [],
       "b": "astroorbitor",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.461,
       "id": "junction-cd30af7d--astroorbitor",
       "meters": 6.425408375999609
@@ -3817,7 +3437,7 @@
       "b": "junction-9815bd94",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.598,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-576ac0ee--junction-9815bd94",
       "meters": 17.30951194716806
     },
@@ -3827,7 +3447,7 @@
       "b": "junction-576ac0ee",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.049,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-a3794b21--junction-576ac0ee",
       "meters": 14.336029416878118
     },
@@ -3836,10 +3456,330 @@
       "accessibility": [],
       "b": "junction-576ac0ee",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.017,
       "id": "junction-dfed030f--junction-576ac0ee",
       "meters": 11.286434952712225
+    },
+    {
+      "a": "osm-shop-node1233368830",
+      "accessibility": [],
+      "b": "junction-300195a8",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.0,
+      "elevationLossMeters": 0.255,
+      "id": "osm-shop-node1233368830--junction-300195a8",
+      "meters": 13.218909768802348
+    },
+    {
+      "a": "osm-shop-node1233368830",
+      "accessibility": [],
+      "b": "junction-25208e37",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.0,
+      "elevationLossMeters": 0.241,
+      "id": "osm-shop-node1233368830--junction-25208e37",
+      "meters": 10.506015226083893
+    },
+    {
+      "a": "osm-shop-node1233368830",
+      "accessibility": [],
+      "b": "junction-a9b270db",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.0,
+      "elevationLossMeters": 0.241,
+      "id": "osm-shop-node1233368830--junction-a9b270db",
+      "meters": 12.566573505234878
+    },
+    {
+      "a": "junction-38a74109",
+      "accessibility": [],
+      "b": "osm-shop-node1233368433",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.447,
+      "elevationLossMeters": 0.0,
+      "id": "junction-38a74109--osm-shop-node1233368433",
+      "meters": 9.109975000783182
+    },
+    {
+      "a": "junction-38a74109",
+      "accessibility": [],
+      "b": "osm-shop-node1233368830",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.218,
+      "elevationLossMeters": 0.0,
+      "id": "junction-38a74109--osm-shop-node1233368830",
+      "meters": 12.597893377105226
+    },
+    {
+      "a": "osm-shop-node1233368433",
+      "accessibility": [],
+      "b": "osm-shop-node1233368830",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.0,
+      "elevationLossMeters": 0.0,
+      "id": "osm-shop-node1233368433--osm-shop-node1233368830",
+      "meters": 7.256270205109368
+    },
+    {
+      "a": "osm-shop-node1233368433",
+      "accessibility": [],
+      "b": "junction-25208e37",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.0,
+      "elevationLossMeters": 0.47,
+      "id": "osm-shop-node1233368433--junction-25208e37",
+      "meters": 11.669804724629904
+    },
+    {
+      "a": "junction-2080ea98",
+      "accessibility": [],
+      "b": "osm-shop-node1231986994",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.291,
+      "elevationLossMeters": 0.0,
+      "id": "junction-2080ea98--osm-shop-node1231986994",
+      "meters": 9.73065700853491
+    },
+    {
+      "a": "junction-2080ea98",
+      "accessibility": [],
+      "b": "osm-shop-node1233368433",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.433,
+      "elevationLossMeters": 0.0,
+      "id": "junction-2080ea98--osm-shop-node1233368433",
+      "meters": 10.18893138274109
+    },
+    {
+      "a": "osm-shop-node1231986994",
+      "accessibility": [],
+      "b": "osm-shop-node1233368433",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.15,
+      "elevationLossMeters": 0.008,
+      "id": "osm-shop-node1231986994--osm-shop-node1233368433",
+      "meters": 4.8787031159642105
+    },
+    {
+      "a": "osm-shop-node1231986994",
+      "accessibility": [],
+      "b": "junction-38a74109",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.0,
+      "elevationLossMeters": 0.304,
+      "id": "osm-shop-node1231986994--junction-38a74109",
+      "meters": 11.055045459408426
+    },
+    {
+      "a": "junction-8d5142fb",
+      "accessibility": [],
+      "b": "osm-shop-node1250664527",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.251,
+      "elevationLossMeters": 0.0,
+      "id": "junction-8d5142fb--osm-shop-node1250664527",
+      "meters": 9.073290798449868
+    },
+    {
+      "a": "junction-8d5142fb",
+      "accessibility": [],
+      "b": "osm-shop-node1231986994",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.879,
+      "elevationLossMeters": 0.0,
+      "id": "junction-8d5142fb--osm-shop-node1231986994",
+      "meters": 11.29213576537812
+    },
+    {
+      "a": "osm-shop-node1250664527",
+      "accessibility": [],
+      "b": "osm-shop-node1231986994",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.54,
+      "elevationLossMeters": 0.0,
+      "id": "osm-shop-node1250664527--osm-shop-node1231986994",
+      "meters": 5.079213845815927
+    },
+    {
+      "a": "osm-shop-node1250664527",
+      "accessibility": [],
+      "b": "junction-2080ea98",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.0,
+      "elevationLossMeters": 0.271,
+      "id": "osm-shop-node1250664527--junction-2080ea98",
+      "meters": 9.91423846564878
+    },
+    {
+      "a": "osm-shop-node1250664527",
+      "accessibility": [],
+      "b": "osm-shop-node1231986576",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.0,
+      "elevationLossMeters": 0.052,
+      "id": "osm-shop-node1250664527--osm-shop-node1231986576",
+      "meters": 7.97678814885164
+    },
+    {
+      "a": "osm-shop-node1250664527",
+      "accessibility": [],
+      "b": "junction-18861e7b",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.02,
+      "elevationLossMeters": 0.315,
+      "id": "osm-shop-node1250664527--junction-18861e7b",
+      "meters": 11.731764664502453
+    },
+    {
+      "a": "osm-shop-node1231986576",
+      "accessibility": [],
+      "b": "junction-18861e7b",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.0,
+      "elevationLossMeters": 0.206,
+      "id": "osm-shop-node1231986576--junction-18861e7b",
+      "meters": 9.173909778895531
+    },
+    {
+      "a": "osm-shop-node1231986576",
+      "accessibility": [],
+      "b": "junction-8d5142fb",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.0,
+      "elevationLossMeters": 0.198,
+      "id": "osm-shop-node1231986576--junction-8d5142fb",
+      "meters": 11.917504478052857
+    },
+    {
+      "a": "junction-f7f19d34",
+      "accessibility": [],
+      "b": "osm-shop-node1231986576",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.174,
+      "elevationLossMeters": 0.0,
+      "id": "junction-f7f19d34--osm-shop-node1231986576",
+      "meters": 9.726610155190684
+    },
+    {
+      "a": "junction-f7f19d34",
+      "accessibility": [],
+      "b": "osm-shop-node1250664637",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.168,
+      "elevationLossMeters": 0.0,
+      "id": "junction-f7f19d34--osm-shop-node1250664637",
+      "meters": 13.96850084487684
+    },
+    {
+      "a": "junction-18861e7b",
+      "accessibility": [],
+      "b": "osm-shop-node1250664637",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.222,
+      "elevationLossMeters": 0.0,
+      "id": "junction-18861e7b--osm-shop-node1250664637",
+      "meters": 17.19083469978456
+    },
+    {
+      "a": "junction-18861e7b",
+      "accessibility": [],
+      "b": "junction-f9d16a40",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.124,
+      "elevationLossMeters": 0.066,
+      "id": "junction-18861e7b--junction-f9d16a40",
+      "meters": 15.248481493566734
+    },
+    {
+      "a": "osm-shop-node1231986576",
+      "accessibility": [],
+      "b": "osm-shop-node1250664637",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.087,
+      "elevationLossMeters": 0.063,
+      "id": "osm-shop-node1231986576--osm-shop-node1250664637",
+      "meters": 13.870774214223784
+    },
+    {
+      "a": "osm-shop-node1231986576",
+      "accessibility": [],
+      "b": "junction-f9d16a40",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.0,
+      "elevationLossMeters": 0.067,
+      "id": "osm-shop-node1231986576--junction-f9d16a40",
+      "meters": 13.668241881015927
+    },
+    {
+      "a": "osm-shop-node1250664637",
+      "accessibility": [],
+      "b": "junction-f9d16a40",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.022,
+      "elevationLossMeters": 0.083,
+      "id": "osm-shop-node1250664637--junction-f9d16a40",
+      "meters": 3.147029599145203
+    },
+    {
+      "a": "osm-shop-node1250664637",
+      "accessibility": [],
+      "b": "ms-south",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.0,
+      "elevationLossMeters": 0.155,
+      "id": "osm-shop-node1250664637--ms-south",
+      "meters": 5.711368798162777
+    },
+    {
+      "a": "osm-shop-node1231986576",
+      "accessibility": [],
+      "b": "junction-ae0a01df",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.0,
+      "elevationLossMeters": 0.167,
+      "id": "osm-shop-node1231986576--junction-ae0a01df",
+      "meters": 17.528090960017526
+    },
+    {
+      "a": "osm-shop-node1250664637",
+      "accessibility": [],
+      "b": "junction-e5f2f3fd",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.002,
+      "elevationLossMeters": 0.099,
+      "id": "osm-shop-node1250664637--junction-e5f2f3fd",
+      "meters": 9.72971663668976
+    },
+    {
+      "a": "osm-shop-node1250664637",
+      "accessibility": [],
+      "b": "osm-shop-way122901024",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.08,
+      "elevationLossMeters": 0.056,
+      "id": "osm-shop-node1250664637--osm-shop-way122901024",
+      "meters": 10.314517650221758
+    },
+    {
+      "a": "ms-south",
+      "accessibility": [],
+      "b": "osm-shop-way122901024",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.14,
+      "elevationLossMeters": 0.08,
+      "id": "ms-south--osm-shop-way122901024",
+      "meters": 8.471411851369444
+    },
+    {
+      "a": "osm-shop-way122901024",
+      "accessibility": [],
+      "b": "junction-f9d16a40",
+      "baselineCrowd": 0.3,
+      "elevationGainMeters": 0.0,
+      "elevationLossMeters": 0.14,
+      "id": "osm-shop-way122901024--junction-f9d16a40",
+      "meters": 12.210097012821107
     }
   ],
   "formatVersion": 1,
@@ -6371,14 +6311,15 @@
     },
     {
       "coord": {
-        "latitude": 33.811174,
-        "longitude": -117.9188261
+        "latitude": 33.811173164281875,
+        "longitude": -117.91887471500974
       },
       "elevationMeters": 41.52,
       "id": "osm-shop-node1231986576",
       "kind": "shop",
       "name": "Castle Brothers",
-      "park": "disneyland"
+      "park": "disneyland",
+      "userEdited": true
     },
     {
       "coord": {
@@ -6503,14 +6444,15 @@
     },
     {
       "coord": {
-        "latitude": 33.8112878,
-        "longitude": -117.9188212
+        "latitude": 33.811289750006644,
+        "longitude": -117.9188637800496
       },
-      "elevationMeters": 42.093,
+      "elevationMeters": 42.193,
       "id": "osm-shop-node1231986994",
       "kind": "shop",
       "name": "Silhouette Studio",
-      "park": "disneyland"
+      "park": "disneyland",
+      "userEdited": true
     },
     {
       "coord": {
@@ -6635,14 +6577,15 @@
     },
     {
       "coord": {
-        "latitude": 33.8113306,
-        "longitude": -117.9188225
+        "latitude": 33.81133282857791,
+        "longitude": -117.9188737972251
       },
-      "elevationMeters": 41.935,
+      "elevationMeters": 41.735,
       "id": "osm-shop-node1233368433",
       "kind": "shop",
       "name": "China Closet",
-      "park": "disneyland"
+      "park": "disneyland",
+      "userEdited": true
     },
     {
       "coord": {
@@ -6668,14 +6611,15 @@
     },
     {
       "coord": {
-        "latitude": 33.8113981,
-        "longitude": -117.9188198
+        "latitude": 33.811397264283926,
+        "longitude": -117.91886137422166
       },
-      "elevationMeters": 41.566,
+      "elevationMeters": 41.525,
       "id": "osm-shop-node1233368830",
       "kind": "shop",
       "name": "Plaza Point Holiday Shoppe",
-      "park": "disneyland"
+      "park": "disneyland",
+      "userEdited": true
     },
     {
       "coord": {
@@ -6790,24 +6734,26 @@
     {
       "coord": {
         "latitude": 33.8112449,
-        "longitude": -117.9188219
+        "longitude": -117.91887420305304
       },
-      "elevationMeters": 41.593,
+      "elevationMeters": 41.653,
       "id": "osm-shop-node1250664527",
       "kind": "shop",
       "name": "Crystal Arts",
-      "park": "disneyland"
+      "park": "disneyland",
+      "userEdited": true
     },
     {
       "coord": {
-        "latitude": 33.8110448,
-        "longitude": -117.9188232
+        "latitude": 33.81104842145065,
+        "longitude": -117.9188748324931
       },
-      "elevationMeters": 41.574,
+      "elevationMeters": 41.537,
       "id": "osm-shop-node1250664637",
       "kind": "shop",
       "name": "Disney Clothiers LTD.",
-      "park": "disneyland"
+      "park": "disneyland",
+      "userEdited": true
     },
     {
       "coord": {
@@ -9377,60 +9323,6 @@
       },
       "elevationMeters": 41.418,
       "id": "junction-e5f2f3fd",
-      "kind": "junction"
-    },
-    {
-      "coord": {
-        "latitude": 33.81117551314262,
-        "longitude": -117.91890592606472
-      },
-      "elevationMeters": 41.418,
-      "id": "junction-4615126d",
-      "kind": "junction"
-    },
-    {
-      "coord": {
-        "latitude": 33.811245713446475,
-        "longitude": -117.91890391440882
-      },
-      "elevationMeters": 41.442,
-      "id": "junction-7eb7baaa",
-      "kind": "junction"
-    },
-    {
-      "coord": {
-        "latitude": 33.81128387787321,
-        "longitude": -117.9189049202368
-      },
-      "elevationMeters": 41.462,
-      "id": "junction-470e160d",
-      "kind": "junction"
-    },
-    {
-      "coord": {
-        "latitude": 33.811334020889774,
-        "longitude": -117.91890860827259
-      },
-      "elevationMeters": 41.428,
-      "id": "junction-c2766d8d",
-      "kind": "junction"
-    },
-    {
-      "coord": {
-        "latitude": 33.81139710852608,
-        "longitude": -117.91890401525637
-      },
-      "elevationMeters": 41.405,
-      "id": "junction-d2f4ac47",
-      "kind": "junction"
-    },
-    {
-      "coord": {
-        "latitude": 33.811324679768404,
-        "longitude": -117.91904684282429
-      },
-      "elevationMeters": 41.417,
-      "id": "junction-03ed3411",
       "kind": "junction"
     },
     {
