@@ -13,6 +13,12 @@
       "sha256": "1cf385ddf5c7d8d26c95e349cd649c4430941a62e8d4bb3022b477f863efff52"
     },
     {
+      "bytes": 322075,
+      "path": "lands-8c1029bd9f606266.json",
+      "role": "lands",
+      "sha256": "8c1029bd9f60626684cfa7085a1f79e3aca211f35547bd0a6a4fada3b54c1a99"
+    },
+    {
       "bytes": 3546498,
       "path": "menus-a94d479f20be507c.json",
       "role": "menus",
@@ -31,6 +37,6 @@
       "sha256": "d1a2bd3ddd59d6bdb8b10603d71f387211aaf64cf06c9fcdd7bece4d1e6925ad"
     }
   ],
-  "generatedAt": "2026-05-11T13:51:33Z",
+  "generatedAt": "2026-05-11T17:36:19Z",
   "manifestVersion": 1
 }
