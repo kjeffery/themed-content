@@ -117,7 +117,7 @@
       "b": "junction-2ff209e1",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.134,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-45626515--junction-2ff209e1",
       "meters": 24.94280587720957
     },
@@ -286,7 +286,7 @@
       "accessibility": [],
       "b": "junction-6e61d1d7",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.221,
       "id": "junction-60743c84--junction-6e61d1d7",
       "meters": 12.595705321212
@@ -417,7 +417,7 @@
       "b": "junction-015e1151",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.245,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-09307cb3--junction-015e1151",
       "meters": 26.294299227289706
     },
@@ -517,7 +517,7 @@
       "b": "junction-03ae8c57",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.023,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-0435abaa--junction-03ae8c57",
       "meters": 13.873540270361506
     },
@@ -746,7 +746,7 @@
       "accessibility": [],
       "b": "junction-061754a6",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.081,
       "id": "junction-30f7c1c9--junction-061754a6-07a9",
       "meters": 8.48501734364658
@@ -906,7 +906,7 @@
       "accessibility": [],
       "b": "junction-0e8cf69b",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 1.822,
       "id": "junction-03ae8c57--junction-0e8cf69b",
       "meters": 40.81242473069936
@@ -1068,7 +1068,7 @@
       "accessibility": [],
       "b": "junction-2ff209e1",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.913,
       "id": "junction-1e0c9ab4--junction-2ff209e1",
       "meters": 37.09742826102552
@@ -1098,7 +1098,7 @@
       "accessibility": [],
       "b": "junction-1a9fcf12",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.295,
       "id": "osm-shop-way337030852--junction-1a9fcf12",
       "meters": 3
@@ -1220,7 +1220,7 @@
       "accessibility": [],
       "b": "junction-023783ee",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.073,
       "id": "junction-37b62db5--junction-023783ee",
       "meters": 7.762825476617404
@@ -1251,7 +1251,7 @@
       "b": "junction-1f86fd69",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.737,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-5a983561--junction-1f86fd69",
       "meters": 28.936617922292683
     },
@@ -1311,7 +1311,7 @@
       "b": "junction-0013a98e",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.149,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-0b723b50--junction-0013a98e",
       "meters": 8.88447463894626
     },
@@ -1331,7 +1331,7 @@
       "b": "osm-shop-node1275181785",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 1.584,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-ef5ebbfe--osm-shop-node1275181785",
       "meters": 36
     },
@@ -1471,7 +1471,7 @@
       "b": "snowwhitesenchantedwish",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.219,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-09307cb3--snowwhitesenchantedwish",
       "meters": 25.631640721927347
     },
@@ -1480,7 +1480,7 @@
       "accessibility": [],
       "b": "junction-bfd86c97",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.155,
       "id": "junction-054ec328--junction-bfd86c97",
       "meters": 15.85914411432802
@@ -1530,7 +1530,7 @@
       "accessibility": [],
       "b": "junction-07c5de31",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.086,
       "id": "junction-4ecf2f48--junction-07c5de31",
       "meters": 11
@@ -1541,7 +1541,7 @@
       "b": "junction-0435abaa",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.137,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-1b84ae03--junction-0435abaa",
       "meters": 11.339673071494982
     },
@@ -1560,7 +1560,7 @@
       "accessibility": [],
       "b": "junction-1830c566",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.117,
       "id": "mrtoadswildride--junction-1830c566-9082",
       "meters": 16.524694356990672
@@ -1690,7 +1690,7 @@
       "accessibility": [],
       "b": "junction-bfd86c97",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.346,
       "id": "f8d61baa--junction-bfd86c97",
       "meters": 7
@@ -1730,7 +1730,7 @@
       "accessibility": [],
       "b": "junction-0d16bb1d",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 1.329,
       "id": "junction-ebdeadfa--junction-0d16bb1d",
       "meters": 54.106768196269314
@@ -1810,7 +1810,7 @@
       "accessibility": [],
       "b": "junction-1e7c9a74",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 1.982,
       "id": "junction-03ae8c57--junction-1e7c9a74",
       "meters": 43.42599766787941
@@ -1821,7 +1821,7 @@
       "b": "osm-shop-node1233368367",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.066,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-5b11c732--osm-shop-node1233368367",
       "meters": 7.985138409105209
     },
@@ -2351,7 +2351,7 @@
       "b": "osm-shop-node10745415284",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.448,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "gadgetsgocoaster--osm-shop-node10745415284",
       "meters": 16.993444542944303
     },
@@ -2523,7 +2523,7 @@
       "b": "junction-2ff209e1",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.256,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "115863ac--junction-2ff209e1-4cb8",
       "meters": 7.522231275812328
     },
@@ -2532,7 +2532,7 @@
       "accessibility": [],
       "b": "junction-03ae8c57",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.539,
       "id": "cd670bff--junction-03ae8c57",
       "meters": 30.796732245370357
@@ -2582,7 +2582,7 @@
       "accessibility": [],
       "b": "junction-0435abaa",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.762,
       "id": "junction-1f86fd69--junction-0435abaa",
       "meters": 35.82012503034908
@@ -2592,7 +2592,7 @@
       "accessibility": [],
       "b": "junction-03ae8c57",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 1.111,
       "id": "goofysplayhouse--junction-03ae8c57",
       "meters": 21.16960913166481
@@ -2642,7 +2642,7 @@
       "accessibility": [],
       "b": "junction-99226da9",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.053,
       "id": "junction-0cfbc6e2--junction-99226da9",
       "meters": 10.631470609490059
@@ -2673,7 +2673,7 @@
       "b": "junction-036f0b9c",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.366,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-04a3dccb--junction-036f0b9c",
       "meters": 37.81665278543467
     },
@@ -2722,7 +2722,7 @@
       "accessibility": [],
       "b": "junction-0b723b50",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.19,
       "id": "junction-4cc07090--junction-0b723b50-8911",
       "meters": 12.568935187157331
@@ -2732,7 +2732,7 @@
       "accessibility": [],
       "b": "junction-036f0b9c",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.044,
       "id": "junction-715815ca--junction-036f0b9c",
       "meters": 7.249124479998588
@@ -2883,7 +2883,7 @@
       "b": "junction-1e0c9ab4",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 1.289,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-0d16bb1d--junction-1e0c9ab4-b41e",
       "meters": 50.66369057756905
     },
@@ -2902,7 +2902,7 @@
       "accessibility": [],
       "b": "junction-3b8d3253",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.201,
       "id": "junction-60743c84--junction-3b8d3253",
       "meters": 8.890962320565418
@@ -2962,7 +2962,7 @@
       "accessibility": [],
       "b": "junction-715815ca",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.06,
       "id": "junction-073adc3c--junction-715815ca",
       "meters": 7.399872002227185
@@ -3002,7 +3002,7 @@
       "accessibility": [],
       "b": "junction-17b0016a",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.358,
       "id": "junction-604d717e--junction-17b0016a",
       "meters": 25.90563506473267
@@ -3052,7 +3052,7 @@
       "accessibility": [],
       "b": "junction-04a3dccb",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.23,
       "id": "junction-72ea4474--junction-04a3dccb-5e57",
       "meters": 39.904968124213966
@@ -3213,7 +3213,7 @@
       "b": "junction-073adc3c",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.048,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-3fd14776--junction-073adc3c",
       "meters": 9.24102359454504
     },
@@ -3432,7 +3432,7 @@
       "accessibility": [],
       "b": "junction-036f0b9c",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.596,
       "id": "pearlyband--junction-036f0b9c",
       "meters": 20.12098092196936
@@ -3562,7 +3562,7 @@
       "accessibility": [],
       "b": "junction-061754a6",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.199,
       "id": "osm-shop-node1275181785--junction-061754a6",
       "meters": 7.7308722609887734
@@ -3713,7 +3713,7 @@
       "b": "junction-0223bea6",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.116,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-298e7acd--junction-0223bea6-0b36",
       "meters": 7.791321368258478
     },
@@ -3755,7 +3755,7 @@
       "b": "junction-a3cad3b7",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.817,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-060c1fb1--junction-a3cad3b7",
       "meters": 31.891567524060957
     },
@@ -3784,7 +3784,7 @@
       "accessibility": [],
       "b": "junction-1830c566",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.285,
       "id": "fantasy-jct--junction-1830c566-5895",
       "meters": 19.77083980905718
@@ -3904,7 +3904,7 @@
       "accessibility": [],
       "b": "junction-073adc3c",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.088,
       "id": "junction-14eb92ff--junction-073adc3c",
       "meters": 10.907948787899993
@@ -3984,7 +3984,7 @@
       "accessibility": [],
       "b": "junction-0d16bb1d",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 1.272,
       "id": "junction-a6e502d5--junction-0d16bb1d",
       "meters": 43.09105949933787
@@ -4025,7 +4025,7 @@
       "b": "junction-1e0c9ab4",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 1.169,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "115863ac--junction-1e0c9ab4",
       "meters": 45
     },
@@ -4405,7 +4405,7 @@
       "b": "junction-0b46f7ee",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.158,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-04a3dccb--junction-0b46f7ee",
       "meters": 29.356564309310468
     },
@@ -4434,7 +4434,7 @@
       "accessibility": [],
       "b": "junction-17b0016a",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.044,
       "id": "junction-0d16bb1d--junction-17b0016a",
       "meters": 18.449574126390132
@@ -4484,7 +4484,7 @@
       "accessibility": [],
       "b": "junction-0223bea6",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.906,
       "id": "caseyjrcircustrain--junction-0223bea6",
       "meters": 20.571647507840183
@@ -4585,7 +4585,7 @@
       "b": "junction-55451bb4",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.161,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-036f0b9c--junction-55451bb4",
       "meters": 20.205089670598607
     },
@@ -4645,7 +4645,7 @@
       "b": "osm-shop-way263614282",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.445,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-0d16bb1d--osm-shop-way263614282",
       "meters": 20.93647385172989
     },
@@ -4725,7 +4725,7 @@
       "b": "junction-786b08e6",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.159,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-0cfbc6e2--junction-786b08e6",
       "meters": 14.259019854141007
     },
@@ -4734,7 +4734,7 @@
       "accessibility": [],
       "b": "junction-060c1fb1",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 1.156,
       "id": "junction-5d5b4929--junction-060c1fb1",
       "meters": 56.88299851530311
@@ -4804,7 +4804,7 @@
       "accessibility": [],
       "b": "osm-shop-node1233368367",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.286,
       "id": "junction-036f0b9c--osm-shop-node1233368367",
       "meters": 42.7614308401819
@@ -5015,7 +5015,7 @@
       "b": "junction-9be5b324",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.184,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-073adc3c--junction-9be5b324",
       "meters": 17.93371155308271
     },
@@ -5647,7 +5647,7 @@
       "b": "junction-17b0016a",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.095,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-1d5f0c4f--junction-17b0016a",
       "meters": 21.491620708428595
     },
@@ -5686,7 +5686,7 @@
       "accessibility": [],
       "b": "junction-0d16bb1d",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.753,
       "id": "junction-0e938567--junction-0d16bb1d",
       "meters": 20.331207587905475
@@ -5856,7 +5856,7 @@
       "accessibility": [],
       "b": "junction-023783ee",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.419,
       "id": "osm-shop-way186353389--junction-023783ee",
       "meters": 28
@@ -5917,7 +5917,7 @@
       "b": "junction-55451bb4",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.057,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-073adc3c--junction-55451bb4",
       "meters": 6.294833157962783
     },
@@ -6106,7 +6106,7 @@
       "accessibility": [],
       "b": "junction-03791fc7",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.505,
       "id": "junction-0013a98e--junction-03791fc7",
       "meters": 16.06748637235618
@@ -6156,7 +6156,7 @@
       "accessibility": [],
       "b": "junction-03ae8c57",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.497,
       "id": "junction-03791fc7--junction-03ae8c57",
       "meters": 28.729629901469778
@@ -6227,7 +6227,7 @@
       "b": "junction-6b9d14db",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.579,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "115863ac--junction-6b9d14db",
       "meters": 18
     },
@@ -6247,7 +6247,7 @@
       "b": "osm-shop-way186353389",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.433,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-5b11c732--osm-shop-way186353389",
       "meters": 34
     },
@@ -6326,7 +6326,7 @@
       "accessibility": [],
       "b": "junction-015e1151",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.155,
       "id": "junction-4ecf2f48--junction-015e1151",
       "meters": 21.78921582060417
@@ -6536,7 +6536,7 @@
       "accessibility": [],
       "b": "junction-1a9fcf12",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.03,
       "id": "junction-0d16bb1d--junction-1a9fcf12",
       "meters": 9.35641206291015
@@ -6687,7 +6687,7 @@
       "b": "junction-0223bea6",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.156,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-91a959d4--junction-0223bea6",
       "meters": 21.512673842320606
     },
@@ -6706,7 +6706,7 @@
       "accessibility": [],
       "b": "osm-restroom-way133953462",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.31,
       "id": "888525b0--osm-restroom-way133953462",
       "meters": 29
@@ -6757,7 +6757,7 @@
       "b": "junction-72ea4474",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.216,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-5b11c732--junction-72ea4474",
       "meters": 40
     },
@@ -6807,7 +6807,7 @@
       "b": "junction-1dd1d848",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.049,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "osm-shop-way337030852--junction-1dd1d848",
       "meters": 23.154032340927916
     },
@@ -6866,7 +6866,7 @@
       "accessibility": [],
       "b": "junction-1830c566",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.19,
       "id": "junction-4ecf2f48--junction-1830c566-6be1",
       "meters": 22.42833977766978
@@ -6887,7 +6887,7 @@
       "b": "junction-72ea4474",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.139,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-0cfbc6e2--junction-72ea4474-be1b",
       "meters": 18.653042755166975
     },
@@ -6937,7 +6937,7 @@
       "b": "junction-a6e502d5",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 1.152,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "115863ac--junction-a6e502d5",
       "meters": 32
     },
@@ -6997,7 +6997,7 @@
       "b": "junction-ebdeadfa",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.63,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-6b9d14db--junction-ebdeadfa",
       "meters": 30
     },
@@ -7097,7 +7097,7 @@
       "b": "junction-036f0b9c",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.114,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-df7b6847--junction-036f0b9c",
       "meters": 9.40872115697989
     },
@@ -7257,7 +7257,7 @@
       "b": "peterpansflight",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.169,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-015e1151--peterpansflight",
       "meters": 10.272507168854546
     },
@@ -7307,7 +7307,7 @@
       "b": "junction-0cfbc6e2",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.063,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-023783ee--junction-0cfbc6e2",
       "meters": 27.543736520642028
     },
@@ -7506,7 +7506,7 @@
       "accessibility": [],
       "b": "junction-035aa7a0",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 1.297,
       "id": "junction-03ae8c57--junction-035aa7a0",
       "meters": 31.227853895382378
@@ -7596,7 +7596,7 @@
       "accessibility": [],
       "b": "junction-6e61d1d7",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.238,
       "id": "5a107a57--junction-6e61d1d7-6924",
       "meters": 14.231927389026554
@@ -7616,7 +7616,7 @@
       "accessibility": [],
       "b": "115863ac",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 1.129,
       "id": "hub--115863ac",
       "meters": 46
@@ -7636,7 +7636,7 @@
       "accessibility": [],
       "b": "junction-0cfbc6e2",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.067,
       "id": "junction-0b46f7ee--junction-0cfbc6e2",
       "meters": 8.101459289433073
@@ -8138,7 +8138,7 @@
       "accessibility": [],
       "b": "junction-a136c6ec",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.298,
       "id": "junction-f043621c--junction-a136c6ec",
       "meters": 12.467996579001758
@@ -8238,7 +8238,7 @@
       "accessibility": [],
       "b": "junction-01835e05",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.213,
       "id": "gadgetsgocoaster--junction-01835e05",
       "meters": 12.602287379129766
@@ -8299,7 +8299,7 @@
       "b": "34f7bd8a",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.155,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-036f0b9c--34f7bd8a",
       "meters": 22.715137170565548
     },
@@ -8328,7 +8328,7 @@
       "accessibility": [],
       "b": "junction-04ef2f59",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.078,
       "id": "junction-4ecf2f48--junction-04ef2f59",
       "meters": 12
@@ -8529,7 +8529,7 @@
       "b": "junction-ebdeadfa",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.953,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-2ff209e1--junction-ebdeadfa",
       "meters": 40.540661126905505
     },
@@ -8638,7 +8638,7 @@
       "accessibility": [],
       "b": "osm-shop-node1233368367",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.17,
       "id": "junction-786b08e6--osm-shop-node1233368367",
       "meters": 33
@@ -8749,7 +8749,7 @@
       "b": "junction-07b15bf6",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.203,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "snowwhitesenchantedwish--junction-07b15bf6",
       "meters": 25.20713024340159
     },
@@ -8941,7 +8941,7 @@
       "b": "junction-ebdeadfa",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 1.209,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "2e062fa5--junction-ebdeadfa",
       "meters": 48
     },
@@ -9021,7 +9021,7 @@
       "b": "junction-0705bc4b",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.288,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-ee568cc0--junction-0705bc4b",
       "meters": 12.10319537450741
     },
@@ -9060,7 +9060,7 @@
       "accessibility": [],
       "b": "junction-1830c566",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.112,
       "id": "junction-04ef2f59--junction-1830c566",
       "meters": 11.219545873845847
@@ -9081,7 +9081,7 @@
       "b": "junction-1b449c4e",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.181,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-3b8d3253--junction-1b449c4e-afef",
       "meters": 12.574477208097273
     },
@@ -9260,7 +9260,7 @@
       "accessibility": [],
       "b": "junction-0d16bb1d",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.376,
       "id": "junction-2ff209e1--junction-0d16bb1d",
       "meters": 13.567039383144541
@@ -9291,7 +9291,7 @@
       "b": "junction-00c6ce93",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.282,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-1830c566--junction-00c6ce93",
       "meters": 13.413113726168984
     },
@@ -9310,7 +9310,7 @@
       "accessibility": [],
       "b": "junction-2465af2a",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.131,
       "id": "junction-036f0b9c--junction-2465af2a-32b2",
       "meters": 12.487532013851526
@@ -9591,7 +9591,7 @@
       "b": "junction-37fee5e6",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.048,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-2ff209e1--junction-37fee5e6",
       "meters": 7.768397978840722
     },
@@ -9850,7 +9850,7 @@
       "accessibility": [],
       "b": "junction-0cfbc6e2",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.22,
       "id": "osm-shop-node2149453148--junction-0cfbc6e2",
       "meters": 7.084592179791846
@@ -9941,7 +9941,7 @@
       "b": "osm-shop-way185405977",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.14,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "storybooklandcanalboats--osm-shop-way185405977",
       "meters": 35
     },
@@ -9950,7 +9950,7 @@
       "accessibility": [],
       "b": "junction-72ea4474",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.02,
       "id": "junction-786b08e6--junction-72ea4474",
       "meters": 5.235432918198765
@@ -9970,7 +9970,7 @@
       "accessibility": [],
       "b": "junction-015e1151",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.17,
       "id": "pinocchiosdaringjourney--junction-015e1151",
       "meters": 15.051559613264402
@@ -10151,7 +10151,7 @@
       "b": "osm-shop-node10745415284",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.829,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "donaldsboat--osm-shop-node10745415284",
       "meters": 9
     },
@@ -10200,7 +10200,7 @@
       "accessibility": [],
       "b": "junction-1b449c4e",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.467,
       "id": "osm-shop-node10745415284--junction-1b449c4e",
       "meters": 16.675153807394405
@@ -10631,7 +10631,7 @@
       "b": "junction-21bf3f9f",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.15,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-015e1151--junction-21bf3f9f",
       "meters": 12.978852669350161
     },
@@ -10701,7 +10701,7 @@
       "b": "osm-shop-node1275181785",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.367,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-ee568cc0--osm-shop-node1275181785",
       "meters": 17
     },
@@ -10830,7 +10830,7 @@
       "accessibility": [],
       "b": "junction-1b84ae03",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.389,
       "id": "rogerrabbitscartoonspin--junction-1b84ae03-cd4e",
       "meters": 12.875816454403575
@@ -10890,7 +10890,7 @@
       "accessibility": [],
       "b": "junction-0435abaa",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.611,
       "id": "osm-restroom-node1231986357--junction-0435abaa",
       "meters": 43
@@ -10950,7 +10950,7 @@
       "accessibility": [],
       "b": "junction-023783ee",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.338,
       "id": "junction-036f0b9c--junction-023783ee",
       "meters": 31.627640303493976
@@ -11070,7 +11070,7 @@
       "accessibility": [],
       "b": "junction-061754a6",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.649,
       "id": "osm-shop-way49884550--junction-061754a6",
       "meters": 15.594315584606106
@@ -11130,7 +11130,7 @@
       "accessibility": [],
       "b": "junction-01835e05",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.194,
       "id": "junction-1b449c4e--junction-01835e05",
       "meters": 12.566619251796956
@@ -11170,7 +11170,7 @@
       "accessibility": [],
       "b": "junction-1830c566",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.211,
       "id": "junction-298e7acd--junction-1830c566-4767",
       "meters": 21.315412089701923
@@ -11290,7 +11290,7 @@
       "accessibility": [],
       "b": "junction-015e1151",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.197,
       "id": "junction-3bd7cdd0--junction-015e1151",
       "meters": 21.14678130455488
@@ -11622,7 +11622,7 @@
       "accessibility": [],
       "b": "junction-2465af2a",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.213,
       "id": "osm-shop-way186353389--junction-2465af2a",
       "meters": 9
@@ -11643,7 +11643,7 @@
       "b": "junction-00c6ce93",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.071,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-298e7acd--junction-00c6ce93",
       "meters": 8.118751549120436
     },
@@ -11662,7 +11662,7 @@
       "accessibility": [],
       "b": "junction-632e3430",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.124,
       "id": "junction-0223bea6--junction-632e3430",
       "meters": 9.41708143331488
@@ -11923,7 +11923,7 @@
       "b": "junction-2ff209e1",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.256,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "2e062fa5--junction-2ff209e1",
       "meters": 7.522231275812328
     },
@@ -12023,7 +12023,7 @@
       "b": "junction-0705bc4b",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 1.505,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-ef5ebbfe--junction-0705bc4b",
       "meters": 30.981310435570222
     },
@@ -12143,7 +12143,7 @@
       "b": "junction-72ea4474",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.15,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "osm-shop-node1233368367--junction-72ea4474",
       "meters": 33
     },
@@ -12152,7 +12152,7 @@
       "accessibility": [],
       "b": "junction-0435abaa",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.302,
       "id": "junction-bfd86c97--junction-0435abaa-f7c3",
       "meters": 20.82525601189683
@@ -12263,7 +12263,7 @@
       "b": "junction-5a983561",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.162,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-1b84ae03--junction-5a983561",
       "meters": 17.985480977341382
     },
@@ -12322,7 +12322,7 @@
       "accessibility": [],
       "b": "junction-054ec328",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.155,
       "id": "osm-restroom-node1231986357--junction-054ec328",
       "meters": 14.463713015181925
@@ -12412,7 +12412,7 @@
       "accessibility": [],
       "b": "junction-3b8d3253",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.384,
       "id": "minnieshouse--junction-3b8d3253",
       "meters": 8.825298181298205
@@ -12422,7 +12422,7 @@
       "accessibility": [],
       "b": "junction-04a3dccb",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.091,
       "id": "junction-0cfbc6e2--junction-04a3dccb",
       "meters": 21.259666033982587
@@ -12453,7 +12453,7 @@
       "b": "junction-0cfbc6e2",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.077,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-5b11c732--junction-0cfbc6e2",
       "meters": 21
     },
@@ -12463,7 +12463,7 @@
       "b": "junction-6b9d14db",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.579,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "2e062fa5--junction-6b9d14db",
       "meters": 18
     },
@@ -12473,7 +12473,7 @@
       "b": "junction-07b15bf6",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.009,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-632e3430--junction-07b15bf6",
       "meters": 9.362001982058736
     },
@@ -12613,7 +12613,7 @@
       "b": "junction-0013a98e",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.222,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "donaldsboat--junction-0013a98e",
       "meters": 13.237540189925706
     },
@@ -12652,7 +12652,7 @@
       "accessibility": [],
       "b": "junction-03ae8c57",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.589,
       "id": "osm-restroom-node1231986357--junction-03ae8c57",
       "meters": 35.8230452168503
@@ -12662,7 +12662,7 @@
       "accessibility": [],
       "b": "junction-6e61d1d7",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.404,
       "id": "minnieshouse--junction-6e61d1d7",
       "meters": 9.680604042784157
@@ -12813,7 +12813,7 @@
       "b": "junction-30f7c1c9",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.057,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-073adc3c--junction-30f7c1c9",
       "meters": 19.57067755519472
     },
@@ -12962,7 +12962,7 @@
       "accessibility": [],
       "b": "junction-6d5bf13e",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.558,
       "id": "junction-5d5b4929--junction-6d5bf13e",
       "meters": 40
@@ -12993,7 +12993,7 @@
       "b": "junction-72ea4474",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.072,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-0b46f7ee--junction-72ea4474",
       "meters": 11
     },
@@ -13162,7 +13162,7 @@
       "accessibility": [],
       "b": "junction-4cc07090",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.565,
       "id": "osm-shop-node10745415284--junction-4cc07090",
       "meters": 21.341914019454
@@ -13395,7 +13395,7 @@
       "b": "junction-4cc07090",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.103,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-6e61d1d7--junction-4cc07090",
       "meters": 8.887397135741724
     },
@@ -13464,7 +13464,7 @@
       "accessibility": [],
       "b": "junction-3bd7cdd0",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.095,
       "id": "junction-0223bea6--junction-3bd7cdd0",
       "meters": 23.2781835812324
@@ -13954,7 +13954,7 @@
       "accessibility": [],
       "b": "2426de0a",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.115,
       "id": "888525b0--2426de0a",
       "meters": 11
@@ -14095,7 +14095,7 @@
       "b": "junction-073adc3c",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.104,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-036f0b9c--junction-073adc3c",
       "meters": 14.400794062860442
     },
@@ -14115,7 +14115,7 @@
       "b": "junction-03791fc7",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.063,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-054ec328--junction-03791fc7",
       "meters": 10.846861018149678
     },
@@ -14134,7 +14134,7 @@
       "accessibility": [],
       "b": "junction-036f0b9c",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.056,
       "id": "junction-3fd14776--junction-036f0b9c",
       "meters": 6.931813516031609
@@ -14214,7 +14214,7 @@
       "accessibility": [],
       "b": "junction-1a942663",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.149,
       "id": "junction-1dd1d848--junction-1a942663",
       "meters": 20.577271300898726
@@ -14234,7 +14234,7 @@
       "accessibility": [],
       "b": "junction-036f0b9c",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.596,
       "id": "78568c55--junction-036f0b9c",
       "meters": 20.12098092196936
@@ -14265,7 +14265,7 @@
       "b": "junction-a6e502d5",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 1.152,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "2e062fa5--junction-a6e502d5",
       "meters": 32
     },
@@ -14275,7 +14275,7 @@
       "b": "junction-cd4ece64",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.626,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-060c1fb1--junction-cd4ece64",
       "meters": 15.168591532721269
     },
@@ -14304,7 +14304,7 @@
       "accessibility": [],
       "b": "junction-1830c566",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.953,
       "id": "kingarthurcarrousel--junction-1830c566",
       "meters": 18.640231000647674
@@ -14325,7 +14325,7 @@
       "b": "junction-036f0b9c",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.352,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-5b11c732--junction-036f0b9c",
       "meters": 38.29131685138539
     },
@@ -14394,7 +14394,7 @@
       "accessibility": [],
       "b": "junction-01835e05",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.662,
       "id": "osm-shop-node10745415284--junction-01835e05",
       "meters": 27.975870853360107
@@ -14426,7 +14426,7 @@
       "accessibility": [],
       "b": "junction-37b62db5",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.265,
       "id": "junction-036f0b9c--junction-37b62db5",
       "meters": 23.86864896889023
@@ -14576,7 +14576,7 @@
       "accessibility": [],
       "b": "junction-0cfbc6e2",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.285,
       "id": "storybooklandcanalboats--junction-0cfbc6e2-5acd",
       "meters": 13.167377712614282
@@ -14616,7 +14616,7 @@
       "accessibility": [],
       "b": "junction-a6e502d5",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.212,
       "id": "osm-shop-node1233368510--junction-a6e502d5",
       "meters": 25
@@ -14697,7 +14697,7 @@
       "b": "osm-shop-node4679391517",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.701,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-015e1151--osm-shop-node4679391517",
       "meters": 41.78819814791874
     },
@@ -15027,7 +15027,7 @@
       "b": "junction-bfd86c97",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.439,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-1b84ae03--junction-bfd86c97",
       "meters": 32.162407403303206
     },
@@ -15036,7 +15036,7 @@
       "accessibility": [],
       "b": "2e062fa5",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 1.129,
       "id": "hub--2e062fa5",
       "meters": 46
@@ -15086,7 +15086,7 @@
       "accessibility": [],
       "b": "junction-2ff209e1",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.323,
       "id": "junction-6b9d14db--junction-2ff209e1",
       "meters": 10.29624515473457
@@ -15196,7 +15196,7 @@
       "accessibility": [],
       "b": "junction-0e8cf69b",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.525,
       "id": "junction-035aa7a0--junction-0e8cf69b",
       "meters": 10
@@ -15246,7 +15246,7 @@
       "accessibility": [],
       "b": "junction-1830c566",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.449,
       "id": "osm-shop-way185405977--junction-1830c566",
       "meters": 24.871150768165602
@@ -15507,7 +15507,7 @@
       "b": "junction-1f86fd69",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.739,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-03ae8c57--junction-1f86fd69",
       "meters": 21.95388896770799
     },
@@ -15537,7 +15537,7 @@
       "b": "junction-6d5bf13e",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.598,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-060c1fb1--junction-6d5bf13e",
       "meters": 18.03232118856645
     },
@@ -15607,7 +15607,7 @@
       "b": "junction-1e0c9ab4",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 1.169,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "2e062fa5--junction-1e0c9ab4",
       "meters": 45
     },
@@ -15706,7 +15706,7 @@
       "accessibility": [],
       "b": "junction-1b84ae03",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.698,
       "id": "cd670bff--junction-1b84ae03",
       "meters": 41.23124261116135
@@ -15807,7 +15807,7 @@
       "b": "osm-shop-way186353389",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.346,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-37b62db5--osm-shop-way186353389",
       "meters": 20
     },
@@ -15837,7 +15837,7 @@
       "b": "junction-3fd14776",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.408,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-5b11c732--junction-3fd14776",
       "meters": 45
     },
@@ -15857,7 +15857,7 @@
       "b": "junction-a6e502d5",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.896,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-2ff209e1--junction-a6e502d5",
       "meters": 29.524382629195966
     },
@@ -15946,7 +15946,7 @@
       "accessibility": [],
       "b": "junction-09307cb3",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.294,
       "id": "osm-shop-node1233368510--junction-09307cb3",
       "meters": 10.147124646269269
@@ -16017,7 +16017,7 @@
       "b": "junction-1a942663",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.209,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-17b0016a--junction-1a942663",
       "meters": 10.109800042933669
     },
@@ -16127,7 +16127,7 @@
       "b": "228b9736",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.259,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-2ff209e1--228b9736",
       "meters": 7.317331925669764
     },
@@ -16196,7 +16196,7 @@
       "accessibility": [],
       "b": "junction-0d16bb1d",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.699,
       "id": "junction-6b9d14db--junction-0d16bb1d-36be",
       "meters": 23.807163821897742
@@ -16286,7 +16286,7 @@
       "accessibility": [],
       "b": "junction-4cc07090",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 0.117,
       "id": "gadgetsgocoaster--junction-4cc07090",
       "meters": 17.871309095767188
@@ -16297,7 +16297,7 @@
       "b": "junction-0705bc4b",
       "baselineCrowd": 0.3,
       "elevationGainMeters": 0.12,
-      "elevationLossMeters": 0.0,
+      "elevationLossMeters": 0,
       "id": "junction-061754a6--junction-0705bc4b",
       "meters": 6
     },
@@ -16546,7 +16546,7 @@
       "accessibility": [],
       "b": "junction-060c1fb1",
       "baselineCrowd": 0.3,
-      "elevationGainMeters": 0.0,
+      "elevationGainMeters": 0,
       "elevationLossMeters": 1.374,
       "id": "aliceinwonderland--junction-060c1fb1",
       "meters": 71.7048863323148
@@ -16563,6 +16563,7 @@
       "id": "gate",
       "kind": "parkEntrance",
       "name": "Main Gate",
+      "park": "disneyland",
       "userEdited": true
     },
     {
@@ -24087,6 +24088,18 @@
       "elevationMeters": 43.151,
       "id": "junction-061754a6",
       "kind": "junction"
+    },
+    {
+      "coord": {
+        "latitude": 33.808765537072084,
+        "longitude": -117.91897058496303
+      },
+      "elevationMeters": 40.863,
+      "id": "parkEntrance-587f18bd",
+      "kind": "parkEntrance",
+      "name": "Main Gate",
+      "park": "california-adventure",
+      "userEdited": true
     }
   ]
 }
