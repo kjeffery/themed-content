@@ -1,0 +1,24 @@
+name: Check manifest
+
+# Catches the "imported but forgot to publish" gap: any role whose tracked
+# `<role>.json` source diverges from the hashed copy the manifest points at
+# fails the build. Also verifies every hashed file referenced by the manifest
+# exists with the expected sha256 + byte count.
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Verify manifest is in sync with sources
+        run: python tools/check_manifest.py
