@@ -8,7 +8,10 @@
       "traits": [
         "loud",
         "slow"
-      ]
+      ],
+      "bucketFit": {
+        "toddler": "mustDo"
+      }
     },
     "59647168-d239-4161-8b24-92eb128e96fb": {
       "minHeightInches": 35,
@@ -16,7 +19,10 @@
       "traits": [
         "smallDrops",
         "thrill"
-      ]
+      ],
+      "bucketFit": {
+        "toddler": "great"
+      }
     },
     "b2c2549c-e9da-4fdd-98ea-1dcff596fed7": {
       "minHeightInches": 38,
@@ -26,7 +32,10 @@
         "dark",
         "loud",
         "smallDrops"
-      ]
+      ],
+      "bucketFit": {
+        "child": "mustDo"
+      }
     },
     "0de1413a-73ee-46cf-af2e-c491cc7c7d3b": {
       "minHeightInches": 40,
@@ -35,7 +44,17 @@
         "dark",
         "loud",
         "smallDrops"
-      ]
+      ],
+      "appeal": [
+        "icon"
+      ],
+      "bucketFit": {
+        "child": "mustDo",
+        "tween": "mustDo",
+        "teen": "mustDo",
+        "adult": "mustDo",
+        "senior": "great"
+      }
     },
     "9167db1d-e5e7-46da-a07f-ae30a87bc4c4": {
       "minHeightInches": 40,
@@ -45,7 +64,18 @@
         "dark",
         "loud",
         "scary"
-      ]
+      ],
+      "appeal": [
+        "icon"
+      ],
+      "bucketFit": {
+        "child": "mustDo",
+        "tween": "mustDo",
+        "teen": "mustDo",
+        "adult": "mustDo",
+        "senior": "great"
+      },
+      "notes": "An indoor rollercoaster in the dark. The drops are not huge, but do exist. It\u2019s fast with a lot of turns."
     },
     "a9076acd-7630-4bad-a8da-e6bd689ddcac": {
       "minHeightInches": 40,
@@ -54,7 +84,17 @@
         "bigDrops",
         "thrill",
         "water"
-      ]
+      ],
+      "appeal": [
+        "icon"
+      ],
+      "bucketFit": {
+        "child": "mustDo",
+        "tween": "mustDo",
+        "teen": "mustDo",
+        "adult": "mustDo",
+        "senior": "great"
+      }
     },
     "cc718d11-fa15-44ee-87d0-ded989ad61bc": {
       "minHeightInches": 40,
@@ -63,7 +103,15 @@
         "dark",
         "loud",
         "smallDrops"
-      ]
+      ],
+      "bucketFit": {
+        "child": "great",
+        "tween": "mustDo",
+        "teen": "mustDo",
+        "adult": "mustDo",
+        "senior": "mustDo"
+      },
+      "notes": "A fun motion ride as R2D2 and C3PO escort you from danger."
     },
     "34b1d70f-11c4-42df-935e-d5582c9f1a8e": {
       "minHeightInches": 40,
@@ -72,7 +120,17 @@
         "dark",
         "loud",
         "scary"
-      ]
+      ],
+      "appeal": [
+        "icon"
+      ],
+      "bucketFit": {
+        "child": "mustDo",
+        "tween": "mustDo",
+        "teen": "mustDo",
+        "adult": "mustDo",
+        "senior": "great"
+      }
     },
     "faaa8be9-cc1e-4535-ac20-04a535654bd0": {
       "minHeightInches": 42,
@@ -82,7 +140,14 @@
         "dark",
         "loud",
         "scary"
-      ]
+      ],
+      "bucketFit": {
+        "child": "great",
+        "tween": "great",
+        "teen": "great",
+        "adult": "great",
+        "senior": "okay"
+      }
     },
     "2aedc657-1ee2-4545-a1ce-14753f28cc66": {
       "minHeightInches": 46,
@@ -92,14 +157,27 @@
         "dark",
         "loud",
         "scary"
-      ]
+      ],
+      "appeal": [
+        "icon"
+      ],
+      "bucketFit": {
+        "child": "mustDo",
+        "tween": "mustDo",
+        "teen": "mustDo",
+        "adult": "mustDo",
+        "senior": "great"
+      }
     },
     "46097afe-a1ea-4807-93d3-14d14f36e55f": {
       "minHeightInches": 32,
       "offersRiderSwitch": true,
       "traits": [
         "thrill"
-      ]
+      ],
+      "bucketFit": {
+        "toddler": "great"
+      }
     },
     "7a09a2f0-e226-4f3e-86f8-2598ab67ec44": {
       "minHeightInches": 32,
@@ -108,14 +186,24 @@
         "loud",
         "spinning",
         "thrill"
-      ]
+      ],
+      "bucketFit": {
+        "toddler": "mustDo"
+      }
     },
     "c8a4b7b1-c1b2-4dfe-b73c-4e834b4a73db": {
       "minHeightInches": 40,
       "offersRiderSwitch": true,
       "traits": [
         "smallDrops"
-      ]
+      ],
+      "bucketFit": {
+        "child": "mustDo",
+        "tween": "mustDo",
+        "teen": "great",
+        "adult": "great",
+        "senior": "great"
+      }
     },
     "b7678dab-5544-48d5-8fdc-c1a0127cfbcd": {
       "minHeightInches": 40,
@@ -124,6 +212,9 @@
         "bigDrops",
         "dark",
         "loud"
+      ],
+      "appeal": [
+        "icon"
       ]
     },
     "c60c768b-3461-465c-8f4f-b44b087506fc": {
@@ -134,6 +225,9 @@
         "dark",
         "loud",
         "smallDrops"
+      ],
+      "appeal": [
+        "icon"
       ]
     },
     "4f5b28d0-b78e-482b-8e2e-1f90756d6220": {
@@ -161,7 +255,10 @@
         "loud",
         "smallDrops",
         "thrill"
-      ]
+      ],
+      "bucketFit": {
+        "toddler": "great"
+      }
     },
     "b1d285a7-2444-4a7c-b7bb-d2d4d6428a85": {
       "minHeightInches": 42,
@@ -185,6 +282,9 @@
         "bigDrops",
         "loud",
         "thrill"
+      ],
+      "appeal": [
+        "icon"
       ]
     },
     "2295351d-ce6b-4c04-92d5-5b416372c5b5": {
@@ -194,7 +294,13 @@
         "dark",
         "loud",
         "spinning"
-      ]
+      ],
+      "appeal": [
+        "icon"
+      ],
+      "bucketFit": {
+        "toddler": "great"
+      }
     },
     "3638ac09-9fce-4a43-8c79-8ebbe17afce2": {
       "offersRiderSwitch": true,
@@ -202,7 +308,13 @@
         "loud",
         "slow",
         "water"
-      ]
+      ],
+      "appeal": [
+        "icon"
+      ],
+      "bucketFit": {
+        "toddler": "mustDo"
+      }
     },
     "07952343-3498-404b-8337-734de9a185c1": {
       "offersRiderSwitch": true
@@ -211,7 +323,10 @@
       "offersRiderSwitch": true,
       "traits": [
         "spinning"
-      ]
+      ],
+      "bucketFit": {
+        "toddler": "great"
+      }
     },
     "106c1e5a-a5e7-42d7-96ab-bc100d8faf71": {
       "offersRiderSwitch": true,
@@ -232,7 +347,13 @@
         "loud",
         "slow",
         "water"
-      ]
+      ],
+      "appeal": [
+        "icon"
+      ],
+      "bucketFit": {
+        "toddler": "mustDo"
+      }
     },
     "1d24dd7a-372b-4195-8ad0-ba9679d72b08": {
       "offersRiderSwitch": true
@@ -245,7 +366,10 @@
       "traits": [
         "slow",
         "spinning"
-      ]
+      ],
+      "bucketFit": {
+        "toddler": "mustDo"
+      }
     },
     "40524fba-5d84-49e7-9204-f493dbe2d5a4": {
       "offersRiderSwitch": true,
@@ -273,7 +397,10 @@
         "dark",
         "loud",
         "slow"
-      ]
+      ],
+      "bucketFit": {
+        "toddler": "okay"
+      }
     },
     "528016ef-db24-47fa-a0f2-b6d26d61e29f": {
       "offersRiderSwitch": true,
@@ -287,7 +414,10 @@
         "dark",
         "loud",
         "slow"
-      ]
+      ],
+      "bucketFit": {
+        "toddler": "great"
+      }
     },
     "56d0bd6d-5106-4420-8f60-0005475c04c3": {
       "offersRiderSwitch": true
@@ -310,7 +440,10 @@
       "offersRiderSwitch": true,
       "traits": [
         "spinning"
-      ]
+      ],
+      "bucketFit": {
+        "toddler": "mustDo"
+      }
     },
     "6c30d5b0-8c0a-406f-9258-0b6c55d4a5e4": {
       "offersRiderSwitch": true,
@@ -326,13 +459,20 @@
         "dark",
         "loud",
         "slow"
-      ]
+      ],
+      "bucketFit": {
+        "toddler": "great",
+        "child": "great"
+      }
     },
     "6d876f4c-c3ff-4ae3-a2d8-d4b831e1039b": {
       "offersRiderSwitch": true,
       "traits": [
         "spinning"
-      ]
+      ],
+      "bucketFit": {
+        "toddler": "great"
+      }
     },
     "7561bcd8-18ea-4e3f-89d5-c905b7ba3d42": {
       "offersRiderSwitch": true,
@@ -341,7 +481,10 @@
       ],
       "appeal": [
         "characterMeet"
-      ]
+      ],
+      "bucketFit": {
+        "toddler": "mustDo"
+      }
     },
     "82aeb29b-504a-416f-b13f-f41fa5b766aa": {
       "offersRiderSwitch": true,
@@ -349,7 +492,10 @@
         "dark",
         "loud",
         "scary"
-      ]
+      ],
+      "bucketFit": {
+        "toddler": "okay"
+      }
     },
     "835deb74-de54-4d7f-9dc4-dacab90fcb60": {
       "offersRiderSwitch": true,
@@ -362,7 +508,10 @@
       "traits": [
         "dark",
         "loud"
-      ]
+      ],
+      "bucketFit": {
+        "toddler": "great"
+      }
     },
     "88197808-3c56-4198-a5a4-6066541251cf": {
       "offersRiderSwitch": true,
@@ -370,16 +519,25 @@
         "dark",
         "loud",
         "slow"
-      ]
+      ],
+      "bucketFit": {
+        "toddler": "great"
+      }
     },
     "8e686e4c-f3db-4d9c-a185-2d54b1fa8899": {
       "offersRiderSwitch": true,
       "traits": [
         "slow"
-      ]
+      ],
+      "bucketFit": {
+        "toddler": "mustDo"
+      }
     },
     "8f586a2f-cef5-46d3-b822-fd622c4e9e33": {
-      "offersRiderSwitch": true
+      "offersRiderSwitch": true,
+      "bucketFit": {
+        "toddler": "mustDo"
+      }
     },
     "90d5a091-478c-4df1-adfe-c605b4005013": {
       "offersRiderSwitch": true,
@@ -393,7 +551,10 @@
         "dark",
         "loud",
         "scary"
-      ]
+      ],
+      "bucketFit": {
+        "toddler": "okay"
+      }
     },
     "9d401ad3-49b2-469f-ac73-93eb429428fb": {
       "offersRiderSwitch": true,
@@ -401,7 +562,10 @@
         "dark",
         "loud",
         "scary"
-      ]
+      ],
+      "bucketFit": {
+        "toddler": "okay"
+      }
     },
     "a07f3110-013e-43bb-a182-e66bb8b5e28d": {
       "offersRiderSwitch": true,
@@ -409,16 +573,25 @@
         "dark",
         "loud",
         "slow"
-      ]
+      ],
+      "bucketFit": {
+        "toddler": "okay"
+      }
     },
     "b0eca3d3-a519-47f9-a5a7-9911126da2df": {
-      "offersRiderSwitch": true
+      "offersRiderSwitch": true,
+      "bucketFit": {
+        "toddler": "great"
+      }
     },
     "bcfd1e17-3eab-4203-b597-6257a257d427": {
       "offersRiderSwitch": true,
       "traits": [
         "slow"
-      ]
+      ],
+      "bucketFit": {
+        "toddler": "mustDo"
+      }
     },
     "c02fb82d-0860-4e95-8c61-899fa594d20e": {
       "offersRiderSwitch": true,
@@ -432,7 +605,10 @@
         "dark",
         "loud",
         "slow"
-      ]
+      ],
+      "bucketFit": {
+        "toddler": "great"
+      }
     },
     "c2997e65-6db0-413f-a2db-ee995711d931": {
       "offersRiderSwitch": true
@@ -446,21 +622,31 @@
       ]
     },
     "ca32ef8a-ae0d-4c24-bf4f-e59192122e01": {
-      "offersRiderSwitch": true
+      "offersRiderSwitch": true,
+      "bucketFit": {
+        "toddler": "great"
+      }
     },
     "cb929138-d77a-4dd2-983c-f651bbd1bd92": {
       "offersRiderSwitch": true,
       "traits": [
         "slow",
         "water"
-      ]
+      ],
+      "bucketFit": {
+        "toddler": "mustDo"
+      },
+      "notes": "A gentle and slow ride on a small boat through miniature lands from Disney stories."
     },
     "cc980e8e-192f-48b6-848c-27784084e54b": {
       "offersRiderSwitch": true,
       "traits": [
         "slow",
         "spinning"
-      ]
+      ],
+      "bucketFit": {
+        "toddler": "mustDo"
+      }
     },
     "cd670bff-81d1-4f34-8676-7bafdf49220a": {
       "offersRiderSwitch": true,
@@ -468,7 +654,13 @@
         "dark",
         "loud",
         "slow"
-      ]
+      ],
+      "appeal": [
+        "icon"
+      ],
+      "bucketFit": {
+        "toddler": "okay"
+      }
     },
     "d2aa0987-49a2-45dc-a635-3a8bf7401230": {
       "offersRiderSwitch": true,
@@ -480,7 +672,10 @@
       "offersRiderSwitch": true,
       "traits": [
         "spinning"
-      ]
+      ],
+      "bucketFit": {
+        "toddler": "mustDo"
+      }
     },
     "e1fbc7a1-2cd1-4282-b373-ac11d9d9d38a": {
       "offersRiderSwitch": true,
@@ -488,7 +683,10 @@
         "dark",
         "loud",
         "slow"
-      ]
+      ],
+      "bucketFit": {
+        "toddler": "mustDo"
+      }
     },
     "e27b1db8-9ec9-4f8b-9ca6-fd6377de66ee": {
       "offersRiderSwitch": true
@@ -499,10 +697,16 @@
         "dark",
         "loud",
         "slow"
-      ]
+      ],
+      "bucketFit": {
+        "toddler": "mustDo"
+      }
     },
     "eb77ee1f-3207-44fd-acfc-d7bc18602007": {
-      "offersRiderSwitch": true
+      "offersRiderSwitch": true,
+      "appeal": [
+        "icon"
+      ]
     },
     "f5bb0d14-7eee-4ede-9230-eb256ce3664c": {
       "offersRiderSwitch": true,
@@ -516,7 +720,10 @@
         "loud",
         "slow",
         "spinning"
-      ]
+      ],
+      "bucketFit": {
+        "toddler": "mustDo"
+      }
     },
     "ff52cb64-c1d5-4feb-9d43-5dbd429bac81": {
       "offersRiderSwitch": true,
@@ -524,7 +731,13 @@
         "dark",
         "loud",
         "scary"
-      ]
+      ],
+      "appeal": [
+        "icon"
+      ],
+      "bucketFit": {
+        "toddler": "okay"
+      }
     },
     "531f6200-393e-4e4d-b95e-aedd30102e49": {
       "appeal": [
@@ -606,6 +819,19 @@
       "traits": [
         "dark"
       ]
+    },
+    "8c0a4fdb-69e0-4e4e-ab80-d8247edabe3a": {
+      "bucketFit": {
+        "toddler": "mustDo"
+      }
+    },
+    "bdb0a3ec-eb7a-41c9-918f-ccee7194743e": {
+      "appeal": [
+        "icon"
+      ],
+      "bucketFit": {
+        "toddler": "great"
+      }
     }
   }
 }
