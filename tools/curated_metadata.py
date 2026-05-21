@@ -2,7 +2,7 @@
 name-keyed CSV so you can edit it in any spreadsheet tool without ever
 typing a UUID.
 
-The CSV owns five things:
+The CSV owns eight things:
     Appeal              — comma-separated AppealTag rawValues
     BucketFit_<bucket>  — six columns, one per AgeBucket; each cell is
                           empty or one of: skip, okay, great, mustDo
@@ -14,11 +14,22 @@ The CSV owns five things:
                           Future roster picker work uses this; scaffold
                           seeds it from a substring match on the ride's
                           name, which the user reviews + edits.
+    Mobility            — comma-separated MobilityAccess flags (e.g.
+                          "mayRemainInWheelchair, mustTransferFromWheelchair").
+                          Drives wheelchair-conflict warnings in the app.
+                          Curate from Disney's Guide for Guests with
+                          Disabilities — see docs/accessibility_curation.md.
+    ServiceAnimals      — empty OR one of: permitted_with_caution,
+                          not_permitted. Empty = "permitted normally"
+                          (the default, no warning fires).
+    SensoryHazards      — comma-separated SensoryHazard rawValues (e.g.
+                          "strobe, loudSounds, darkness"). Drives the
+                          accessibility soft-warning chips.
     Notes               — freeform string
 
-`traits` (Disney-scraped) and the structural fields (minHeightInches,
-mobility, etc.) are NOT in the CSV — those have other sources of truth and
-the importer leaves them alone.
+`traits` (Disney-scraped from Ride Characteristics) and the structural
+fields (minHeightInches, hasSingleRider, etc.) are NOT in the CSV —
+those have other sources of truth and the importer leaves them alone.
 
 Usage:
     python3 themed-content/tools/curated_metadata.py scaffold
@@ -55,6 +66,32 @@ APPEAL_VALUES = {
     'photoOp', 'parade', 'fireworks', 'airConditioned',
 }
 POPULARITY_VALUES = ['low', 'medium', 'high', 'iconic']
+
+# Disney's 8-way mobility taxonomy — mirrors MobilityAccess fields in
+# RideMetadata.swift. CSV cells carry the rawValues of *true* flags only;
+# omitted flags decode to nil (absent / uncurated) on the Swift side.
+MOBILITY_VALUES = {
+    'mayRemainInWheelchair',
+    'mustBeAmbulatory',
+    'mustTransferFromWheelchair',
+    'mustTransferFromECVToWheelchair',
+    'wheelchairAccessVehicle',
+    'transferDeviceAvailable',
+    'designatedTransferAreas',
+    'transferAccessVehicle',
+}
+
+# ServiceAnimalPolicy in RideMetadata.swift. Empty CSV cell = "permitted
+# normally" (no special handling); the Swift side treats that as the
+# default and emits no warning chip.
+SERVICE_ANIMAL_VALUES = {'permitted_with_caution', 'not_permitted'}
+
+# SensoryHazard rawValues — mirrors the Swift enum in RideMetadata.swift.
+# Curate honestly: omit when uncurated, write the explicit list when
+# checked. See docs/accessibility_curation.md for source pointers.
+SENSORY_HAZARD_VALUES = {
+    'strobe', 'loudSounds', 'darkness', 'drops', 'smokeOrFog',
+}
 
 # Canonical character names paired with the substring patterns the
 # scaffold should look for in attraction / show names. Each entry is
@@ -132,7 +169,16 @@ KNOWN_CHARACTERS: list[tuple[str, list[str]]] = [
 CSV_FIELDS = (
     ['Attraction', 'EntityID', 'Park', 'Appeal']
     + [BUCKET_COL[b] for b in BUCKETS]
-    + ['Popularity', 'FeaturedCharacters', 'Notes']
+    + [
+        'Popularity', 'FeaturedCharacters',
+        # Accessibility cluster — kept adjacent in the CSV so a curator
+        # filling these in for one ride sees all three together rather
+        # than scrolling through the layout. Order matches the natural
+        # flow of how Disney's accessibility page is structured (mobility
+        # first, then service animals, then sensory advisories).
+        'Mobility', 'ServiceAnimals', 'SensoryHazards',
+        'Notes',
+    ]
 )
 
 
@@ -177,6 +223,25 @@ HEADER_COMMENTS = [
     '#   FeaturedCharacters  comma-separated character names (e.g.',
     '#                       "Mickey Mouse, Minnie Mouse"). Scaffold',
     '#                       guesses these from the ride name; review.',
+    '#   Mobility            comma-separated MobilityAccess flags. Any of:',
+    '#                       mayRemainInWheelchair, mustBeAmbulatory,',
+    '#                       mustTransferFromWheelchair,',
+    '#                       mustTransferFromECVToWheelchair,',
+    '#                       wheelchairAccessVehicle, transferDeviceAvailable,',
+    '#                       designatedTransferAreas, transferAccessVehicle.',
+    '#                       Empty = uncurated; the app emits no wheelchair',
+    '#                       warning. Curate from Disney\'s Guide for Guests',
+    '#                       with Disabilities — see docs/accessibility_curation.md.',
+    '#   ServiceAnimals      empty (= permitted normally) OR one of:',
+    '#                       permitted_with_caution, not_permitted.',
+    '#                       `not_permitted` hard-blocks for service-animal',
+    '#                       users; `permitted_with_caution` shows a soft',
+    '#                       warning.',
+    '#   SensoryHazards      comma-separated SensoryHazard rawValues. Any of:',
+    '#                       strobe, loudSounds, darkness, drops, smokeOrFog.',
+    '#                       Empty = uncurated (no warning). Write the',
+    '#                       explicit list when you\'ve verified against',
+    '#                       official sources, even if no hazards apply.',
     '#   Notes               freeform; sparingly, for facts the typed',
     '#                       fields miss',
     '#',
@@ -188,6 +253,10 @@ HEADER_COMMENTS = [
     "#   - Re-running 'scaffold' preserves your edits and adds rows for any",
     '#     newly-graphed attractions. Character guesses are only seeded on',
     '#     blank rows so re-runs never overwrite reviewed values.',
+    '#   - Accessibility data is high-stakes; the in-app disclaimer assumes',
+    '#     curated entries are correct. Under-promise: omit a field when',
+    "#     you're unsure rather than guess (uncurated = no warning fires,",
+    "#     which lets the user's own judgement carry).",
 ]
 
 
@@ -237,6 +306,14 @@ def scaffold(args) -> int:
         characters = existing.get('featuredCharacters') or []
         if not characters:
             characters = guess_characters(node['name'])
+        # Accessibility fields — flatten back from JSON shape into the
+        # CSV's comma-separated rawValue format. `mobility` is a dict
+        # of boolean flags; we emit the keys whose value is true. The
+        # other two are scalar/set already so they map directly.
+        mobility_obj = existing.get('mobility') or {}
+        mobility_flags = [k for k, v in mobility_obj.items() if v is True]
+        service_animals = existing.get('serviceAnimals') or ''
+        sensory_hazards = existing.get('sensoryHazards') or []
         row = {
             'Attraction': node['name'],
             'EntityID': eid,
@@ -244,6 +321,9 @@ def scaffold(args) -> int:
             'Appeal': ', '.join(appeal),
             'Popularity': popularity or '',
             'FeaturedCharacters': ', '.join(characters),
+            'Mobility': ', '.join(mobility_flags),
+            'ServiceAnimals': service_animals,
+            'SensoryHazards': ', '.join(sensory_hazards),
             'Notes': existing.get('notes') or '',
         }
         for b in BUCKETS:
@@ -269,9 +349,14 @@ def scaffold(args) -> int:
         1 for r in rows if r['Appeal'] or r['Notes'] or r['Popularity']
         or any(r[BUCKET_COL[b]] for b in BUCKETS)
     )
+    accessibility_curated = sum(
+        1 for r in rows
+        if r['Mobility'] or r['ServiceAnimals'] or r['SensoryHazards']
+    )
     guessed_chars = sum(1 for r in rows if r['FeaturedCharacters'])
     print(f'  {pre_curated} entries already had curated values (preserved).')
     print(f'  {len(rows) - pre_curated} entries are blank and ready to fill in.')
+    print(f'  {accessibility_curated} entries have accessibility fields set.')
     print(f'  {guessed_chars} rows have a FeaturedCharacters guess to review.')
     return 0
 
@@ -360,6 +445,54 @@ def import_curated(args) -> int:
                 seen.add(key)
                 characters.append(c)
 
+            # Mobility: comma-split rawValues, validated against
+            # MOBILITY_VALUES, written back to JSON as
+            # `{"<flag>": true, ...}` (Swift decodes missing keys as
+            # nil = absent flag). Empty cell → no `mobility` key emitted
+            # at all (uncurated).
+            mobility_raw = [
+                m.strip() for m in (row.get('Mobility') or '').split(',')
+            ]
+            mobility_flags: list[str] = []
+            for m in mobility_raw:
+                if not m:
+                    continue
+                if m not in MOBILITY_VALUES:
+                    vocab_errors.append(
+                        (name, f'unknown Mobility flag {m!r}')
+                    )
+                    continue
+                if m not in mobility_flags:
+                    mobility_flags.append(m)
+
+            # ServiceAnimals: scalar enum. Empty = no key emitted
+            # (default behavior in the app: no warning).
+            service_animals = (row.get('ServiceAnimals') or '').strip()
+            if service_animals and service_animals not in SERVICE_ANIMAL_VALUES:
+                vocab_errors.append(
+                    (name, f'ServiceAnimals={service_animals!r} not in '
+                          f'{sorted(SERVICE_ANIMAL_VALUES)}')
+                )
+                service_animals = ''
+
+            # SensoryHazards: comma-split rawValues, validated against
+            # SENSORY_HAZARD_VALUES. De-duped, order-preserving — the
+            # JSON stays human-readable and re-runs produce stable diffs.
+            hazard_raw = [
+                h.strip() for h in (row.get('SensoryHazards') or '').split(',')
+            ]
+            sensory_hazards: list[str] = []
+            for h in hazard_raw:
+                if not h:
+                    continue
+                if h not in SENSORY_HAZARD_VALUES:
+                    vocab_errors.append(
+                        (name, f'unknown SensoryHazards value {h!r}')
+                    )
+                    continue
+                if h not in sensory_hazards:
+                    sensory_hazards.append(h)
+
             existing = entries.get(eid, {})
             # Preserve every field except the ones we authoritatively own.
             merged = {
@@ -367,6 +500,7 @@ def import_curated(args) -> int:
                 if k not in (
                     'appeal', 'bucketFit', 'notes',
                     'popularity', 'featuredCharacters',
+                    'mobility', 'serviceAnimals', 'sensoryHazards',
                 )
             }
             if appeal:
@@ -377,6 +511,12 @@ def import_curated(args) -> int:
                 merged['popularity'] = popularity
             if characters:
                 merged['featuredCharacters'] = characters
+            if mobility_flags:
+                merged['mobility'] = {flag: True for flag in mobility_flags}
+            if service_animals:
+                merged['serviceAnimals'] = service_animals
+            if sensory_hazards:
+                merged['sensoryHazards'] = sensory_hazards
             if notes:
                 merged['notes'] = notes
             if not merged:
