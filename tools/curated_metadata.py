@@ -2,11 +2,19 @@
 name-keyed CSV so you can edit it in any spreadsheet tool without ever
 typing a UUID.
 
-The CSV owns three things:
-    Appeal             — comma-separated AppealTag rawValues
-    BucketFit_<bucket> — six columns, one per AgeBucket; each cell is
-                         empty or one of: skip, okay, great, mustDo
-    Notes              — freeform string
+The CSV owns five things:
+    Appeal              — comma-separated AppealTag rawValues
+    BucketFit_<bucket>  — six columns, one per AgeBucket; each cell is
+                          empty or one of: skip, okay, great, mustDo
+    Popularity          — empty OR one of: low, medium, high, iconic
+                          Drives the suggester ranking when live wait-
+                          time data is missing (pre-park-open planning).
+    FeaturedCharacters  — comma-separated character names that appear
+                          on this attraction (e.g. "Mickey, Minnie").
+                          Future roster picker work uses this; scaffold
+                          seeds it from a substring match on the ride's
+                          name, which the user reviews + edits.
+    Notes               — freeform string
 
 `traits` (Disney-scraped) and the structural fields (minHeightInches,
 mobility, etc.) are NOT in the CSV — those have other sources of truth and
@@ -46,12 +54,101 @@ APPEAL_VALUES = {
     'characterMeet', 'princess', 'nostalgia', 'icon',
     'photoOp', 'parade', 'fireworks', 'airConditioned',
 }
+POPULARITY_VALUES = ['low', 'medium', 'high', 'iconic']
+
+# Canonical character names paired with the substring patterns the
+# scaffold should look for in attraction / show names. Each entry is
+# (canonical, [pattern, ...]); a match on *any* pattern emits the
+# canonical. The short-form patterns ("Mickey" matches "Mickey's
+# Toontown" / "Mickey & Minnie's Runaway Railway") matter because
+# Disney rarely uses full character names in attraction signage.
+#
+# The guess is a starting point, never authoritative — the scaffold
+# only seeds blank rows and re-runs preserve curated values, so
+# review-and-tweak is the expected workflow.
+KNOWN_CHARACTERS: list[tuple[str, list[str]]] = [
+    # Mickey & Friends
+    ('Mickey Mouse', ['Mickey Mouse', 'Mickey']),
+    ('Minnie Mouse', ['Minnie Mouse', 'Minnie']),
+    ('Donald Duck', ['Donald Duck', 'Donald']),
+    ('Daisy Duck', ['Daisy Duck', 'Daisy']),
+    ('Goofy', ['Goofy']),
+    ('Pluto', ['Pluto']),
+    ('Chip', ['Chip']),
+    ('Dale', ['Dale']),
+    # Princesses
+    ('Cinderella', ['Cinderella']),
+    ('Aurora', ['Aurora', 'Sleeping Beauty']),
+    ('Snow White', ['Snow White']),
+    ('Ariel', ['Ariel', 'Little Mermaid']),
+    ('Belle', ["Belle's", 'Belle ', 'Beauty and the Beast']),
+    ('Tiana', ['Tiana']),
+    ('Anna', ['Anna ', "Anna's"]),
+    ('Elsa', ['Elsa']),
+    ('Rapunzel', ['Rapunzel', 'Tangled']),
+    ('Mulan', ['Mulan']),
+    ('Pocahontas', ['Pocahontas']),
+    ('Moana', ['Moana']),
+    ('Merida', ['Merida', 'Brave']),
+    ('Jasmine', ['Jasmine']),
+    ('Aladdin', ['Aladdin']),
+    # Pixar
+    ('Buzz Lightyear', ['Buzz Lightyear', 'Buzz']),
+    ('Woody', ['Woody']),
+    ('Jessie', ['Jessie']),
+    ('Mr. Incredible', ['Mr. Incredible', 'Incredibles']),
+    ('Elastigirl', ['Elastigirl']),
+    # Star Wars
+    ('Darth Vader', ['Darth Vader', 'Vader']),
+    ('Luke Skywalker', ['Luke Skywalker', 'Luke']),
+    ('Kylo Ren', ['Kylo']),
+    ('Rey', ['Rey']),
+    ('Chewbacca', ['Chewbacca', 'Chewie']),
+    ('BB-8', ['BB-8']),
+    # Marvel
+    ('Spider-Man', ['Spider-Man', 'Spiderman']),
+    ('Iron Man', ['Iron Man']),
+    ('Captain America', ['Captain America']),
+    ('Black Widow', ['Black Widow']),
+    ('Thor', ['Thor']),
+    # Misc Disney
+    ('Peter Pan', ['Peter Pan']),
+    ('Tinker Bell', ['Tinker Bell', 'Tinkerbell']),
+    ('Alice', ['Alice in Wonderland', "Alice's"]),
+    ('Mad Hatter', ['Mad Hatter', "Mad T Party"]),
+    ('Pinocchio', ['Pinocchio']),
+    ('Stitch', ['Stitch']),
+    ('Lilo', ['Lilo']),
+    ('Winnie the Pooh', ['Winnie the Pooh', 'Pooh']),
+    ('Tigger', ['Tigger']),
+    ('Eeyore', ['Eeyore']),
+    ('Piglet', ['Piglet']),
+    ('Roger Rabbit', ['Roger Rabbit']),
+    ('Mr. Toad', ['Mr. Toad']),
+    ('Dumbo', ['Dumbo']),
+    ('Indiana Jones', ['Indiana Jones']),
+]
 
 CSV_FIELDS = (
     ['Attraction', 'EntityID', 'Park', 'Appeal']
     + [BUCKET_COL[b] for b in BUCKETS]
-    + ['Notes']
+    + ['Popularity', 'FeaturedCharacters', 'Notes']
 )
+
+
+def guess_characters(attraction_name: str) -> list[str]:
+    """Substring-match each known character's patterns against the
+    attraction name (case-insensitive) and emit the canonical name on
+    any hit. Returns matches in source order so multi-character
+    attractions emit deterministically ("Mickey Mouse, Minnie Mouse")
+    — easier for the user to review than an order that drifts with
+    implementation details."""
+    haystack = attraction_name.lower()
+    matched: list[str] = []
+    for canonical, patterns in KNOWN_CHARACTERS:
+        if any(p.lower() in haystack for p in patterns):
+            matched.append(canonical)
+    return matched
 
 # Header comment lines written by `scaffold`. Each appears in the CSV as a
 # row whose first cell starts with '#' — the importer skips those rows, and
@@ -69,18 +166,28 @@ HEADER_COMMENTS = [
     '#      Use --dry-run for a preview. Vocabulary errors abort the write.',
     '#',
     '# VOCABULARY',
-    '#   Appeal     comma-separated, any of:',
-    '#              characterMeet, princess, nostalgia, icon,',
-    '#              photoOp, parade, fireworks, airConditioned',
-    '#   BucketFit_*  empty (= no opinion) OR one of: skip, okay, great, mustDo',
-    '#   Notes      freeform; sparingly, for facts the typed fields miss',
+    '#   Appeal              comma-separated, any of:',
+    '#                       characterMeet, princess, nostalgia, icon,',
+    '#                       photoOp, parade, fireworks, airConditioned',
+    '#   BucketFit_*         empty (= no opinion) OR one of:',
+    '#                       skip, okay, great, mustDo',
+    '#   Popularity          empty OR one of: low, medium, high, iconic',
+    '#                       Drives the suggester ranking when live wait-',
+    '#                       time data is missing (closed-hour planning).',
+    '#   FeaturedCharacters  comma-separated character names (e.g.',
+    '#                       "Mickey Mouse, Minnie Mouse"). Scaffold',
+    '#                       guesses these from the ride name; review.',
+    '#   Notes               freeform; sparingly, for facts the typed',
+    '#                       fields miss',
     '#',
     '# TIPS',
-    "#   - Tag the ~15 park-defining attractions with 'icon' first — biggest",
-    '#     win for the suggester before the rest of the data lands.',
+    "#   - Tag the ~15 park-defining attractions with 'icon' Appeal AND",
+    "#     'iconic' Popularity first — biggest win for the suggester before",
+    '#     the rest of the data lands.',
     '#   - BucketFit can stay sparse; resolver defaults absent buckets to okay.',
     "#   - Re-running 'scaffold' preserves your edits and adds rows for any",
-    '#     newly-graphed attractions.',
+    '#     newly-graphed attractions. Character guesses are only seeded on',
+    '#     blank rows so re-runs never overwrite reviewed values.',
 ]
 
 
@@ -117,11 +224,26 @@ def scaffold(args) -> int:
         existing = entries.get(eid) or entries.get(eid.upper()) or {}
         appeal = existing.get('appeal') or []
         bucketFit = existing.get('bucketFit') or {}
+        # Popularity: preserve any curated value; otherwise seed `iconic`
+        # when Appeal already contains `icon` so the new column starts
+        # half-populated for park-defining attractions.
+        popularity = existing.get('popularity')
+        if not popularity and 'icon' in appeal:
+            popularity = 'iconic'
+        # Featured characters: preserve any curated list; otherwise
+        # seed via name match. Only seed when blank so re-running
+        # scaffold after a curation pass doesn't overwrite the user's
+        # reviewed picks with a fresh guess.
+        characters = existing.get('featuredCharacters') or []
+        if not characters:
+            characters = guess_characters(node['name'])
         row = {
             'Attraction': node['name'],
             'EntityID': eid,
             'Park': node.get('park') or '',
             'Appeal': ', '.join(appeal),
+            'Popularity': popularity or '',
+            'FeaturedCharacters': ', '.join(characters),
             'Notes': existing.get('notes') or '',
         }
         for b in BUCKETS:
@@ -143,10 +265,14 @@ def scaffold(args) -> int:
         for row in rows:
             w.writerow(row)
     print(f'Wrote {len(rows)} attractions to {args.csv}')
-    pre_curated = sum(1 for r in rows if r['Appeal'] or r['Notes']
-                      or any(r[BUCKET_COL[b]] for b in BUCKETS))
+    pre_curated = sum(
+        1 for r in rows if r['Appeal'] or r['Notes'] or r['Popularity']
+        or any(r[BUCKET_COL[b]] for b in BUCKETS)
+    )
+    guessed_chars = sum(1 for r in rows if r['FeaturedCharacters'])
     print(f'  {pre_curated} entries already had curated values (preserved).')
     print(f'  {len(rows) - pre_curated} entries are blank and ready to fill in.')
+    print(f'  {guessed_chars} rows have a FeaturedCharacters guess to review.')
     return 0
 
 
@@ -210,14 +336,47 @@ def import_curated(args) -> int:
 
             notes = (row.get('Notes') or '').strip()
 
+            popularity = (row.get('Popularity') or '').strip()
+            if popularity and popularity not in POPULARITY_VALUES:
+                vocab_errors.append(
+                    (name, f'Popularity={popularity!r} not in {POPULARITY_VALUES}')
+                )
+                popularity = ''
+
+            # Featured characters: same comma-split shape as Appeal but no
+            # closed vocabulary — the iOS side treats these as freeform
+            # strings. Trim, drop blanks, de-dup while preserving the
+            # author's order so review-friendly groupings ("Mickey Mouse,
+            # Minnie Mouse") stay together.
+            char_raw = [c.strip() for c in (row.get('FeaturedCharacters') or '').split(',')]
+            seen: set[str] = set()
+            characters: list[str] = []
+            for c in char_raw:
+                if not c:
+                    continue
+                key = c.lower()
+                if key in seen:
+                    continue
+                seen.add(key)
+                characters.append(c)
+
             existing = entries.get(eid, {})
-            # Preserve every field except the three we authoritatively own.
-            merged = {k: v for k, v in existing.items()
-                      if k not in ('appeal', 'bucketFit', 'notes')}
+            # Preserve every field except the ones we authoritatively own.
+            merged = {
+                k: v for k, v in existing.items()
+                if k not in (
+                    'appeal', 'bucketFit', 'notes',
+                    'popularity', 'featuredCharacters',
+                )
+            }
             if appeal:
                 merged['appeal'] = appeal
             if bucketFit:
                 merged['bucketFit'] = bucketFit
+            if popularity:
+                merged['popularity'] = popularity
+            if characters:
+                merged['featuredCharacters'] = characters
             if notes:
                 merged['notes'] = notes
             if not merged:
