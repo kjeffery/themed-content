@@ -55,126 +55,126 @@
 "#     you're unsure rather than guess (uncurated = no warning fires,",,,,,,,,,,,,,,,
 "#     which lets the user's own judgement carry).",,,,,,,,,,,,,,,
 Attraction,EntityID,Park,Appeal,BucketFit_toddler,BucketFit_child,BucketFit_tween,BucketFit_teen,BucketFit_adult,BucketFit_senior,Popularity,FeaturedCharacters,Mobility,ServiceAnimals,SensoryHazards,Notes
-Ancient Sanctum,531f6200-393e-4e4d-b95e-aedd30102e49,california-adventure,characterMeet,,,,,,,,,,,,
-Animation Academy,d2aa0987-49a2-45dc-a635-3a8bf7401230,california-adventure,characterMeet,,,,,,,,,,,,
-Avengers Headquarters,3ee735b5-68dc-470a-a4a2-6ddd415b9cbd,california-adventure,characterMeet,,,,,,,,,,,,
-Citizens of Buena Vista Street,8d4b6d5f-558f-4210-82b5-02b0570232ea,california-adventure,,,,,,,,,,,,,
-Confection Purrfection with the SuperKitties,2fdd02e8-3835-4ef8-bd07-4c3332fb84fa,california-adventure,,,,,,,,,,,,,
-Cookin' with the Jammin’ Chefs,4b7f57a0-c841-43d1-8abb-d13a3b7f2597,california-adventure,,,,,,,,,,,,,
-Culinary Demonstrations at the Disney California Adventure Food & Wine Festival,464ba110-9573-457b-abad-54a740e0ec33,california-adventure,,,,,,,,,,,,,
-Disney Jr. Mickey Mouse Clubhouse Live!,8c0a4fdb-69e0-4e4e-ab80-d8247edabe3a,california-adventure,,mustDo,,,,,,,Mickey Mouse,,,,
-Disney® Visa® Cardmember Heroic Encounter,12180467-471a-4f93-a7b1-7115aab487f2,california-adventure,characterMeet,,,,,,,,,,,,
-Five & Dime,449e351b-a05a-4a52-8893-0ed5c1f6fc48,california-adventure,,,,,,,,,,,,,
-Games of Pixar Pier,1d24dd7a-372b-4195-8ad0-ba9679d72b08,california-adventure,,,,,,,,,,,,,
-Golden Zephyr,10a5fc6f-5ad3-414b-9bdd-e6bae097b6ad,california-adventure,,great,,,,,,,,,,,
-Goofy's Sky School,f44a5072-3cda-4c7c-8574-33ad09d16cca,california-adventure,,great,,,,,,,Goofy,,,,
-Grizzly River Run,b1d285a7-2444-4a7c-b7bb-d2d4d6428a85,california-adventure,,,,,,,,,,,,,
-Guardians of the Galaxy - Mission: BREAKOUT!,b7678dab-5544-48d5-8fdc-c1a0127cfbcd,california-adventure,icon,,,,,,,iconic,,,,,
-Guardians of the Galaxy: Awesome Dance Off!,0c6c7664-94f0-48b0-91ce-7cc2108a72c9,california-adventure,characterMeet,,,,,,,,,,,,
-Incredicoaster,5d07a2b1-49ca-4de7-9d32-6d08edf69b08,california-adventure,icon,,,,,,,iconic,,,,,
-Inside Out Emotional Whirlwind,6d876f4c-c3ff-4ae3-a2d8-d4b831e1039b,california-adventure,,great,,,,,,,,,,,
-Jessie's Critter Carousel,388ad3f1-5cf5-4a9d-8d0e-6dfb817d7822,california-adventure,,mustDo,,,,,,,Jessie,,,,
-Jumpin' Jellyfish,c8a4b7b1-c1b2-4dfe-b73c-4e834b4a73db,california-adventure,,,mustDo,mustDo,great,great,great,,,,,,
-Luigi's Rollickin' Roadsters,7a09a2f0-e226-4f3e-86f8-2598ab67ec44,california-adventure,,mustDo,,,,,,,,,,,
-Mater's Junkyard Jamboree,46097afe-a1ea-4807-93d3-14d14f36e55f,california-adventure,,great,,,,,,,,,,,
-Meet Chef Goofy,a4374b75-7fa4-4205-9571-02099e08944f,california-adventure,characterMeet,,,,,,,,Goofy,,,,
-Meet Disney Pals on Buena Vista Street,4c570f5a-c5da-4388-9804-dd56123d18ce,california-adventure,characterMeet,,,,,,,,,,,,
-Meet the Residents of Radiator Springs in Cars Land,f71bfc6e-2f10-40a1-bf29-a4b98c5350f4,california-adventure,characterMeet,,,,,,,,,,,,
-Mickey's PhilharMagic,8f586a2f-cef5-46d3-b822-fd622c4e9e33,california-adventure,,mustDo,,,,,,,Mickey Mouse,,,,
-"Monsters, Inc. Mike & Sulley to the Rescue!",40524fba-5d84-49e7-9204-f493dbe2d5a4,california-adventure,,,,,,,,,,,,,
-Operation: Playtime! - featuring the Green Army Patrol,af195dcb-a69e-499a-b659-6751ee871f79,california-adventure,,,,,,,,,,,,,
-Palisades Stage,19dad87e-2df8-4fe2-9562-c711d464e4b7,california-adventure,,,,,,,,,,,,,
-Paradise Garden Bandstand,dca741a6-3472-4d4f-a9aa-7774aae81754,california-adventure,,,,,,,,,,,,,
-Pixar Pal-A-Round - Swinging,528016ef-db24-47fa-a0f2-b6d26d61e29f,california-adventure,,,,,,,,,,,,,
-Pixar Pal-A-Round – Non-Swinging,4ca6cdbf-4c5f-45bf-b0dc-db83393ec208,california-adventure,,,,,,,,,,,,,
-Radiator Springs Racers,c60c768b-3461-465c-8f4f-b44b087506fc,california-adventure,icon,,,,,,,iconic,,,,,
-Redwood Creek Challenge Trail,c9803366-6f37-4406-82af-7692357e3ca9,california-adventure,,,,,,,,,,,,,
-Silly Symphony Swings,4f5b28d0-b78e-482b-8e2e-1f90756d6220,california-adventure,,,,,,,,,,,,,
-Soarin' Over California,77f205a4-d482-4d91-a5ff-71e54a086ad2,california-adventure,,,,,,,,,,,,,
-Sorcerer's Workshop,44c1f655-25d3-440c-b1a8-db736a12b105,california-adventure,,,,,,,,,,,,,
-The Amazing Spider-Man!,bdb0a3ec-eb7a-41c9-918f-ccee7194743e,california-adventure,icon,great,,,,,,iconic,Spider-Man,,,,
-The Bakery Tour,eb77ee1f-3207-44fd-acfc-d7bc18602007,california-adventure,icon,,,,,,,iconic,,,,,
-The Little Mermaid - Ariel's Undersea Adventure,e1fbc7a1-2cd1-4282-b373-ac11d9d9d38a,california-adventure,,mustDo,,,,,,,Ariel,,,,
-Toy Story Midway Mania!,86ab3069-110d-49c5-a7e7-29ddf28695a6,california-adventure,,great,,,,,,,,,,,
-Turtle Talk with Crush,7561bcd8-18ea-4e3f-89d5-c905b7ba3d42,california-adventure,characterMeet,mustDo,,,,,,,,,,,
-Warriors of Wakanda: The Disciplines of the Dora Milaje,1b6a816a-337c-431c-8df6-72f993e15e64,california-adventure,,,,,,,,,,,,,
-WEB SLINGERS: A Spider-Man Adventure,2295351d-ce6b-4c04-92d5-5b416372c5b5,california-adventure,icon,great,,,,,,iconic,Spider-Man,,,,
-World of Color Happiness!,457e2029-852f-4de7-9ca0-e4cc6f0cfcad,california-adventure,,,,,,,,,,,,,
-"""it's a small world""",3638ac09-9fce-4a43-8c79-8ebbe17afce2,disneyland,icon,mustDo,,,,,,iconic,,,,,
-Adventureland Treehouse inspired by Walt Disney’s Swiss Family Robinson,e27b1db8-9ec9-4f8b-9ca6-fd6377de66ee,disneyland,,,,,,,,,,,,,
-Alice in Wonderland,a07f3110-013e-43bb-a182-e66bb8b5e28d,disneyland,,okay,,,,,,,Alice,,,,
-Astro Orbitor,6c225598-91c9-44a3-95e2-7c423475db61,disneyland,,mustDo,,,,,,,,,,,
-Autopia,1da85181-bf0f-4ccc-b98e-243142f7347b,disneyland,,mustDo,,,,,,,,,,,
-Big Thunder Mountain Railroad,0de1413a-73ee-46cf-af2e-c491cc7c7d3b,disneyland,icon,,mustDo,mustDo,mustDo,mustDo,great,iconic,,,,,
-Bluey's Best Day Ever!,95a9cde3-ff1f-40a3-8276-2477ded688f8,disneyland,characterMeet,,,,,,,,,,,,
-Bluey’s Best Day Ever! at Fantasyland Theatre,888525b0-5a6f-4b8e-9f07-b6a32812b04d,disneyland,,,,,,,,,,,,,
-Buzz Lightyear Astro Blasters,88197808-3c56-4198-a5a4-6066541251cf,disneyland,,great,,,,,,,Buzz Lightyear,,,,
-Casey Jr. Circus Train,8e686e4c-f3db-4d9c-a185-2d54b1fa8899,disneyland,,mustDo,,,,,,,,,,,
-Chip 'n' Dale's GADGETcoaster,59647168-d239-4161-8b24-92eb128e96fb,disneyland,,great,,,,,,,"Chip, Dale",,,,
-Davy Crockett's Explorer Canoes,5bd95ae8-181d-449c-8f04-a621e2448961,disneyland,,,,,,,,,,,,,
-"Disneyland Band at ""it's a small world"" Promenade",78568c55-6dcb-4893-a14e-ba7ed9bddaff,disneyland,,,,,,,,,,,,,
-Disneyland Band at Castle Promenade,228b9736-f889-469f-92f7-0e89bf150d5c,disneyland,,,,,,,,,,,,,
-Disneyland Band at Frontierland,cb84b53c-dbb5-483d-a717-00d9259c6484,disneyland,,,,,,,,,,,,,
-"Disneyland Band at Main Street, U.S.A.",a6760f7b-3489-47df-9547-d70dd2d8cb76,disneyland,,,,,,,,,,,,,
-Disneyland Monorail,56d0bd6d-5106-4420-8f60-0005475c04c3,disneyland,,,,,,,,,,,,,
-Disneyland Railroad,e2d460e9-2bef-4613-b126-092ab7cb37e5,disneyland,,mustDo,,,,,,,,,,,
-Donald's Duck Pond,ca32ef8a-ae0d-4c24-bf4f-e59192122e01,disneyland,,great,,,,,,,Donald Duck,,,,
-Dumbo the Flying Elephant,cc980e8e-192f-48b6-848c-27784084e54b,disneyland,,mustDo,,,,,,,Dumbo,,,,
-Fantasmic!,8c36ff0b-3a32-4d7b-9388-0516c19277db,disneyland,"characterMeet, fireworks",,,,,,,,,,,,
-Fantasy Faire,645c11b7-51f7-41d5-9764-5a7fa9d2535c,disneyland,characterMeet,,,,,,,,,,,,
-Finding Nemo Submarine Voyage,64d44aaa-6857-4693-b24b-bcff6c6dcfa1,disneyland,,,,,,,,,,,,,
-Fire of the Rising Moons,e9ef1443-c735-43b6-81c6-45e53527cf93,disneyland,fireworks,,,,,,,,,,,,
-Flag Retreat Ceremony,eeafc865-a4e0-4dc5-9cea-446108bf7d48,disneyland,,,,,,,,,,,,,
-Fortune Tellers,c2997e65-6db0-413f-a2db-ee995711d931,disneyland,,,,,,,,,,,,,
-Frontierland Shootin' Exposition,835deb74-de54-4d7f-9dc4-dacab90fcb60,disneyland,,,,,,,,,,,,,
-Goofy's How-to-Play Yard,b0eca3d3-a519-47f9-a5a7-9911126da2df,disneyland,,great,,,,,,,Goofy,,,,
-Great Moments with Mr. Lincoln,1b23667a-d8fb-436d-8952-c3e3f2e56d13,disneyland,,,,,,,,,,,,,
-Haunted Mansion,ff52cb64-c1d5-4feb-9d43-5dbd429bac81,disneyland,icon,okay,,,,,,iconic,,,,,
-Indiana Jones™ Adventure,2aedc657-1ee2-4545-a1ce-14753f28cc66,disneyland,icon,,mustDo,mustDo,mustDo,mustDo,great,iconic,Indiana Jones,,,,
-Jambalaya Jazz,3220fd76-38e4-49a4-afa3-4842c07203fa,disneyland,,,,,,,,,,,,,
-Jambalaya Jazz Band on the Mark Twain Riverboat,640525ab-75db-4f3c-b917-27ecb7b5ef97,disneyland,,,,,,,,,,,,,
-Jungle Cruise,1b83fda8-d60e-48e4-9a3d-90ddcbcd1001,disneyland,icon,mustDo,,,,,,iconic,,,,,
-Key to Disneyland,11209961-2ac2-4f76-a11b-ed793939f796,disneyland,,,,,,,,,,,,,
-King Arthur Carrousel,f7904912-3f08-4563-b99e-fd59f43cc9f2,disneyland,,mustDo,,,,,,,,,,,
-Mad Tea Party,e0cfed11-96d7-40f3-907f-5cfed172592a,disneyland,,mustDo,,,,,,,,,,,
-Main Street Cinema,f5bb0d14-7eee-4ede-9230-eb256ce3664c,disneyland,,,,,,,,,,,,,
-Main Street Piano Player,8b12916b-a384-4305-838a-c4b07affbb14,disneyland,,,,,,,,,,,,,
-Main Street Vehicles,bcfd1e17-3eab-4203-b597-6257a257d427,disneyland,,mustDo,,,,,,,,,,,
-Mark Twain Riverboat,6c30d5b0-8c0a-406f-9258-0b6c55d4a5e4,disneyland,,,,,,,,,,,,,
-Matterhorn Bobsleds,faaa8be9-cc1e-4535-ac20-04a535654bd0,disneyland,,,great,great,great,great,okay,,,,,,
-Meet Disney Princesses at Royal Hall,33cbbd09-6d93-40d7-b758-9d7b7d3fd2eb,disneyland,characterMeet,,,,,,,,,,,,
-Mickey & Minnie's Runaway Railway,cd670bff-81d1-4f34-8676-7bafdf49220a,disneyland,icon,okay,,,,,,iconic,"Mickey Mouse, Minnie Mouse",,,,
-Mickey's House and Meet Mickey Mouse,5a107a57-9174-4f3f-9be7-625a5d5bb899,disneyland,,,,,,,,,Mickey Mouse,,,,
-Mickey's House and Meet Mickey Mouse,87387057-47ab-4d0b-8eed-2e6c9d23577b,disneyland,,,,,,,,,Mickey Mouse,,,,
-Millennium Falcon: Smugglers Run,b2c2549c-e9da-4fdd-98ea-1dcff596fed7,disneyland,,,mustDo,,,,,,,,,,
-Minnie's House,c02fb82d-0860-4e95-8c61-899fa594d20e,disneyland,characterMeet,,,,,,,,Minnie Mouse,,,,
-Mr. Toad's Wild Ride,9d401ad3-49b2-469f-ac73-93eb429428fb,disneyland,,okay,,,,,,,Mr. Toad,,,,
-Opera House - Walt Disney - A Magical Life,6e2af074-3a67-4f38-9bcf-2f5a572c87df,disneyland,,,,,,,,,,,,,
-Paint the Night,c60e9de0-df2b-4484-9b05-299939dc247a,disneyland,parade,,,,,,,,,,,,
-Pearly Band at Castle Courtyard,9212c98b-3638-4f0b-bf42-2e2848330e1d,disneyland,,,,,,,,,,,,,
-"Pearly Band near ""it's a small world""",4119dd28-6da8-46a0-9246-bea86e07ac61,disneyland,,,,,,,,,,,,,
-Peter Pan's Flight,c23af6ba-8515-406a-8a48-d0818ba0bfc9,disneyland,,great,,,,,,,Peter Pan,,,,
-Pinocchio's Daring Journey,90ee50d4-7cc9-4824-b29d-2aac801acc29,disneyland,,okay,,,,,,,Pinocchio,,,,
-Pirate's Lair on Tom Sawyer Island,07952343-3498-404b-8337-734de9a185c1,disneyland,,,,,,,,,,,,,
-Pirates of the Caribbean,82aeb29b-504a-416f-b13f-f41fa5b766aa,disneyland,,okay,,,,,,,,,,,
-Roger Rabbit's Car Toon Spin,6ce9cdd1-0a43-459e-83cd-f4cace9cfa7b,disneyland,,great,great,,,,,,Roger Rabbit,,,,
-Sailing Ship Columbia,c9e39189-7e99-4e0a-97e0-4a0d5654d257,disneyland,,,,,,,,,,,,,
-Shadows of Memory: A Skywalker Saga,fa0ef252-8002-4c39-934b-46c3231d206e,disneyland,,,,,,,,,,,,,
-Sleeping Beauty Castle Walkthrough,90d5a091-478c-4df1-adfe-c605b4005013,disneyland,,,,,,,,,Aurora,,,,
-Snow White's Enchanted Wish,4f0053e7-b8db-4833-b02f-35e1c91b4523,disneyland,,okay,,,,,,,Snow White,,,,
-Space Mountain,9167db1d-e5e7-46da-a07f-ae30a87bc4c4,disneyland,icon,,mustDo,mustDo,mustDo,mustDo,great,iconic,,,,,"An indoor rollercoaster in the dark. The drops are not huge, but do exist. It’s fast with a lot of turns."
-Star Tours - The Adventures Continue,cc718d11-fa15-44ee-87d0-ded989ad61bc,disneyland,,,great,mustDo,mustDo,mustDo,mustDo,,,,,,A fun motion ride as R2D2 and C3PO escort you from danger.
-Star Wars: Rise of the Resistance,34b1d70f-11c4-42df-935e-d5582c9f1a8e,disneyland,icon,,mustDo,mustDo,mustDo,mustDo,great,iconic,,,,,
-Storybook Land Canal Boats,cb929138-d77a-4dd2-983c-f651bbd1bd92,disneyland,,mustDo,,,,,,,,,,,A gentle and slow ride on a small boat through miniature lands from Disney stories.
-Storytelling at Royal Theatre,72340a8a-b6d2-474f-aca5-5ea7d2d52335,disneyland,characterMeet,,,,,,,,,,,,
-Tapestry of Happiness,34f7bd8a-ec8e-41ac-9d63-d94ffc54f1ef,disneyland,,,,,,,,,,,,,
-The Bootstrappers,8160b905-b318-41be-84bf-869fb6a55b14,disneyland,,,,,,,,,,,,,
-The Celebrate Happy Cavalcade,ff9c3639-2edd-4ece-8515-54e71ccf1067,disneyland,parade,,,,,,,,,,,,
-The Dapper Dans,fdf0e3b1-2eeb-42b4-9516-5d43463d021e,disneyland,,,,,,,,,,,,,
-The Disney Gallery,37858b2a-9c11-4ac6-9f8d-db7fa9088703,disneyland,,,,,,,,,,,,,
-The Many Adventures of Winnie the Pooh,52a8ef64-d54c-4974-883f-027c3026e3f1,disneyland,,great,,,,,,,Winnie the Pooh,,,,
-Tiana's Bayou Adventure,a9076acd-7630-4bad-a8da-e6bd689ddcac,disneyland,icon,,mustDo,mustDo,mustDo,mustDo,great,iconic,Tiana,,,,
-Walt Disney - A Magical Life,05b17c11-fd4c-4b85-ab45-3e269dc56559,disneyland,,,,,,,,,,,,,
-Walt Disney's Enchanted Tiki Room,106c1e5a-a5e7-42d7-96ab-bc100d8faf71,disneyland,,,,,,,,,,,,,
-Wondrous Journeys with Fireworks,115863ac-0880-4630-afd3-b1a1b5033d51,disneyland,,,,,,,,,,,,,
-Wondrous Journeys with Projections,2e062fa5-42fd-4167-859c-aa00fddfa22c,disneyland,,,,,,,,,,,,,
+Ancient Sanctum,531f6200-393e-4e4d-b95e-aedd30102e49,california-adventure,characterMeet,okay,great,great,okay,okay,skip,medium,,mayRemainInWheelchair,,,
+Animation Academy,d2aa0987-49a2-45dc-a635-3a8bf7401230,california-adventure,airConditioned,okay,great,great,okay,great,great,low,,mayRemainInWheelchair,,,Sit-down drawing class led by a Disney animator; great quiet break.
+Avengers Headquarters,3ee735b5-68dc-470a-a4a2-6ddd415b9cbd,california-adventure,characterMeet,skip,great,great,great,okay,skip,medium,,mayRemainInWheelchair,,,
+Citizens of Buena Vista Street,8d4b6d5f-558f-4210-82b5-02b0570232ea,california-adventure,,okay,okay,okay,okay,great,great,low,,mayRemainInWheelchair,,,1920s-themed street performers; nostalgic atmosphere.
+Confection Purrfection with the SuperKitties,2fdd02e8-3835-4ef8-bd07-4c3332fb84fa,california-adventure,characterMeet,great,great,skip,skip,skip,skip,low,,mayRemainInWheelchair,,,
+Cookin' with the Jammin’ Chefs,4b7f57a0-c841-43d1-8abb-d13a3b7f2597,california-adventure,,skip,okay,okay,okay,okay,okay,low,,mayRemainInWheelchair,,loudSounds,
+Culinary Demonstrations at the Disney California Adventure Food & Wine Festival,464ba110-9573-457b-abad-54a740e0ec33,california-adventure,,skip,skip,skip,okay,great,great,low,,mayRemainInWheelchair,,,Seasonal during Food & Wine Festival.
+Disney Jr. Mickey Mouse Clubhouse Live!,8c0a4fdb-69e0-4e4e-ab80-d8247edabe3a,california-adventure,"characterMeet, airConditioned",mustDo,great,skip,skip,skip,skip,medium,Mickey Mouse,mayRemainInWheelchair,,loudSounds,
+Disney® Visa® Cardmember Heroic Encounter,12180467-471a-4f93-a7b1-7115aab487f2,california-adventure,characterMeet,okay,great,okay,skip,skip,skip,low,,mayRemainInWheelchair,,,Visa cardmember-only character meet.
+Five & Dime,449e351b-a05a-4a52-8893-0ed5c1f6fc48,california-adventure,nostalgia,okay,okay,okay,okay,great,great,low,,mayRemainInWheelchair,,,
+Games of Pixar Pier,1d24dd7a-372b-4195-8ad0-ba9679d72b08,california-adventure,,skip,great,great,okay,okay,okay,low,,mayRemainInWheelchair,,,Pay-per-play midway games; not standard ride tickets.
+Golden Zephyr,10a5fc6f-5ad3-414b-9bdd-e6bae097b6ad,california-adventure,,great,great,okay,okay,okay,okay,low,,mustTransferFromWheelchair,,,Closed in moderate-to-strong wind.
+Goofy's Sky School,f44a5072-3cda-4c7c-8574-33ad09d16cca,california-adventure,,skip,great,great,okay,okay,skip,medium,Goofy,mustTransferFromWheelchair,not_permitted,"drops, loudSounds",Sharp unbanked turns; intense for a kid coaster.
+Grizzly River Run,b1d285a7-2444-4a7c-b7bb-d2d4d6428a85,california-adventure,icon,skip,great,mustDo,mustDo,great,okay,high,,mustTransferFromWheelchair,not_permitted,"drops, loudSounds","You WILL get wet; one significant drop. 42"" height."
+Guardians of the Galaxy - Mission: BREAKOUT!,b7678dab-5544-48d5-8fdc-c1a0127cfbcd,california-adventure,icon,skip,skip,mustDo,mustDo,mustDo,skip,iconic,"Star-Lord, Rocket Raccoon, Groot",mustTransferFromWheelchair,not_permitted,"drops, darkness, loudSounds","Free-fall drop tower; multiple sudden drops. 40"" height."
+Guardians of the Galaxy: Awesome Dance Off!,0c6c7664-94f0-48b0-91ce-7cc2108a72c9,california-adventure,characterMeet,okay,great,great,okay,okay,skip,medium,"Star-Lord, Gamora",mayRemainInWheelchair,,loudSounds,
+Incredicoaster,5d07a2b1-49ca-4de7-9d32-6d08edf69b08,california-adventure,icon,skip,skip,mustDo,mustDo,mustDo,skip,iconic,"Mr. Incredible, Elastigirl, Jack-Jack",mustTransferFromWheelchair,not_permitted,"drops, loudSounds","Launch coaster with a loop. 48"" height."
+Inside Out Emotional Whirlwind,6d876f4c-c3ff-4ae3-a2d8-d4b831e1039b,california-adventure,,mustDo,great,okay,skip,skip,skip,medium,"Joy, Sadness, Anger, Fear, Disgust",mustTransferFromWheelchair,,,Octopus-style spinner; mild.
+Jessie's Critter Carousel,388ad3f1-5cf5-4a9d-8d0e-6dfb817d7822,california-adventure,,mustDo,great,skip,skip,skip,skip,low,Jessie,mustTransferFromWheelchair,,,
+Jumpin' Jellyfish,c8a4b7b1-c1b2-4dfe-b73c-4e834b4a73db,california-adventure,,skip,mustDo,great,okay,okay,skip,medium,,mustTransferFromWheelchair,not_permitted,drops,"Gentle pop-up drops on parachutes; first thrill for many kids. 40"" height."
+Luigi's Rollickin' Roadsters,7a09a2f0-e226-4f3e-86f8-2598ab67ec44,california-adventure,,great,mustDo,great,okay,okay,okay,medium,Luigi,mustTransferFromWheelchair,not_permitted,,Trackless dance ride; gentle but unpredictable motion.
+Mater's Junkyard Jamboree,46097afe-a1ea-4807-93d3-14d14f36e55f,california-adventure,,okay,mustDo,great,okay,okay,skip,medium,Mater,mustTransferFromWheelchair,not_permitted,,Whip-style spinning; squeals from the kids.
+Meet Chef Goofy,a4374b75-7fa4-4205-9571-02099e08944f,california-adventure,characterMeet,great,great,okay,skip,skip,skip,low,Goofy,mayRemainInWheelchair,,,
+Meet Disney Pals on Buena Vista Street,4c570f5a-c5da-4388-9804-dd56123d18ce,california-adventure,characterMeet,great,great,okay,skip,skip,skip,medium,"Mickey Mouse, Minnie Mouse, Pluto, Goofy",mayRemainInWheelchair,,,
+Meet the Residents of Radiator Springs in Cars Land,f71bfc6e-2f10-40a1-bf29-a4b98c5350f4,california-adventure,characterMeet,okay,great,okay,skip,skip,skip,low,"Lightning McQueen, Mater, Cruz Ramirez",mayRemainInWheelchair,,,
+Mickey's PhilharMagic,8f586a2f-cef5-46d3-b822-fd622c4e9e33,california-adventure,airConditioned,mustDo,mustDo,great,okay,great,great,medium,"Mickey Mouse, Donald Duck",mayRemainInWheelchair,,loudSounds,3D film with theater effects; great rainy-day pick.
+"Monsters, Inc. Mike & Sulley to the Rescue!",40524fba-5d84-49e7-9204-f493dbe2d5a4,california-adventure,airConditioned,great,mustDo,great,okay,okay,okay,medium,"Mike Wazowski, Sulley, Boo",wheelchairAccessVehicle,,darkness,Gentle dark ride; some dim factory scenes but nothing scary.
+Operation: Playtime! - featuring the Green Army Patrol,af195dcb-a69e-499a-b659-6751ee871f79,california-adventure,,okay,great,okay,okay,okay,okay,low,Green Army Men,mayRemainInWheelchair,,,
+Palisades Stage,19dad87e-2df8-4fe2-9562-c711d464e4b7,california-adventure,,,,,,,,,,mayRemainInWheelchair,,,Live entertainment stage; programming varies.
+Paradise Garden Bandstand,dca741a6-3472-4d4f-a9aa-7774aae81754,california-adventure,,,,,,,,,,mayRemainInWheelchair,,,Atmosphere band performances.
+Pixar Pal-A-Round - Swinging,528016ef-db24-47fa-a0f2-b6d26d61e29f,california-adventure,,skip,great,mustDo,great,okay,skip,medium,,mustTransferFromWheelchair,,,Gondolas that swing along internal rails — surprisingly thrilling.
+Pixar Pal-A-Round – Non-Swinging,4ca6cdbf-4c5f-45bf-b0dc-db83393ec208,california-adventure,,great,great,okay,okay,okay,great,medium,,mayRemainInWheelchair,,,"Stationary Ferris wheel gondolas; gentle, great views."
+Radiator Springs Racers,c60c768b-3461-465c-8f4f-b44b087506fc,california-adventure,icon,okay,mustDo,mustDo,mustDo,mustDo,great,iconic,"Lightning McQueen, Mater, Sally",mustTransferFromWheelchair,not_permitted,"drops, loudSounds","Slot-car race finale with one short drop. 40"" height. Park-defining."
+Redwood Creek Challenge Trail,c9803366-6f37-4406-82af-7692357e3ca9,california-adventure,,okay,mustDo,great,skip,skip,skip,low,,mustBeAmbulatory,,,Ropes-course playground; great kid-energy burner.
+Silly Symphony Swings,4f5b28d0-b78e-482b-8e2e-1f90756d6220,california-adventure,,skip,great,great,great,great,okay,medium,,mustTransferFromWheelchair,not_permitted,,"48"" height for solo; 40"" to ride with adult. Closes in wind."
+Soarin' Over California,77f205a4-d482-4d91-a5ff-71e54a086ad2,california-adventure,"icon, airConditioned",skip,mustDo,mustDo,mustDo,mustDo,great,iconic,,wheelchairAccessVehicle,not_permitted,drops,"Hang-glider simulation; feet dangle, gentle floor drop. 40"" height. Mild vertigo."
+Sorcerer's Workshop,44c1f655-25d3-440c-b1a8-db736a12b105,california-adventure,airConditioned,okay,great,okay,okay,okay,okay,low,,mayRemainInWheelchair,,,Self-paced interactive animation exhibit in Animation Building.
+The Amazing Spider-Man!,bdb0a3ec-eb7a-41c9-918f-ccee7194743e,california-adventure,icon,okay,great,great,great,okay,okay,iconic,Spider-Man,mayRemainInWheelchair,,loudSounds,Live aerial stunt show on the WEB SLINGERS facade.
+The Bakery Tour,eb77ee1f-3207-44fd-acfc-d7bc18602007,california-adventure,airConditioned,okay,okay,okay,okay,great,great,low,,mayRemainInWheelchair,,,Self-guided sourdough tour with free bread sample. Quiet break.
+The Little Mermaid - Ariel's Undersea Adventure,e1fbc7a1-2cd1-4282-b373-ac11d9d9d38a,california-adventure,"princess, airConditioned",mustDo,mustDo,okay,okay,okay,great,medium,"Ariel, Sebastian, Ursula",mayRemainInWheelchair,,darkness,Omnimover clamshell ride; Ursula scene can spook young toddlers briefly.
+Toy Story Midway Mania!,86ab3069-110d-49c5-a7e7-29ddf28695a6,california-adventure,icon,great,mustDo,mustDo,great,great,great,high,"Woody, Buzz Lightyear, Jessie",wheelchairAccessVehicle,,,3D shooting gallery; competitive and accessible to all ages.
+Turtle Talk with Crush,7561bcd8-18ea-4e3f-89d5-c905b7ba3d42,california-adventure,"characterMeet, airConditioned",great,mustDo,okay,skip,great,great,medium,Crush,mayRemainInWheelchair,,,Real-time animated Q&A; kids sit on the floor.
+Warriors of Wakanda: The Disciplines of the Dora Milaje,1b6a816a-337c-431c-8df6-72f993e15e64,california-adventure,,skip,great,great,great,okay,okay,low,"Okoye, Aneka",mayRemainInWheelchair,,loudSounds,Live combat-arts demonstration.
+WEB SLINGERS: A Spider-Man Adventure,2295351d-ce6b-4c04-92d5-5b416372c5b5,california-adventure,icon,okay,mustDo,mustDo,great,great,okay,iconic,Spider-Man,wheelchairAccessVehicle,,loudSounds,Interactive 3D shooter with hand-tracked web slinging.
+World of Color Happiness!,457e2029-852f-4de7-9ca0-e4cc6f0cfcad,california-adventure,"icon, fireworks",okay,great,great,great,mustDo,great,iconic,,mayRemainInWheelchair,,loudSounds,Water/projection/fountain show. Sit-down designated viewing zones.
+"""it's a small world""",3638ac09-9fce-4a43-8c79-8ebbe17afce2,disneyland,"icon, nostalgia, airConditioned",mustDo,mustDo,okay,okay,great,mustDo,iconic,,mayRemainInWheelchair,,,Quintessential gentle boat ride; the song is the warning.
+Adventureland Treehouse inspired by Walt Disney’s Swiss Family Robinson,e27b1db8-9ec9-4f8b-9ca6-fd6377de66ee,disneyland,nostalgia,skip,great,okay,okay,great,okay,low,,mustBeAmbulatory,,,Walk-up treehouse with many stairs; not stroller-friendly.
+Alice in Wonderland,a07f3110-013e-43bb-a182-e66bb8b5e28d,disneyland,,great,mustDo,okay,okay,great,great,medium,Alice,mustTransferFromWheelchair,,darkness,Caterpillar-car dark ride; brief outdoor section.
+Astro Orbitor,6c225598-91c9-44a3-95e2-7c423475db61,disneyland,,great,mustDo,okay,okay,okay,skip,low,,mustTransferFromWheelchair,,,Hub-and-spoke spinner at altitude; faster than Dumbo.
+Autopia,1da85181-bf0f-4ccc-b98e-243142f7347b,disneyland,nostalgia,okay,mustDo,great,okay,okay,okay,medium,,mustTransferFromWheelchair,,,"Kids drive on a guide rail. 54"" to drive alone; 32"" to ride along."
+Big Thunder Mountain Railroad,0de1413a-73ee-46cf-af2e-c491cc7c7d3b,disneyland,"icon, nostalgia",,mustDo,mustDo,mustDo,mustDo,great,iconic,,mustTransferFromWheelchair,not_permitted,"drops, loudSounds","""Wildest ride in the wilderness"" — friendly first big coaster. 40"" height."
+Bluey's Best Day Ever!,95a9cde3-ff1f-40a3-8276-2477ded688f8,disneyland,characterMeet,mustDo,great,skip,skip,skip,skip,medium,"Bluey, Bingo",mayRemainInWheelchair,,,
+Bluey’s Best Day Ever! at Fantasyland Theatre,888525b0-5a6f-4b8e-9f07-b6a32812b04d,disneyland,characterMeet,mustDo,great,skip,skip,skip,skip,medium,"Bluey, Bingo",mayRemainInWheelchair,,loudSounds,
+Buzz Lightyear Astro Blasters,88197808-3c56-4198-a5a4-6066541251cf,disneyland,,great,mustDo,great,great,great,great,medium,Buzz Lightyear,wheelchairAccessVehicle,,darkness,Shoot-em-up dark ride; competitive scoring.
+Casey Jr. Circus Train,8e686e4c-f3db-4d9c-a185-2d54b1fa8899,disneyland,,mustDo,great,okay,skip,okay,okay,low,,mustTransferFromWheelchair,,,Small train circles the same miniature lands seen from Storybook Boats.
+Chip 'n' Dale's GADGETcoaster,59647168-d239-4161-8b24-92eb128e96fb,disneyland,,skip,mustDo,great,okay,okay,skip,medium,"Chip, Dale",mustTransferFromWheelchair,not_permitted,"drops, loudSounds","Short kiddie coaster — 35"" height. Fast for a starter."
+Davy Crockett's Explorer Canoes,5bd95ae8-181d-449c-8f04-a621e2448961,disneyland,,skip,great,great,okay,great,okay,low,,mustBeAmbulatory,,,You paddle. Seasonal/daytime only.
+"Disneyland Band at ""it's a small world"" Promenade",78568c55-6dcb-4893-a14e-ba7ed9bddaff,disneyland,,,,,,great,great,,,mayRemainInWheelchair,,,
+Disneyland Band at Castle Promenade,228b9736-f889-469f-92f7-0e89bf150d5c,disneyland,,,,,,great,great,,,mayRemainInWheelchair,,,
+Disneyland Band at Frontierland,cb84b53c-dbb5-483d-a717-00d9259c6484,disneyland,,,,,,great,great,,,mayRemainInWheelchair,,,
+"Disneyland Band at Main Street, U.S.A.",a6760f7b-3489-47df-9547-d70dd2d8cb76,disneyland,nostalgia,,,,,great,great,,,mayRemainInWheelchair,,,
+Disneyland Monorail,56d0bd6d-5106-4420-8f60-0005475c04c3,disneyland,nostalgia,great,great,okay,okay,great,great,medium,,mayRemainInWheelchair,,,Transports between Tomorrowland and Downtown Disney.
+Disneyland Railroad,e2d460e9-2bef-4613-b126-092ab7cb37e5,disneyland,"icon, nostalgia",mustDo,great,okay,okay,great,mustDo,high,,mayRemainInWheelchair,,loudSounds,Steam train circles the park; Grand Canyon/Primeval World dioramas.
+Donald's Duck Pond,ca32ef8a-ae0d-4c24-bf4f-e59192122e01,disneyland,,mustDo,great,skip,skip,skip,skip,low,Donald Duck,mayRemainInWheelchair,,,Toontown sensory play area.
+Dumbo the Flying Elephant,cc980e8e-192f-48b6-848c-27784084e54b,disneyland,"icon, nostalgia",mustDo,great,okay,okay,great,great,high,Dumbo,mustTransferFromWheelchair,,,Classic hub-and-spoke spinner; ride one of these per trip with a young kid.
+Fantasmic!,8c36ff0b-3a32-4d7b-9388-0516c19277db,disneyland,"icon, characterMeet, fireworks",okay,mustDo,mustDo,mustDo,mustDo,great,iconic,"Mickey Mouse, Maleficent, Peter Pan",mayRemainInWheelchair,,"loudSounds, smokeOrFog",Nighttime water/fire show on Rivers of America. Real flames.
+Fantasy Faire,645c11b7-51f7-41d5-9764-5a7fa9d2535c,disneyland,"characterMeet, princess",great,mustDo,okay,skip,skip,skip,medium,,mayRemainInWheelchair,,,Princess meet-and-greet village.
+Finding Nemo Submarine Voyage,64d44aaa-6857-4693-b24b-bcff6c6dcfa1,disneyland,,okay,mustDo,okay,okay,great,great,medium,"Nemo, Dory, Marlin, Crush",mustBeAmbulatory,,darkness,Stairs into a tight sub interior; no wheelchair access. Confined space.
+Fire of the Rising Moons,e9ef1443-c735-43b6-81c6-45e53527cf93,disneyland,fireworks,okay,mustDo,mustDo,mustDo,mustDo,great,high,,mayRemainInWheelchair,,loudSounds,
+Flag Retreat Ceremony,eeafc865-a4e0-4dc5-9cea-446108bf7d48,disneyland,,skip,okay,okay,okay,great,great,low,,mayRemainInWheelchair,,,Daily 4-6pm flag lowering at Town Square.
+Fortune Tellers,c2997e65-6db0-413f-a2db-ee995711d931,disneyland,,,,,,,,,,mayRemainInWheelchair,,,
+Frontierland Shootin' Exposition,835deb74-de54-4d7f-9dc4-dacab90fcb60,disneyland,,skip,great,great,okay,okay,okay,low,,mustBeAmbulatory,,,Coin-op shooting gallery; not standard ride tickets.
+Goofy's How-to-Play Yard,b0eca3d3-a519-47f9-a5a7-9911126da2df,disneyland,,mustDo,great,skip,skip,skip,skip,low,Goofy,mustBeAmbulatory,,,Toontown play yard.
+Great Moments with Mr. Lincoln,1b23667a-d8fb-436d-8952-c3e3f2e56d13,disneyland,"nostalgia, airConditioned",skip,okay,okay,okay,great,mustDo,low,,mayRemainInWheelchair,,loudSounds,"Audio-animatronic Lincoln; reverent, can lull young kids to sleep."
+Haunted Mansion,ff52cb64-c1d5-4feb-9d43-5dbd429bac81,disneyland,"icon, nostalgia, airConditioned",okay,,,,,,iconic,,mustTransferFromECVToWheelchair,,"darkness, loudSounds",Stretching room then Doom Buggy omnimover; spooky-not-scary tone.
+Indiana Jones™ Adventure,2aedc657-1ee2-4545-a1ce-14753f28cc66,disneyland,icon,,mustDo,mustDo,mustDo,mustDo,great,iconic,Indiana Jones,mustTransferFromWheelchair,not_permitted,"darkness, drops, loudSounds, smokeOrFog","Jeep ride with sharp jolts, snakes, fire effects. 46"" height."
+Jambalaya Jazz,3220fd76-38e4-49a4-afa3-4842c07203fa,disneyland,,,,,,great,great,,,mayRemainInWheelchair,,,
+Jambalaya Jazz Band on the Mark Twain Riverboat,640525ab-75db-4f3c-b917-27ecb7b5ef97,disneyland,,,,,,great,great,,,mayRemainInWheelchair,,,
+Jungle Cruise,1b83fda8-d60e-48e4-9a3d-90ddcbcd1001,disneyland,"icon, nostalgia",mustDo,,great,okay,mustDo,mustDo,iconic,,mustTransferFromWheelchair,,loudSounds,Skipper-driven boat with puns. Quality varies by skipper.
+Key to Disneyland,11209961-2ac2-4f76-a11b-ed793939f796,disneyland,,,,,,,,,,mayRemainInWheelchair,,,Roving Key collector; check Tip Board for location.
+King Arthur Carrousel,f7904912-3f08-4563-b99e-fd59f43cc9f2,disneyland,nostalgia,mustDo,great,skip,skip,okay,great,medium,,mustTransferFromWheelchair,,,Hand-carved horses; sleigh available for transfer-friendly riders.
+Mad Tea Party,e0cfed11-96d7-40f3-907f-5cfed172592a,disneyland,,mustDo,great,great,okay,okay,skip,medium,Mad Hatter,mustTransferFromWheelchair,,,"Spinning teacups — motion-sensitive riders, beware."
+Main Street Cinema,f5bb0d14-7eee-4ede-9230-eb256ce3664c,disneyland,"nostalgia, airConditioned",okay,okay,okay,okay,great,great,low,Mickey Mouse,mayRemainInWheelchair,,,Vintage Mickey shorts on loop — great rest stop.
+Main Street Piano Player,8b12916b-a384-4305-838a-c4b07affbb14,disneyland,nostalgia,,,,,great,great,,,mayRemainInWheelchair,,,
+Main Street Vehicles,bcfd1e17-3eab-4203-b597-6257a257d427,disneyland,nostalgia,mustDo,great,okay,skip,great,great,low,,mustTransferFromWheelchair,,,"Horse-drawn streetcars, omnibus, fire engine; one-way trip down Main Street."
+Mark Twain Riverboat,6c30d5b0-8c0a-406f-9258-0b6c55d4a5e4,disneyland,nostalgia,okay,great,okay,okay,great,great,medium,,mayRemainInWheelchair,,,14-min loop of Rivers of America; quiet break.
+Matterhorn Bobsleds,faaa8be9-cc1e-4535-ac20-04a535654bd0,disneyland,"icon, nostalgia",,great,great,great,great,okay,iconic,,mustTransferFromWheelchair,not_permitted,"drops, darkness, loudSounds","Rough, jarring 1959-era coaster with abominable snowman scares. 42"" height."
+Meet Disney Princesses at Royal Hall,33cbbd09-6d93-40d7-b758-9d7b7d3fd2eb,disneyland,"characterMeet, princess",mustDo,mustDo,okay,skip,skip,skip,medium,,mayRemainInWheelchair,,,Three princesses rotate; check app for current trio.
+Mickey & Minnie's Runaway Railway,cd670bff-81d1-4f34-8676-7bafdf49220a,disneyland,icon,okay,,great,great,mustDo,great,iconic,"Mickey Mouse, Minnie Mouse",wheelchairAccessVehicle,,"darkness, loudSounds",Trackless dark ride; Mickey/Minnie's first-ever ride.
+Mickey's House and Meet Mickey Mouse,5a107a57-9174-4f3f-9be7-625a5d5bb899,disneyland,characterMeet,mustDo,mustDo,okay,skip,great,great,medium,Mickey Mouse,mayRemainInWheelchair,,,
+Mickey's House and Meet Mickey Mouse,87387057-47ab-4d0b-8eed-2e6c9d23577b,disneyland,characterMeet,mustDo,mustDo,okay,skip,great,great,medium,Mickey Mouse,mayRemainInWheelchair,,,
+Millennium Falcon: Smugglers Run,b2c2549c-e9da-4fdd-98ea-1dcff596fed7,disneyland,,skip,mustDo,mustDo,mustDo,mustDo,great,high,"Hondo Ohnaka, Chewbacca",mustTransferFromWheelchair,not_permitted,loudSounds,"Motion simulator; role assignment matters. 38"" height."
+Minnie's House,c02fb82d-0860-4e95-8c61-899fa594d20e,disneyland,characterMeet,mustDo,great,okay,skip,great,great,medium,Minnie Mouse,mayRemainInWheelchair,,,
+Mr. Toad's Wild Ride,9d401ad3-49b2-469f-ac73-93eb429428fb,disneyland,nostalgia,okay,great,great,okay,great,great,medium,Mr. Toad,mustTransferFromWheelchair,,"darkness, loudSounds",You die and go to hell — a quirky 1955-era dark ride. Brief flame effect.
+Opera House - Walt Disney - A Magical Life,6e2af074-3a67-4f38-9bcf-2f5a572c87df,disneyland,"nostalgia, airConditioned",skip,okay,okay,okay,great,mustDo,medium,,mayRemainInWheelchair,,,Audio-animatronic Walt Disney experience (replaced Mr. Lincoln in 2025).
+Paint the Night,c60e9de0-df2b-4484-9b05-299939dc247a,disneyland,parade,great,mustDo,great,okay,great,great,high,,mayRemainInWheelchair,,loudSounds,"Nighttime electrical parade — better than Main Street Electrical Parade, IMO."
+Pearly Band at Castle Courtyard,9212c98b-3638-4f0b-bf42-2e2848330e1d,disneyland,,,,,,great,great,,,mayRemainInWheelchair,,,
+"Pearly Band near ""it's a small world""",4119dd28-6da8-46a0-9246-bea86e07ac61,disneyland,,,,,,great,great,,,mayRemainInWheelchair,,,
+Peter Pan's Flight,c23af6ba-8515-406a-8a48-d0818ba0bfc9,disneyland,"icon, nostalgia",great,,okay,okay,mustDo,great,high,Peter Pan,mustTransferFromWheelchair,,darkness,Suspended dark ride over miniature London. Lines are brutal — go early.
+Pinocchio's Daring Journey,90ee50d4-7cc9-4824-b29d-2aac801acc29,disneyland,nostalgia,okay,great,okay,okay,great,great,low,Pinocchio,mustTransferFromWheelchair,,darkness,Pleasure Island scene can spook young kids (donkey transformation).
+Pirate's Lair on Tom Sawyer Island,07952343-3498-404b-8337-734de9a185c1,disneyland,,okay,mustDo,great,okay,okay,okay,low,,mustBeAmbulatory,,,"Explore caves & rope bridges on an island; raft access only, daytime."
+Pirates of the Caribbean,82aeb29b-504a-416f-b13f-f41fa5b766aa,disneyland,"icon, nostalgia, airConditioned",okay,great,mustDo,mustDo,mustDo,mustDo,iconic,Jack Sparrow,mustTransferFromWheelchair,,"darkness, drops",Two short drops in the dark early; otherwise gentle. The drops surprise toddlers.
+Roger Rabbit's Car Toon Spin,6ce9cdd1-0a43-459e-83cd-f4cace9cfa7b,disneyland,,great,great,,okay,great,okay,medium,Roger Rabbit,mustTransferFromWheelchair,,"darkness, strobe, loudSounds",Spinning dark ride; weasel scene has strobes and can scare young kids.
+Sailing Ship Columbia,c9e39189-7e99-4e0a-97e0-4a0d5654d257,disneyland,nostalgia,okay,great,okay,okay,great,great,low,,mustBeAmbulatory,,,Operates only on busiest days; same route as Mark Twain.
+Shadows of Memory: A Skywalker Saga,fa0ef252-8002-4c39-934b-46c3231d206e,disneyland,,skip,okay,great,great,great,okay,medium,,mayRemainInWheelchair,,loudSounds,Nighttime projection show on Galaxy's Edge spires.
+Sleeping Beauty Castle Walkthrough,90d5a091-478c-4df1-adfe-c605b4005013,disneyland,"nostalgia, princess, airConditioned",okay,great,okay,skip,great,great,low,Aurora,mayRemainInWheelchair,,darkness,Self-paced diorama walk through Sleeping Beauty's story.
+Snow White's Enchanted Wish,4f0053e7-b8db-4833-b02f-35e1c91b4523,disneyland,"princess, nostalgia",okay,great,okay,okay,great,great,medium,Snow White,mustTransferFromWheelchair,,"darkness, loudSounds",Witch and dark forest scenes are intense for some young kids.
+Space Mountain,9167db1d-e5e7-46da-a07f-ae30a87bc4c4,disneyland,icon,,mustDo,mustDo,mustDo,mustDo,great,iconic,,mustTransferFromWheelchair,not_permitted,"darkness, drops, loudSounds","An indoor rollercoaster in the dark. The drops are not huge, but do exist. It’s fast with a lot of turns."
+Star Tours - The Adventures Continue,cc718d11-fa15-44ee-87d0-ded989ad61bc,disneyland,,,great,mustDo,mustDo,mustDo,mustDo,,"R2-D2, C-3PO",mustTransferFromWheelchair,not_permitted,loudSounds,"Motion sim with randomized scenes. 40"" height."
+Star Wars: Rise of the Resistance,34b1d70f-11c4-42df-935e-d5582c9f1a8e,disneyland,icon,,mustDo,mustDo,mustDo,mustDo,great,iconic,"Rey, Finn, BB-8, Kylo Ren",wheelchairAccessVehicle,not_permitted,"darkness, drops, loudSounds, smokeOrFog","Multi-stage trackless dark ride with one drop. 40"" height."
+Storybook Land Canal Boats,cb929138-d77a-4dd2-983c-f651bbd1bd92,disneyland,,mustDo,,okay,skip,great,great,medium,,mayRemainInWheelchair,,,A gentle and slow ride on a small boat through miniature lands from Disney stories.
+Storytelling at Royal Theatre,72340a8a-b6d2-474f-aca5-5ea7d2d52335,disneyland,characterMeet,great,great,okay,skip,great,great,low,,mayRemainInWheelchair,,,Comedy retellings of princess stories by the Maids; lots of audience interaction.
+Tapestry of Happiness,34f7bd8a-ec8e-41ac-9d63-d94ffc54f1ef,disneyland,parade,great,great,okay,okay,great,great,medium,,mayRemainInWheelchair,,loudSounds,70th anniversary parade.
+The Bootstrappers,8160b905-b318-41be-84bf-869fb6a55b14,disneyland,,,,,,great,great,,,mayRemainInWheelchair,,,Sea-shanty band in New Orleans Square.
+The Celebrate Happy Cavalcade,ff9c3639-2edd-4ece-8515-54e71ccf1067,disneyland,parade,great,great,okay,okay,great,great,medium,,mayRemainInWheelchair,,loudSounds,
+The Dapper Dans,fdf0e3b1-2eeb-42b4-9516-5d43463d021e,disneyland,nostalgia,okay,okay,okay,okay,great,mustDo,medium,,mayRemainInWheelchair,,,Barbershop quartet on Main Street; iconic Disneyland atmosphere.
+The Disney Gallery,37858b2a-9c11-4ac6-9f8d-db7fa9088703,disneyland,airConditioned,skip,okay,okay,okay,great,great,low,,mayRemainInWheelchair,,,Rotating Disney art exhibits.
+The Many Adventures of Winnie the Pooh,52a8ef64-d54c-4974-883f-027c3026e3f1,disneyland,,great,,okay,skip,okay,great,low,Winnie the Pooh,mustTransferFromECVToWheelchair,,darkness,Honeypot vehicles; brief Heffalumps & Woozles scene with strobes.
+Tiana's Bayou Adventure,a9076acd-7630-4bad-a8da-e6bd689ddcac,disneyland,icon,,mustDo,mustDo,mustDo,mustDo,great,iconic,"Tiana, Louis",mustTransferFromWheelchair,not_permitted,"drops, loudSounds, smokeOrFog","Log flume with a 50-ft drop. 40"" height. You will get wet."
+Walt Disney - A Magical Life,05b17c11-fd4c-4b85-ab45-3e269dc56559,disneyland,"nostalgia, airConditioned",skip,okay,okay,okay,great,mustDo,medium,,mayRemainInWheelchair,,,
+Walt Disney's Enchanted Tiki Room,106c1e5a-a5e7-42d7-96ab-bc100d8faf71,disneyland,"nostalgia, airConditioned",great,great,okay,skip,great,mustDo,low,,mayRemainInWheelchair,,loudSounds,Audio-animatronic bird show; the brief thunderstorm scene is loud.
+Wondrous Journeys with Fireworks,115863ac-0880-4630-afd3-b1a1b5033d51,disneyland,fireworks,okay,mustDo,mustDo,mustDo,mustDo,great,iconic,,mayRemainInWheelchair,,loudSounds,Fireworks + castle projections version. Best view: hub or Main Street.
+Wondrous Journeys with Projections,2e062fa5-42fd-4167-859c-aa00fddfa22c,disneyland,,great,mustDo,great,great,great,great,high,,mayRemainInWheelchair,,loudSounds,Projection-only version on non-fireworks nights.
