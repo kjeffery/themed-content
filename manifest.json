@@ -1,42 +1,36 @@
 {
-  "files": [
-    {
-      "bytes": 121,
-      "path": "closures-0739ba64dc2749aa.json",
-      "role": "closures",
-      "sha256": "0739ba64dc2749aad4446975520cf3041290986656c74b15860daf41092dc812"
-    },
-    {
-      "bytes": 1097551,
-      "path": "graph-8994811dcbfe6289.json",
-      "role": "graph",
-      "sha256": "8994811dcbfe62899c2b64a7d00f12529bd4187a318741aacae7a4c611aaa426"
-    },
-    {
-      "bytes": 322075,
-      "path": "lands-8c1029bd9f606266.json",
-      "role": "lands",
-      "sha256": "8c1029bd9f60626684cfa7085a1f79e3aca211f35547bd0a6a4fada3b54c1a99"
-    },
-    {
-      "bytes": 3548683,
-      "path": "menus-43e365b20a5bea46.json",
-      "role": "menus",
-      "sha256": "43e365b20a5bea46a56c1c935b9b6f1092d1f23da352208f686dbe2c37edfb9a"
-    },
-    {
-      "bytes": 65208,
-      "path": "ride_metadata-39ab1d1d82ac9ee7.json",
-      "role": "ride_metadata",
-      "sha256": "39ab1d1d82ac9ee7cd6e6f1833c2513bd4da328970be827506827f55dc9f83ea"
-    },
-    {
-      "bytes": 241,
-      "path": "weights-d1a2bd3ddd59d6bd.json",
-      "role": "weights",
-      "sha256": "d1a2bd3ddd59d6bdb8b10603d71f387211aaf64cf06c9fcdd7bece4d1e6925ad"
-    }
-  ],
-  "generatedAt": "2026-05-26T13:56:38Z",
-  "manifestVersion": 1
+    "files": [
+        {
+            "bytes": 125170,
+            "path": "graph-9599c9f8ff6c3ca7.json",
+            "role": "graph",
+            "sha256": "9599c9f8ff6c3ca701497256ddc76ec3e9d09079589985e08d4d303e9ca19e47"
+        },
+        {
+            "bytes": 322075,
+            "path": "lands-8c1029bd9f606266.json",
+            "role": "lands",
+            "sha256": "8c1029bd9f60626684cfa7085a1f79e3aca211f35547bd0a6a4fada3b54c1a99"
+        },
+        {
+            "bytes": 3548683,
+            "path": "menus-43e365b20a5bea46.json",
+            "role": "menus",
+            "sha256": "43e365b20a5bea46a56c1c935b9b6f1092d1f23da352208f686dbe2c37edfb9a"
+        },
+        {
+            "bytes": 65208,
+            "path": "ride_metadata-39ab1d1d82ac9ee7.json",
+            "role": "ride_metadata",
+            "sha256": "39ab1d1d82ac9ee7cd6e6f1833c2513bd4da328970be827506827f55dc9f83ea"
+        },
+        {
+            "bytes": 241,
+            "path": "weights-d1a2bd3ddd59d6bd.json",
+            "role": "weights",
+            "sha256": "d1a2bd3ddd59d6bdb8b10603d71f387211aaf64cf06c9fcdd7bece4d1e6925ad"
+        }
+    ],
+    "generatedAt": "2026-05-27T02:32:09Z",
+    "manifestVersion": 1
 }
