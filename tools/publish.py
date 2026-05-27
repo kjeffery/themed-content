@@ -21,12 +21,30 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-KNOWN_ROLES = ("graph", "closures", "weights", "ride_metadata", "menus", "lands")
+# `closures` is gone with the node-graph deletion (#9) but stays in the
+# allow-list so an old manifest entry can be republished if needed (the
+# remote loader ignores unknown roles). New roles: `hexgrid` for the
+# painter-authored grid, `hex_closures` for closures painted against
+# hex cells (#11, still pending).
+KNOWN_ROLES = (
+    "graph",
+    "closures",
+    "weights",
+    "ride_metadata",
+    "menus",
+    "lands",
+    "hexgrid",
+    "hex_closures",
+)
 
 
 def infer_role(path: Path) -> str:
     stem = path.stem
-    # Accept both "closures.json" and "closures-<hash>.json".
+    # Accept both "closures.json" and "closures-<hash>.json". Special-case
+    # `hex_closures` because the underscore would otherwise collide with
+    # the hash-suffix split.
+    if stem.startswith("hex_closures"):
+        return "hex_closures"
     candidate = stem.split("-", 1)[0]
     if candidate in KNOWN_ROLES:
         return candidate
