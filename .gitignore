@@ -4,6 +4,10 @@
 /graph.json
 /weights.json
 /menus.json
+/hexgrid.json
 
 # Local Python venv for tools/.
 .venv/
+
+# Python bytecode cache for tools/.
+tools/__pycache__/
