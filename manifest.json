@@ -7,6 +7,12 @@
       "sha256": "9599c9f8ff6c3ca701497256ddc76ec3e9d09079589985e08d4d303e9ca19e47"
     },
     {
+      "bytes": 59372715,
+      "path": "hexgrid-83cda566edfc6f78.json",
+      "role": "hexgrid",
+      "sha256": "83cda566edfc6f78a6cf27def4396de560f6fa33d0761ddfc64837e9f9e26c96"
+    },
+    {
       "bytes": 322075,
       "path": "lands-8c1029bd9f606266.json",
       "role": "lands",
@@ -31,6 +37,6 @@
       "sha256": "d1a2bd3ddd59d6bdb8b10603d71f387211aaf64cf06c9fcdd7bece4d1e6925ad"
     }
   ],
-  "generatedAt": "2026-05-28T14:42:08Z",
+  "generatedAt": "2026-05-28T20:44:58Z",
   "manifestVersion": 1
 }
