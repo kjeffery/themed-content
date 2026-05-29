@@ -7,10 +7,10 @@
       "sha256": "9599c9f8ff6c3ca701497256ddc76ec3e9d09079589985e08d4d303e9ca19e47"
     },
     {
-      "bytes": 59372715,
-      "path": "hexgrid-83cda566edfc6f78.json",
+      "bytes": 20006220,
+      "path": "hexgrid-8d542a0d4b22e939.json",
       "role": "hexgrid",
-      "sha256": "83cda566edfc6f78a6cf27def4396de560f6fa33d0761ddfc64837e9f9e26c96"
+      "sha256": "8d542a0d4b22e939e57e7dafe8ef356a488c58b147e5970a43ecb53508348ad3"
     },
     {
       "bytes": 322075,
@@ -37,6 +37,6 @@
       "sha256": "d1a2bd3ddd59d6bdb8b10603d71f387211aaf64cf06c9fcdd7bece4d1e6925ad"
     }
   ],
-  "generatedAt": "2026-05-29T14:03:18Z",
+  "generatedAt": "2026-05-29T14:15:48Z",
   "manifestVersion": 1
 }
