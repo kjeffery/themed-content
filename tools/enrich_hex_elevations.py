@@ -43,6 +43,9 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import hexgrid_format  # noqa: E402
+
 EPQS_URL = "https://epqs.nationalmap.gov/v1/json"
 EARTH_RADIUS_METERS = 6_371_000.0
 
@@ -102,13 +105,17 @@ def fetch_elevation_m(lat: float, lng: float, attempts: int = 3) -> float:
 
 
 def enrich_cells(
-    grid: dict,
+    origin: dict,
+    cells: list[dict],
     overwrite: bool,
     concurrency: int,
 ) -> tuple[int, int, int]:
-    """Returns (filled, skipped_existing, failed)."""
-    origin = grid["origin"]
-    cells = grid["cells"]
+    """Fill `elevationMeters` on the normalized `cells` list in place.
+
+    `cells` is the format-agnostic list from `hexgrid_format.load_cells`:
+    each dict has `q`, `r`, `elevationMeters` (float | None). Returns
+    (filled, skipped_existing, failed).
+    """
     todo: list[tuple[int, dict]] = [
         (i, c) for i, c in enumerate(cells)
         if overwrite or c.get("elevationMeters") is None
@@ -124,7 +131,7 @@ def enrich_cells(
     # Pre-compute world coords for each todo cell so the worker pool
     # spends its time on network, not trig.
     targets = [
-        (idx, cell_center(origin, c["coord"]["q"], c["coord"]["r"]))
+        (idx, cell_center(origin, c["q"], c["r"]))
         for idx, c in todo
     ]
 
@@ -153,9 +160,9 @@ def enrich_cells(
                 # collapse the rest into a tally so a transient EPQS
                 # outage doesn't drown the console.
                 if failed <= 3:
-                    coord = cells[idx]["coord"]
+                    cell = cells[idx]
                     print(
-                        f"  [{completed}/{total}] cell ({coord['q']}, {coord['r']}): "
+                        f"  [{completed}/{total}] cell ({cell['q']}, {cell['r']}): "
                         f"error ({err}); skipping"
                     )
                 continue
@@ -187,21 +194,24 @@ def main() -> None:
     args = parser.parse_args()
 
     grid = json.loads(args.hexgrid.read_text())
-    if "origin" not in grid or "cells" not in grid:
+    if "origin" not in grid or "q" not in grid:
         raise SystemExit(
             f"{args.hexgrid} doesn't look like a hexgrid JSON "
-            "(missing `origin` or `cells`)"
+            "(missing `origin` or `q` column)"
         )
+    cells = hexgrid_format.load_cells(grid)
 
     start = time.monotonic()
     filled, skipped, failed = enrich_cells(
-        grid, overwrite=args.overwrite, concurrency=max(1, args.concurrency)
+        grid["origin"], cells,
+        overwrite=args.overwrite, concurrency=max(1, args.concurrency)
     )
     elapsed = time.monotonic() - start
 
     # Only write when something changed — keeps diffs clean on no-ops.
     if filled > 0:
-        args.hexgrid.write_text(json.dumps(grid, indent=2, sort_keys=True) + "\n")
+        out = hexgrid_format.build_grid(grid["destination"], grid["origin"], cells)
+        args.hexgrid.write_text(json.dumps(out, indent=2, sort_keys=True) + "\n")
         print(
             f"wrote {args.hexgrid} (filled {filled}, skipped {skipped}, "
             f"failed {failed}) in {elapsed:.1f}s"
