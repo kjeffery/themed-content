@@ -35,6 +35,8 @@ KNOWN_ROLES = (
     "lands",
     "hexgrid",
     "hex_closures",
+    "poi_entrance_overrides",
+    "pois_authored",
 )
 
 
