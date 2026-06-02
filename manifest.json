@@ -7,10 +7,16 @@
       "sha256": "9599c9f8ff6c3ca701497256ddc76ec3e9d09079589985e08d4d303e9ca19e47"
     },
     {
-      "bytes": 20006220,
-      "path": "hexgrid-8d542a0d4b22e939.json",
+      "bytes": 121,
+      "path": "hex_closures-0739ba64dc2749aa.json",
+      "role": "hex_closures",
+      "sha256": "0739ba64dc2749aad4446975520cf3041290986656c74b15860daf41092dc812"
+    },
+    {
+      "bytes": 20058230,
+      "path": "hexgrid-8265b0d2fff5d344.json",
       "role": "hexgrid",
-      "sha256": "8d542a0d4b22e939e57e7dafe8ef356a488c58b147e5970a43ecb53508348ad3"
+      "sha256": "8265b0d2fff5d3444cda8c3c1c6dd1cc6964d0de3ce63a5a46f1b3e6a66dfdc1"
     },
     {
       "bytes": 322075,
@@ -37,6 +43,6 @@
       "sha256": "d1a2bd3ddd59d6bdb8b10603d71f387211aaf64cf06c9fcdd7bece4d1e6925ad"
     }
   ],
-  "generatedAt": "2026-06-02T14:55:40Z",
+  "generatedAt": "2026-06-02T20:14:36Z",
   "manifestVersion": 1
 }

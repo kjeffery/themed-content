@@ -1,0 +1,31 @@
+{
+  "destination" : "disneyland-resort",
+  "formatVersion" : 1,
+  "pois" : [
+    {
+      "coord" : {
+        "latitude" : 33.80931689826368,
+        "longitude" : -117.91623928330637
+      },
+      "id" : "A9975641-C20E-4EC6-ABD2-0B299D56C262",
+      "kind" : "transit",
+      "name" : "Harbor Blvd",
+      "transitModes" : [
+        "bus",
+        "rideshare"
+      ]
+    },
+    {
+      "coord" : {
+        "latitude" : 33.80907467956903,
+        "longitude" : -117.92032193955083
+      },
+      "id" : "F98E8718-44D6-49A6-A17E-511ACDC2274C",
+      "kind" : "transit",
+      "name" : "Trams",
+      "transitModes" : [
+        "parkingTram"
+      ]
+    }
+  ]
+}
