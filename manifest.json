@@ -31,6 +31,18 @@
       "sha256": "10b7bbfce41cd670d3e6ce436de2df0a494243960c29cca641f57882eea9fa4a"
     },
     {
+      "bytes": 309,
+      "path": "poi_entrance_overrides-2cd345f4d556ad86.json",
+      "role": "poi_entrance_overrides",
+      "sha256": "2cd345f4d556ad86f5f2f12a34cece7cc086b1e2339da2340de383d8490de77f"
+    },
+    {
+      "bytes": 660,
+      "path": "pois_authored-66a880f749ac5dc8.json",
+      "role": "pois_authored",
+      "sha256": "66a880f749ac5dc879ff97fe0888fa65559b6342c36b8812481b44943c94e13e"
+    },
+    {
       "bytes": 65208,
       "path": "ride_metadata-39ab1d1d82ac9ee7.json",
       "role": "ride_metadata",
@@ -43,6 +55,6 @@
       "sha256": "d1a2bd3ddd59d6bdb8b10603d71f387211aaf64cf06c9fcdd7bece4d1e6925ad"
     }
   ],
-  "generatedAt": "2026-06-03T15:30:51Z",
+  "generatedAt": "2026-06-03T21:53:14Z",
   "manifestVersion": 1
 }
