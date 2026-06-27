@@ -37,10 +37,10 @@
       "sha256": "2cd345f4d556ad86f5f2f12a34cece7cc086b1e2339da2340de383d8490de77f"
     },
     {
-      "bytes": 919,
-      "path": "pois_authored-a2d784bbd68e29f2.json",
+      "bytes": 995,
+      "path": "pois_authored-d7329a0fdeeda670.json",
       "role": "pois_authored",
-      "sha256": "a2d784bbd68e29f2bbf7925ab47428478ed25f6729d8b1bdeebf100c205fca42"
+      "sha256": "d7329a0fdeeda670b5d36890da58b3ea0869cc297d6bebe41bb6e5a1a8a4d66c"
     },
     {
       "bytes": 65208,
@@ -55,6 +55,6 @@
       "sha256": "d1a2bd3ddd59d6bdb8b10603d71f387211aaf64cf06c9fcdd7bece4d1e6925ad"
     }
   ],
-  "generatedAt": "2026-06-27T20:53:28Z",
+  "generatedAt": "2026-06-27T20:57:22Z",
   "manifestVersion": 1
 }
