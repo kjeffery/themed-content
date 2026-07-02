@@ -6,13 +6,27 @@ Usage:
 
 Queries the Overpass API for `amenity=toilets` and `shop=*` elements clipped
 to the Disneyland and Disney California Adventure park polygons, then merges
-them into the graph as nodes with kind `restroom` / `shop`.
+them into the graph's `pois` array with kind `restroom` / `shop`.
 
-Idempotent — re-running updates names/coords for already-imported nodes
-without duplicating. Imported nodes use ids of the form `osm-{kind}-{id}` so
-they're easy to spot, and they carry no `themeParksEntityID` (OSM has no link
-back to themeparks.wiki). Nodes are added without edges; connect them to the
-path graph manually via the in-app debug overlay if you want them routable.
+Idempotent — re-running updates names/coords for already-imported POIs
+without duplicating. Matching happens in two tiers:
+
+1. By id. New imports get a *deterministic* UUIDv5 derived from the OSM
+   element (namespace UUID below + "osm-{kind}-{type}{id}"), so the same OSM
+   element always maps to the same POI id. Plain string ids ("osm-…") are NOT
+   valid — the app's POI.id is a UUID and the graph would fail to decode.
+2. Legacy adoption by proximity. POIs imported before the UUIDv5 scheme carry
+   random UUIDs with no OSM linkage, so a candidate that doesn't match by id
+   adopts the nearest unclaimed existing POI of the same kind within
+   ADOPT_RADIUS_METERS (exact-name matches are preferred). The existing POI's
+   id is KEPT — other documents (poi_entrance_overrides.json) reference these
+   UUIDs, so rewriting ids would orphan them.
+
+Fields the importer doesn't manage — `elevationMeters` (filled by
+enrich_elevations.py), `searchAliases`, `themeParksEntityID` — are preserved
+on update. Imported POIs carry no `themeParksEntityID` (OSM has no link back
+to themeparks.wiki) and no edges; connect them to the walkable surface via
+the in-app hex painter if you want them routable.
 
 After importing, run `tools/enrich_elevations.py` to fill in elevations.
 
@@ -29,13 +43,27 @@ from __future__ import annotations
 
 import argparse
 import json
+import math
 import sys
 import time
 import urllib.parse
 import urllib.request
+import uuid
 from pathlib import Path
 
 OVERPASS_URL = "https://overpass-api.de/api/interpreter"
+
+# Namespace for deterministic POI ids. Fixed forever: changing it would remint
+# every OSM-derived id and orphan any cross-references. Generated once via
+# uuid4 when the UUIDv5 scheme was introduced.
+OSM_POI_NAMESPACE = uuid.UUID("6c1f24a8-3ce4-4bb9-9e05-c6f0b8a7d43e")
+
+# How far (meters) a candidate may sit from a legacy POI of the same kind and
+# still adopt it. Tight on purpose: Main Street shops sit a few meters apart,
+# and a too-generous radius would cross-match neighbors. Exact-name matches
+# get a looser leash (names disambiguate).
+ADOPT_RADIUS_METERS = 8.0
+ADOPT_RADIUS_NAMED_METERS = 25.0
 
 # Theme-park boundary relations on OSM. Found via:
 #   way[tourism=theme_park](around the resort).
@@ -132,12 +160,18 @@ def is_excluded(element: dict) -> bool:
 
 
 def stable_id(element: dict, kind: str) -> str:
-    # OSM ids are stable across edits but not across element types — a node
-    # and a way can share an id. Include the OSM type to disambiguate.
-    return f"osm-{kind}-{element['type']}{element['id']}"
+    """Deterministic UUID for an OSM element.
+
+    OSM ids are stable across edits but not across element types — a node and
+    a way can share an id — so the seed includes the type. UUIDv5 keeps the
+    result a valid POI.id (the app decodes ids as UUIDs) while staying stable
+    across re-runs. Uppercased to match the graph's existing id formatting.
+    """
+    seed = f"osm-{kind}-{element['type']}{element['id']}"
+    return str(uuid.uuid5(OSM_POI_NAMESPACE, seed)).upper()
 
 
-def make_node(element: dict, kind: str, park_raw: str) -> dict:
+def make_poi(element: dict, kind: str, park_raw: str) -> dict:
     lat, lon = coord_for(element)
     return {
         "id": stable_id(element, kind),
@@ -148,32 +182,80 @@ def make_node(element: dict, kind: str, park_raw: str) -> dict:
     }
 
 
-def merge_nodes(graph: dict, candidates: list[dict]) -> tuple[int, int]:
-    """Merge OSM-sourced nodes into the graph in-place.
+def distance_meters(a: dict, b: dict) -> float:
+    """Equirectangular distance — plenty accurate at park scale."""
+    lat1, lon1 = a["latitude"], a["longitude"]
+    lat2, lon2 = b["latitude"], b["longitude"]
+    meters_per_deg_lat = 111_320.0
+    meters_per_deg_lon = meters_per_deg_lat * math.cos(math.radians((lat1 + lat2) / 2))
+    dy = (lat2 - lat1) * meters_per_deg_lat
+    dx = (lon2 - lon1) * meters_per_deg_lon
+    return math.hypot(dx, dy)
 
-    Returns (added, updated). Existing manual nodes (id not starting with
-    `osm-`) are never touched.
+
+def update_in_place(existing: dict, candidate: dict) -> bool:
+    """Overwrite only the importer-managed fields; keep everything else
+    (elevationMeters, searchAliases, themeParksEntityID, the existing id).
+    Returns True when anything actually changed."""
+    merged = dict(existing)
+    merged["name"] = candidate["name"]
+    merged["coord"] = candidate["coord"]
+    merged["park"] = candidate["park"]
+    merged["kind"] = candidate["kind"]
+    if merged != existing:
+        existing.clear()
+        existing.update(merged)
+        return True
+    return False
+
+
+def adopt_legacy(candidate: dict, pois: list[dict], claimed: set[str]) -> dict | None:
+    """Find a pre-UUIDv5 POI this candidate corresponds to.
+
+    Same kind, unclaimed, within ADOPT_RADIUS_METERS — or within the looser
+    ADOPT_RADIUS_NAMED_METERS when the names match exactly. Nearest wins.
     """
-    by_id = {n["id"]: n for n in graph["nodes"]}
+    best = None
+    best_dist = math.inf
+    for poi in pois:
+        if poi["kind"] != candidate["kind"] or poi["id"] in claimed:
+            continue
+        dist = distance_meters(poi["coord"], candidate["coord"])
+        limit = (
+            ADOPT_RADIUS_NAMED_METERS
+            if poi.get("name") == candidate["name"]
+            else ADOPT_RADIUS_METERS
+        )
+        if dist <= limit and dist < best_dist:
+            best = poi
+            best_dist = dist
+    return best
+
+
+def merge_pois(graph: dict, candidates: list[dict]) -> tuple[int, int]:
+    """Merge OSM-sourced POIs into the graph in-place.
+
+    Returns (added, updated). Manually-authored POIs are never touched: a
+    candidate can only update the POI with its own deterministic id or a
+    same-kind legacy POI adopted by proximity.
+    """
+    pois = graph["pois"]
+    by_id = {p["id"]: p for p in pois}
+    claimed: set[str] = set()
     added = 0
     updated = 0
     for candidate in candidates:
         existing = by_id.get(candidate["id"])
         if existing is None:
-            graph["nodes"].append(candidate)
+            existing = adopt_legacy(candidate, pois, claimed)
+        if existing is None:
+            pois.append(candidate)
+            by_id[candidate["id"]] = candidate
+            claimed.add(candidate["id"])
             added += 1
             continue
-        # Preserve any fields the importer doesn't manage — notably
-        # `elevationMeters` (filled in by enrich_elevations.py) and
-        # `userEdited` (set by the in-app graph editor).
-        merged = dict(existing)
-        merged["name"] = candidate["name"]
-        merged["coord"] = candidate["coord"]
-        merged["park"] = candidate["park"]
-        merged["kind"] = candidate["kind"]
-        if merged != existing:
-            existing.clear()
-            existing.update(merged)
+        claimed.add(existing["id"])
+        if update_in_place(existing, candidate):
             updated += 1
     return added, updated
 
@@ -199,6 +281,11 @@ def main() -> None:
         raise SystemExit(f"unknown kinds: {invalid} (allowed: restroom, shop)")
 
     graph = json.loads(args.graph.read_text())
+    if "pois" not in graph:
+        raise SystemExit(
+            "graph file has no 'pois' array — this tool requires the "
+            "formatVersion 2 catalog schema"
+        )
 
     candidates: list[dict] = []
     for park_raw, (rel_id, label) in PARKS.items():
@@ -217,7 +304,7 @@ def main() -> None:
             if coord_for(el) is None:
                 skipped_no_coord += 1
                 continue
-            candidates.append(make_node(el, kind, park_raw))
+            candidates.append(make_poi(el, kind, park_raw))
             kept += 1
         print(
             f"  {label}: {kept} kept, "
@@ -228,7 +315,7 @@ def main() -> None:
         # Be a polite Overpass citizen — small gap between the two queries.
         time.sleep(1.0)
 
-    added, updated = merge_nodes(graph, candidates)
+    added, updated = merge_pois(graph, candidates)
     by_kind: dict[str, int] = {}
     for c in candidates:
         by_kind[c["kind"]] = by_kind.get(c["kind"], 0) + 1
@@ -246,7 +333,7 @@ def main() -> None:
     print()
     print("Next steps:")
     print(f"  tools/enrich_elevations.py {args.graph}   # fill elevation data")
-    print(f"  # review imported nodes in the in-app debug overlay")
+    print(f"  # review imported POIs in the in-app debug overlay")
     print(f"  tools/publish.py {args.graph} --role graph")
 
 
