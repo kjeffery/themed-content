@@ -44,4 +44,33 @@ GitHub Pages serves via a Fastly CDN with `Cache-Control: max-age=600`. An in-pl
 3. Drop the exported file into this repo under a new `<role>-<sha>.json` name; update `manifest.json` to point at it.
 4. Commit and push. Within ~10 minutes the manifest goes live; clients will pick up the new content on their next launch.
 
-A helper script to automate step 3 (hash, rename, update manifest) will land here once the format stabilizes.
+`tools/publish.py <file>` automates step 3 (hash, rename, update manifest) for any role.
+
+## Generating menus
+
+Menus (with dietary + allergen restrictions) are scraped from Disney's own
+menu API, not hand-authored. `tools/build_menus.py` runs the whole flow:
+
+```
+# 1. fetch + summarize what changed, then open Beyond Compare
+#    (currently-published hashed menus vs the freshly generated menus.json)
+.venv/bin/python3 tools/build_menus.py
+
+# 2. once the diff looks right, publish the reviewed file (hash + manifest)
+.venv/bin/python3 tools/build_menus.py --publish
+
+# 3. commit & push (build_menus prints the exact git commands)
+```
+
+Under the hood it calls `fetch_disney_menus.py` (scrape → derive restrictions
+via the shared `dietary_signal.py`) and `publish.py`. The app's bundled
+fallback (`themed/Resources/BundledConfig/menus.json`) is refreshed
+automatically from the manifest on the next Xcode build — no manual copy.
+
+`tools/reconcile_disney_menus.py` is a separate read-only audit that diffs the
+committed menus against a fresh scrape (coverage gaps, likely false-positive
+tags); use it to sanity-check the pipeline without publishing anything.
+
+The dietary/allergen extraction is safety-sensitive — see the header of
+`tools/dietary_signal.py` for the "(For X Allergies)" = *safe-for* semantics
+and the guardrails before changing it.
