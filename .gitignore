@@ -6,6 +6,9 @@
 /menus.json
 /hexgrid.json
 
+# Human-readable review report from tools/dump_menus.py.
+/menus_report.md
+
 # Local Python venv for tools/.
 .venv/
 

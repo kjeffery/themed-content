@@ -16,9 +16,16 @@ Two signal sources, in increasing order of authority:
      ("Allergy-Friendly Entrées", "Plant-Based"). The old miner threw this
      away; it's high-confidence first-party structure.
 
-  3. The "(For X Allergies)" phrase inside allergy-friendly item descriptions.
+  3. Per-item safe-for allergens, in TWO formats Disney uses interchangeably:
+       a. Table-service: a "(For X, Y and Z Allergies)" phrase in the
+          description (`allergen_free_for`).
+       b. Quick-service: the allergen encoded in the item or group NAME —
+          "Egg Allergy-Friendly Spaghetti", groups named "Milk Allergy-
+          Friendly" (`allergens_from_name`). This is the MORE common format
+          (~2.7× the description format in sampling) and was the original
+          blind spot.
 
-SEMANTICS OF "(For X Allergies)" — verified against live data and
+SEMANTICS OF THE SAFE-FOR LIST — verified against live data and
 safety-critical, so spelled out:
 
     The allergens listed are the ones the dish is prepared to be SAFE FOR
@@ -48,62 +55,74 @@ CANONICAL_ALLERGENS = (
     "fish", "shellfish", "peanut", "tree-nut",
 )
 
-# Disney's allergen tokens (lowercased, slashes preserved) → the atomic
-# allergen set each entails. Expanding a combined token ("fish/shellfish" →
-# fish AND shellfish) is a SAFE broadening: prepared-free-of-the-pair entails
-# free-of-each. We deliberately never expand the other direction — a lone
-# "peanut" must NOT imply tree-nut, or we'd fabricate a safety claim Disney
-# never made.
-_ALLERGEN_TOKEN_MAP: dict[str, set[str]] = {
-    "gluten/wheat": {"gluten"},
-    "gluten": {"gluten"},
-    "wheat": {"gluten"},
-    "egg": {"egg"},
-    "eggs": {"egg"},
-    "milk": {"milk"},
-    "dairy": {"milk"},
-    "soy": {"soy"},
-    "sesame": {"sesame"},
-    "fish/shellfish": {"fish", "shellfish"},
-    "shellfish/fish": {"fish", "shellfish"},
-    "fish": {"fish"},
-    "shellfish": {"shellfish"},
-    "peanut/tree nut": {"peanut", "tree-nut"},
-    "tree nut/peanut": {"peanut", "tree-nut"},
-    "peanut/treenut": {"peanut", "tree-nut"},
-    "tree nut": {"tree-nut"},
-    "treenut": {"tree-nut"},
-    "tree nuts": {"tree-nut"},
-    "peanut": {"peanut"},
-    "peanuts": {"peanut"},
-}
+# Word-boundary scanners for each canonical allergen. A combined source token
+# like "fish/shellfish" lights BOTH `fish` and `shellfish` (a SAFE broadening:
+# prepared-free-of-the-pair entails free-of-each); "peanut/tree nut" lights
+# both peanut and tree-nut. We never expand the other direction — a lone
+# "peanut" must not imply tree-nut. `\bfish\b` deliberately does NOT fire
+# inside "shellfish" (no word boundary), so shellfish never leaks a fish claim.
+# Bare "nut" is intentionally unmatched (ambiguous peanut-vs-tree-nut).
+#
+# CRITICAL: only ever run this over a CONSTRAINED segment — the "(For X)"
+# safe-for list, or a name's "<Allergen> Allergy-Friendly" prefix — NEVER the
+# free description body, where an allergen word is an *ingredient* ("Crab Cakes
+# with fish sauce"), the opposite of a safe-for claim.
+_ALLERGEN_SCAN: list[tuple[str, re.Pattern]] = [
+    ("gluten", re.compile(r"\b(?:gluten|wheat)\b", re.IGNORECASE)),
+    ("egg", re.compile(r"\beggs?\b", re.IGNORECASE)),
+    ("milk", re.compile(r"\b(?:milk|dairy)\b", re.IGNORECASE)),
+    ("soy", re.compile(r"\bsoy\b", re.IGNORECASE)),
+    ("sesame", re.compile(r"\bsesame\b", re.IGNORECASE)),
+    ("shellfish", re.compile(r"\bshellfish\b", re.IGNORECASE)),
+    ("fish", re.compile(r"\bfish\b", re.IGNORECASE)),
+    ("peanut", re.compile(r"\bpeanuts?\b", re.IGNORECASE)),
+    ("tree-nut", re.compile(r"\btree\s*nuts?\b", re.IGNORECASE)),
+]
+
+
+def _scan_allergens(segment: str) -> set[str]:
+    """Canonical allergens named anywhere in a constrained segment. See the
+    CRITICAL note on `_ALLERGEN_SCAN` — never pass a free description body."""
+    return {canon for canon, pat in _ALLERGEN_SCAN if pat.search(segment)}
+
 
 # Anchored to the literal "(For … Allerg…)" parenthetical Disney appends, so a
 # stray earlier "for" in the description ("…Rice for two") can't start the
 # capture. Non-greedy up to the first "allerg".
 _FOR_ALLERGIES = re.compile(r"\(\s*for\b(.*?)allerg", re.IGNORECASE | re.DOTALL)
 
-# Split the captured segment into candidate tokens on commas / "and" / "&".
-_TOKEN_SEP = re.compile(r",|\band\b|&", re.IGNORECASE)
+# Quick-service format: "<Allergen> Allergy-Friendly <Dish>" (item name) or a
+# group literally named "<Allergen> Allergy-Friendly". We scan only the prefix
+# BEFORE "allergy-friendly" — the dish part after it may name an ingredient.
+_ALLERGY_FRIENDLY_NAME = re.compile(r"^(.*?)\ballergy[- ]friendly\b", re.IGNORECASE)
+# The generic group header item ("Guests must speak to a Cast Member about
+# their allergy-friendly request") carries no allergen and must stay unparsed.
+_PLACEHOLDER_ITEM = re.compile(r"speak\s+to\s+a\s+cast\s+member", re.IGNORECASE)
 
 
 def allergen_free_for(description: str | None) -> list[str] | None:
-    """Parse Disney's "(For X, Y and Z Allergies)" phrase into the sorted list
-    of canonical allergens the dish is marked SAFE FOR. Returns None when the
-    phrase is absent or names nothing we recognize.
-
-    Whitelist-only: any token not in `_ALLERGEN_TOKEN_MAP` is dropped, so
-    surrounding prose is harmless and we never emit a non-canonical claim."""
+    """Table-service format: parse Disney's "(For X, Y and Z Allergies)" phrase
+    into the sorted canonical allergens the dish is marked SAFE FOR. None when
+    the phrase is absent or names nothing recognized."""
     if not description:
         return None
     m = _FOR_ALLERGIES.search(description)
     if not m:
         return None
-    found: set[str] = set()
-    for raw in _TOKEN_SEP.split(m.group(1)):
-        tok = re.sub(r"\s+", " ", raw.strip().lower()).strip(" .")
-        if tok in _ALLERGEN_TOKEN_MAP:
-            found |= _ALLERGEN_TOKEN_MAP[tok]
+    found = _scan_allergens(m.group(1))
+    return sorted(found) if found else None
+
+
+def allergens_from_name(name: str | None) -> list[str] | None:
+    """Quick-service format: parse the allergen from an item or group name of
+    the form "<Allergen> Allergy-Friendly <Dish>". Returns None for the generic
+    cast-member placeholder or a prefix that names no allergen."""
+    if not name or _PLACEHOLDER_ITEM.search(name):
+        return None
+    m = _ALLERGY_FRIENDLY_NAME.search(name)
+    if not m:
+        return None
+    found = _scan_allergens(m.group(1))
     return sorted(found) if found else None
 
 
@@ -194,7 +213,15 @@ def derive_item_signals(
 
     allergens = None
     if group_is_allergy_friendly(group_type, group_name):
+        # Table-service: full safe-for list in the "(For X)" description.
         allergens = allergen_free_for(description)
+        # Quick-service: allergen encoded in the item name ("Egg Allergy-
+        # Friendly Spaghetti"), or the group name ("Milk Allergy-Friendly").
+        # Item name is most specific; fall back to the group's allergen — but
+        # never for the group's "speak to a Cast Member" header row, which is
+        # an instruction, not a dish, and must not inherit the group allergen.
+        if not allergens and not _PLACEHOLDER_ITEM.search(name or ""):
+            allergens = allergens_from_name(name) or allergens_from_name(group_name)
 
     return {
         "tags": sorted(tags) if tags else None,
@@ -232,6 +259,26 @@ def _selftest() -> None:
             ok = False
         print(f"  [{status}] {got}  (expected {expected})")
 
+    # Quick-service name-encoded format (allergen in the item/group name).
+    name_cases = [
+        ("Egg Allergy-Friendly Spaghetti with Marinara", ["egg"]),
+        ("Gluten/Wheat Allergy-Friendly Pepperoni Pizza", ["gluten"]),
+        ("Fish/Shellfish Allergy-Friendly Satellite Salad", ["fish", "shellfish"]),
+        ("Peanut/Tree Nut Allergy-Friendly Kids' Pizza", ["peanut", "tree-nut"]),
+        ("Gluten / Wheat Allergy-Friendly Bun", ["gluten"]),  # spacing typo
+        # Allergen after "Allergy-Friendly" is a dish ingredient, not a claim:
+        ("Egg Allergy-Friendly Fish Tacos", ["egg"]),
+        # Placeholder header must stay unparsed:
+        ("Guests must speak to a Cast Member about their allergy-friendly request", None),
+        # No "allergy-friendly" marker → None:
+        ("Cheeseburger", None),
+    ]
+    for name, expected in name_cases:
+        got = allergens_from_name(name)
+        if got != expected:
+            ok = False
+        print(f"  [{'ok ' if got == expected else 'FAIL'}] name {name[:42]!r:44} → {got}")
+
     # group helpers
     assert group_is_allergy_friendly("Allergy Friendly|Entree")
     assert group_is_allergy_friendly("Entree", "Allergy-Friendly Dessert")
@@ -239,15 +286,30 @@ def _selftest() -> None:
     assert group_is_plant_based("Plant-Based")
     assert not group_is_plant_based("Entrées")
 
-    # gating: allergen phrase must be ignored outside an allergy-friendly group
+    # gating: allergen signal must be ignored outside an allergy-friendly group
     sig = derive_item_signals("X", "(For Egg Allergies)", "Entrées", "Entree")
     assert sig["allergenFriendlyFor"] is None, sig
     sig = derive_item_signals("X", "(For Egg Allergies)", "Allergy-Friendly Entrées", "Allergy Friendly|Entree")
     assert sig["allergenFriendlyFor"] == ["egg"], sig
+    # name-encoded item inside its allergen group
+    sig = derive_item_signals("Egg Allergy-Friendly Spaghetti", "Spaghetti with Marinara",
+                              "Egg Allergy-Friendly", "Allergy Friendly")
+    assert sig["allergenFriendlyFor"] == ["egg"], sig
+    # plain-named item inheriting the group's allergen
+    sig = derive_item_signals("Cheese Pizza", "", "Milk Allergy-Friendly", "Allergy Friendly")
+    assert sig["allergenFriendlyFor"] == ["milk"], sig
+    # the group's cast-member header row must NOT inherit the group allergen
+    sig = derive_item_signals("Guests must speak to a Cast Member about their allergy-friendly request",
+                              "", "Gluten/Wheat Allergy-Friendly", "Allergy Friendly")
+    assert sig["allergenFriendlyFor"] is None, sig
+    # ingredient in a plain description must NOT leak a safe-for claim
+    sig = derive_item_signals("Crab Cakes", "made with fish sauce",
+                              "Allergy-Friendly Appetizers", "Allergy Friendly|Appetizer")
+    assert sig["allergenFriendlyFor"] is None, sig
     sig = derive_item_signals("Tofu Bowl", "Marinated tofu", "Plant-Based", "Entree")
     assert sig["tags"] == ["vegan"], sig
 
-    print("group/gating assertions passed" if ok else "PHRASE CASES FAILED")
+    print("group/gating assertions passed" if ok else "CASES FAILED")
     if not ok:
         raise SystemExit(1)
 

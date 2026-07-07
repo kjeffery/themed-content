@@ -71,6 +71,12 @@ automatically from the manifest on the next Xcode build — no manual copy.
 committed menus against a fresh scrape (coverage gaps, likely false-positive
 tags); use it to sanity-check the pipeline without publishing anything.
 
+`tools/dump_menus.py` renders a menus.json into one readable `menus_report.md`
+— a **Menus** section (browse every restaurant) and an **Allergen
+verification** section that shows each parsed safe-for list next to Disney's
+source text, for eyeballing the extraction. It's gitignored (a review
+artifact).
+
 The dietary/allergen extraction is safety-sensitive — see the header of
 `tools/dietary_signal.py` for the "(For X Allergies)" = *safe-for* semantics
 and the guardrails before changing it.
