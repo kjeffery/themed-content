@@ -43,100 +43,18 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import hexgrid_format  # noqa: E402
 
-EARTH_RADIUS_METERS = 6_371_000.0
-
-# Flat-top axial neighbor directions — mirrors HexCoord.flatTopDirections.
-FLAT_TOP_DIRECTIONS = [(1, 0), (1, -1), (0, -1), (-1, 0), (-1, 1), (0, 1)]
+# Geometry (Projection, ring, distance_meters) lives in hexgrid_format —
+# shared with hexgrid_clip.py and kept in sync with the Swift GridOrigin.
+from hexgrid_format import (  # noqa: E402
+    FLAT_TOP_DIRECTIONS,
+    Projection,
+    distance_meters,
+    ring,
+)
 
 # Mirrors POICatalog.snapAudit's cap: beyond 80 rings (~160 m at 1 m
 # apothem) a POI is reported with the best distance found so far.
 MAX_WARNING_RINGS = 80
-
-
-# --- geometry, mirroring GridOrigin -----------------------------------------
-
-def distance_meters(a: tuple[float, float], b: tuple[float, float]) -> float:
-    """Equirectangular distance — mirrors Coordinate.distance(to:)."""
-    phi1 = math.radians(a[0])
-    phi2 = math.radians(b[0])
-    dlam = math.radians(b[1] - a[1])
-    x = dlam * math.cos((phi1 + phi2) / 2.0)
-    y = phi2 - phi1
-    return EARTH_RADIUS_METERS * math.hypot(x, y)
-
-
-class Projection:
-    """GridOrigin's hex ↔ world mapping (flatTop / pointyTop)."""
-
-    def __init__(self, origin: dict):
-        self.lat0 = origin["latitude"]
-        self.lng0 = origin["longitude"]
-        self.apothem = origin["hexSizeMeters"]
-        self.outer_radius = self.apothem * 2.0 / math.sqrt(3.0)
-        self.orientation = origin.get("orientation", "flatTop")
-        if self.orientation not in ("flatTop", "pointyTop"):
-            raise ValueError(f"unknown orientation: {self.orientation!r}")
-        self._cos_phi0 = math.cos(math.radians(self.lat0))
-
-    def center(self, q: int, r: int) -> tuple[float, float]:
-        R = self.outer_radius
-        if self.orientation == "flatTop":
-            dx = R * 1.5 * q
-            dy = R * math.sqrt(3.0) * (r + q / 2.0)
-        else:
-            dx = R * math.sqrt(3.0) * (q + r / 2.0)
-            dy = R * 1.5 * r
-        lat = self.lat0 + math.degrees(dy / EARTH_RADIUS_METERS)
-        lng = self.lng0 + math.degrees(dx / (EARTH_RADIUS_METERS * self._cos_phi0))
-        return (lat, lng)
-
-    def hex_at(self, lat: float, lng: float) -> tuple[int, int]:
-        dx = math.radians(lng - self.lng0) * EARTH_RADIUS_METERS * self._cos_phi0
-        dy = math.radians(lat - self.lat0) * EARTH_RADIUS_METERS
-        R = self.outer_radius
-        if self.orientation == "flatTop":
-            fq = (2.0 / 3.0) * dx / R
-            fr = (-1.0 / 3.0 * dx + math.sqrt(3.0) / 3.0 * dy) / R
-        else:
-            fq = (math.sqrt(3.0) / 3.0 * dx - 1.0 / 3.0 * dy) / R
-            fr = (2.0 / 3.0) * dy / R
-        return _cube_round(fq, fr)
-
-
-def _cube_round(fq: float, fr: float) -> tuple[int, int]:
-    """FractionalHex.rounded() — cube round with largest-residual fixup."""
-    fs = -fq - fr
-    rq = round(fq)
-    rr = round(fr)
-    rs = round(fs)
-    dq = abs(rq - fq)
-    dr = abs(rr - fr)
-    ds = abs(rs - fs)
-    if dq > dr and dq > ds:
-        rq = -rr - rs
-    elif dr > ds:
-        rr = -rq - rs
-    return (int(rq), int(rr))
-
-
-def ring(center: tuple[int, int], radius: int) -> list[tuple[int, int]]:
-    """HexCoord.ring(radius:) — one walk around the ring."""
-    if radius < 0:
-        return []
-    if radius == 0:
-        return [center]
-    out = []
-    sq, sr = FLAT_TOP_DIRECTIONS[4]
-    q = center[0] + sq * radius
-    r = center[1] + sr * radius
-    for edge in range(6):
-        dq, dr = FLAT_TOP_DIRECTIONS[edge]
-        for _ in range(radius):
-            out.append((q, r))
-            q += dq
-            r += dr
-    return out
-
 
 # --- data loading ------------------------------------------------------------
 
@@ -256,10 +174,18 @@ def main() -> None:
         default=5.0,
         help="snap-audit pass distance in meters (default 5, matches the app)",
     )
+    parser.add_argument(
+        "--grid",
+        type=Path,
+        default=None,
+        help="hexgrid file to audit (default: <content-dir>/hexgrid.json); "
+        "use to gate a candidate like hexgrid_clipped.json before adopting it",
+    )
     args = parser.parse_args()
     content_dir = args.content_dir
 
-    grid = json.loads((content_dir / "hexgrid.json").read_text())
+    grid_path = args.grid or (content_dir / "hexgrid.json")
+    grid = json.loads(grid_path.read_text())
     cells = hexgrid_format.load_cells(grid)
     proj = Projection(grid["origin"])
     pois = load_pois(content_dir)

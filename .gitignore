@@ -14,3 +14,4 @@
 
 # Python bytecode cache for tools/.
 tools/__pycache__/
+/hexgrid_clipped.json

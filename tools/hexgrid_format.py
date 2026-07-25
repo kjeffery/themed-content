@@ -14,8 +14,115 @@ the int is far more compact than a name array).
 """
 from __future__ import annotations
 
+import math
+
 # Keep in sync with `HexGrid.currentFormatVersion`.
 CURRENT_FORMAT_VERSION = 1
+
+EARTH_RADIUS_METERS = 6_371_000.0
+
+# Flat-top axial neighbor directions — mirrors HexCoord.flatTopDirections.
+FLAT_TOP_DIRECTIONS = [(1, 0), (1, -1), (0, -1), (-1, 0), (-1, 1), (0, 1)]
+
+
+# --- geometry, mirroring GridOrigin in themed/Routing/HexGrid.swift ---------
+# Same drift hazard as the elevation enricher: changes to the Swift
+# projection must be reflected here or Python-derived data diverges from
+# what the runtime computes for the same cell.
+
+def distance_meters(a: tuple[float, float], b: tuple[float, float]) -> float:
+    """Equirectangular distance — mirrors Coordinate.distance(to:)."""
+    phi1 = math.radians(a[0])
+    phi2 = math.radians(b[0])
+    dlam = math.radians(b[1] - a[1])
+    x = dlam * math.cos((phi1 + phi2) / 2.0)
+    y = phi2 - phi1
+    return EARTH_RADIUS_METERS * math.hypot(x, y)
+
+
+def cube_round(fq: float, fr: float) -> tuple[int, int]:
+    """FractionalHex.rounded() — cube round with largest-residual fixup."""
+    fs = -fq - fr
+    rq = round(fq)
+    rr = round(fr)
+    rs = round(fs)
+    dq = abs(rq - fq)
+    dr = abs(rr - fr)
+    ds = abs(rs - fs)
+    if dq > dr and dq > ds:
+        rq = -rr - rs
+    elif dr > ds:
+        rr = -rq - rs
+    return (int(rq), int(rr))
+
+
+def ring(center: tuple[int, int], radius: int) -> list[tuple[int, int]]:
+    """HexCoord.ring(radius:) — one walk around the ring."""
+    if radius < 0:
+        return []
+    if radius == 0:
+        return [center]
+    out = []
+    sq, sr = FLAT_TOP_DIRECTIONS[4]
+    q = center[0] + sq * radius
+    r = center[1] + sr * radius
+    for edge in range(6):
+        dq, dr = FLAT_TOP_DIRECTIONS[edge]
+        for _ in range(radius):
+            out.append((q, r))
+            q += dq
+            r += dr
+    return out
+
+
+class Projection:
+    """GridOrigin's hex ↔ world mapping (flatTop / pointyTop)."""
+
+    def __init__(self, origin: dict):
+        self.lat0 = origin["latitude"]
+        self.lng0 = origin["longitude"]
+        self.apothem = origin["hexSizeMeters"]
+        self.outer_radius = self.apothem * 2.0 / math.sqrt(3.0)
+        self.orientation = origin.get("orientation", "flatTop")
+        if self.orientation not in ("flatTop", "pointyTop"):
+            raise ValueError(f"unknown orientation: {self.orientation!r}")
+        self._cos_phi0 = math.cos(math.radians(self.lat0))
+
+    def local_offset(self, lat: float, lng: float) -> tuple[float, float]:
+        """World coordinate → east/north meters in the origin's tangent plane."""
+        dx = math.radians(lng - self.lng0) * EARTH_RADIUS_METERS * self._cos_phi0
+        dy = math.radians(lat - self.lat0) * EARTH_RADIUS_METERS
+        return (dx, dy)
+
+    def center(self, q: int, r: int) -> tuple[float, float]:
+        R = self.outer_radius
+        if self.orientation == "flatTop":
+            dx = R * 1.5 * q
+            dy = R * math.sqrt(3.0) * (r + q / 2.0)
+        else:
+            dx = R * math.sqrt(3.0) * (q + r / 2.0)
+            dy = R * 1.5 * r
+        lat = self.lat0 + math.degrees(dy / EARTH_RADIUS_METERS)
+        lng = self.lng0 + math.degrees(dx / (EARTH_RADIUS_METERS * self._cos_phi0))
+        return (lat, lng)
+
+    def center_local(self, q: int, r: int) -> tuple[float, float]:
+        """Cell center in local meters — cheaper than `center` in bulk loops."""
+        R = self.outer_radius
+        if self.orientation == "flatTop":
+            return (R * 1.5 * q, R * math.sqrt(3.0) * (r + q / 2.0))
+        return (R * math.sqrt(3.0) * (q + r / 2.0), R * 1.5 * r)
+
+    def hex_at(self, lat: float, lng: float) -> tuple[int, int]:
+        dx, dy = self.local_offset(lat, lng)
+        R = self.outer_radius
+        if self.orientation == "flatTop":
+            fq = (2.0 / 3.0) * dx / R
+            fr = (-1.0 / 3.0 * dx + math.sqrt(3.0) / 3.0 * dy) / R
+        else:
+            fq = (math.sqrt(3.0) / 3.0 * dx - 1.0 / 3.0 * dy) / R
+            fr = (2.0 / 3.0) * dy / R
+        return cube_round(fq, fr)
 
 
 def load_cells(grid: dict) -> list[dict]:

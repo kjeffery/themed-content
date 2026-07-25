@@ -1,0 +1,6 @@
+{
+  "destination": "disneyland-resort",
+  "formatVersion": 1,
+  "note": "Hand-authored never-walkable areas, stamped as `restricted` cells by hexgrid_clip.py as its FINAL stage so no import or seed can re-admit them. Use for paths OSM tags as public but Disney treats as cast-directed overflow (e.g. the walkways flanking Main Street opened only during parades). Polygons are lat/lng rings; they do not need to be closed.",
+  "exclusions": []
+}
