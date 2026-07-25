@@ -1,0 +1,13 @@
+{
+  "destination": "disneyland-resort",
+  "intentionalIslands": [
+    {
+      "name": "Tom Sawyer Island",
+      "note": "Reachable only by raft; not an error that it is disconnected from the mainland walk component. Seed = Fort Wilderness (mid-island); the Pirate's Lair POI pin sits at the raft dock on the mainland bank, so it is NOT a valid island seed.",
+      "seed": {
+        "latitude": 33.8129871,
+        "longitude": -117.9220035
+      }
+    }
+  ]
+}
