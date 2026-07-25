@@ -73,12 +73,23 @@ PARKS = {
     "california-adventure": (15626312, "Disney California Adventure"),
 }
 
-# Tag values we never want to import. Cast-only restrooms aren't useful to
-# guests; closed storefronts are noise.
+# Tag values we never want to import. Closed storefronts are noise.
+#
+# NOTE: access=private is deliberately NOT here anymore. Cast/backstage
+# facilities are imported keep-and-mark style: they land in the catalog
+# with `"access": "private"` (see PRIVATE_ACCESS_VALUES) so the hex
+# painter can see and manage them, while the app's guest surfaces filter
+# them out via `AppConfig.graph`. Culling them at import just meant OSM
+# re-offered them forever.
 EXCLUDED_TAG_VALUES = {
-    ("access", "private"),
     ("shop", "vacant"),
 }
+
+# OSM `access` values that mark a POI as cast/backstage rather than
+# guest-facing. Written as `"access": "private"` on NEW imports only —
+# `update_in_place` never touches the field, so a hand-set (or hand-
+# cleared) designation survives every re-import.
+PRIVATE_ACCESS_VALUES = {"private", "employees", "no", "permit"}
 
 
 def overpass_query(rel_id: int, kinds: list[str]) -> list[dict]:
@@ -173,13 +184,16 @@ def stable_id(element: dict, kind: str) -> str:
 
 def make_poi(element: dict, kind: str, park_raw: str) -> dict:
     lat, lon = coord_for(element)
-    return {
+    poi = {
         "id": stable_id(element, kind),
         "name": display_name(element, kind),
         "kind": kind,
         "coord": {"latitude": lat, "longitude": lon},
         "park": park_raw,
     }
+    if element.get("tags", {}).get("access") in PRIVATE_ACCESS_VALUES:
+        poi["access"] = "private"
+    return poi
 
 
 def distance_meters(a: dict, b: dict) -> float:
@@ -195,7 +209,10 @@ def distance_meters(a: dict, b: dict) -> float:
 
 def update_in_place(existing: dict, candidate: dict) -> bool:
     """Overwrite only the importer-managed fields; keep everything else
-    (elevationMeters, searchAliases, themeParksEntityID, the existing id).
+    (elevationMeters, searchAliases, themeParksEntityID, `access`, the
+    existing id). `access` in particular is hand-owned after first import:
+    OSM tags seed it on brand-new POIs only, so a human marking a POI
+    private (or clearing a wrong mark) is never overwritten by a re-run.
     Returns True when anything actually changed."""
     merged = dict(existing)
     merged["name"] = candidate["name"]

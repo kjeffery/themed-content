@@ -7,7 +7,12 @@
       "seed": {
         "latitude": 33.8129871,
         "longitude": -117.9220035
-      }
+      },
+      "entrance": {
+        "latitude": 33.8116538616,
+        "longitude": -117.921538353
+      },
+      "entranceNote": "Raft dock on the mainland bank (the Pirate's Lair pin); on-island POIs get entrance overrides here so navigation walks users to the rafts."
     }
   ]
 }

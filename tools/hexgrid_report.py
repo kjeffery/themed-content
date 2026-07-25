@@ -58,8 +58,14 @@ MAX_WARNING_RINGS = 80
 
 # --- data loading ------------------------------------------------------------
 
-def load_pois(content_dir: Path) -> list[dict]:
-    """graph.json POIs + pois_authored.json waypoints, tagged with source."""
+def load_pois(content_dir: Path, include_private: bool = False) -> list[dict]:
+    """graph.json POIs + pois_authored.json waypoints, tagged with source.
+
+    POIs marked `"access": "private"` (cast/backstage) are excluded by
+    default, mirroring the app's guest-facing `AppConfig.graph`: they are
+    never navigation targets, so they don't need grid coverage, entrance
+    overrides, or component anchoring.
+    """
     pois = []
     graph = json.loads((content_dir / "graph.json").read_text())
     for p in graph["pois"]:
@@ -69,12 +75,16 @@ def load_pois(content_dir: Path) -> list[dict]:
         authored = json.loads(authored_path.read_text())
         for p in authored.get("pois", []):
             pois.append({**p, "source": "authored"})
+    if not include_private:
+        pois = [p for p in pois if p.get("access") != "private"]
     return pois
 
 
-def load_overrides(content_dir: Path) -> dict[str, tuple[float, float]]:
+def load_overrides(
+    content_dir: Path, path: Path | None = None
+) -> dict[str, tuple[float, float]]:
     """POI id (lowercased) → entrance coord."""
-    path = content_dir / "poi_entrance_overrides.json"
+    path = path or (content_dir / "poi_entrance_overrides.json")
     if not path.exists():
         return {}
     doc = json.loads(path.read_text())
@@ -181,6 +191,13 @@ def main() -> None:
         help="hexgrid file to audit (default: <content-dir>/hexgrid.json); "
         "use to gate a candidate like hexgrid_clipped.json before adopting it",
     )
+    parser.add_argument(
+        "--overrides",
+        type=Path,
+        default=None,
+        help="entrance-overrides file (default: <content-dir>/"
+        "poi_entrance_overrides.json); use to gate a proposed candidate",
+    )
     args = parser.parse_args()
     content_dir = args.content_dir
 
@@ -189,7 +206,7 @@ def main() -> None:
     cells = hexgrid_format.load_cells(grid)
     proj = Projection(grid["origin"])
     pois = load_pois(content_dir)
-    overrides = load_overrides(content_dir)
+    overrides = load_overrides(content_dir, args.overrides)
     config_path = content_dir / "hex_report_config.json"
     config = json.loads(config_path.read_text()) if config_path.exists() else {}
 
@@ -234,9 +251,12 @@ def main() -> None:
     # inf (nothing within the ring cap) sorts first — worst of the worst.
     failures.sort(key=lambda a: not math.isinf(a["distance"]))
 
+    private_count = len(load_pois(content_dir, include_private=True)) - len(pois)
     print(f"=== Snap audit (threshold {args.threshold:g} m) ===")
     print(f"POIs audited: {len(audited)} "
-          f"({sum(1 for a in audited if a['overridden'])} with entrance overrides)")
+          f"({sum(1 for a in audited if a['overridden'])} with entrance overrides"
+          + (f"; {private_count} private POIs excluded" if private_count else "")
+          + ")")
     print(f"pass: {len(audited) - len(failures)}, fail: {len(failures)}")
     for a in failures:
         poi = a["poi"]
