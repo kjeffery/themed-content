@@ -198,6 +198,13 @@ def main() -> None:
         help="entrance-overrides file (default: <content-dir>/"
         "poi_entrance_overrides.json); use to gate a proposed candidate",
     )
+    parser.add_argument(
+        "--json",
+        type=Path,
+        default=None,
+        help="also write a machine-readable result snapshot to this path "
+        "(used by update_and_verify.sh for regression diffing)",
+    )
     args = parser.parse_args()
     content_dir = args.content_dir
 
@@ -373,13 +380,13 @@ def main() -> None:
         if comp_id in intentional_ids:
             on_intentional.append((name, intentional_ids[comp_id]))
         else:
-            on_stray.append((name, comp_id, comp_sizes[comp_id]))
+            on_stray.append((name, comp_id, comp_sizes[comp_id], a["poi"]["id"].lower()))
 
     print("=== POI component check ===")
     for name, island in on_intentional:
         print(f"  info: {name} is on intentional island {island!r} "
               "(routes to it will fail until it has a mainland entrance override)")
-    for name, comp_id, size in sorted(on_stray, key=lambda t: t[0]):
+    for name, comp_id, size, _ in sorted(on_stray, key=lambda t: t[0]):
         print(f"  FAIL {name} snapped to a stray island ({size} cells) — "
               "unroutable from the mainland")
     if not on_stray and not on_intentional:
@@ -398,6 +405,43 @@ def main() -> None:
         problems.append(f"{len(bridged_islands)} intentional islands bridged to mainland")
     if on_stray:
         problems.append(f"{len(on_stray)} POIs on stray islands")
+
+    # Machine-readable snapshot for regression diffing (update_and_verify.sh
+    # compares a pre-pull baseline against the post-pull state). Written
+    # before the failure exit so a FAIL run still produces a snapshot.
+    if args.json:
+        payload = {
+            "cells": len(cells),
+            "passable": len(passable),
+            "kinds": kind_counts,
+            "missingElevation": missing_elevation,
+            "audited": len(audited),
+            "pass": len(audited) - len(failures),
+            "failures": [
+                {
+                    "id": a["poi"]["id"].lower(),
+                    "name": a["poi"].get("name"),
+                    "kind": a["poi"]["kind"],
+                    "park": a["poi"].get("park", a["poi"]["source"]),
+                    "distanceMeters": (
+                        None if math.isinf(a["distance"]) else round(a["distance"], 1)
+                    ),
+                }
+                for a in failures
+            ],
+            "strayIslandCells": sorted(
+                (comp_sizes[comp_id] for comp_id, _ in stray), reverse=True
+            ),
+            "poisOnStray": [
+                {"id": poi_id, "name": name, "islandCells": size}
+                for name, _, size, poi_id in on_stray
+            ],
+            "bridgedIslands": bridged_islands,
+            "problems": problems,
+            "gate": "FAIL" if problems else "PASS",
+        }
+        args.json.write_text(json.dumps(payload, indent=2, sort_keys=True) + "\n")
+
     if problems:
         print(f"RELEASE GATE: FAIL — {'; '.join(problems)}")
         sys.exit(1)

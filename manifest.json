@@ -32,9 +32,9 @@
     },
     {
       "bytes": 21090,
-      "path": "poi_entrance_overrides-d029b3b695db1663.json",
+      "path": "poi_entrance_overrides-2eb4cfdfd2e3bf55.json",
       "role": "poi_entrance_overrides",
-      "sha256": "d029b3b695db166335c33ce42d79008bc9e500c3736dfecc2e9fee37bd2d1af0"
+      "sha256": "2eb4cfdfd2e3bf554207b8ff25cee53e21d39765ce849f76d3bc28a2f8e16dd0"
     },
     {
       "bytes": 995,
@@ -55,6 +55,6 @@
       "sha256": "d1a2bd3ddd59d6bdb8b10603d71f387211aaf64cf06c9fcdd7bece4d1e6925ad"
     }
   ],
-  "generatedAt": "2026-07-26T01:10:37Z",
+  "generatedAt": "2026-07-26T01:15:53Z",
   "manifestVersion": 1
 }

@@ -4,195 +4,11 @@
   "overrides": [
     {
       "entranceCoord": {
-        "latitude": 33.80953693342313,
-        "longitude": -117.91898125246554
-      },
-      "id": "7340550B-C14D-4DEF-80BB-ACDB51D49A66",
-      "note": "Entrance for Main Gate"
-    },
-    {
-      "entranceCoord": {
-        "latitude": 33.81545446959008,
-        "longitude": -117.91841882643193
-      },
-      "id": "CD670BFF-81D1-4F34-8676-7BAFDF49220A",
-      "note": "Entrance for Mickey & Minnie's Runaway Railway"
-    },
-    {
-      "entranceCoord": {
-        "latitude": 33.81519366632436,
-        "longitude": -117.91810011834622
-      },
-      "id": "6CE9CDD1-0A43-459E-83CD-F4CACE9CFA7B",
-      "note": "Entrance for Roger Rabbit's Car Toon Spin"
-    },
-    {
-      "entranceCoord": {
-        "latitude": 33.81169530527734,
-        "longitude": -117.91991862918823
-      },
-      "id": "29C145A2-1CB3-451A-B787-D7620CE3F71D",
-      "note": "AUTO-PROPOSED for Adventureland Bazaar: nearest passable cell beyond threshold (5.4 m from pin) \u2014 review"
-    },
-    {
-      "entranceCoord": {
-        "latitude": 33.8121449660803,
-        "longitude": -117.91815636094958
-      },
-      "id": "6C225598-91C9-44A3-95E2-7C423475DB61",
-      "note": "AUTO-PROPOSED for Astro Orbitor: nearest passable cell beyond threshold (5.1 m from pin) \u2014 review"
-    },
-    {
-      "entranceCoord": {
-        "latitude": 33.80808902563761,
-        "longitude": -117.9190374950689
-      },
-      "id": "301BBC41-CF63-43F5-8D80-A27B81EB4508",
-      "note": "AUTO-PROPOSED for Atwater Ink & Paint: nearest passable cell beyond threshold (8.7 m from pin) \u2014 review"
-    },
-    {
-      "entranceCoord": {
-        "latitude": 33.80579575554251,
-        "longitude": -117.92003111439494
-      },
-      "id": "778F814E-7113-4599-ADCE-B598A39D6CD9",
-      "note": "AUTO-PROPOSED for Aunt Cass Caf\u00e9: nearest passable cell beyond threshold (7.5 m from pin) \u2014 review"
-    },
-    {
-      "entranceCoord": {
-        "latitude": 33.806641117852074,
-        "longitude": -117.91811886588067
-      },
-      "id": "4FC1AC4B-64C8-4F1C-86E5-F155295B2C5F",
-      "note": "AUTO-PROPOSED for Avengers Campus Restroom: nearest cell is on a disconnected fragment (15.4 m from pin) \u2014 review"
-    },
-    {
-      "entranceCoord": {
-        "latitude": 33.80650621961119,
-        "longitude": -117.91761268245043
-      },
-      "id": "944DBBD1-B82B-4CB9-9381-605E2DA7A82F",
-      "note": "AUTO-PROPOSED for Avengers Vault: nearest passable cell beyond threshold (7.9 m from pin) \u2014 review"
-    },
-    {
-      "entranceCoord": {
-        "latitude": 33.80821493066243,
-        "longitude": -117.91888751479327
-      },
-      "id": "FD78F17D-7485-4354-8748-7463174A3D85",
-      "note": "AUTO-PROPOSED for Big Top Toys: nearest passable cell beyond threshold (16.7 m from pin) \u2014 review"
-    },
-    {
-      "entranceCoord": {
-        "latitude": 33.80502233896142,
-        "longitude": -117.92254328401174
-      },
-      "id": "7FB2DAE7-0B66-4289-B23F-33157A108FE0",
-      "note": "AUTO-PROPOSED for Bing Bong\u2019s Sweet Stuff: nearest passable cell beyond threshold (10.0 m from pin) \u2014 review"
-    },
-    {
-      "entranceCoord": {
-        "latitude": 33.80566985051768,
-        "longitude": -117.9192437179479
-      },
-      "id": "9212D580-2AD1-4115-8B84-57E32644AFE4",
-      "note": "AUTO-PROPOSED for Carsland Restroom: nearest passable cell beyond threshold (5.8 m from pin) \u2014 review"
-    },
-    {
-      "entranceCoord": {
-        "latitude": 33.807540439457995,
+        "latitude": 33.8081339917179,
         "longitude": -117.91905624260336
       },
-      "id": "1BEF32E2-73B4-4DE3-BB07-F71C3F301F22",
-      "note": "AUTO-PROPOSED for Carthay Circle Lounge: nearest cell is on a disconnected fragment (6.1 m from pin) \u2014 review"
-    },
-    {
-      "entranceCoord": {
-        "latitude": 33.807540439457995,
-        "longitude": -117.91905624260336
-      },
-      "id": "753B558A-FF18-4ED9-A3C2-70E76B421618",
-      "note": "AUTO-PROPOSED for Carthay Circle Restaurant: nearest cell is on a disconnected fragment (6.1 m from pin) \u2014 review"
-    },
-    {
-      "entranceCoord": {
-        "latitude": 33.81122765804226,
-        "longitude": -117.91864379684537
-      },
-      "id": "7CDE40E5-E2D1-4286-88E1-8965C09C9B37",
-      "note": "AUTO-PROPOSED for Chester Drawer's: Togs for Toddlers: nearest passable cell beyond threshold (9.9 m from pin) \u2014 review"
-    },
-    {
-      "entranceCoord": {
-        "latitude": 33.807927147748536,
-        "longitude": -117.91907499013782
-      },
-      "id": "40217671-2E04-467B-B462-10D97FBCA69D",
-      "note": "AUTO-PROPOSED for Clarabelle's Hand-Scooped Ice Cream: nearest passable cell beyond threshold (10.1 m from pin) \u2014 review"
-    },
-    {
-      "entranceCoord": {
-        "latitude": 33.80682098217326,
-        "longitude": -117.91676904340001
-      },
-      "id": "E6CA851E-8FA1-408C-8AB9-589F7EEB54EB",
-      "note": "AUTO-PROPOSED for Collector's Warehouse: nearest passable cell beyond threshold (6.1 m from pin) \u2014 review"
-    },
-    {
-      "entranceCoord": {
-        "latitude": 33.81427635828632,
-        "longitude": -117.9210622287899
-      },
-      "id": "E4F19F17-F033-4E52-AEEB-7882B4D06B74",
-      "note": "AUTO-PROPOSED for Droid Depot: nearest passable cell beyond threshold (6.9 m from pin) \u2014 review"
-    },
-    {
-      "entranceCoord": {
-        "latitude": 33.807891174884304,
-        "longitude": -117.91877502958656
-      },
-      "id": "47CBB986-5425-43FF-B5AC-9664443DC84B",
-      "note": "AUTO-PROPOSED for Elias & Company Department Store: nearest passable cell beyond threshold (11.8 m from pin) \u2014 review"
-    },
-    {
-      "entranceCoord": {
-        "latitude": 33.80621843669729,
-        "longitude": -117.92079976330756
-      },
-      "id": "A119633B-542A-42A5-8854-2040E9057D33",
-      "note": "AUTO-PROPOSED for Embarcadero Gifts: nearest passable cell beyond threshold (5.7 m from pin) \u2014 review"
-    },
-    {
-      "entranceCoord": {
-        "latitude": 33.811578393468565,
-        "longitude": -117.92113721892771
-      },
-      "id": "8C36FF0B-3A32-4D7B-9388-0516C19277DB",
-      "note": "AUTO-PROPOSED for Fantasmic!: nearest passable cell beyond threshold (12.1 m from pin) \u2014 review"
-    },
-    {
-      "entranceCoord": {
-        "latitude": 33.814411256527215,
-        "longitude": -117.91849381656975
-      },
-      "id": "F18A2DBC-7925-4ED2-982A-62CB83FB6890",
-      "note": "AUTO-PROPOSED for Fantasyland Theatre Restroom: nearest passable cell beyond threshold (6.2 m from pin) \u2014 review"
-    },
-    {
-      "entranceCoord": {
-        "latitude": 33.806083538456406,
-        "longitude": -117.91939369822353
-      },
-      "id": "B7E18433-50AA-4EFB-918A-3658094AF609",
-      "note": "AUTO-PROPOSED for Fillmore's Taste-in: nearest passable cell beyond threshold (5.2 m from pin) \u2014 review"
-    },
-    {
-      "entranceCoord": {
-        "latitude": 33.80547199976438,
-        "longitude": -117.91890626232772
-      },
-      "id": "85201274-B743-41CA-95A1-D575A07811D0",
-      "note": "AUTO-PROPOSED for Flo's V8 Cafe: nearest passable cell beyond threshold (11.5 m from pin) \u2014 review"
+      "id": "0AE5FDC8-4196-49AC-8043-8FB296B398FC",
+      "note": "AUTO-PROPOSED for Julius Katz & Sons: nearest passable cell beyond threshold (7.5 m from pin) \u2014 review"
     },
     {
       "entranceCoord": {
@@ -204,19 +20,59 @@
     },
     {
       "entranceCoord": {
-        "latitude": 33.8116538616,
-        "longitude": -117.921538353
+        "latitude": 33.811686312061276,
+        "longitude": -117.91993737672269
       },
-      "id": "3A17EB3E-A990-4C11-9607-303C7E4FFB22",
-      "note": "AUTO-PROPOSED for Fort Wilderness Restroom: on Tom Sawyer Island; routed to its authored entrance (151.5 m from pin) \u2014 review"
+      "id": "11209961-2AC2-4F76-A11B-ED793939F796",
+      "note": "AUTO-PROPOSED for Key to Disneyland: nearest passable cell beyond threshold (5.8 m from pin) \u2014 review"
     },
     {
       "entranceCoord": {
-        "latitude": 33.80770231734706,
-        "longitude": -117.91838133136302
+        "latitude": 33.80539106081985,
+        "longitude": -117.92083725837645
       },
-      "id": "6A9D24FE-18F2-42C8-98CD-0D9E58C1D7B4",
-      "note": "AUTO-PROPOSED for Gone Hollywood: nearest passable cell beyond threshold (7.5 m from pin) \u2014 review"
+      "id": "1214912C-DE6D-4493-9344-C245357F7AF6",
+      "note": "AUTO-PROPOSED for Lamplight Lounge: nearest passable cell beyond threshold (9.6 m from pin) \u2014 review"
+    },
+    {
+      "entranceCoord": {
+        "latitude": 33.807540439457995,
+        "longitude": -117.91905624260336
+      },
+      "id": "1BEF32E2-73B4-4DE3-BB07-F71C3F301F22",
+      "note": "AUTO-PROPOSED for Carthay Circle Lounge: nearest cell is on a disconnected fragment (6.1 m from pin) \u2014 review"
+    },
+    {
+      "entranceCoord": {
+        "latitude": 33.80539106081985,
+        "longitude": -117.92083725837645
+      },
+      "id": "2459A357-2B20-4445-8476-6A9A7E5EAB54",
+      "note": "AUTO-PROPOSED for Lamplight Lounge - Boardwalk Dining: nearest passable cell beyond threshold (9.6 m from pin) \u2014 review"
+    },
+    {
+      "entranceCoord": {
+        "latitude": 33.81169530527734,
+        "longitude": -117.91991862918823
+      },
+      "id": "29C145A2-1CB3-451A-B787-D7620CE3F71D",
+      "note": "AUTO-PROPOSED for Adventureland Bazaar: nearest passable cell beyond threshold (5.4 m from pin) \u2014 review"
+    },
+    {
+      "entranceCoord": {
+        "latitude": 33.80808902563761,
+        "longitude": -117.9190374950689
+      },
+      "id": "301BBC41-CF63-43F5-8D80-A27B81EB4508",
+      "note": "AUTO-PROPOSED for Atwater Ink & Paint: nearest passable cell beyond threshold (8.7 m from pin) \u2014 review"
+    },
+    {
+      "entranceCoord": {
+        "latitude": 33.81260362009932,
+        "longitude": -117.91948743589579
+      },
+      "id": "33CBBD09-6D93-40D7-B758-9D7B7D3FD2EB",
+      "note": "AUTO-PROPOSED for Meet Disney Princesses at Royal Hall: nearest passable cell beyond threshold (9.6 m from pin) \u2014 review"
     },
     {
       "entranceCoord": {
@@ -236,6 +92,78 @@
     },
     {
       "entranceCoord": {
+        "latitude": 33.805831728406744,
+        "longitude": -117.91988113411932
+      },
+      "id": "38DF151C-F563-406F-8DBC-7E824C7AFC75",
+      "note": "AUTO-PROPOSED for Lucky Fortune Cookery: nearest passable cell beyond threshold (5.4 m from pin) \u2014 review"
+    },
+    {
+      "entranceCoord": {
+        "latitude": 33.8116538616,
+        "longitude": -117.921538353
+      },
+      "id": "3A17EB3E-A990-4C11-9607-303C7E4FFB22",
+      "note": "AUTO-PROPOSED for Fort Wilderness Restroom: on Tom Sawyer Island; routed to its authored entrance (151.5 m from pin) \u2014 review"
+    },
+    {
+      "entranceCoord": {
+        "latitude": 33.80801707990913,
+        "longitude": -117.9190374950689
+      },
+      "id": "3D4B055D-F01B-4E2C-B0A0-3ED62BAEAFA7",
+      "note": "AUTO-PROPOSED for Trolley Treats: nearest passable cell beyond threshold (9.0 m from pin) \u2014 review"
+    },
+    {
+      "entranceCoord": {
+        "latitude": 33.80647923996301,
+        "longitude": -117.91849381656975
+      },
+      "id": "3F697005-02DF-4D1B-B22B-51750714CB26",
+      "note": "AUTO-PROPOSED for WEB Suppliers: nearest passable cell beyond threshold (10.1 m from pin) \u2014 review"
+    },
+    {
+      "entranceCoord": {
+        "latitude": 33.807927147748536,
+        "longitude": -117.91907499013782
+      },
+      "id": "40217671-2E04-467B-B462-10D97FBCA69D",
+      "note": "AUTO-PROPOSED for Clarabelle's Hand-Scooped Ice Cream: nearest passable cell beyond threshold (10.1 m from pin) \u2014 review"
+    },
+    {
+      "entranceCoord": {
+        "latitude": 33.809716797744315,
+        "longitude": -117.91845632150084
+      },
+      "id": "437C02FE-7D7B-464F-8FCA-F1A851678803",
+      "note": "AUTO-PROPOSED for Stroller Rental: nearest passable cell beyond threshold (7.0 m from pin) \u2014 review"
+    },
+    {
+      "entranceCoord": {
+        "latitude": 33.807891174884304,
+        "longitude": -117.91877502958656
+      },
+      "id": "47CBB986-5425-43FF-B5AC-9664443DC84B",
+      "note": "AUTO-PROPOSED for Elias & Company Department Store: nearest passable cell beyond threshold (11.8 m from pin) \u2014 review"
+    },
+    {
+      "entranceCoord": {
+        "latitude": 33.80799010026095,
+        "longitude": -117.91763142998488
+      },
+      "id": "4D111A81-1DA5-4F90-869F-683236098E04",
+      "note": "AUTO-PROPOSED for Super Store: nearest passable cell beyond threshold (5.4 m from pin) \u2014 review"
+    },
+    {
+      "entranceCoord": {
+        "latitude": 33.806641117852074,
+        "longitude": -117.91811886588067
+      },
+      "id": "4FC1AC4B-64C8-4F1C-86E5-F155295B2C5F",
+      "note": "AUTO-PROPOSED for Avengers Campus Restroom: nearest cell is on a disconnected fragment (15.4 m from pin) \u2014 review"
+    },
+    {
+      "entranceCoord": {
         "latitude": 33.80742352764922,
         "longitude": -117.91810011834622
       },
@@ -244,11 +172,11 @@
     },
     {
       "entranceCoord": {
-        "latitude": 33.80742352764922,
-        "longitude": -117.91810011834622
+        "latitude": 33.81440226331115,
+        "longitude": -117.9210997238588
       },
-      "id": "A01745E3-CA7F-46EB-BC1B-8C4E01B25AA6",
-      "note": "AUTO-PROPOSED for Hollywood Boulevard Restroom: nearest passable cell beyond threshold (9.3 m from pin) \u2014 review"
+      "id": "5324C413-2A67-4810-BFF3-8C75943F5EE6",
+      "note": "AUTO-PROPOSED for Savi's Workshop: nearest passable cell beyond threshold (6.7 m from pin) \u2014 review"
     },
     {
       "entranceCoord": {
@@ -268,131 +196,27 @@
     },
     {
       "entranceCoord": {
-        "latitude": 33.808205937446374,
-        "longitude": -117.91905624260336
+        "latitude": 33.80770231734706,
+        "longitude": -117.91838133136302
       },
-      "id": "9315FE43-0EE8-485C-A3A4-CA1BA6832B29",
-      "note": "AUTO-PROPOSED for Julius Katz: nearest passable cell beyond threshold (7.2 m from pin) \u2014 review"
+      "id": "6A9D24FE-18F2-42C8-98CD-0D9E58C1D7B4",
+      "note": "AUTO-PROPOSED for Gone Hollywood: nearest passable cell beyond threshold (7.5 m from pin) \u2014 review"
     },
     {
       "entranceCoord": {
-        "latitude": 33.8081339917179,
-        "longitude": -117.91905624260336
+        "latitude": 33.8121449660803,
+        "longitude": -117.91815636094958
       },
-      "id": "0AE5FDC8-4196-49AC-8043-8FB296B398FC",
-      "note": "AUTO-PROPOSED for Julius Katz & Sons: nearest passable cell beyond threshold (7.5 m from pin) \u2014 review"
+      "id": "6C225598-91C9-44A3-95E2-7C423475DB61",
+      "note": "AUTO-PROPOSED for Astro Orbitor: nearest passable cell beyond threshold (5.1 m from pin) \u2014 review"
     },
     {
       "entranceCoord": {
-        "latitude": 33.811686312061276,
-        "longitude": -117.91993737672269
+        "latitude": 33.81519366632436,
+        "longitude": -117.91810011834622
       },
-      "id": "11209961-2AC2-4F76-A11B-ED793939F796",
-      "note": "AUTO-PROPOSED for Key to Disneyland: nearest passable cell beyond threshold (5.8 m from pin) \u2014 review"
-    },
-    {
-      "entranceCoord": {
-        "latitude": 33.808313856039085,
-        "longitude": -117.91916872781007
-      },
-      "id": "99C21C74-39B7-498B-946A-49D063B5927F",
-      "note": "AUTO-PROPOSED for Kingswell Shop: nearest passable cell beyond threshold (6.4 m from pin) \u2014 review"
-    },
-    {
-      "entranceCoord": {
-        "latitude": 33.80526515579502,
-        "longitude": -117.9205747928941
-      },
-      "id": "F4955BEF-9E1F-4DEF-9B9D-0DD6C7332C18",
-      "note": "AUTO-PROPOSED for Knick's Knacks: nearest passable cell beyond threshold (5.2 m from pin) \u2014 review"
-    },
-    {
-      "entranceCoord": {
-        "latitude": 33.80539106081985,
-        "longitude": -117.92083725837645
-      },
-      "id": "1214912C-DE6D-4493-9344-C245357F7AF6",
-      "note": "AUTO-PROPOSED for Lamplight Lounge: nearest passable cell beyond threshold (9.6 m from pin) \u2014 review"
-    },
-    {
-      "entranceCoord": {
-        "latitude": 33.80539106081985,
-        "longitude": -117.92083725837645
-      },
-      "id": "2459A357-2B20-4445-8476-6A9A7E5EAB54",
-      "note": "AUTO-PROPOSED for Lamplight Lounge - Boardwalk Dining: nearest passable cell beyond threshold (9.6 m from pin) \u2014 review"
-    },
-    {
-      "entranceCoord": {
-        "latitude": 33.80843076784785,
-        "longitude": -117.91866254437983
-      },
-      "id": "E1B9E656-96E8-4DC7-8CAA-F4019606C72D",
-      "note": "AUTO-PROPOSED for Los Feliz Five and Dime: nearest passable cell beyond threshold (9.4 m from pin) \u2014 review"
-    },
-    {
-      "entranceCoord": {
-        "latitude": 33.805831728406744,
-        "longitude": -117.91988113411932
-      },
-      "id": "38DF151C-F563-406F-8DBC-7E824C7AFC75",
-      "note": "AUTO-PROPOSED for Lucky Fortune Cookery: nearest passable cell beyond threshold (5.4 m from pin) \u2014 review"
-    },
-    {
-      "entranceCoord": {
-        "latitude": 33.810400282164814,
-        "longitude": -117.91856880670757
-      },
-      "id": "DF4F1CB1-023B-492F-A4D2-4D121D608E5D",
-      "note": "AUTO-PROPOSED for Mad Hatter of Main Street: nearest passable cell beyond threshold (5.6 m from pin) \u2014 review"
-    },
-    {
-      "entranceCoord": {
-        "latitude": 33.806605144987834,
-        "longitude": -117.9198061439815
-      },
-      "id": "A098BD7C-F1A9-4FFB-97DB-E85925509F19",
-      "note": "AUTO-PROPOSED for Magic Key Terrace - Magic Key Holder Dining: nearest passable cell beyond threshold (5.8 m from pin) \u2014 review"
-    },
-    {
-      "entranceCoord": {
-        "latitude": 33.80550797262862,
-        "longitude": -117.92018109467058
-      },
-      "id": "92E3BEB3-8217-4D09-A40A-E196F8A7EC50",
-      "note": "AUTO-PROPOSED for Maker's Market: nearest passable cell beyond threshold (6.6 m from pin) \u2014 review"
-    },
-    {
-      "entranceCoord": {
-        "latitude": 33.814375283662976,
-        "longitude": -117.92190586784032
-      },
-      "id": "8AF0D9B0-8D18-4643-8C99-89C96D8285B2",
-      "note": "AUTO-PROPOSED for Marketplace Restroom: nearest passable cell beyond threshold (5.1 m from pin) \u2014 review"
-    },
-    {
-      "entranceCoord": {
-        "latitude": 33.81260362009932,
-        "longitude": -117.91948743589579
-      },
-      "id": "33CBBD09-6D93-40D7-B758-9D7B7D3FD2EB",
-      "note": "AUTO-PROPOSED for Meet Disney Princesses at Royal Hall: nearest passable cell beyond threshold (9.6 m from pin) \u2014 review"
-    },
-    {
-      "entranceCoord": {
-        "latitude": 33.805939646999455,
-        "longitude": -117.91883127218992
-      },
-      "id": "F71BFC6E-2F10-40A1-BF29-A4B98C5350F4",
-      "note": "AUTO-PROPOSED for Meet the Residents of Radiator Springs in Cars Land: nearest passable cell beyond threshold (5.4 m from pin) \u2014 review"
-    },
-    {
-      "entranceCoord": {
-        "latitude": 33.80758540553829,
-        "longitude": -117.91787514793278
-      },
-      "id": "DF401625-A868-4C86-8E90-D4DAEF96E277",
-      "note": "AUTO-PROPOSED for Off the Page: nearest passable cell beyond threshold (8.2 m from pin) \u2014 review"
+      "id": "6CE9CDD1-0A43-459E-83CD-F4CACE9CFA7B",
+      "note": "Entrance for Roger Rabbit's Car Toon Spin"
     },
     {
       "entranceCoord": {
@@ -404,51 +228,11 @@
     },
     {
       "entranceCoord": {
-        "latitude": 33.81007652638668,
-        "longitude": -117.91856880670757
+        "latitude": 33.80953693342313,
+        "longitude": -117.91898125246554
       },
-      "id": "B8744E78-1946-430D-B746-11924A2F6BBD",
-      "note": "AUTO-PROPOSED for Opera House Restroom: nearest passable cell beyond threshold (16.9 m from pin) \u2014 review"
-    },
-    {
-      "entranceCoord": {
-        "latitude": 33.805606898005266,
-        "longitude": -117.91986238658487
-      },
-      "id": "AFBD54C3-B9BF-4C1A-813D-07893E8A07A8",
-      "note": "AUTO-PROPOSED for Pacific Wharf Restroom: nearest passable cell beyond threshold (10.7 m from pin) \u2014 review"
-    },
-    {
-      "entranceCoord": {
-        "latitude": 33.812073020351825,
-        "longitude": -117.91995612425714
-      },
-      "id": "C934F188-EA16-48F8-98F3-45AAC6CA15B8",
-      "note": "AUTO-PROPOSED for Pioneer Mercantile: nearest passable cell beyond threshold (13.1 m from pin) \u2014 review"
-    },
-    {
-      "entranceCoord": {
-        "latitude": 33.80540904725196,
-        "longitude": -117.91877502958656
-      },
-      "id": "AFDCF280-C58C-4C75-AAF4-09E9C016426F",
-      "note": "AUTO-PROPOSED for Ramone's House of Body Art: nearest passable cell beyond threshold (7.4 m from pin) \u2014 review"
-    },
-    {
-      "entranceCoord": {
-        "latitude": 33.80535508795561,
-        "longitude": -117.92083725837645
-      },
-      "id": "CCF8F14E-79DB-46B7-B8CF-0AD1121C5C50",
-      "note": "AUTO-PROPOSED for Restroom: nearest passable cell beyond threshold (9.8 m from pin) \u2014 review"
-    },
-    {
-      "entranceCoord": {
-        "latitude": 33.81180322387005,
-        "longitude": -117.9182313510874
-      },
-      "id": "A4CDDFC2-5CF7-45FD-AAA5-257D79744C2D",
-      "note": "AUTO-PROPOSED for Restroom: nearest passable cell beyond threshold (6.9 m from pin) \u2014 review"
+      "id": "7340550B-C14D-4DEF-80BB-ACDB51D49A66",
+      "note": "Entrance for Main Gate"
     },
     {
       "entranceCoord": {
@@ -460,6 +244,22 @@
     },
     {
       "entranceCoord": {
+        "latitude": 33.807540439457995,
+        "longitude": -117.91905624260336
+      },
+      "id": "753B558A-FF18-4ED9-A3C2-70E76B421618",
+      "note": "AUTO-PROPOSED for Carthay Circle Restaurant: nearest cell is on a disconnected fragment (6.1 m from pin) \u2014 review"
+    },
+    {
+      "entranceCoord": {
+        "latitude": 33.80579575554251,
+        "longitude": -117.92003111439494
+      },
+      "id": "778F814E-7113-4599-ADCE-B598A39D6CD9",
+      "note": "AUTO-PROPOSED for Aunt Cass Caf\u00e9: nearest passable cell beyond threshold (7.5 m from pin) \u2014 review"
+    },
+    {
+      "entranceCoord": {
         "latitude": 33.805939646999455,
         "longitude": -117.91939369822353
       },
@@ -468,67 +268,27 @@
     },
     {
       "entranceCoord": {
-        "latitude": 33.81440226331115,
-        "longitude": -117.9210997238588
+        "latitude": 33.81122765804226,
+        "longitude": -117.91864379684537
       },
-      "id": "5324C413-2A67-4810-BFF3-8C75943F5EE6",
-      "note": "AUTO-PROPOSED for Savi's Workshop: nearest passable cell beyond threshold (6.7 m from pin) \u2014 review"
+      "id": "7CDE40E5-E2D1-4286-88E1-8965C09C9B37",
+      "note": "AUTO-PROPOSED for Chester Drawer's: Togs for Toddlers: nearest passable cell beyond threshold (9.9 m from pin) \u2014 review"
     },
     {
       "entranceCoord": {
-        "latitude": 33.81492386984259,
-        "longitude": -117.92113721892771
+        "latitude": 33.80502233896142,
+        "longitude": -117.92254328401174
       },
-      "id": "FA0EF252-8002-4C39-934B-46C3231D206E",
-      "note": "AUTO-PROPOSED for Shadows of Memory: A Skywalker Saga: nearest passable cell beyond threshold (12.0 m from pin) \u2014 review"
+      "id": "7FB2DAE7-0B66-4289-B23F-33157A108FE0",
+      "note": "AUTO-PROPOSED for Bing Bong\u2019s Sweet Stuff: nearest passable cell beyond threshold (10.0 m from pin) \u2014 review"
     },
     {
       "entranceCoord": {
-        "latitude": 33.81188416281458,
-        "longitude": -117.91731272189917
+        "latitude": 33.80547199976438,
+        "longitude": -117.91890626232772
       },
-      "id": "900C2777-4D93-4CB3-812A-73A49A368760",
-      "note": "AUTO-PROPOSED for Star Trader: nearest passable cell beyond threshold (8.6 m from pin) \u2014 review"
-    },
-    {
-      "entranceCoord": {
-        "latitude": 33.8121449660803,
-        "longitude": -117.91680653846892
-      },
-      "id": "EC513208-50BA-449A-BBF9-A35B00FA290A",
-      "note": "AUTO-PROPOSED for Star Wars: Launch Bay Shop: nearest passable cell beyond threshold (7.6 m from pin) \u2014 review"
-    },
-    {
-      "entranceCoord": {
-        "latitude": 33.809716797744315,
-        "longitude": -117.91845632150084
-      },
-      "id": "437C02FE-7D7B-464F-8FCA-F1A851678803",
-      "note": "AUTO-PROPOSED for Stroller Rental: nearest passable cell beyond threshold (7.0 m from pin) \u2014 review"
-    },
-    {
-      "entranceCoord": {
-        "latitude": 33.80835882211938,
-        "longitude": -117.9179501380706
-      },
-      "id": "E32A2E55-3E86-4BAF-951B-BD309EF0946B",
-      "note": "AUTO-PROPOSED for Super Store: nearest passable cell beyond threshold (19.1 m from pin) \u2014 review"
-    },
-    {
-      "entranceCoord": {
-        "latitude": 33.80799010026095,
-        "longitude": -117.91763142998488
-      },
-      "id": "4D111A81-1DA5-4F90-869F-683236098E04",
-      "note": "AUTO-PROPOSED for Super Store: nearest passable cell beyond threshold (5.4 m from pin) \u2014 review"
-    },
-    {
-      "entranceCoord": {
-        "latitude": 33.80675802966084,
-        "longitude": -117.91888751479327
-      },
-      "id": "BDB0A3EC-EB7A-41C9-918F-CCEE7194743E",
-      "note": "AUTO-PROPOSED for The Amazing Spider-Man!: nearest passable cell beyond threshold (7.4 m from pin) \u2014 review"
+      "id": "85201274-B743-41CA-95A1-D575A07811D0",
+      "note": "AUTO-PROPOSED for Flo's V8 Cafe: nearest passable cell beyond threshold (11.5 m from pin) \u2014 review"
     },
     {
       "entranceCoord": {
@@ -540,19 +300,259 @@
     },
     {
       "entranceCoord": {
-        "latitude": 33.80801707990913,
-        "longitude": -117.9190374950689
+        "latitude": 33.814375283662976,
+        "longitude": -117.92190586784032
       },
-      "id": "3D4B055D-F01B-4E2C-B0A0-3ED62BAEAFA7",
-      "note": "AUTO-PROPOSED for Trolley Treats: nearest passable cell beyond threshold (9.0 m from pin) \u2014 review"
+      "id": "8AF0D9B0-8D18-4643-8C99-89C96D8285B2",
+      "note": "AUTO-PROPOSED for Marketplace Restroom: nearest passable cell beyond threshold (5.1 m from pin) \u2014 review"
     },
     {
       "entranceCoord": {
-        "latitude": 33.80647923996301,
+        "latitude": 33.811578393468565,
+        "longitude": -117.92113721892771
+      },
+      "id": "8C36FF0B-3A32-4D7B-9388-0516C19277DB",
+      "note": "AUTO-PROPOSED for Fantasmic!: nearest passable cell beyond threshold (12.1 m from pin) \u2014 review"
+    },
+    {
+      "entranceCoord": {
+        "latitude": 33.81188416281458,
+        "longitude": -117.91731272189917
+      },
+      "id": "900C2777-4D93-4CB3-812A-73A49A368760",
+      "note": "AUTO-PROPOSED for Star Trader: nearest passable cell beyond threshold (8.6 m from pin) \u2014 review"
+    },
+    {
+      "entranceCoord": {
+        "latitude": 33.80566985051768,
+        "longitude": -117.9192437179479
+      },
+      "id": "9212D580-2AD1-4115-8B84-57E32644AFE4",
+      "note": "AUTO-PROPOSED for Carsland Restroom: nearest passable cell beyond threshold (5.8 m from pin) \u2014 review"
+    },
+    {
+      "entranceCoord": {
+        "latitude": 33.80550797262862,
+        "longitude": -117.92018109467058
+      },
+      "id": "92E3BEB3-8217-4D09-A40A-E196F8A7EC50",
+      "note": "AUTO-PROPOSED for Maker's Market: nearest passable cell beyond threshold (6.6 m from pin) \u2014 review"
+    },
+    {
+      "entranceCoord": {
+        "latitude": 33.808205937446374,
+        "longitude": -117.91905624260336
+      },
+      "id": "9315FE43-0EE8-485C-A3A4-CA1BA6832B29",
+      "note": "AUTO-PROPOSED for Julius Katz: nearest passable cell beyond threshold (7.2 m from pin) \u2014 review"
+    },
+    {
+      "entranceCoord": {
+        "latitude": 33.80650621961119,
+        "longitude": -117.91761268245043
+      },
+      "id": "944DBBD1-B82B-4CB9-9381-605E2DA7A82F",
+      "note": "AUTO-PROPOSED for Avengers Vault: nearest passable cell beyond threshold (7.9 m from pin) \u2014 review"
+    },
+    {
+      "entranceCoord": {
+        "latitude": 33.808313856039085,
+        "longitude": -117.91916872781007
+      },
+      "id": "99C21C74-39B7-498B-946A-49D063B5927F",
+      "note": "AUTO-PROPOSED for Kingswell Shop: nearest passable cell beyond threshold (6.4 m from pin) \u2014 review"
+    },
+    {
+      "entranceCoord": {
+        "latitude": 33.80742352764922,
+        "longitude": -117.91810011834622
+      },
+      "id": "A01745E3-CA7F-46EB-BC1B-8C4E01B25AA6",
+      "note": "AUTO-PROPOSED for Hollywood Boulevard Restroom: nearest passable cell beyond threshold (9.3 m from pin) \u2014 review"
+    },
+    {
+      "entranceCoord": {
+        "latitude": 33.806605144987834,
+        "longitude": -117.9198061439815
+      },
+      "id": "A098BD7C-F1A9-4FFB-97DB-E85925509F19",
+      "note": "AUTO-PROPOSED for Magic Key Terrace - Magic Key Holder Dining: nearest passable cell beyond threshold (5.8 m from pin) \u2014 review"
+    },
+    {
+      "entranceCoord": {
+        "latitude": 33.80621843669729,
+        "longitude": -117.92079976330756
+      },
+      "id": "A119633B-542A-42A5-8854-2040E9057D33",
+      "note": "AUTO-PROPOSED for Embarcadero Gifts: nearest passable cell beyond threshold (5.7 m from pin) \u2014 review"
+    },
+    {
+      "entranceCoord": {
+        "latitude": 33.81180322387005,
+        "longitude": -117.9182313510874
+      },
+      "id": "A4CDDFC2-5CF7-45FD-AAA5-257D79744C2D",
+      "note": "AUTO-PROPOSED for Restroom: nearest passable cell beyond threshold (6.9 m from pin) \u2014 review"
+    },
+    {
+      "entranceCoord": {
+        "latitude": 33.805606898005266,
+        "longitude": -117.91986238658487
+      },
+      "id": "AFBD54C3-B9BF-4C1A-813D-07893E8A07A8",
+      "note": "AUTO-PROPOSED for Pacific Wharf Restroom: nearest passable cell beyond threshold (10.7 m from pin) \u2014 review"
+    },
+    {
+      "entranceCoord": {
+        "latitude": 33.80540904725196,
+        "longitude": -117.91877502958656
+      },
+      "id": "AFDCF280-C58C-4C75-AAF4-09E9C016426F",
+      "note": "AUTO-PROPOSED for Ramone's House of Body Art: nearest passable cell beyond threshold (7.4 m from pin) \u2014 review"
+    },
+    {
+      "entranceCoord": {
+        "latitude": 33.806083538456406,
+        "longitude": -117.91939369822353
+      },
+      "id": "B7E18433-50AA-4EFB-918A-3658094AF609",
+      "note": "AUTO-PROPOSED for Fillmore's Taste-in: nearest passable cell beyond threshold (5.2 m from pin) \u2014 review"
+    },
+    {
+      "entranceCoord": {
+        "latitude": 33.81007652638668,
+        "longitude": -117.91856880670757
+      },
+      "id": "B8744E78-1946-430D-B746-11924A2F6BBD",
+      "note": "AUTO-PROPOSED for Opera House Restroom: nearest passable cell beyond threshold (16.9 m from pin) \u2014 review"
+    },
+    {
+      "entranceCoord": {
+        "latitude": 33.80675802966084,
+        "longitude": -117.91888751479327
+      },
+      "id": "BDB0A3EC-EB7A-41C9-918F-CCEE7194743E",
+      "note": "AUTO-PROPOSED for The Amazing Spider-Man!: nearest passable cell beyond threshold (7.4 m from pin) \u2014 review"
+    },
+    {
+      "entranceCoord": {
+        "latitude": 33.812073020351825,
+        "longitude": -117.91995612425714
+      },
+      "id": "C934F188-EA16-48F8-98F3-45AAC6CA15B8",
+      "note": "AUTO-PROPOSED for Pioneer Mercantile: nearest passable cell beyond threshold (13.1 m from pin) \u2014 review"
+    },
+    {
+      "entranceCoord": {
+        "latitude": 33.80535508795561,
+        "longitude": -117.92083725837645
+      },
+      "id": "CCF8F14E-79DB-46B7-B8CF-0AD1121C5C50",
+      "note": "AUTO-PROPOSED for Restroom: nearest passable cell beyond threshold (9.8 m from pin) \u2014 review"
+    },
+    {
+      "entranceCoord": {
+        "latitude": 33.81545446959008,
+        "longitude": -117.91841882643193
+      },
+      "id": "CD670BFF-81D1-4F34-8676-7BAFDF49220A",
+      "note": "Entrance for Mickey & Minnie's Runaway Railway"
+    },
+    {
+      "entranceCoord": {
+        "latitude": 33.80758540553829,
+        "longitude": -117.91787514793278
+      },
+      "id": "DF401625-A868-4C86-8E90-D4DAEF96E277",
+      "note": "AUTO-PROPOSED for Off the Page: nearest passable cell beyond threshold (8.2 m from pin) \u2014 review"
+    },
+    {
+      "entranceCoord": {
+        "latitude": 33.810400282164814,
+        "longitude": -117.91856880670757
+      },
+      "id": "DF4F1CB1-023B-492F-A4D2-4D121D608E5D",
+      "note": "AUTO-PROPOSED for Mad Hatter of Main Street: nearest passable cell beyond threshold (5.6 m from pin) \u2014 review"
+    },
+    {
+      "entranceCoord": {
+        "latitude": 33.80843076784785,
+        "longitude": -117.91866254437983
+      },
+      "id": "E1B9E656-96E8-4DC7-8CAA-F4019606C72D",
+      "note": "AUTO-PROPOSED for Los Feliz Five and Dime: nearest passable cell beyond threshold (9.4 m from pin) \u2014 review"
+    },
+    {
+      "entranceCoord": {
+        "latitude": 33.80835882211938,
+        "longitude": -117.9179501380706
+      },
+      "id": "E32A2E55-3E86-4BAF-951B-BD309EF0946B",
+      "note": "AUTO-PROPOSED for Super Store: nearest passable cell beyond threshold (19.1 m from pin) \u2014 review"
+    },
+    {
+      "entranceCoord": {
+        "latitude": 33.81427635828632,
+        "longitude": -117.9210622287899
+      },
+      "id": "E4F19F17-F033-4E52-AEEB-7882B4D06B74",
+      "note": "AUTO-PROPOSED for Droid Depot: nearest passable cell beyond threshold (6.9 m from pin) \u2014 review"
+    },
+    {
+      "entranceCoord": {
+        "latitude": 33.80682098217326,
+        "longitude": -117.91676904340001
+      },
+      "id": "E6CA851E-8FA1-408C-8AB9-589F7EEB54EB",
+      "note": "AUTO-PROPOSED for Collector's Warehouse: nearest passable cell beyond threshold (6.1 m from pin) \u2014 review"
+    },
+    {
+      "entranceCoord": {
+        "latitude": 33.8121449660803,
+        "longitude": -117.91680653846892
+      },
+      "id": "EC513208-50BA-449A-BBF9-A35B00FA290A",
+      "note": "AUTO-PROPOSED for Star Wars: Launch Bay Shop: nearest passable cell beyond threshold (7.6 m from pin) \u2014 review"
+    },
+    {
+      "entranceCoord": {
+        "latitude": 33.814411256527215,
         "longitude": -117.91849381656975
       },
-      "id": "3F697005-02DF-4D1B-B22B-51750714CB26",
-      "note": "AUTO-PROPOSED for WEB Suppliers: nearest passable cell beyond threshold (10.1 m from pin) \u2014 review"
+      "id": "F18A2DBC-7925-4ED2-982A-62CB83FB6890",
+      "note": "AUTO-PROPOSED for Fantasyland Theatre Restroom: nearest passable cell beyond threshold (6.2 m from pin) \u2014 review"
+    },
+    {
+      "entranceCoord": {
+        "latitude": 33.80526515579502,
+        "longitude": -117.9205747928941
+      },
+      "id": "F4955BEF-9E1F-4DEF-9B9D-0DD6C7332C18",
+      "note": "AUTO-PROPOSED for Knick's Knacks: nearest passable cell beyond threshold (5.2 m from pin) \u2014 review"
+    },
+    {
+      "entranceCoord": {
+        "latitude": 33.805939646999455,
+        "longitude": -117.91883127218992
+      },
+      "id": "F71BFC6E-2F10-40A1-BF29-A4B98C5350F4",
+      "note": "AUTO-PROPOSED for Meet the Residents of Radiator Springs in Cars Land: nearest passable cell beyond threshold (5.4 m from pin) \u2014 review"
+    },
+    {
+      "entranceCoord": {
+        "latitude": 33.81492386984259,
+        "longitude": -117.92113721892771
+      },
+      "id": "FA0EF252-8002-4C39-934B-46C3231D206E",
+      "note": "AUTO-PROPOSED for Shadows of Memory: A Skywalker Saga: nearest passable cell beyond threshold (12.0 m from pin) \u2014 review"
+    },
+    {
+      "entranceCoord": {
+        "latitude": 33.80821493066243,
+        "longitude": -117.91888751479327
+      },
+      "id": "FD78F17D-7485-4354-8748-7463174A3D85",
+      "note": "AUTO-PROPOSED for Big Top Toys: nearest passable cell beyond threshold (16.7 m from pin) \u2014 review"
     }
   ]
 }
