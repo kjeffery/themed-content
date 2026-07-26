@@ -12,6 +12,22 @@
     },
     {
       "entranceCoord": {
+        "latitude": 33.81545446959008,
+        "longitude": -117.91841882643193
+      },
+      "id": "CD670BFF-81D1-4F34-8676-7BAFDF49220A",
+      "note": "Entrance for Mickey & Minnie's Runaway Railway"
+    },
+    {
+      "entranceCoord": {
+        "latitude": 33.81519366632436,
+        "longitude": -117.91810011834622
+      },
+      "id": "6CE9CDD1-0A43-459E-83CD-F4CACE9CFA7B",
+      "note": "Entrance for Roger Rabbit's Car Toon Spin"
+    },
+    {
+      "entranceCoord": {
         "latitude": 33.81169530527734,
         "longitude": -117.91991862918823
       },
@@ -244,14 +260,6 @@
     },
     {
       "entranceCoord": {
-        "latitude": 33.81211798643212,
-        "longitude": -117.91911248520672
-      },
-      "id": "642BB280-37EF-4E0E-A558-471B5EED06A7",
-      "note": "AUTO-PROPOSED for Hot Foods Hub: nearest passable cell beyond threshold (7.6 m from pin) \u2014 review"
-    },
-    {
-      "entranceCoord": {
         "latitude": 33.811578393468565,
         "longitude": -117.92113721892771
       },
@@ -380,14 +388,6 @@
     },
     {
       "entranceCoord": {
-        "latitude": 33.81553540853461,
-        "longitude": -117.91843757396639
-      },
-      "id": "CD670BFF-81D1-4F34-8676-7BAFDF49220A",
-      "note": "AUTO-PROPOSED for Mickey & Minnie's Runaway Railway: nearest passable cell beyond threshold (5.4 m from pin) \u2014 review"
-    },
-    {
-      "entranceCoord": {
         "latitude": 33.80758540553829,
         "longitude": -117.91787514793278
       },
@@ -425,14 +425,6 @@
       },
       "id": "C934F188-EA16-48F8-98F3-45AAC6CA15B8",
       "note": "AUTO-PROPOSED for Pioneer Mercantile: nearest passable cell beyond threshold (13.1 m from pin) \u2014 review"
-    },
-    {
-      "entranceCoord": {
-        "latitude": 33.811911142462755,
-        "longitude": -117.91905624260336
-      },
-      "id": "55E52576-3C0A-4A85-9F74-5280093E2723",
-      "note": "AUTO-PROPOSED for Popcorn Hub: nearest passable cell beyond threshold (5.3 m from pin) \u2014 review"
     },
     {
       "entranceCoord": {

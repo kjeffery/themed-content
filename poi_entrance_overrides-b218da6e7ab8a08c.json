@@ -1,0 +1,30 @@
+{
+  "destination" : "disneyland-resort",
+  "formatVersion" : 1,
+  "overrides" : [
+    {
+      "entranceCoord" : {
+        "latitude" : 33.80953693342313,
+        "longitude" : -117.91898125246554
+      },
+      "id" : "7340550B-C14D-4DEF-80BB-ACDB51D49A66",
+      "note" : "Entrance for Main Gate"
+    },
+    {
+      "entranceCoord" : {
+        "latitude" : 33.81545446959008,
+        "longitude" : -117.91841882643193
+      },
+      "id" : "CD670BFF-81D1-4F34-8676-7BAFDF49220A",
+      "note" : "Entrance for Mickey & Minnie's Runaway Railway"
+    },
+    {
+      "entranceCoord" : {
+        "latitude" : 33.81519366632436,
+        "longitude" : -117.91810011834622
+      },
+      "id" : "6CE9CDD1-0A43-459E-83CD-F4CACE9CFA7B",
+      "note" : "Entrance for Roger Rabbit's Car Toon Spin"
+    }
+  ]
+}

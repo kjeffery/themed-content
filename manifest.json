@@ -13,10 +13,10 @@
       "sha256": "0739ba64dc2749aad4446975520cf3041290986656c74b15860daf41092dc812"
     },
     {
-      "bytes": 3518950,
-      "path": "hexgrid-9ef84b65911fde12.json",
+      "bytes": 3535045,
+      "path": "hexgrid-f699f42ccec92c14.json",
       "role": "hexgrid",
-      "sha256": "9ef84b65911fde126a91206492314597c36729ee1a053f40ab9c6da6c48f4d78"
+      "sha256": "f699f42ccec92c14606ea0375a7d5ce7bf70e536437d293cbabe12449b925a2a"
     },
     {
       "bytes": 322075,
@@ -31,10 +31,10 @@
       "sha256": "a8843a0381d9b93543ff8a6a91b5b784f938379ebffc4ea240d49772333bfa4c"
     },
     {
-      "bytes": 309,
-      "path": "poi_entrance_overrides-2cd345f4d556ad86.json",
+      "bytes": 21090,
+      "path": "poi_entrance_overrides-d029b3b695db1663.json",
       "role": "poi_entrance_overrides",
-      "sha256": "2cd345f4d556ad86f5f2f12a34cece7cc086b1e2339da2340de383d8490de77f"
+      "sha256": "d029b3b695db166335c33ce42d79008bc9e500c3736dfecc2e9fee37bd2d1af0"
     },
     {
       "bytes": 995,
@@ -55,6 +55,6 @@
       "sha256": "d1a2bd3ddd59d6bdb8b10603d71f387211aaf64cf06c9fcdd7bece4d1e6925ad"
     }
   ],
-  "generatedAt": "2026-07-25T22:37:14Z",
+  "generatedAt": "2026-07-26T01:10:37Z",
   "manifestVersion": 1
 }
