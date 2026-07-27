@@ -270,16 +270,26 @@ def normalize_name(s: str) -> str:
 
 
 def load_named_attractions(graph: dict) -> list[dict]:
-    """Returns every attraction-or-show graph node with a themeparks.wiki
+    """Returns every attraction-or-show graph POI with a themeparks.wiki
     entity ID, sorted by park then name. Restaurants are excluded — they
-    don't carry the kind of party-fit metadata the curated CSV is for."""
-    nodes = [
-        n for n in graph['nodes']
+    don't carry the kind of party-fit metadata the curated CSV is for.
+
+    Accepts both the v2 schema (`pois`) and the legacy one (`nodes`); the
+    array was renamed when the node graph became a POI catalog."""
+    pois = graph.get('pois')
+    if pois is None:
+        pois = graph.get('nodes')
+    if pois is None:
+        raise SystemExit(
+            "graph file has no 'pois' (or legacy 'nodes') array — is this a graph.json?"
+        )
+    named = [
+        n for n in pois
         if n.get('themeParksEntityID')
         and n.get('kind') in {'attraction', 'show'}
         and n.get('name')
     ]
-    return sorted(nodes, key=lambda n: (n.get('park') or '', n['name'].lower()))
+    return sorted(named, key=lambda n: (n.get('park') or '', n['name'].lower()))
 
 
 def scaffold(args) -> int:

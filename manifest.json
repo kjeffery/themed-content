@@ -43,10 +43,10 @@
       "sha256": "d7329a0fdeeda670b5d36890da58b3ea0869cc297d6bebe41bb6e5a1a8a4d66c"
     },
     {
-      "bytes": 65208,
-      "path": "ride_metadata-39ab1d1d82ac9ee7.json",
+      "bytes": 64802,
+      "path": "ride_metadata-c9c135470672df84.json",
       "role": "ride_metadata",
-      "sha256": "39ab1d1d82ac9ee7cd6e6f1833c2513bd4da328970be827506827f55dc9f83ea"
+      "sha256": "c9c135470672df844f59aa76dfe6ee4254c33a87eaca8374614364813732e78b"
     },
     {
       "bytes": 241,
@@ -55,6 +55,6 @@
       "sha256": "d1a2bd3ddd59d6bdb8b10603d71f387211aaf64cf06c9fcdd7bece4d1e6925ad"
     }
   ],
-  "generatedAt": "2026-07-27T13:41:41Z",
+  "generatedAt": "2026-07-27T16:15:39Z",
   "manifestVersion": 1
 }
