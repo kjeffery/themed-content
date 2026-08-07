@@ -25,22 +25,22 @@
       "sha256": "8c1029bd9f60626684cfa7085a1f79e3aca211f35547bd0a6a4fada3b54c1a99"
     },
     {
-      "bytes": 3765611,
-      "path": "menus-712b1097512437a8.json",
+      "bytes": 3765645,
+      "path": "menus-0cb500a58a6f8318.json",
       "role": "menus",
-      "sha256": "712b1097512437a8ea684ccb49ffabb2741364137d70aa07b12da343bb88815b"
+      "sha256": "0cb500a58a6f831817e69cbff297aa9596fba872a55e0a7819947df6f7abc64a"
     },
     {
-      "bytes": 21090,
-      "path": "poi_entrance_overrides-2eb4cfdfd2e3bf55.json",
+      "bytes": 21406,
+      "path": "poi_entrance_overrides-ba1e8613edc19c92.json",
       "role": "poi_entrance_overrides",
-      "sha256": "2eb4cfdfd2e3bf554207b8ff25cee53e21d39765ce849f76d3bc28a2f8e16dd0"
+      "sha256": "ba1e8613edc19c929c2778f56a55930556f00fb0987c20c22d5ae09b0c82a705"
     },
     {
-      "bytes": 995,
-      "path": "pois_authored-d7329a0fdeeda670.json",
+      "bytes": 1337,
+      "path": "pois_authored-0d4dc84a1cd179ec.json",
       "role": "pois_authored",
-      "sha256": "d7329a0fdeeda670b5d36890da58b3ea0869cc297d6bebe41bb6e5a1a8a4d66c"
+      "sha256": "0d4dc84a1cd179eca804abf07af0ef2445a4ab559d25c65341a8d1bd7840e20b"
     },
     {
       "bytes": 64802,
@@ -55,6 +55,6 @@
       "sha256": "d1a2bd3ddd59d6bdb8b10603d71f387211aaf64cf06c9fcdd7bece4d1e6925ad"
     }
   ],
-  "generatedAt": "2026-08-07T11:47:37Z",
+  "generatedAt": "2026-08-07T17:33:25Z",
   "manifestVersion": 1
 }

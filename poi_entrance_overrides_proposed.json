@@ -553,6 +553,14 @@
       },
       "id": "FD78F17D-7485-4354-8748-7463174A3D85",
       "note": "AUTO-PROPOSED for Big Top Toys: nearest passable cell beyond threshold (16.7 m from pin) \u2014 review"
+    },
+    {
+      "entranceCoord": {
+        "latitude": 33.812513687938726,
+        "longitude": -117.91978739644705
+      },
+      "id": "835399CF-AA5F-5F02-89AF-AA0292EBFD10",
+      "note": "AUTO-PROPOSED for Rancho del Zocalo Restaurante: nearest passable cell beyond threshold (17.6 m from pin) \u2014 review"
     }
   ]
 }

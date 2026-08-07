@@ -43,6 +43,14 @@ PARK_ID_TO_PARK = {
     "336894": "california-adventure",  # Disney California Adventure
 }
 
+# Restaurants themeparks.wiki has no entity for (absent from the DLR children
+# list) can never bridge via externalId. These join straight to a hand-authored
+# graph POI instead: keyed by Disney urlFriendlyId, value must equal that POI's
+# themeParksEntityID in graph.json (lowercase, matching the tpw bridge output).
+MANUAL_BRIDGE_BY_URL_ID = {
+    "rancho-del-zocalo-restaurante": "835399cf-aa5f-5f02-89af-aa0292ebfd10",
+}
+
 
 def http_headers() -> dict:
     return {
@@ -197,7 +205,8 @@ def normalize_restaurant(entity: dict, raw_menu: dict | None, tpw_bridge: dict[s
         "name": entity.get("name") or "Unknown",
         "land": land,
         "park": park_for_park_ids(entity.get("parkIds")),
-        "themeParksEntityID": tpw_bridge.get(str(facility_id)),
+        "themeParksEntityID": tpw_bridge.get(str(facility_id))
+            or MANUAL_BRIDGE_BY_URL_ID.get(url_friendly_id),
         "isQuickService": entity.get("quickServiceAvailable"),
         "cuisineTypes": facets.get("cuisine") or None,
         "priceTier": price_tier_from_facets(facets.get("priceRange") or []),
