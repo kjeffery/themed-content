@@ -214,6 +214,38 @@ def normalize_restaurant(entity: dict, raw_menu: dict | None, tpw_bridge: dict[s
     }
 
 
+def check_manual_bridge(restaurants: list[dict], tpw_bridge: dict[str, str]) -> list[str]:
+    """Validate MANUAL_BRIDGE_BY_URL_ID against both upstreams.
+
+    Both failure modes below would otherwise null the menu ↔ routing-POI
+    join silently (the POI stays routable; its Menu section just vanishes):
+      - key missing from Disney's dining list: the urlFriendlyId was renamed
+        or the venue removed — update or drop the manual entry deliberately.
+      - themeparks.wiki grew a real entity for the venue: the automatic
+        externalId bridge outranks the manual id, so the authored POI (keyed
+        to the manual id) would stop matching. Migrate the POI into
+        graph.json under the wiki id (id == themeParksEntityID invariant)
+        and remove the manual entry.
+
+    Returns human-readable problem lines; empty means the bridge is healthy.
+    """
+    by_ufid = {e.get("urlFriendlyId"): e for e in restaurants if e.get("urlFriendlyId")}
+    problems = []
+    for key in sorted(MANUAL_BRIDGE_BY_URL_ID):
+        entity = by_ufid.get(key)
+        if entity is None:
+            problems.append(
+                f"  {key}: not in Disney's dining list — urlFriendlyId renamed or venue removed?"
+            )
+        elif tpw_bridge.get(str(entity.get("facilityId") or "")):
+            wiki_id = tpw_bridge[str(entity["facilityId"])]
+            problems.append(
+                f"  {key}: themeparks.wiki now has entity {wiki_id} — migrate the"
+                " authored POI to the wiki id and remove the manual bridge entry"
+            )
+    return problems
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument("--out", type=Path, default=Path("menus.json"))
@@ -225,6 +257,15 @@ def main() -> None:
     session = requests.Session()
     restaurants = fetch_restaurants(session, args.date)
     tpw_bridge = fetch_tpw_bridge()
+
+    # Fail fast (before the slow menu crawl) if the hand-maintained bridge
+    # has drifted from either upstream.
+    problems = check_manual_bridge(restaurants, tpw_bridge)
+    if problems:
+        sys.exit(
+            "fetch_disney_menus: MANUAL_BRIDGE_BY_URL_ID needs attention:\n"
+            + "\n".join(problems)
+        )
 
     normalized: list[dict] = []
     for i, entity in enumerate(restaurants):
