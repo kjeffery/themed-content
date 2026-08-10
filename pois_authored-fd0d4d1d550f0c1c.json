@@ -15,10 +15,7 @@
         "Rideshare",
         "Uber",
         "Lyft",
-        "Pickup",
-        "Shuttle",
-        "Shuttles",
-        "Hotel shuttle"
+        "Pickup"
       ],
       "transitModes": [
         "bus",

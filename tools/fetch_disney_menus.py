@@ -49,6 +49,16 @@ PARK_ID_TO_PARK = {
 # themeParksEntityID in graph.json (lowercase, matching the tpw bridge output).
 MANUAL_BRIDGE_BY_URL_ID = {
     "rancho-del-zocalo-restaurante": "835399cf-aa5f-5f02-89af-aa0292ebfd10",
+    "angry-dogs": "5ac09047-7982-5684-8c12-b3055b802776",
+    "fiddler-fifer-and-practical-cafe": "c40e5207-1a97-5cff-bc75-5c55714fdbe8",
+    "ghirardelli-soda-fountain-and-chocolate-shop": "16a28f3f-eef4-5fd5-8b89-4a749c9238e9",
+    "golden-horseshoe-restaurant": "8e3f36e1-c7da-5c2b-bc1e-971367f96a95",
+    "jack-jack-cookie-num-nums": "f0ef6acb-a71d-58a6-bd05-d0d8bfef3858",
+    "market-house": "419e4374-fbcb-59a8-a790-607fa6daf0e9",
+    "maurices-treats": "54f9dbd0-cf5f-5703-927a-030680f23b08",
+    "poultry-palace": "408b7a08-7090-5bb8-b700-ddd261b73d45",
+    "south-seas-traders": "8562c37a-af6b-5ea0-b710-ea6723c1143f",
+    "tropical-hideaway": "ec0a3141-1cf1-584d-a69c-6a2c530b3759",
 }
 
 

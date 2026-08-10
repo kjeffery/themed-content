@@ -15,10 +15,7 @@
         "Rideshare",
         "Uber",
         "Lyft",
-        "Pickup",
-        "Shuttle",
-        "Shuttles",
-        "Hotel shuttle"
+        "Pickup"
       ],
       "transitModes": [
         "bus",
@@ -94,6 +91,18 @@
       "note": "AUTO-PROPOSED from Disney dining marker (tropical-hideaway); no wiki entity \u2014 needs manual bridge \u2014 review",
       "park": "disneyland",
       "themeParksEntityID": "EC0A3141-1CF1-584D-A69C-6A2C530B3759"
+    },
+    {
+      "coord": {
+        "latitude": 33.805888,
+        "longitude": -117.919904
+      },
+      "id": "2004110D-57EE-5BC6-B694-6E12725F1500",
+      "kind": "restaurant",
+      "name": "Boudin Bread Cart",
+      "note": "AUTO-PROPOSED from Disney dining marker (boudin-bread-cart); no wiki entity \u2014 needs manual bridge \u2014 review",
+      "park": "california-adventure",
+      "themeParksEntityID": "2004110D-57EE-5BC6-B694-6E12725F1500"
     },
     {
       "coord": {
