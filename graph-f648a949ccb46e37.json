@@ -1,0 +1,4560 @@
+{
+  "destination": "disneyland-resort",
+  "formatVersion": 2,
+  "pois": [
+    {
+      "coord": {
+        "latitude": 33.80997210076364,
+        "longitude": -117.91896394692597
+      },
+      "elevationMeters": 41.557,
+      "id": "7340550b-c14d-4def-80bb-acdb51d49a66",
+      "kind": "parkEntrance",
+      "name": "Main Gate",
+      "park": "disneyland",
+      "themeParksEntityID": "7340550b-c14d-4def-80bb-acdb51d49a66"
+    },
+    {
+      "coord": {
+        "latitude": 33.8128,
+        "longitude": -117.919
+      },
+      "elevationMeters": 42.622,
+      "id": "7f56f2f0-0d3d-4046-bc81-8c4dafb4dc45",
+      "kind": "landmark",
+      "name": "Central Hub"
+    },
+    {
+      "coord": {
+        "latitude": 33.8131,
+        "longitude": -117.919
+      },
+      "elevationMeters": 42.741,
+      "id": "bd35555e-b28e-48ea-a966-5e4f7a182a06",
+      "kind": "landmark",
+      "name": "Sleeping Beauty Castle"
+    },
+    {
+      "coord": {
+        "latitude": 33.8144,
+        "longitude": -117.917782
+      },
+      "elevationMeters": 43.049,
+      "id": "3638AC09-9FCE-4A43-8C79-8EBBE17AFCE2",
+      "kind": "attraction",
+      "name": "\"it's a small world\"",
+      "park": "disneyland",
+      "themeParksEntityID": "3638AC09-9FCE-4A43-8C79-8EBBE17AFCE2"
+    },
+    {
+      "coord": {
+        "latitude": 33.811732,
+        "longitude": -117.919968
+      },
+      "elevationMeters": 41.312,
+      "id": "11209961-2AC2-4F76-A11B-ED793939F796",
+      "kind": "attraction",
+      "name": "Key to Disneyland",
+      "park": "disneyland",
+      "themeParksEntityID": "11209961-2AC2-4F76-A11B-ED793939F796"
+    },
+    {
+      "coord": {
+        "latitude": 33.81147,
+        "longitude": -117.91955
+      },
+      "elevationMeters": 41.412,
+      "id": "3C8D7EFA-B0A5-4E2D-811E-9DA29D65F2F0",
+      "kind": "restaurant",
+      "name": "The Tropical Hideaway Express",
+      "park": "disneyland",
+      "themeParksEntityID": "3C8D7EFA-B0A5-4E2D-811E-9DA29D65F2F0"
+    },
+    {
+      "coord": {
+        "latitude": 33.8123896,
+        "longitude": -117.9189732
+      },
+      "elevationMeters": 41.547,
+      "id": "2E062FA5-42FD-4167-859C-AA00FDDFA22C",
+      "kind": "show",
+      "name": "Wondrous Journeys with Projections",
+      "park": "disneyland",
+      "themeParksEntityID": "2E062FA5-42FD-4167-859C-AA00FDDFA22C"
+    },
+    {
+      "coord": {
+        "latitude": 33.81097757,
+        "longitude": -117.9189609
+      },
+      "elevationMeters": 41.317,
+      "id": "FF9C3639-2EDD-4ECE-8515-54E71CCF1067",
+      "kind": "show",
+      "name": "The Celebrate Happy Cavalcade",
+      "park": "disneyland",
+      "themeParksEntityID": "FF9C3639-2EDD-4ECE-8515-54E71CCF1067"
+    },
+    {
+      "coord": {
+        "latitude": 33.811548,
+        "longitude": -117.917056
+      },
+      "elevationMeters": 41.919,
+      "id": "9167DB1D-E5E7-46DA-A07F-AE30A87BC4C4",
+      "kind": "attraction",
+      "name": "Space Mountain",
+      "park": "disneyland",
+      "searchAliases": [
+        "roller coasters"
+      ],
+      "themeParksEntityID": "9167DB1D-E5E7-46DA-A07F-AE30A87BC4C4"
+    },
+    {
+      "coord": {
+        "latitude": 33.81025839377293,
+        "longitude": -117.91843056689687
+      },
+      "elevationMeters": 41.907,
+      "id": "6E2AF074-3A67-4F38-9BCF-2F5A572C87DF",
+      "kind": "attraction",
+      "name": "Opera House - Walt Disney - A Magical Life",
+      "park": "disneyland",
+      "themeParksEntityID": "6E2AF074-3A67-4F38-9BCF-2F5A572C87DF"
+    },
+    {
+      "coord": {
+        "latitude": 33.810265,
+        "longitude": -117.918559
+      },
+      "elevationMeters": 41.884,
+      "id": "1B23667A-D8FB-436D-8952-C3E3F2E56D13",
+      "kind": "attraction",
+      "name": "Great Moments with Mr. Lincoln",
+      "park": "disneyland",
+      "themeParksEntityID": "1B23667A-D8FB-436D-8952-C3E3F2E56D13"
+    },
+    {
+      "coord": {
+        "latitude": 33.814615,
+        "longitude": -117.918825
+      },
+      "elevationMeters": 45.049,
+      "id": "888525B0-5A6F-4B8E-9F07-B6A32812B04D",
+      "kind": "attraction",
+      "name": "Bluey\u2019s Best Day Ever! at Fantasyland Theatre",
+      "park": "disneyland",
+      "themeParksEntityID": "888525B0-5A6F-4B8E-9F07-B6A32812B04D"
+    },
+    {
+      "coord": {
+        "latitude": 33.811656,
+        "longitude": -117.921873
+      },
+      "elevationMeters": 42.964,
+      "id": "FF52CB64-C1D5-4FEB-9D43-5DBD429BAC81",
+      "kind": "attraction",
+      "name": "Haunted Mansion",
+      "park": "disneyland",
+      "themeParksEntityID": "FF52CB64-C1D5-4FEB-9D43-5DBD429BAC81"
+    },
+    {
+      "coord": {
+        "latitude": 33.811687,
+        "longitude": -117.921151
+      },
+      "elevationMeters": 39.054,
+      "id": "640525AB-75DB-4F3C-B917-27ECB7B5EF97",
+      "kind": "show",
+      "name": "Jambalaya Jazz Band on the Mark Twain Riverboat",
+      "park": "disneyland",
+      "themeParksEntityID": "640525AB-75DB-4F3C-B917-27ECB7B5EF97"
+    },
+    {
+      "coord": {
+        "latitude": 33.813093,
+        "longitude": -117.918967
+      },
+      "elevationMeters": 42.701,
+      "id": "9212C98B-3638-4F0B-BF42-2E2848330E1D",
+      "kind": "show",
+      "name": "Pearly Band at Castle Courtyard",
+      "park": "disneyland",
+      "themeParksEntityID": "9212C98B-3638-4F0B-BF42-2E2848330E1D"
+    },
+    {
+      "coord": {
+        "latitude": 33.812523,
+        "longitude": -117.918969
+      },
+      "elevationMeters": 41.947,
+      "id": "228B9736-F889-469F-92F7-0E89BF150D5C",
+      "kind": "show",
+      "name": "Disneyland Band at Castle Promenade",
+      "park": "disneyland",
+      "themeParksEntityID": "228B9736-F889-469F-92F7-0E89BF150D5C"
+    },
+    {
+      "coord": {
+        "latitude": 33.814816,
+        "longitude": -117.921212
+      },
+      "elevationMeters": 42.255,
+      "id": "E9EF1443-C735-43B6-81C6-45E53527CF93",
+      "kind": "show",
+      "name": "Fire of the Rising Moons",
+      "park": "disneyland",
+      "themeParksEntityID": "E9EF1443-C735-43B6-81C6-45E53527CF93"
+    },
+    {
+      "coord": {
+        "latitude": 33.814016,
+        "longitude": -117.917863
+      },
+      "elevationMeters": 43.573,
+      "id": "78568C55-6DCB-4893-A14E-BA7ED9BDDAFF",
+      "kind": "show",
+      "name": "Disneyland Band at \"it's a small world\" Promenade",
+      "park": "disneyland",
+      "themeParksEntityID": "78568C55-6DCB-4893-A14E-BA7ED9BDDAFF"
+    },
+    {
+      "coord": {
+        "latitude": 33.811266,
+        "longitude": -117.921516
+      },
+      "elevationMeters": 43.003,
+      "id": "F0F57B5C-5BC5-49D6-8B7F-34E4AA03C2E8",
+      "kind": "restaurant",
+      "name": "Tiana\u2019s Palace",
+      "park": "disneyland",
+      "themeParksEntityID": "F0F57B5C-5BC5-49D6-8B7F-34E4AA03C2E8"
+    },
+    {
+      "coord": {
+        "latitude": 33.81547,
+        "longitude": -117.918682
+      },
+      "elevationMeters": 44.165,
+      "id": "F8D61BAA-DC1A-4E82-AB6B-F24BDD83E6E1",
+      "kind": "restaurant",
+      "name": "Caf\u00e9 Daisy",
+      "park": "disneyland",
+      "themeParksEntityID": "F8D61BAA-DC1A-4E82-AB6B-F24BDD83E6E1"
+    },
+    {
+      "coord": {
+        "latitude": 33.815296,
+        "longitude": -117.919157
+      },
+      "elevationMeters": 44.976,
+      "id": "59647168-D239-4161-8B24-92EB128E96FB",
+      "kind": "attraction",
+      "name": "Chip 'n' Dale's GADGETcoaster",
+      "park": "disneyland",
+      "searchAliases": [
+        "roller coasters"
+      ],
+      "themeParksEntityID": "59647168-D239-4161-8B24-92EB128E96FB"
+    },
+    {
+      "coord": {
+        "latitude": 33.810308,
+        "longitude": -117.918962
+      },
+      "elevationMeters": 42.087,
+      "id": "FDF0E3B1-2EEB-42B4-9516-5D43463D021E",
+      "kind": "show",
+      "name": "The Dapper Dans",
+      "park": "disneyland",
+      "themeParksEntityID": "FDF0E3B1-2EEB-42B4-9516-5D43463D021E"
+    },
+    {
+      "coord": {
+        "latitude": 33.815507,
+        "longitude": -117.91839
+      },
+      "elevationMeters": 44.142,
+      "id": "CD670BFF-81D1-4F34-8676-7BAFDF49220A",
+      "kind": "attraction",
+      "name": "Mickey & Minnie's Runaway Railway",
+      "park": "disneyland",
+      "themeParksEntityID": "CD670BFF-81D1-4F34-8676-7BAFDF49220A"
+    },
+    {
+      "coord": {
+        "latitude": 33.811325,
+        "longitude": -117.920585
+      },
+      "elevationMeters": 42.831,
+      "id": "E27B1DB8-9EC9-4F8B-9CA6-FD6377DE66EE",
+      "kind": "attraction",
+      "name": "Adventureland Treehouse inspired by Walt Disney\u2019s Swiss Family Robinson",
+      "park": "disneyland",
+      "themeParksEntityID": "E27B1DB8-9EC9-4F8B-9CA6-FD6377DE66EE"
+    },
+    {
+      "coord": {
+        "latitude": 33.811256,
+        "longitude": -117.921876
+      },
+      "elevationMeters": 44.283,
+      "id": "E2D460E9-2BEF-4613-B126-092AB7CB37E5",
+      "kind": "attraction",
+      "name": "Disneyland Railroad",
+      "park": "disneyland",
+      "searchAliases": [
+        "trains",
+        "steam trains",
+        "railways"
+      ],
+      "themeParksEntityID": "E2D460E9-2BEF-4613-B126-092AB7CB37E5"
+    },
+    {
+      "coord": {
+        "latitude": 33.8154677877,
+        "longitude": -117.9191226037
+      },
+      "elevationMeters": 44.718,
+      "id": "5A107A57-9174-4F3F-9BE7-625A5D5BB899",
+      "kind": "show",
+      "name": "Mickey's House and Meet Mickey Mouse",
+      "park": "disneyland",
+      "themeParksEntityID": "5A107A57-9174-4F3F-9BE7-625A5D5BB899"
+    },
+    {
+      "coord": {
+        "latitude": 33.810265,
+        "longitude": -117.918559
+      },
+      "elevationMeters": 41.82,
+      "id": "37858B2A-9C11-4AC6-9F8D-DB7FA9088703",
+      "kind": "attraction",
+      "name": "The Disney Gallery",
+      "park": "disneyland",
+      "themeParksEntityID": "37858B2A-9C11-4AC6-9F8D-DB7FA9088703"
+    },
+    {
+      "coord": {
+        "latitude": 33.811237,
+        "longitude": -117.919057
+      },
+      "elevationMeters": 41.497,
+      "id": "C2997E65-6DB0-413F-A2DB-EE995711D931",
+      "kind": "attraction",
+      "name": "Fortune Tellers",
+      "park": "disneyland",
+      "themeParksEntityID": "C2997E65-6DB0-413F-A2DB-EE995711D931"
+    },
+    {
+      "coord": {
+        "latitude": 33.814867,
+        "longitude": -117.921379
+      },
+      "elevationMeters": 42.475,
+      "id": "B2C2549C-E9DA-4FDD-98EA-1DCFF596FED7",
+      "kind": "attraction",
+      "name": "Millennium Falcon: Smugglers Run",
+      "park": "disneyland",
+      "themeParksEntityID": "B2C2549C-E9DA-4FDD-98EA-1DCFF596FED7"
+    },
+    {
+      "coord": {
+        "latitude": 33.813859,
+        "longitude": -117.923079
+      },
+      "elevationMeters": 42.077,
+      "id": "34B1D70F-11C4-42DF-935E-D5582C9F1A8E",
+      "kind": "attraction",
+      "name": "Star Wars: Rise of the Resistance",
+      "park": "disneyland",
+      "themeParksEntityID": "34B1D70F-11C4-42DF-935E-D5582C9F1A8E"
+    },
+    {
+      "coord": {
+        "latitude": 33.812108371,
+        "longitude": -117.9181900145
+      },
+      "elevationMeters": 41.436,
+      "id": "6C225598-91C9-44A3-95E2-7C423475DB61",
+      "kind": "attraction",
+      "name": "Astro Orbitor",
+      "park": "disneyland",
+      "searchAliases": [
+        "astro orbiter"
+      ],
+      "themeParksEntityID": "6C225598-91C9-44A3-95E2-7C423475DB61"
+    },
+    {
+      "coord": {
+        "latitude": 33.8124087477,
+        "longitude": -117.9165033178
+      },
+      "elevationMeters": 42.546,
+      "id": "1DA85181-BF0F-4CCC-B98E-243142F7347B",
+      "kind": "attraction",
+      "name": "Autopia",
+      "park": "disneyland",
+      "themeParksEntityID": "1DA85181-BF0F-4CCC-B98E-243142F7347B"
+    },
+    {
+      "coord": {
+        "latitude": 33.8124773145,
+        "longitude": -117.9203568914
+      },
+      "elevationMeters": 41.428,
+      "id": "0DE1413A-73EE-46CF-AF2E-C491CC7C7D3B",
+      "kind": "attraction",
+      "name": "Big Thunder Mountain Railroad",
+      "park": "disneyland",
+      "searchAliases": [
+        "roller coasters",
+        "trains",
+        "mine trains"
+      ],
+      "themeParksEntityID": "0DE1413A-73EE-46CF-AF2E-C491CC7C7D3B"
+    },
+    {
+      "coord": {
+        "latitude": 33.812204,
+        "longitude": -117.917806
+      },
+      "elevationMeters": 42.127,
+      "id": "88197808-3C56-4198-A5A4-6066541251CF",
+      "kind": "attraction",
+      "name": "Buzz Lightyear Astro Blasters",
+      "park": "disneyland",
+      "themeParksEntityID": "88197808-3C56-4198-A5A4-6066541251CF"
+    },
+    {
+      "coord": {
+        "latitude": 33.8137301217,
+        "longitude": -117.9191704019
+      },
+      "elevationMeters": 44.105,
+      "id": "8E686E4C-F3DB-4D9C-A185-2D54B1FA8899",
+      "kind": "attraction",
+      "name": "Casey Jr. Circus Train",
+      "park": "disneyland",
+      "searchAliases": [
+        "trains"
+      ],
+      "themeParksEntityID": "8E686E4C-F3DB-4D9C-A185-2D54B1FA8899"
+    },
+    {
+      "coord": {
+        "latitude": 33.8125062856,
+        "longitude": -117.9221264816
+      },
+      "elevationMeters": 40.799,
+      "id": "5BD95AE8-181D-449C-8F04-A621E2448961",
+      "kind": "attraction",
+      "name": "Davy Crockett's Explorer Canoes",
+      "park": "disneyland",
+      "themeParksEntityID": "5BD95AE8-181D-449C-8F04-A621E2448961"
+    },
+    {
+      "coord": {
+        "latitude": 33.812618,
+        "longitude": -117.91679
+      },
+      "elevationMeters": 42.592,
+      "id": "56D0BD6D-5106-4420-8F60-0005475C04C3",
+      "kind": "attraction",
+      "name": "Disneyland Monorail",
+      "park": "disneyland",
+      "searchAliases": [
+        "trains"
+      ],
+      "themeParksEntityID": "56D0BD6D-5106-4420-8F60-0005475C04C3"
+    },
+    {
+      "coord": {
+        "latitude": 33.815232,
+        "longitude": -117.919019
+      },
+      "elevationMeters": 44.319,
+      "id": "CA32EF8A-AE0D-4C24-BF4F-E59192122E01",
+      "kind": "attraction",
+      "name": "Donald's Duck Pond",
+      "park": "disneyland",
+      "themeParksEntityID": "CA32EF8A-AE0D-4C24-BF4F-E59192122E01"
+    },
+    {
+      "coord": {
+        "latitude": 33.8136094534,
+        "longitude": -117.9188292111
+      },
+      "elevationMeters": 42.981,
+      "id": "CC980E8E-192F-48B6-848C-27784084E54B",
+      "kind": "attraction",
+      "name": "Dumbo the Flying Elephant",
+      "park": "disneyland",
+      "themeParksEntityID": "CC980E8E-192F-48B6-848C-27784084E54B"
+    },
+    {
+      "coord": {
+        "latitude": 33.811829,
+        "longitude": -117.919569
+      },
+      "elevationMeters": 41.531,
+      "id": "106C1E5A-A5E7-42D7-96AB-BC100D8FAF71",
+      "kind": "attraction",
+      "name": "Walt Disney's Enchanted Tiki Room",
+      "park": "disneyland",
+      "themeParksEntityID": "106C1E5A-A5E7-42D7-96AB-BC100D8FAF71"
+    },
+    {
+      "coord": {
+        "latitude": 33.812618,
+        "longitude": -117.916947
+      },
+      "elevationMeters": 42.032,
+      "id": "64D44AAA-6857-4693-B24B-BCFF6C6DCFA1",
+      "kind": "attraction",
+      "name": "Finding Nemo Submarine Voyage",
+      "park": "disneyland",
+      "themeParksEntityID": "64D44AAA-6857-4693-B24B-BCFF6C6DCFA1"
+    },
+    {
+      "coord": {
+        "latitude": 33.8122300089,
+        "longitude": -117.919855621
+      },
+      "elevationMeters": 41.736,
+      "id": "835DEB74-DE54-4D7F-9DC4-DACAB90FCB60",
+      "kind": "attraction",
+      "name": "Frontierland Shootin' Exposition",
+      "park": "disneyland",
+      "themeParksEntityID": "835DEB74-DE54-4D7F-9DC4-DACAB90FCB60"
+    },
+    {
+      "coord": {
+        "latitude": 33.8151987474,
+        "longitude": -117.9186858237
+      },
+      "elevationMeters": 44.65,
+      "id": "B0ECA3D3-A519-47F9-A5A7-9911126DA2DF",
+      "kind": "attraction",
+      "name": "Goofy's How-to-Play Yard",
+      "park": "disneyland",
+      "themeParksEntityID": "B0ECA3D3-A519-47F9-A5A7-9911126DA2DF"
+    },
+    {
+      "coord": {
+        "latitude": 33.81130552,
+        "longitude": -117.9203269
+      },
+      "elevationMeters": 41.862,
+      "id": "2AEDC657-1EE2-4545-A1CE-14753F28CC66",
+      "kind": "attraction",
+      "name": "Indiana Jones\u2122 Adventure",
+      "park": "disneyland",
+      "themeParksEntityID": "2AEDC657-1EE2-4545-A1CE-14753F28CC66"
+    },
+    {
+      "coord": {
+        "latitude": 33.81144,
+        "longitude": -117.920092
+      },
+      "elevationMeters": 41.231,
+      "id": "1B83FDA8-D60E-48E4-9A3D-90DDCBCD1001",
+      "kind": "attraction",
+      "name": "Jungle Cruise",
+      "park": "disneyland",
+      "themeParksEntityID": "1B83FDA8-D60E-48E4-9A3D-90DDCBCD1001"
+    },
+    {
+      "coord": {
+        "latitude": 33.813474,
+        "longitude": -117.918974
+      },
+      "elevationMeters": 43.231,
+      "id": "F7904912-3F08-4563-B99E-FD59F43CC9F2",
+      "kind": "attraction",
+      "name": "King Arthur Carrousel",
+      "park": "disneyland",
+      "searchAliases": [
+        "carousels",
+        "merry-go-rounds",
+        "merry go rounds"
+      ],
+      "themeParksEntityID": "F7904912-3F08-4563-B99E-FD59F43CC9F2"
+    },
+    {
+      "coord": {
+        "latitude": 33.8135273725,
+        "longitude": -117.9184149206
+      },
+      "elevationMeters": 43.074,
+      "id": "E0CFED11-96D7-40F3-907F-5CFED172592A",
+      "kind": "attraction",
+      "name": "Mad Tea Party",
+      "park": "disneyland",
+      "searchAliases": [
+        "teacups",
+        "tea cups",
+        "spinning teacups"
+      ],
+      "themeParksEntityID": "E0CFED11-96D7-40F3-907F-5CFED172592A"
+    },
+    {
+      "coord": {
+        "latitude": 33.81072591022885,
+        "longitude": -117.91888872302219
+      },
+      "elevationMeters": 41.545,
+      "id": "F5BB0D14-7EEE-4EDE-9230-EB256CE3664C",
+      "kind": "attraction",
+      "name": "Main Street Cinema",
+      "park": "disneyland",
+      "themeParksEntityID": "F5BB0D14-7EEE-4EDE-9230-EB256CE3664C"
+    },
+    {
+      "coord": {
+        "latitude": 33.8122772066,
+        "longitude": -117.9204627872
+      },
+      "elevationMeters": 41.07,
+      "id": "6C30D5B0-8C0A-406F-9258-0B6C55D4A5E4",
+      "kind": "attraction",
+      "name": "Mark Twain Riverboat",
+      "park": "disneyland",
+      "themeParksEntityID": "6C30D5B0-8C0A-406F-9258-0B6C55D4A5E4"
+    },
+    {
+      "coord": {
+        "latitude": 33.813453,
+        "longitude": -117.91782
+      },
+      "elevationMeters": 43.359,
+      "id": "FAAA8BE9-CC1E-4535-AC20-04A535654BD0",
+      "kind": "attraction",
+      "name": "Matterhorn Bobsleds",
+      "park": "disneyland",
+      "searchAliases": [
+        "roller coasters"
+      ],
+      "themeParksEntityID": "FAAA8BE9-CC1E-4535-AC20-04A535654BD0"
+    },
+    {
+      "coord": {
+        "latitude": 33.815524801,
+        "longitude": -117.9189902544
+      },
+      "elevationMeters": 44.884,
+      "id": "C02FB82D-0860-4E95-8C61-899FA594D20E",
+      "kind": "attraction",
+      "name": "Minnie's House",
+      "park": "disneyland",
+      "themeParksEntityID": "C02FB82D-0860-4E95-8C61-899FA594D20E"
+    },
+    {
+      "coord": {
+        "latitude": 33.8133812161,
+        "longitude": -117.9187763289
+      },
+      "elevationMeters": 42.983,
+      "id": "9D401AD3-49B2-469F-AC73-93EB429428FB",
+      "kind": "attraction",
+      "name": "Mr. Toad's Wild Ride",
+      "park": "disneyland",
+      "themeParksEntityID": "9D401AD3-49B2-469F-AC73-93EB429428FB"
+    },
+    {
+      "coord": {
+        "latitude": 33.8131949042,
+        "longitude": -117.9188762605
+      },
+      "elevationMeters": 42.976,
+      "id": "C23AF6BA-8515-406A-8A48-D0818BA0BFC9",
+      "kind": "attraction",
+      "name": "Peter Pan's Flight",
+      "park": "disneyland",
+      "themeParksEntityID": "C23AF6BA-8515-406A-8A48-D0818BA0BFC9"
+    },
+    {
+      "coord": {
+        "latitude": 33.8132880704,
+        "longitude": -117.9190900509
+      },
+      "elevationMeters": 42.911,
+      "id": "90EE50D4-7CC9-4824-B29D-2AAC801ACC29",
+      "kind": "attraction",
+      "name": "Pinocchio's Daring Journey",
+      "park": "disneyland",
+      "themeParksEntityID": "90EE50D4-7CC9-4824-B29D-2AAC801ACC29"
+    },
+    {
+      "coord": {
+        "latitude": 33.8116538616,
+        "longitude": -117.921538353
+      },
+      "elevationMeters": 40.793,
+      "id": "07952343-3498-404B-8337-734DE9A185C1",
+      "kind": "attraction",
+      "name": "Pirate's Lair on Tom Sawyer Island",
+      "park": "disneyland",
+      "themeParksEntityID": "07952343-3498-404B-8337-734DE9A185C1"
+    },
+    {
+      "coord": {
+        "latitude": 33.811387,
+        "longitude": -117.920819
+      },
+      "elevationMeters": 40.883,
+      "id": "82AEB29B-504A-416F-B13F-F41FA5B766AA",
+      "kind": "attraction",
+      "name": "Pirates of the Caribbean",
+      "park": "disneyland",
+      "themeParksEntityID": "82AEB29B-504A-416F-B13F-F41FA5B766AA"
+    },
+    {
+      "coord": {
+        "latitude": 33.815204,
+        "longitude": -117.918085
+      },
+      "elevationMeters": 43.769,
+      "id": "6CE9CDD1-0A43-459E-83CD-F4CACE9CFA7B",
+      "kind": "attraction",
+      "name": "Roger Rabbit's Car Toon Spin",
+      "park": "disneyland",
+      "themeParksEntityID": "6CE9CDD1-0A43-459E-83CD-F4CACE9CFA7B"
+    },
+    {
+      "coord": {
+        "latitude": 33.8122772066,
+        "longitude": -117.9204627872
+      },
+      "elevationMeters": 41.041,
+      "id": "C9E39189-7E99-4E0A-97E0-4A0D5654D257",
+      "kind": "attraction",
+      "name": "Sailing Ship Columbia",
+      "park": "disneyland",
+      "themeParksEntityID": "C9E39189-7E99-4E0A-97E0-4A0D5654D257"
+    },
+    {
+      "coord": {
+        "latitude": 33.812912,
+        "longitude": -117.919078
+      },
+      "elevationMeters": 42.605,
+      "id": "90D5A091-478C-4DF1-ADFE-C605B4005013",
+      "kind": "attraction",
+      "name": "Sleeping Beauty Castle Walkthrough",
+      "park": "disneyland",
+      "themeParksEntityID": "90D5A091-478C-4DF1-ADFE-C605B4005013"
+    },
+    {
+      "coord": {
+        "latitude": 33.8131664471,
+        "longitude": -117.9190614653
+      },
+      "elevationMeters": 42.841,
+      "id": "4F0053E7-B8DB-4833-B02F-35E1C91B4523",
+      "kind": "attraction",
+      "name": "Snow White's Enchanted Wish",
+      "park": "disneyland",
+      "themeParksEntityID": "4F0053E7-B8DB-4833-B02F-35E1C91B4523"
+    },
+    {
+      "coord": {
+        "latitude": 33.811997,
+        "longitude": -117.917978
+      },
+      "elevationMeters": 42.142,
+      "id": "CC718D11-FA15-44EE-87D0-DED989AD61BC",
+      "kind": "attraction",
+      "name": "Star Tours - The Adventures Continue",
+      "park": "disneyland",
+      "themeParksEntityID": "CC718D11-FA15-44EE-87D0-DED989AD61BC"
+    },
+    {
+      "coord": {
+        "latitude": 33.8136306683,
+        "longitude": -117.9182008987
+      },
+      "elevationMeters": 43.081,
+      "id": "CB929138-D77A-4DD2-983C-F651BBD1BD92",
+      "kind": "attraction",
+      "name": "Storybook Land Canal Boats",
+      "park": "disneyland",
+      "themeParksEntityID": "CB929138-D77A-4DD2-983C-F651BBD1BD92"
+    },
+    {
+      "coord": {
+        "latitude": 33.812376,
+        "longitude": -117.922632
+      },
+      "elevationMeters": 41.256,
+      "id": "52A8EF64-D54C-4974-883F-027C3026E3F1",
+      "kind": "attraction",
+      "name": "The Many Adventures of Winnie the Pooh",
+      "park": "disneyland",
+      "themeParksEntityID": "52A8EF64-D54C-4974-883F-027C3026E3F1"
+    },
+    {
+      "coord": {
+        "latitude": 33.8133130163,
+        "longitude": -117.9182459414
+      },
+      "elevationMeters": 42.905,
+      "id": "A07F3110-013E-43BB-A182-E66BB8B5E28D",
+      "kind": "attraction",
+      "name": "Alice in Wonderland",
+      "park": "disneyland",
+      "themeParksEntityID": "A07F3110-013E-43BB-A182-E66BB8B5E28D"
+    },
+    {
+      "coord": {
+        "latitude": 33.8102153073,
+        "longitude": -117.9189620912
+      },
+      "elevationMeters": 41.945,
+      "id": "BCFD1E17-3EAB-4203-B597-6257A257D427",
+      "kind": "attraction",
+      "name": "Main Street Vehicles",
+      "park": "disneyland",
+      "themeParksEntityID": "BCFD1E17-3EAB-4203-B597-6257A257D427"
+    },
+    {
+      "coord": {
+        "latitude": 33.811384,
+        "longitude": -117.921011
+      },
+      "elevationMeters": 42.257,
+      "id": "8160B905-B318-41BE-84BF-869FB6A55B14",
+      "kind": "show",
+      "name": "The Bootstrappers",
+      "park": "disneyland",
+      "themeParksEntityID": "8160B905-B318-41BE-84BF-869FB6A55B14"
+    },
+    {
+      "coord": {
+        "latitude": 33.812591,
+        "longitude": -117.919379
+      },
+      "elevationMeters": 41.534,
+      "id": "645C11B7-51F7-41D5-9764-5A7FA9D2535C",
+      "kind": "show",
+      "name": "Fantasy Faire",
+      "park": "disneyland",
+      "themeParksEntityID": "645C11B7-51F7-41D5-9764-5A7FA9D2535C"
+    },
+    {
+      "coord": {
+        "latitude": 33.812495,
+        "longitude": -117.919443
+      },
+      "elevationMeters": 41.912,
+      "id": "72340A8A-B6D2-474F-ACA5-5EA7D2D52335",
+      "kind": "show",
+      "name": "Storytelling at Royal Theatre",
+      "park": "disneyland",
+      "themeParksEntityID": "72340A8A-B6D2-474F-ACA5-5EA7D2D52335"
+    },
+    {
+      "coord": {
+        "latitude": 33.812669,
+        "longitude": -117.919419
+      },
+      "elevationMeters": 41.873,
+      "id": "33CBBD09-6D93-40D7-B758-9D7B7D3FD2EB",
+      "kind": "show",
+      "name": "Meet Disney Princesses at Royal Hall",
+      "park": "disneyland",
+      "themeParksEntityID": "33CBBD09-6D93-40D7-B758-9D7B7D3FD2EB"
+    },
+    {
+      "coord": {
+        "latitude": 33.81097757,
+        "longitude": -117.9189609
+      },
+      "elevationMeters": 41.32,
+      "id": "A6760F7B-3489-47DF-9547-D70DD2D8CB76",
+      "kind": "show",
+      "name": "Disneyland Band at Main Street, U.S.A.",
+      "park": "disneyland",
+      "themeParksEntityID": "A6760F7B-3489-47DF-9547-D70DD2D8CB76"
+    },
+    {
+      "coord": {
+        "latitude": 33.811687,
+        "longitude": -117.921151
+      },
+      "elevationMeters": 40.18,
+      "id": "8C36FF0B-3A32-4D7B-9388-0516C19277DB",
+      "kind": "show",
+      "name": "Fantasmic!",
+      "park": "disneyland",
+      "themeParksEntityID": "8C36FF0B-3A32-4D7B-9388-0516C19277DB"
+    },
+    {
+      "coord": {
+        "latitude": 33.81033566504692,
+        "longitude": -117.91896425141066
+      },
+      "elevationMeters": 42.074,
+      "id": "EEAFC865-A4E0-4DC5-9CEA-446108BF7D48",
+      "kind": "show",
+      "name": "Flag Retreat Ceremony",
+      "park": "disneyland",
+      "themeParksEntityID": "EEAFC865-A4E0-4DC5-9CEA-446108BF7D48"
+    },
+    {
+      "coord": {
+        "latitude": 33.814016,
+        "longitude": -117.917863
+      },
+      "elevationMeters": 43.573,
+      "id": "4119DD28-6DA8-46A0-9246-BEA86E07AC61",
+      "kind": "show",
+      "name": "Pearly Band near \"it's a small world\"",
+      "park": "disneyland",
+      "themeParksEntityID": "4119DD28-6DA8-46A0-9246-BEA86E07AC61"
+    },
+    {
+      "coord": {
+        "latitude": 33.814424,
+        "longitude": -117.921484
+      },
+      "elevationMeters": 46.489,
+      "id": "1822FB68-5F64-4329-B7E2-D4065F7159AC",
+      "kind": "restaurant",
+      "name": "Ronto Roasters",
+      "park": "disneyland",
+      "themeParksEntityID": "1822FB68-5F64-4329-B7E2-D4065F7159AC"
+    },
+    {
+      "coord": {
+        "latitude": 33.8134853951,
+        "longitude": -117.9194486939
+      },
+      "elevationMeters": 43.187,
+      "id": "1DB8443F-624C-4D95-967C-1766A52B24EC",
+      "kind": "restaurant",
+      "name": "Red Rose Taverne",
+      "park": "disneyland",
+      "themeParksEntityID": "1DB8443F-624C-4D95-967C-1766A52B24EC"
+    },
+    {
+      "coord": {
+        "latitude": 33.811049,
+        "longitude": -117.921126
+      },
+      "elevationMeters": 43.424,
+      "id": "4784FD0F-9BA3-4A5D-A4B9-ED33B93C4489",
+      "kind": "restaurant",
+      "name": "Blue Bayou Restaurant",
+      "park": "disneyland",
+      "themeParksEntityID": "4784FD0F-9BA3-4A5D-A4B9-ED33B93C4489"
+    },
+    {
+      "coord": {
+        "latitude": 33.811205,
+        "longitude": -117.921262
+      },
+      "elevationMeters": 43.194,
+      "id": "3665B38E-3E56-4C84-AD20-3E39672079A1",
+      "kind": "restaurant",
+      "name": "Cafe Orleans",
+      "park": "disneyland",
+      "themeParksEntityID": "3665B38E-3E56-4C84-AD20-3E39672079A1"
+    },
+    {
+      "coord": {
+        "latitude": 33.811176,
+        "longitude": -117.921656
+      },
+      "elevationMeters": 42.805,
+      "id": "2E0D0726-07C7-42F6-B839-68A56A41E268",
+      "kind": "restaurant",
+      "name": "Mint Julep Bar",
+      "park": "disneyland",
+      "themeParksEntityID": "2E0D0726-07C7-42F6-B839-68A56A41E268"
+    },
+    {
+      "coord": {
+        "latitude": 33.8117514713,
+        "longitude": -117.918622265
+      },
+      "elevationMeters": 42.067,
+      "id": "8DEB6338-B65F-467C-9DD3-56ED8C02C355",
+      "kind": "restaurant",
+      "name": "Plaza Inn",
+      "park": "disneyland",
+      "themeParksEntityID": "8DEB6338-B65F-467C-9DD3-56ED8C02C355"
+    },
+    {
+      "coord": {
+        "latitude": 33.8120188925,
+        "longitude": -117.921936614
+      },
+      "elevationMeters": 42.836,
+      "id": "92F45AE9-5E6D-4923-88D4-7F676C2D10B2",
+      "kind": "restaurant",
+      "name": "Harbour Galley",
+      "park": "disneyland",
+      "themeParksEntityID": "92F45AE9-5E6D-4923-88D4-7F676C2D10B2"
+    },
+    {
+      "coord": {
+        "latitude": 33.8116150928,
+        "longitude": -117.9205917872
+      },
+      "elevationMeters": 41.995,
+      "id": "057872ED-3F27-496F-80E2-EDD3639BA084",
+      "kind": "restaurant",
+      "name": "River Belle Terrace",
+      "park": "disneyland",
+      "themeParksEntityID": "057872ED-3F27-496F-80E2-EDD3639BA084"
+    },
+    {
+      "coord": {
+        "latitude": 33.8117081571,
+        "longitude": -117.9168865347
+      },
+      "elevationMeters": 42.487,
+      "id": "045B0C03-48E7-4975-8885-A6CF5D8E0AC8",
+      "kind": "restaurant",
+      "name": "Alien Pizza Planet",
+      "park": "disneyland",
+      "themeParksEntityID": "045B0C03-48E7-4975-8885-A6CF5D8E0AC8"
+    },
+    {
+      "coord": {
+        "latitude": 33.811889,
+        "longitude": -117.9203
+      },
+      "elevationMeters": 41.782,
+      "id": "FAE2515C-777B-4F37-B647-06383C1904D3",
+      "kind": "restaurant",
+      "name": "Stage Door Caf\u00e9",
+      "park": "disneyland",
+      "themeParksEntityID": "FAE2515C-777B-4F37-B647-06383C1904D3"
+    },
+    {
+      "coord": {
+        "latitude": 33.8112279116,
+        "longitude": -117.9209163877
+      },
+      "elevationMeters": 42.84,
+      "id": "D2FEB649-41EA-4097-A45B-10CFB48D13AA",
+      "kind": "restaurant",
+      "name": "Royal Street Veranda",
+      "park": "disneyland",
+      "themeParksEntityID": "D2FEB649-41EA-4097-A45B-10CFB48D13AA"
+    },
+    {
+      "coord": {
+        "latitude": 33.8114464994,
+        "longitude": -117.9190483181
+      },
+      "elevationMeters": 41.371,
+      "id": "27AB9530-4FD5-4E9C-A5B1-D553FED56655",
+      "kind": "restaurant",
+      "name": "Refreshment Corner",
+      "park": "disneyland",
+      "themeParksEntityID": "27AB9530-4FD5-4E9C-A5B1-D553FED56655"
+    },
+    {
+      "coord": {
+        "latitude": 33.811555,
+        "longitude": -117.920299
+      },
+      "elevationMeters": 41.961,
+      "id": "7BF706CD-0CF5-4640-A079-23A7A46F4F5B",
+      "kind": "restaurant",
+      "name": "Bengal Barbecue",
+      "park": "disneyland",
+      "themeParksEntityID": "7BF706CD-0CF5-4640-A079-23A7A46F4F5B"
+    },
+    {
+      "coord": {
+        "latitude": 33.8137108075,
+        "longitude": -117.9177229106
+      },
+      "elevationMeters": 42.651,
+      "id": "FBEE3A16-4BE3-47F3-97A7-70EF09AFF088",
+      "kind": "restaurant",
+      "name": "Edelweiss Snacks",
+      "park": "disneyland",
+      "themeParksEntityID": "FBEE3A16-4BE3-47F3-97A7-70EF09AFF088"
+    },
+    {
+      "coord": {
+        "latitude": 33.81207964,
+        "longitude": -117.9203231
+      },
+      "elevationMeters": 41.493,
+      "id": "CB84B53C-DBB5-483D-A717-00D9259C6484",
+      "kind": "show",
+      "name": "Disneyland Band at Frontierland",
+      "park": "disneyland",
+      "themeParksEntityID": "CB84B53C-DBB5-483D-A717-00D9259C6484"
+    },
+    {
+      "coord": {
+        "latitude": 33.8118490285,
+        "longitude": -117.9195771195
+      },
+      "elevationMeters": 41.531,
+      "id": "C48369CC-E341-4066-96B8-3687CCAD1E49",
+      "kind": "restaurant",
+      "name": "Tiki Juice Bar",
+      "park": "disneyland",
+      "themeParksEntityID": "C48369CC-E341-4066-96B8-3687CCAD1E49"
+    },
+    {
+      "coord": {
+        "latitude": 33.8117051187,
+        "longitude": -117.9193308949
+      },
+      "elevationMeters": 41.956,
+      "id": "D295C224-299F-4FDA-9D14-1D7780401929",
+      "kind": "restaurant",
+      "name": "Jolly Holiday Bakery Cafe",
+      "park": "disneyland",
+      "themeParksEntityID": "D295C224-299F-4FDA-9D14-1D7780401929"
+    },
+    {
+      "coord": {
+        "latitude": 33.8145219838,
+        "longitude": -117.9187180102
+      },
+      "elevationMeters": 44.934,
+      "id": "3A63D923-413A-4512-B873-C690596FB479",
+      "kind": "restaurant",
+      "name": "Troubadour Tavern",
+      "park": "disneyland",
+      "themeParksEntityID": "3A63D923-413A-4512-B873-C690596FB479"
+    },
+    {
+      "coord": {
+        "latitude": 33.814428,
+        "longitude": -117.92069
+      },
+      "elevationMeters": 42.097,
+      "id": "94453DEC-3F16-43A6-94C9-BE55144606B8",
+      "kind": "restaurant",
+      "name": "Milk Stand",
+      "park": "disneyland",
+      "themeParksEntityID": "94453DEC-3F16-43A6-94C9-BE55144606B8"
+    },
+    {
+      "coord": {
+        "latitude": 33.814742,
+        "longitude": -117.921432
+      },
+      "elevationMeters": 43.626,
+      "id": "8ABFD370-4C29-4154-BB96-41E031B78D29",
+      "kind": "restaurant",
+      "name": "Docking Bay 7 Food and Cargo",
+      "park": "disneyland",
+      "themeParksEntityID": "8ABFD370-4C29-4154-BB96-41E031B78D29"
+    },
+    {
+      "coord": {
+        "latitude": 33.812449,
+        "longitude": -117.917296
+      },
+      "elevationMeters": 42.812,
+      "id": "E88CBD63-E385-423B-9565-FBE5FAEB9050",
+      "kind": "restaurant",
+      "name": "Galactic Grill",
+      "park": "disneyland",
+      "themeParksEntityID": "E88CBD63-E385-423B-9565-FBE5FAEB9050"
+    },
+    {
+      "coord": {
+        "latitude": 33.8111392429,
+        "longitude": -117.9190407415
+      },
+      "elevationMeters": 41.475,
+      "id": "2215958D-C6B0-4513-912C-706DBF3E46E9",
+      "kind": "restaurant",
+      "name": "Gibson Girl Ice Cream Parlor",
+      "park": "disneyland",
+      "themeParksEntityID": "2215958D-C6B0-4513-912C-706DBF3E46E9"
+    },
+    {
+      "coord": {
+        "latitude": 33.8114840141,
+        "longitude": -117.9186756938
+      },
+      "elevationMeters": 41.447,
+      "id": "1CDD0F00-DE40-4F7F-BF1B-014926D51ACA",
+      "kind": "restaurant",
+      "name": "Little Red Wagon",
+      "park": "disneyland",
+      "themeParksEntityID": "1CDD0F00-DE40-4F7F-BF1B-014926D51ACA"
+    },
+    {
+      "coord": {
+        "latitude": 33.812245,
+        "longitude": -117.922802
+      },
+      "elevationMeters": 41.111,
+      "id": "A9076ACD-7630-4BAD-A8DA-E6BD689DDCAC",
+      "kind": "attraction",
+      "name": "Tiana's Bayou Adventure",
+      "park": "disneyland",
+      "searchAliases": [
+        "splash mountain"
+      ],
+      "themeParksEntityID": "A9076ACD-7630-4BAD-A8DA-E6BD689DDCAC"
+    },
+    {
+      "coord": {
+        "latitude": 33.812554,
+        "longitude": -117.922435
+      },
+      "elevationMeters": 40.548,
+      "id": "FB686E53-E10D-4CD5-836C-7A4A93207361",
+      "kind": "restaurant",
+      "name": "Hungry Bear Barbecue Jamboree",
+      "park": "disneyland",
+      "themeParksEntityID": "FB686E53-E10D-4CD5-836C-7A4A93207361"
+    },
+    {
+      "coord": {
+        "latitude": 33.814988,
+        "longitude": -117.921242
+      },
+      "elevationMeters": 42.7,
+      "id": "FA0EF252-8002-4C39-934B-46C3231D206E",
+      "kind": "show",
+      "name": "Shadows of Memory: A Skywalker Saga",
+      "park": "disneyland",
+      "themeParksEntityID": "FA0EF252-8002-4C39-934B-46C3231D206E"
+    },
+    {
+      "coord": {
+        "latitude": 33.810265,
+        "longitude": -117.918559
+      },
+      "elevationMeters": 41.884,
+      "id": "05B17C11-FD4C-4B85-AB45-3E269DC56559",
+      "kind": "attraction",
+      "name": "Walt Disney - A Magical Life",
+      "park": "disneyland",
+      "themeParksEntityID": "05B17C11-FD4C-4B85-AB45-3E269DC56559"
+    },
+    {
+      "coord": {
+        "latitude": 33.81144329,
+        "longitude": -117.9192024
+      },
+      "elevationMeters": 41.491,
+      "id": "8B12916B-A384-4305-838A-C4B07AFFBB14",
+      "kind": "show",
+      "name": "Main Street Piano Player",
+      "park": "disneyland",
+      "themeParksEntityID": "8B12916B-A384-4305-838A-C4B07AFFBB14"
+    },
+    {
+      "coord": {
+        "latitude": 33.8155052074,
+        "longitude": -117.9191337526
+      },
+      "elevationMeters": 44.876,
+      "id": "87387057-47AB-4D0B-8EED-2E6C9D23577B",
+      "kind": "attraction",
+      "name": "Mickey's House and Meet Mickey Mouse",
+      "park": "disneyland",
+      "themeParksEntityID": "87387057-47AB-4D0B-8EED-2E6C9D23577B"
+    },
+    {
+      "coord": {
+        "latitude": 33.81136,
+        "longitude": -117.921742
+      },
+      "elevationMeters": 42.988,
+      "id": "3220FD76-38E4-49A4-AFA3-4842C07203FA",
+      "kind": "show",
+      "name": "Jambalaya Jazz",
+      "park": "disneyland",
+      "themeParksEntityID": "3220FD76-38E4-49A4-AFA3-4842C07203FA"
+    },
+    {
+      "coord": {
+        "latitude": 33.814359,
+        "longitude": -117.917926
+      },
+      "elevationMeters": 43.189,
+      "id": "34F7BD8A-EC8E-41AC-9D63-D94FFC54F1EF",
+      "kind": "show",
+      "name": "Tapestry of Happiness",
+      "park": "disneyland",
+      "themeParksEntityID": "34F7BD8A-EC8E-41AC-9D63-D94FFC54F1EF"
+    },
+    {
+      "coord": {
+        "latitude": 33.812449,
+        "longitude": -117.917296
+      },
+      "elevationMeters": 42.812,
+      "id": "A529BC93-E528-4E28-A7AA-47C168F90218",
+      "kind": "restaurant",
+      "name": "Galactic Grill\u2019s Seasonal Novelty Release",
+      "park": "disneyland",
+      "themeParksEntityID": "A529BC93-E528-4E28-A7AA-47C168F90218"
+    },
+    {
+      "coord": {
+        "latitude": 33.8145219838,
+        "longitude": -117.9187180102
+      },
+      "elevationMeters": 44.934,
+      "id": "2426DE0A-55B7-4994-B31B-FC08B296C79A",
+      "kind": "restaurant",
+      "name": "Troubadour Tavern's Seasonal Novelty Release",
+      "park": "disneyland",
+      "themeParksEntityID": "2426DE0A-55B7-4994-B31B-FC08B296C79A"
+    },
+    {
+      "coord": {
+        "latitude": 33.814717,
+        "longitude": -117.920943
+      },
+      "elevationMeters": 46.945,
+      "id": "EB29424B-42ED-41A2-891C-D4C9494EAB12",
+      "kind": "restaurant",
+      "name": "Oga's Cantina at the Disneyland Resort",
+      "park": "disneyland",
+      "themeParksEntityID": "EB29424B-42ED-41A2-891C-D4C9494EAB12"
+    },
+    {
+      "coord": {
+        "latitude": 33.8110402999,
+        "longitude": -117.9190407415
+      },
+      "elevationMeters": 41.445,
+      "id": "C7CE633E-1F6B-4699-98C9-6772BB196B16",
+      "kind": "restaurant",
+      "name": "Carnation Caf\u00e9",
+      "park": "disneyland",
+      "themeParksEntityID": "C7CE633E-1F6B-4699-98C9-6772BB196B16"
+    },
+    {
+      "coord": {
+        "latitude": 33.814668,
+        "longitude": -117.918938
+      },
+      "elevationMeters": 44.54,
+      "id": "95A9CDE3-FF1F-40A3-8276-2477DED688F8",
+      "kind": "show",
+      "name": "Bluey's Best Day Ever!",
+      "park": "disneyland",
+      "themeParksEntityID": "95A9CDE3-FF1F-40A3-8276-2477DED688F8"
+    },
+    {
+      "coord": {
+        "latitude": 33.81097757,
+        "longitude": -117.9189609
+      },
+      "elevationMeters": 41.317,
+      "id": "C60E9DE0-DF2B-4484-9B05-299939DC247A",
+      "kind": "show",
+      "name": "Paint the Night",
+      "park": "disneyland",
+      "themeParksEntityID": "C60E9DE0-DF2B-4484-9B05-299939DC247A"
+    },
+    {
+      "coord": {
+        "latitude": 33.8123896,
+        "longitude": -117.9189732
+      },
+      "elevationMeters": 41.493,
+      "id": "115863AC-0880-4630-AFD3-B1A1B5033D51",
+      "kind": "show",
+      "name": "Wondrous Journeys with Fireworks",
+      "park": "disneyland",
+      "themeParksEntityID": "115863AC-0880-4630-AFD3-B1A1B5033D51"
+    },
+    {
+      "coord": {
+        "latitude": 33.8062447301,
+        "longitude": -117.9192481607
+      },
+      "elevationMeters": 40.63,
+      "id": "46097AFE-A1EA-4807-93D3-14D14F36E55F",
+      "kind": "attraction",
+      "name": "Mater's Junkyard Jamboree",
+      "park": "california-adventure",
+      "themeParksEntityID": "46097AFE-A1EA-4807-93D3-14D14F36E55F"
+    },
+    {
+      "coord": {
+        "latitude": 33.805534,
+        "longitude": -117.918544
+      },
+      "elevationMeters": 40.225,
+      "id": "7A09A2F0-E226-4F3E-86F8-2598AB67EC44",
+      "kind": "attraction",
+      "name": "Luigi's Rollickin' Roadsters",
+      "park": "california-adventure",
+      "themeParksEntityID": "7A09A2F0-E226-4F3E-86F8-2598AB67EC44"
+    },
+    {
+      "coord": {
+        "latitude": 33.8060787798,
+        "longitude": -117.9232652884
+      },
+      "elevationMeters": 40.018,
+      "id": "DCA741A6-3472-4D4F-A9AA-7774AAE81754",
+      "kind": "show",
+      "name": "Paradise Garden Bandstand",
+      "park": "california-adventure",
+      "themeParksEntityID": "DCA741A6-3472-4D4F-A9AA-7774AAE81754"
+    },
+    {
+      "coord": {
+        "latitude": 33.8053994053,
+        "longitude": -117.9209410699
+      },
+      "elevationMeters": 38.16,
+      "id": "2459A357-2B20-4445-8476-6A9A7E5EAB54",
+      "kind": "restaurant",
+      "name": "Lamplight Lounge - Boardwalk Dining",
+      "park": "california-adventure",
+      "themeParksEntityID": "2459A357-2B20-4445-8476-6A9A7E5EAB54"
+    },
+    {
+      "coord": {
+        "latitude": 33.808194,
+        "longitude": -117.917943
+      },
+      "elevationMeters": 41.467,
+      "id": "12180467-471A-4F93-A7B1-7115AAB487F2",
+      "kind": "show",
+      "name": "Disney\u00ae Visa\u00ae Cardmember Heroic Encounter",
+      "park": "california-adventure",
+      "themeParksEntityID": "12180467-471A-4F93-A7B1-7115AAB487F2"
+    },
+    {
+      "coord": {
+        "latitude": 33.807887,
+        "longitude": -117.917374
+      },
+      "elevationMeters": 41.222,
+      "id": "2FDD02E8-3835-4EF8-BD07-4C3332FB84FA",
+      "kind": "show",
+      "name": "Confection Purrfection with the SuperKitties",
+      "park": "california-adventure",
+      "themeParksEntityID": "2FDD02E8-3835-4EF8-BD07-4C3332FB84FA"
+    },
+    {
+      "coord": {
+        "latitude": 33.807889,
+        "longitude": -117.917
+      },
+      "elevationMeters": 41.257,
+      "id": "A4374B75-7FA4-4205-9571-02099E08944F",
+      "kind": "show",
+      "name": "Meet Chef Goofy",
+      "park": "california-adventure",
+      "themeParksEntityID": "A4374B75-7FA4-4205-9571-02099E08944F"
+    },
+    {
+      "coord": {
+        "latitude": 33.805873,
+        "longitude": -117.918645
+      },
+      "elevationMeters": 40.191,
+      "id": "7025EA53-9D7F-4E7F-A0AD-0EA9523C3C01",
+      "kind": "restaurant",
+      "name": "Cozy Cone Motel 1 - Churros",
+      "park": "california-adventure",
+      "themeParksEntityID": "7025EA53-9D7F-4E7F-A0AD-0EA9523C3C01"
+    },
+    {
+      "coord": {
+        "latitude": 33.8082495017,
+        "longitude": -117.9200000105
+      },
+      "elevationMeters": 41.24,
+      "id": "77F205A4-D482-4D91-A5FF-71E54A086AD2",
+      "kind": "attraction",
+      "name": "Soarin' Over California",
+      "park": "california-adventure",
+      "searchAliases": [
+        "soaring"
+      ],
+      "themeParksEntityID": "77F205A4-D482-4D91-A5FF-71E54A086AD2"
+    },
+    {
+      "coord": {
+        "latitude": 33.80785,
+        "longitude": -117.918943
+      },
+      "elevationMeters": 40.958,
+      "id": "4C570F5A-C5DA-4388-9804-DD56123D18CE",
+      "kind": "show",
+      "name": "Meet Disney Pals on Buena Vista Street",
+      "park": "california-adventure",
+      "themeParksEntityID": "4C570F5A-C5DA-4388-9804-DD56123D18CE"
+    },
+    {
+      "coord": {
+        "latitude": 33.806723,
+        "longitude": -117.917516
+      },
+      "elevationMeters": 40.22,
+      "id": "CA4B4068-02A7-4D98-92A6-F781AD5711D3",
+      "kind": "restaurant",
+      "name": "Pym Tasting Lab",
+      "park": "california-adventure",
+      "themeParksEntityID": "CA4B4068-02A7-4D98-92A6-F781AD5711D3"
+    },
+    {
+      "coord": {
+        "latitude": 33.805683,
+        "longitude": -117.920311
+      },
+      "elevationMeters": 40.097,
+      "id": "884A2E75-EF8A-4676-B65C-67320E732BB1",
+      "kind": "restaurant",
+      "name": "Port of San Fransokyo Cervecer\u00eda",
+      "park": "california-adventure",
+      "themeParksEntityID": "884A2E75-EF8A-4676-B65C-67320E732BB1"
+    },
+    {
+      "coord": {
+        "latitude": 33.805873,
+        "longitude": -117.918645
+      },
+      "elevationMeters": 40.191,
+      "id": "BAAB0186-4B1E-4B38-AF57-237CA65F8ECE",
+      "kind": "restaurant",
+      "name": "Cozy Cone Motel 4 - Frozen Cone-coctions",
+      "park": "california-adventure",
+      "themeParksEntityID": "BAAB0186-4B1E-4B38-AF57-237CA65F8ECE"
+    },
+    {
+      "coord": {
+        "latitude": 33.8058566014,
+        "longitude": -117.9200660233
+      },
+      "elevationMeters": 40.158,
+      "id": "778F814E-7113-4599-ADCE-B598A39D6CD9",
+      "kind": "restaurant",
+      "name": "Aunt Cass Caf\u00e9",
+      "park": "california-adventure",
+      "themeParksEntityID": "778F814E-7113-4599-ADCE-B598A39D6CD9"
+    },
+    {
+      "coord": {
+        "latitude": 33.8056182721,
+        "longitude": -117.9228962027
+      },
+      "elevationMeters": 39.95,
+      "id": "4F5B28D0-B78E-482B-8E2E-1F90756D6220",
+      "kind": "attraction",
+      "name": "Silly Symphony Swings",
+      "park": "california-adventure",
+      "themeParksEntityID": "4F5B28D0-B78E-482B-8E2E-1F90756D6220"
+    },
+    {
+      "coord": {
+        "latitude": 33.8063159054,
+        "longitude": -117.922805411
+      },
+      "elevationMeters": 40.628,
+      "id": "F44A5072-3CDA-4C7C-8574-33AD09D16CCA",
+      "kind": "attraction",
+      "name": "Goofy's Sky School",
+      "park": "california-adventure",
+      "searchAliases": [
+        "roller coasters"
+      ],
+      "themeParksEntityID": "F44A5072-3CDA-4C7C-8574-33AD09D16CCA"
+    },
+    {
+      "coord": {
+        "latitude": 33.8051689198,
+        "longitude": -117.9186152283
+      },
+      "elevationMeters": 39.906,
+      "id": "C60C768B-3461-465C-8F4F-B44B087506FC",
+      "kind": "attraction",
+      "name": "Radiator Springs Racers",
+      "park": "california-adventure",
+      "searchAliases": [
+        "cars ride",
+        "lightning mcqueen"
+      ],
+      "themeParksEntityID": "C60C768B-3461-465C-8F4F-B44B087506FC"
+    },
+    {
+      "coord": {
+        "latitude": 33.80626,
+        "longitude": -117.92108
+      },
+      "elevationMeters": 42.212,
+      "id": "E1FBC7A1-2CD1-4282-B373-AC11D9D9D38A",
+      "kind": "attraction",
+      "name": "The Little Mermaid - Ariel's Undersea Adventure",
+      "park": "california-adventure",
+      "themeParksEntityID": "E1FBC7A1-2CD1-4282-B373-AC11D9D9D38A"
+    },
+    {
+      "coord": {
+        "latitude": 33.8050267246,
+        "longitude": -117.922378889
+      },
+      "elevationMeters": 39.514,
+      "id": "4CA6CDBF-4C5F-45BF-B0DC-DB83393EC208",
+      "kind": "attraction",
+      "name": "Pixar Pal-A-Round \u2013 Non-Swinging",
+      "park": "california-adventure",
+      "searchAliases": [
+        "ferris wheels"
+      ],
+      "themeParksEntityID": "4CA6CDBF-4C5F-45BF-B0DC-DB83393EC208"
+    },
+    {
+      "coord": {
+        "latitude": 33.805154,
+        "longitude": -117.922737
+      },
+      "elevationMeters": 39.719,
+      "id": "6D876F4C-C3FF-4AE3-A2D8-D4B831E1039B",
+      "kind": "attraction",
+      "name": "Inside Out Emotional Whirlwind",
+      "park": "california-adventure",
+      "themeParksEntityID": "6D876F4C-C3FF-4AE3-A2D8-D4B831E1039B"
+    },
+    {
+      "coord": {
+        "latitude": 33.80773,
+        "longitude": -117.918041
+      },
+      "elevationMeters": 41.415,
+      "id": "8F586A2F-CEF5-46D3-B822-FD622C4E9E33",
+      "kind": "attraction",
+      "name": "Mickey's PhilharMagic",
+      "park": "california-adventure",
+      "themeParksEntityID": "8F586A2F-CEF5-46D3-B822-FD622C4E9E33"
+    },
+    {
+      "coord": {
+        "latitude": 33.8075587653,
+        "longitude": -117.9175029695
+      },
+      "elevationMeters": 41.334,
+      "id": "D2AA0987-49A2-45DC-A635-3A8BF7401230",
+      "kind": "attraction",
+      "name": "Animation Academy",
+      "park": "california-adventure",
+      "themeParksEntityID": "D2AA0987-49A2-45DC-A635-3A8BF7401230"
+    },
+    {
+      "coord": {
+        "latitude": 33.8046241652,
+        "longitude": -117.9207961819
+      },
+      "elevationMeters": 39.751,
+      "id": "5D07A2B1-49CA-4DE7-9D32-6D08EDF69B08",
+      "kind": "attraction",
+      "name": "Incredicoaster",
+      "park": "california-adventure",
+      "searchAliases": [
+        "roller coasters"
+      ],
+      "themeParksEntityID": "5D07A2B1-49CA-4DE7-9D32-6D08EDF69B08"
+    },
+    {
+      "coord": {
+        "latitude": 33.8048925714,
+        "longitude": -117.9224220894
+      },
+      "elevationMeters": 39.584,
+      "id": "1D24DD7A-372B-4195-8AD0-BA9679D72B08",
+      "kind": "attraction",
+      "name": "Games of Pixar Pier",
+      "park": "california-adventure",
+      "themeParksEntityID": "1D24DD7A-372B-4195-8AD0-BA9679D72B08"
+    },
+    {
+      "coord": {
+        "latitude": 33.8060334617,
+        "longitude": -117.9222742945
+      },
+      "elevationMeters": 40.654,
+      "id": "10A5FC6F-5AD3-414B-9BDD-E6BAE097B6AD",
+      "kind": "attraction",
+      "name": "Golden Zephyr",
+      "park": "california-adventure",
+      "themeParksEntityID": "10A5FC6F-5AD3-414B-9BDD-E6BAE097B6AD"
+    },
+    {
+      "coord": {
+        "latitude": 33.807491905,
+        "longitude": -117.9208812632
+      },
+      "elevationMeters": 42.338,
+      "id": "B1D285A7-2444-4A7C-B7BB-D2D4D6428A85",
+      "kind": "attraction",
+      "name": "Grizzly River Run",
+      "park": "california-adventure",
+      "themeParksEntityID": "B1D285A7-2444-4A7C-B7BB-D2D4D6428A85"
+    },
+    {
+      "coord": {
+        "latitude": 33.8061414361,
+        "longitude": -117.92253033
+      },
+      "elevationMeters": 40.395,
+      "id": "C8A4B7B1-C1B2-4DFE-B73C-4E834B4A73DB",
+      "kind": "attraction",
+      "name": "Jumpin' Jellyfish",
+      "park": "california-adventure",
+      "themeParksEntityID": "C8A4B7B1-C1B2-4DFE-B73C-4E834B4A73DB"
+    },
+    {
+      "coord": {
+        "latitude": 33.804635558,
+        "longitude": -117.9211482245
+      },
+      "elevationMeters": 40.094,
+      "id": "388AD3F1-5CF5-4A9D-8D0E-6DFB817D7822",
+      "kind": "attraction",
+      "name": "Jessie's Critter Carousel",
+      "park": "california-adventure",
+      "themeParksEntityID": "388AD3F1-5CF5-4A9D-8D0E-6DFB817D7822"
+    },
+    {
+      "coord": {
+        "latitude": 33.8050267246,
+        "longitude": -117.922378889
+      },
+      "elevationMeters": 39.514,
+      "id": "528016EF-DB24-47FA-A0F2-B6D26D61E29F",
+      "kind": "attraction",
+      "name": "Pixar Pal-A-Round - Swinging",
+      "park": "california-adventure",
+      "searchAliases": [
+        "ferris wheels"
+      ],
+      "themeParksEntityID": "528016EF-DB24-47FA-A0F2-B6D26D61E29F"
+    },
+    {
+      "coord": {
+        "latitude": 33.8081215045,
+        "longitude": -117.9173246541
+      },
+      "elevationMeters": 41.202,
+      "id": "40524FBA-5D84-49E7-9204-F493DBE2D5A4",
+      "kind": "attraction",
+      "name": "Monsters, Inc. Mike & Sulley to the Rescue!",
+      "park": "california-adventure",
+      "themeParksEntityID": "40524FBA-5D84-49E7-9204-F493DBE2D5A4"
+    },
+    {
+      "coord": {
+        "latitude": 33.8069726212,
+        "longitude": -117.9213787615
+      },
+      "elevationMeters": 42.159,
+      "id": "C9803366-6F37-4406-82AF-7692357E3CA9",
+      "kind": "attraction",
+      "name": "Redwood Creek Challenge Trail",
+      "park": "california-adventure",
+      "themeParksEntityID": "C9803366-6F37-4406-82AF-7692357E3CA9"
+    },
+    {
+      "coord": {
+        "latitude": 33.8075587653,
+        "longitude": -117.9175029695
+      },
+      "elevationMeters": 41.796,
+      "id": "44C1F655-25D3-440C-B1A8-DB736A12B105",
+      "kind": "attraction",
+      "name": "Sorcerer's Workshop",
+      "park": "california-adventure",
+      "themeParksEntityID": "44C1F655-25D3-440C-B1A8-DB736A12B105"
+    },
+    {
+      "coord": {
+        "latitude": 33.8060995504,
+        "longitude": -117.9196897202
+      },
+      "elevationMeters": 40.476,
+      "id": "EB77EE1F-3207-44FD-ACFC-D7BC18602007",
+      "kind": "attraction",
+      "name": "The Bakery Tour",
+      "park": "california-adventure",
+      "themeParksEntityID": "EB77EE1F-3207-44FD-ACFC-D7BC18602007"
+    },
+    {
+      "coord": {
+        "latitude": 33.8068702058,
+        "longitude": -117.9171870344
+      },
+      "elevationMeters": 41.15,
+      "id": "B7678DAB-5544-48D5-8FDC-C1A0127CFBCD",
+      "kind": "attraction",
+      "name": "Guardians of the Galaxy - Mission: BREAKOUT!",
+      "park": "california-adventure",
+      "searchAliases": [
+        "tower of terror"
+      ],
+      "themeParksEntityID": "B7678DAB-5544-48D5-8FDC-C1A0127CFBCD"
+    },
+    {
+      "coord": {
+        "latitude": 33.804645,
+        "longitude": -117.921839
+      },
+      "elevationMeters": 39.797,
+      "id": "86AB3069-110D-49C5-A7E7-29DDF28695A6",
+      "kind": "attraction",
+      "name": "Toy Story Midway Mania!",
+      "park": "california-adventure",
+      "themeParksEntityID": "86AB3069-110D-49C5-A7E7-29DDF28695A6"
+    },
+    {
+      "coord": {
+        "latitude": 33.8075587653,
+        "longitude": -117.9175029695
+      },
+      "elevationMeters": 41.334,
+      "id": "7561BCD8-18EA-4E3F-89D5-C905B7BA3D42",
+      "kind": "attraction",
+      "name": "Turtle Talk with Crush",
+      "park": "california-adventure",
+      "themeParksEntityID": "7561BCD8-18EA-4E3F-89D5-C905B7BA3D42"
+    },
+    {
+      "coord": {
+        "latitude": 33.807619,
+        "longitude": -117.919152
+      },
+      "elevationMeters": 41.366,
+      "id": "8D4B6D5F-558F-4210-82B5-02B0570232EA",
+      "kind": "show",
+      "name": "Citizens of Buena Vista Street",
+      "park": "california-adventure",
+      "themeParksEntityID": "8D4B6D5F-558F-4210-82B5-02B0570232EA"
+    },
+    {
+      "coord": {
+        "latitude": 33.805908,
+        "longitude": -117.918787
+      },
+      "elevationMeters": 40.253,
+      "id": "F71BFC6E-2F10-40A1-BF29-A4B98C5350F4",
+      "kind": "show",
+      "name": "Meet the Residents of Radiator Springs in Cars Land",
+      "park": "california-adventure",
+      "themeParksEntityID": "F71BFC6E-2F10-40A1-BF29-A4B98C5350F4"
+    },
+    {
+      "coord": {
+        "latitude": 33.807657,
+        "longitude": -117.919083
+      },
+      "elevationMeters": 41.023,
+      "id": "449E351B-A05A-4A52-8893-0ED5C1F6FC48",
+      "kind": "show",
+      "name": "Five & Dime",
+      "park": "california-adventure",
+      "themeParksEntityID": "449E351B-A05A-4A52-8893-0ED5C1F6FC48"
+    },
+    {
+      "coord": {
+        "latitude": 33.806978,
+        "longitude": -117.917055
+      },
+      "elevationMeters": 41.33,
+      "id": "0C6C7664-94F0-48B0-91CE-7CC2108A72C9",
+      "kind": "show",
+      "name": "Guardians of the Galaxy: Awesome Dance Off!",
+      "park": "california-adventure",
+      "themeParksEntityID": "0C6C7664-94F0-48B0-91CE-7CC2108A72C9"
+    },
+    {
+      "coord": {
+        "latitude": 33.8061043985,
+        "longitude": -117.9233857988
+      },
+      "elevationMeters": 40.378,
+      "id": "F7FF4406-5BD6-4067-9ED1-92EA1EFDCC63",
+      "kind": "restaurant",
+      "name": "Paradise Garden Grill",
+      "park": "california-adventure",
+      "themeParksEntityID": "F7FF4406-5BD6-4067-9ED1-92EA1EFDCC63"
+    },
+    {
+      "coord": {
+        "latitude": 33.806546,
+        "longitude": -117.919842
+      },
+      "elevationMeters": 42.036,
+      "id": "4FF553FA-008A-4D99-B6B0-30DD69D3453F",
+      "kind": "restaurant",
+      "name": "Mendocino Terrace",
+      "park": "california-adventure",
+      "themeParksEntityID": "4FF553FA-008A-4D99-B6B0-30DD69D3453F"
+    },
+    {
+      "coord": {
+        "latitude": 33.8055498861,
+        "longitude": -117.9189880233
+      },
+      "elevationMeters": 40.318,
+      "id": "85201274-B743-41CA-95A1-D575A07811D0",
+      "kind": "restaurant",
+      "name": "Flo's V8 Cafe",
+      "park": "california-adventure",
+      "themeParksEntityID": "85201274-B743-41CA-95A1-D575A07811D0"
+    },
+    {
+      "coord": {
+        "latitude": 33.807494,
+        "longitude": -117.919021
+      },
+      "elevationMeters": 41.2,
+      "id": "753B558A-FF18-4ED9-A3C2-70E76B421618",
+      "kind": "restaurant",
+      "name": "Carthay Circle Restaurant",
+      "park": "california-adventure",
+      "themeParksEntityID": "753B558A-FF18-4ED9-A3C2-70E76B421618"
+    },
+    {
+      "coord": {
+        "latitude": 33.8053994053,
+        "longitude": -117.9209410699
+      },
+      "elevationMeters": 38.16,
+      "id": "1214912C-DE6D-4493-9344-C245357F7AF6",
+      "kind": "restaurant",
+      "name": "Lamplight Lounge",
+      "park": "california-adventure",
+      "themeParksEntityID": "1214912C-DE6D-4493-9344-C245357F7AF6"
+    },
+    {
+      "coord": {
+        "latitude": 33.805873,
+        "longitude": -117.918645
+      },
+      "elevationMeters": 40.191,
+      "id": "D5AABD66-6227-4956-A6DA-DF71D968ABB7",
+      "kind": "restaurant",
+      "name": "Cozy Cone Motel 3 - Chili Cone Queso",
+      "park": "california-adventure",
+      "themeParksEntityID": "D5AABD66-6227-4956-A6DA-DF71D968ABB7"
+    },
+    {
+      "coord": {
+        "latitude": 33.806019,
+        "longitude": -117.920722
+      },
+      "elevationMeters": 41.892,
+      "id": "0EEFCAD3-0B3F-4CB9-B91A-9D493AF7222A",
+      "kind": "restaurant",
+      "name": "Cappuccino Cart",
+      "park": "california-adventure",
+      "themeParksEntityID": "0EEFCAD3-0B3F-4CB9-B91A-9D493AF7222A"
+    },
+    {
+      "coord": {
+        "latitude": 33.805873,
+        "longitude": -117.918645
+      },
+      "elevationMeters": 40.191,
+      "id": "A33C95F7-45F7-4D1B-B058-0045192D8A92",
+      "kind": "restaurant",
+      "name": "Cozy Cone Motel 2 - Ice Cream Cones",
+      "park": "california-adventure",
+      "themeParksEntityID": "A33C95F7-45F7-4D1B-B058-0045192D8A92"
+    },
+    {
+      "coord": {
+        "latitude": 33.808192,
+        "longitude": -117.920446
+      },
+      "elevationMeters": 40.985,
+      "id": "0E795417-D8C0-4CE4-B0F7-3F10C76217BA",
+      "kind": "restaurant",
+      "name": "Popcorn at Grizzly Peak Airfield",
+      "park": "california-adventure",
+      "themeParksEntityID": "0E795417-D8C0-4CE4-B0F7-3F10C76217BA"
+    },
+    {
+      "coord": {
+        "latitude": 33.807759,
+        "longitude": -117.917651
+      },
+      "elevationMeters": 41.349,
+      "id": "167199E4-933E-4647-9154-75B13975EEA3",
+      "kind": "restaurant",
+      "name": "Schmoozies!",
+      "park": "california-adventure",
+      "themeParksEntityID": "167199E4-933E-4647-9154-75B13975EEA3"
+    },
+    {
+      "coord": {
+        "latitude": 33.8079285397,
+        "longitude": -117.9196943785
+      },
+      "elevationMeters": 41.208,
+      "id": "5CD413B8-09DA-4860-BDEA-A88DF9FE6C0D",
+      "kind": "restaurant",
+      "name": "Smokejumpers Grill",
+      "park": "california-adventure",
+      "themeParksEntityID": "5CD413B8-09DA-4860-BDEA-A88DF9FE6C0D"
+    },
+    {
+      "coord": {
+        "latitude": 33.806478,
+        "longitude": -117.919877
+      },
+      "elevationMeters": 41.88,
+      "id": "048F854A-97D8-4295-8B7F-2575605259C6",
+      "kind": "restaurant",
+      "name": "Wine Country Trattoria",
+      "park": "california-adventure",
+      "themeParksEntityID": "048F854A-97D8-4295-8B7F-2575605259C6"
+    },
+    {
+      "coord": {
+        "latitude": 33.8063931592,
+        "longitude": -117.9203394055
+      },
+      "elevationMeters": 41.525,
+      "id": "13BC1B70-3A42-41EB-9CB5-7FA8615AF2CA",
+      "kind": "restaurant",
+      "name": "Sonoma Terrace",
+      "park": "california-adventure",
+      "themeParksEntityID": "13BC1B70-3A42-41EB-9CB5-7FA8615AF2CA"
+    },
+    {
+      "coord": {
+        "latitude": 33.8057921835,
+        "longitude": -117.9198476908
+      },
+      "elevationMeters": 40.571,
+      "id": "38DF151C-F563-406F-8DBC-7E824C7AFC75",
+      "kind": "restaurant",
+      "name": "Lucky Fortune Cookery",
+      "park": "california-adventure",
+      "themeParksEntityID": "38DF151C-F563-406F-8DBC-7E824C7AFC75"
+    },
+    {
+      "coord": {
+        "latitude": 33.806651,
+        "longitude": -117.918264
+      },
+      "elevationMeters": 40.944,
+      "id": "2295351D-CE6B-4C04-92D5-5B416372C5B5",
+      "kind": "attraction",
+      "name": "WEB SLINGERS: A Spider-Man Adventure",
+      "park": "california-adventure",
+      "themeParksEntityID": "2295351D-CE6B-4C04-92D5-5B416372C5B5"
+    },
+    {
+      "coord": {
+        "latitude": 33.806589,
+        "longitude": -117.917404
+      },
+      "elevationMeters": 40.901,
+      "id": "3EE735B5-68DC-470A-A4A2-6DDD415B9CBD",
+      "kind": "show",
+      "name": "Avengers Headquarters",
+      "park": "california-adventure",
+      "themeParksEntityID": "3EE735B5-68DC-470A-A4A2-6DDD415B9CBD"
+    },
+    {
+      "coord": {
+        "latitude": 33.80649,
+        "longitude": -117.918172
+      },
+      "elevationMeters": 40.892,
+      "id": "531F6200-393E-4E4D-B95E-AEDD30102E49",
+      "kind": "show",
+      "name": "Ancient Sanctum",
+      "park": "california-adventure",
+      "themeParksEntityID": "531F6200-393E-4E4D-B95E-AEDD30102E49"
+    },
+    {
+      "coord": {
+        "latitude": 33.806621,
+        "longitude": -117.919866
+      },
+      "elevationMeters": 46.368,
+      "id": "A098BD7C-F1A9-4FFB-97DB-E85925509F19",
+      "kind": "restaurant",
+      "name": "Magic Key Terrace - Magic Key Holder Dining",
+      "park": "california-adventure",
+      "themeParksEntityID": "A098BD7C-F1A9-4FFB-97DB-E85925509F19"
+    },
+    {
+      "coord": {
+        "latitude": 33.806476,
+        "longitude": -117.917839
+      },
+      "elevationMeters": 40.114,
+      "id": "1B6A816A-337C-431C-8DF6-72F993E15E64",
+      "kind": "show",
+      "name": "Warriors of Wakanda: The Disciplines of the Dora Milaje",
+      "park": "california-adventure",
+      "themeParksEntityID": "1B6A816A-337C-431C-8DF6-72F993E15E64"
+    },
+    {
+      "coord": {
+        "latitude": 33.806802,
+        "longitude": -117.918828
+      },
+      "elevationMeters": 41.029,
+      "id": "BDB0A3EC-EB7A-41C9-918F-CCEE7194743E",
+      "kind": "show",
+      "name": "The Amazing Spider-Man!",
+      "park": "california-adventure",
+      "themeParksEntityID": "BDB0A3EC-EB7A-41C9-918F-CCEE7194743E"
+    },
+    {
+      "coord": {
+        "latitude": 33.8058437811,
+        "longitude": -117.9228553176
+      },
+      "elevationMeters": 39.871,
+      "id": "2F9B48BB-AD41-44E6-BE57-82E62D154B0E",
+      "kind": "restaurant",
+      "name": "Bayside Brews",
+      "park": "california-adventure",
+      "themeParksEntityID": "2F9B48BB-AD41-44E6-BE57-82E62D154B0E"
+    },
+    {
+      "coord": {
+        "latitude": 33.807735,
+        "longitude": -117.918127
+      },
+      "elevationMeters": 41.555,
+      "id": "13DBF6C5-2118-4E2A-8609-A3600BF17D1F",
+      "kind": "restaurant",
+      "name": "Award Wieners",
+      "park": "california-adventure",
+      "themeParksEntityID": "13DBF6C5-2118-4E2A-8609-A3600BF17D1F"
+    },
+    {
+      "coord": {
+        "latitude": 33.805545,
+        "longitude": -117.920195
+      },
+      "elevationMeters": 40.501,
+      "id": "33BE9D07-5DA1-42B4-A8BB-2486209693BC",
+      "kind": "restaurant",
+      "name": "Cocina Cucamonga Mexican Grill",
+      "park": "california-adventure",
+      "themeParksEntityID": "33BE9D07-5DA1-42B4-A8BB-2486209693BC"
+    },
+    {
+      "coord": {
+        "latitude": 33.805794,
+        "longitude": -117.919981
+      },
+      "elevationMeters": 40.484,
+      "id": "431E008B-505C-42FD-9DB1-A2E4D5FEAE78",
+      "kind": "restaurant",
+      "name": "Rita's Turbine Blenders",
+      "park": "california-adventure",
+      "themeParksEntityID": "431E008B-505C-42FD-9DB1-A2E4D5FEAE78"
+    },
+    {
+      "coord": {
+        "latitude": 33.807889,
+        "longitude": -117.916958
+      },
+      "elevationMeters": 41.209,
+      "id": "CEB71F40-B730-4209-80BE-EF89C114DFDF",
+      "kind": "restaurant",
+      "name": "Studio Catering Co.",
+      "park": "california-adventure",
+      "themeParksEntityID": "CEB71F40-B730-4209-80BE-EF89C114DFDF"
+    },
+    {
+      "coord": {
+        "latitude": 33.807958,
+        "longitude": -117.9191776264
+      },
+      "elevationMeters": 41.224,
+      "id": "40217671-2E04-467B-B462-10D97FBCA69D",
+      "kind": "restaurant",
+      "name": "Clarabelle's Hand-Scooped Ice Cream",
+      "park": "california-adventure",
+      "themeParksEntityID": "40217671-2E04-467B-B462-10D97FBCA69D"
+    },
+    {
+      "coord": {
+        "latitude": 33.808119,
+        "longitude": -117.917074
+      },
+      "elevationMeters": 41.211,
+      "id": "8C153230-8203-4351-BC5A-485A67527B55",
+      "kind": "restaurant",
+      "name": "Hollywood Lounge",
+      "park": "california-adventure",
+      "themeParksEntityID": "8C153230-8203-4351-BC5A-485A67527B55"
+    },
+    {
+      "coord": {
+        "latitude": 33.8051566775,
+        "longitude": -117.9204788804
+      },
+      "elevationMeters": 38.16,
+      "id": "E8D7DB35-0BC1-42E4-9E6B-A0BC7EDBAFB1",
+      "kind": "restaurant",
+      "name": "Adorable Snowman Frosted Treats",
+      "park": "california-adventure",
+      "themeParksEntityID": "E8D7DB35-0BC1-42E4-9E6B-A0BC7EDBAFB1"
+    },
+    {
+      "coord": {
+        "latitude": 33.806726,
+        "longitude": -117.917696
+      },
+      "elevationMeters": 40.1,
+      "id": "BBFE672E-075A-477A-B066-1117CF80030C",
+      "kind": "restaurant",
+      "name": "Pym Test Kitchen",
+      "park": "california-adventure",
+      "themeParksEntityID": "BBFE672E-075A-477A-B066-1117CF80030C"
+    },
+    {
+      "coord": {
+        "latitude": 33.8063363272,
+        "longitude": -117.9224435985
+      },
+      "elevationMeters": 40.715,
+      "id": "C4034870-5E87-4514-832F-9DA5506F9CF9",
+      "kind": "restaurant",
+      "name": "Corn Dog Castle",
+      "park": "california-adventure",
+      "themeParksEntityID": "C4034870-5E87-4514-832F-9DA5506F9CF9"
+    },
+    {
+      "coord": {
+        "latitude": 33.80564575,
+        "longitude": -117.9214083
+      },
+      "elevationMeters": 39.307,
+      "id": "19DAD87E-2DF8-4FE2-9562-C711D464E4B7",
+      "kind": "show",
+      "name": "Palisades Stage",
+      "park": "california-adventure",
+      "themeParksEntityID": "19DAD87E-2DF8-4FE2-9562-C711D464E4B7"
+    },
+    {
+      "coord": {
+        "latitude": 33.8057925204,
+        "longitude": -117.9232147336
+      },
+      "elevationMeters": 40.172,
+      "id": "0CCDCA1C-2E60-4F7C-8395-2ADCE67E34BA",
+      "kind": "restaurant",
+      "name": "Boardwalk Pizza & Pasta",
+      "park": "california-adventure",
+      "themeParksEntityID": "0CCDCA1C-2E60-4F7C-8395-2ADCE67E34BA"
+    },
+    {
+      "coord": {
+        "latitude": 33.807494,
+        "longitude": -117.919021
+      },
+      "elevationMeters": 41.2,
+      "id": "1BEF32E2-73B4-4DE3-BB07-F71C3F301F22",
+      "kind": "restaurant",
+      "name": "Carthay Circle Lounge",
+      "park": "california-adventure",
+      "themeParksEntityID": "1BEF32E2-73B4-4DE3-BB07-F71C3F301F22"
+    },
+    {
+      "coord": {
+        "latitude": 33.805873,
+        "longitude": -117.918645
+      },
+      "elevationMeters": 40.191,
+      "id": "DC2E7388-5618-4FE3-8287-096270978829",
+      "kind": "restaurant",
+      "name": "Cozy Cone Motel 5 - Popcone\u00a0",
+      "park": "california-adventure",
+      "themeParksEntityID": "DC2E7388-5618-4FE3-8287-096270978829"
+    },
+    {
+      "coord": {
+        "latitude": 33.80564575,
+        "longitude": -117.9214083
+      },
+      "elevationMeters": 39.46,
+      "id": "457E2029-852F-4DE7-9CA0-E4CC6F0CFCAD",
+      "kind": "show",
+      "name": "World of Color Happiness!",
+      "park": "california-adventure",
+      "themeParksEntityID": "457E2029-852F-4DE7-9CA0-E4CC6F0CFCAD"
+    },
+    {
+      "coord": {
+        "latitude": 33.8075887,
+        "longitude": -117.9183444
+      },
+      "elevationMeters": 41.447,
+      "id": "8C0A4FDB-69E0-4E4E-AB80-D8247EDABE3A",
+      "kind": "show",
+      "name": "Disney Jr. Mickey Mouse Clubhouse Live!",
+      "park": "california-adventure",
+      "themeParksEntityID": "8C0A4FDB-69E0-4E4E-AB80-D8247EDABE3A"
+    },
+    {
+      "coord": {
+        "latitude": 33.808068,
+        "longitude": -117.917007
+      },
+      "elevationMeters": 41.132,
+      "id": "61F87846-5771-4F57-BB30-1103DD5B6ECC",
+      "kind": "restaurant",
+      "name": "Hollywood Land\u2019s Seasonal Novelty Release",
+      "park": "california-adventure",
+      "themeParksEntityID": "61F87846-5771-4F57-BB30-1103DD5B6ECC"
+    },
+    {
+      "coord": {
+        "latitude": 33.805866,
+        "longitude": -117.923254
+      },
+      "elevationMeters": 40.452,
+      "id": "ABF8D3B2-FD72-4B10-8619-8C2E3DF260E1",
+      "kind": "restaurant",
+      "name": "Boardwalk Pizza & Pasta's Seasonal Novelty Release",
+      "park": "california-adventure",
+      "themeParksEntityID": "ABF8D3B2-FD72-4B10-8619-8C2E3DF260E1"
+    },
+    {
+      "coord": {
+        "latitude": 33.806115,
+        "longitude": -117.920878
+      },
+      "elevationMeters": 41.892,
+      "id": "4B7F57A0-C841-43D1-8ABB-D13A3B7F2597",
+      "kind": "show",
+      "name": "Cookin' with the Jammin\u2019 Chefs",
+      "park": "california-adventure",
+      "themeParksEntityID": "4B7F57A0-C841-43D1-8ABB-D13A3B7F2597"
+    },
+    {
+      "coord": {
+        "latitude": 33.807887,
+        "longitude": -117.917374
+      },
+      "elevationMeters": 41.249,
+      "id": "464BA110-9573-457B-ABAD-54A740E0EC33",
+      "kind": "show",
+      "name": "Culinary Demonstrations at the Disney California Adventure Food & Wine Festival",
+      "park": "california-adventure",
+      "themeParksEntityID": "464BA110-9573-457B-ABAD-54A740E0EC33"
+    },
+    {
+      "coord": {
+        "latitude": 33.804866,
+        "longitude": -117.922465
+      },
+      "elevationMeters": 39.706,
+      "id": "AF195DCB-A69E-499A-B659-6751EE871F79",
+      "kind": "show",
+      "name": "Operation: Playtime! - featuring the Green Army Patrol",
+      "park": "california-adventure",
+      "themeParksEntityID": "AF195DCB-A69E-499A-B659-6751EE871F79"
+    },
+    {
+      "coord": {
+        "latitude": 33.810721842867,
+        "longitude": -117.91903978934643
+      },
+      "elevationMeters": 41.509,
+      "id": "cb1d7416-6565-4d7a-b063-db1e44f7a3fc",
+      "kind": "shop",
+      "name": "Crystal Arcade",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8153967,
+        "longitude": -117.9188045
+      },
+      "elevationMeters": 44.128,
+      "id": "d26d6e1b-6ec0-4c2b-9204-5eba9815f2f5",
+      "kind": "restroom",
+      "name": "Toontown Restroom",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.810984,
+        "longitude": -117.9215852
+      },
+      "elevationMeters": 43.007,
+      "id": "a019d179-93d5-4a23-abc0-0e768d4b58b6",
+      "kind": "restroom",
+      "name": "New Orleans Restroom",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.812049,
+        "longitude": -117.919921
+      },
+      "elevationMeters": 41.606,
+      "id": "584fea0d-afe5-41e9-9c46-4dbbc10aecd9",
+      "kind": "shop",
+      "name": "Bonanza Outfitters",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.81085752859889,
+        "longitude": -117.91905281555184
+      },
+      "elevationMeters": 41.535,
+      "id": "8698dc8f-bd15-4aea-b807-8d01c0675ec5",
+      "kind": "shop",
+      "name": "New Century Jewelry Shop",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8117628,
+        "longitude": -117.9181745
+      },
+      "elevationMeters": 42.406,
+      "id": "a4cddfc2-5cf7-45fd-aaa5-257d79744c2d",
+      "kind": "restroom",
+      "name": "Restroom",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.811173164281875,
+        "longitude": -117.91887471500974
+      },
+      "elevationMeters": 41.52,
+      "id": "6a8d8bda-4f19-4072-a31d-571a8b8900e3",
+      "kind": "shop",
+      "name": "Castle Brothers",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8129714,
+        "longitude": -117.9219558
+      },
+      "elevationMeters": 44.096,
+      "id": "3a17eb3e-a990-4c11-9607-303c7e4ffb22",
+      "kind": "restroom",
+      "name": "Fort Wilderness Restroom",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8122414,
+        "longitude": -117.9162925
+      },
+      "elevationMeters": 42.935,
+      "id": "6fa41b5f-4a22-4e2f-9029-e9f9b5617fc7",
+      "kind": "restroom",
+      "name": "Innoventions Restroom",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8118444,
+        "longitude": -117.9198463
+      },
+      "elevationMeters": 41.437,
+      "id": "26132076-1d4a-496e-8fb9-fc613f99a570",
+      "kind": "restroom",
+      "name": "Adventureland Restroom",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8126456,
+        "longitude": -117.9225377
+      },
+      "elevationMeters": 41.363,
+      "id": "12352d9e-332e-488d-8df6-96ed26a2e6e5",
+      "kind": "restroom",
+      "name": "Hungry Bear Restroom",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8129005,
+        "longitude": -117.9184912
+      },
+      "elevationMeters": 42.846,
+      "id": "aa4d1f31-33b9-4fe0-9dda-be71ca6dbf60",
+      "kind": "restroom",
+      "name": "Restroom",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8124015,
+        "longitude": -117.9219802
+      },
+      "elevationMeters": 42.08,
+      "id": "cb8ac7ec-7b94-48d0-b4ac-0ce3afa568da",
+      "kind": "foodCart",
+      "name": "Bayou Country Fruit Cart",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.810607200000035,
+        "longitude": -117.91886611943083
+      },
+      "elevationMeters": 41.71,
+      "id": "11ccdd7d-696b-4b30-bf90-1a45daf8165b",
+      "kind": "shop",
+      "name": "Main Street Magic Shop",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8103642,
+        "longitude": -117.9194308
+      },
+      "elevationMeters": 42.655,
+      "id": "8bcb8ca3-c172-4138-bd39-9179a793a9ea",
+      "kind": "restroom",
+      "name": "City Hall Restrooms",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8105849,
+        "longitude": -117.9193536
+      },
+      "elevationMeters": 41.643,
+      "id": "9be89e48-321a-4009-8cc7-b20e688603e4",
+      "kind": "shop",
+      "name": "Carriage Place Clothing CO.",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8135221,
+        "longitude": -117.9196481
+      },
+      "elevationMeters": 43.337,
+      "id": "4e9cc2cf-f44d-4cf5-a88b-e73510ced22e",
+      "kind": "restroom",
+      "name": "Village Haus Restroom",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8120658,
+        "longitude": -117.9232446
+      },
+      "elevationMeters": 41.34,
+      "id": "73dbca0a-916e-49d3-b47a-4384584a1ede",
+      "kind": "shop",
+      "name": "Louis' Critter Club",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.811289750006644,
+        "longitude": -117.9188637800496
+      },
+      "elevationMeters": 42.193,
+      "id": "4dab5eac-57a6-4a80-88b7-2222e2249dde",
+      "kind": "shop",
+      "name": "Silhouette Studio",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.81055249245859,
+        "longitude": -117.91910043589263
+      },
+      "elevationMeters": 41.547,
+      "id": "b689f9dd-dd44-450b-bcf3-963ca854877a",
+      "kind": "shop",
+      "name": "Emporium",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8113616,
+        "longitude": -117.9176971
+      },
+      "elevationMeters": 41.879,
+      "id": "037ea637-9236-43c2-a62d-a737a200addc",
+      "kind": "restroom",
+      "name": "Space Mountain Exit Restrooms",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8117413,
+        "longitude": -117.9195089
+      },
+      "elevationMeters": 42.445,
+      "id": "c29b4dbc-1460-43fe-8d23-5ae0a998512c",
+      "kind": "restroom",
+      "name": "Tiki Restrooms",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8124966,
+        "longitude": -117.9197532
+      },
+      "elevationMeters": 42.128,
+      "id": "79b35b9c-e915-4dd8-9e4b-f2cc7ef1108f",
+      "kind": "restroom",
+      "name": "Zocalo Restroom",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8121614,
+        "longitude": -117.9232643
+      },
+      "elevationMeters": 41.412,
+      "id": "67536fda-b4d1-49a9-bd0a-4fbb5ce5399f",
+      "kind": "shop",
+      "name": "Pooh Corner",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8113269,
+        "longitude": -117.9191133
+      },
+      "elevationMeters": 41.489,
+      "id": "6035c14b-f51e-4635-bd64-d06f4c7b52ed",
+      "kind": "shop",
+      "name": "Candy Palace",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8122578,
+        "longitude": -117.9232603
+      },
+      "elevationMeters": 41.456,
+      "id": "d79c2ebe-e63f-4704-9941-bbe2663c6fdd",
+      "kind": "shop",
+      "name": "Pooh Corner",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8100798,
+        "longitude": -117.9183862
+      },
+      "elevationMeters": 41.981,
+      "id": "b8744e78-1946-430d-b746-11924a2f6bbd",
+      "kind": "restroom",
+      "name": "Opera House Restroom",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8111728,
+        "longitude": -117.9216625
+      },
+      "elevationMeters": 42.904,
+      "id": "56209546-9f9b-44c5-9b11-23ec52fde59f",
+      "kind": "shop",
+      "name": "Mint Julep Bar",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8120517,
+        "longitude": -117.9199974
+      },
+      "elevationMeters": 41.772,
+      "id": "055e541f-dbbc-4904-a6ce-eb6068b6bca8",
+      "kind": "shop",
+      "name": "Dry Goods",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8137806,
+        "longitude": -117.9180498
+      },
+      "elevationMeters": 42.784,
+      "id": "6426c5b2-f318-4733-baa8-f22538703895",
+      "kind": "foodCart",
+      "name": "Lemonade Small World",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.81133282857791,
+        "longitude": -117.9188737972251
+      },
+      "elevationMeters": 41.735,
+      "id": "03fa7aa0-8985-42a9-a6b0-4bbdfa4404fd",
+      "kind": "shop",
+      "name": "China Closet",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8129306,
+        "longitude": -117.9188678
+      },
+      "elevationMeters": 42.857,
+      "id": "778ef3cf-2f15-47b1-8763-3a393ace5a31",
+      "kind": "shop",
+      "name": "Merlin\u2019s Marvelous Miscellany",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8129422,
+        "longitude": -117.9191257
+      },
+      "elevationMeters": 42.845,
+      "id": "7202e934-f7ce-47b9-b91a-c5bdcacfa142",
+      "kind": "shop",
+      "name": "Bibbidi Bobbidi Boutique",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.811397264283926,
+        "longitude": -117.91886137422166
+      },
+      "elevationMeters": 41.525,
+      "id": "57a0b781-1c1d-4a90-8667-0f5030fd94b6",
+      "kind": "shop",
+      "name": "Plaza Point Holiday Shoppe",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.81055273246452,
+        "longitude": -117.91883193669322
+      },
+      "elevationMeters": 41.609,
+      "id": "9c2aaaf8-c790-4192-af4b-4909c14573ee",
+      "kind": "shop",
+      "name": "Disney Showcase",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8128815,
+        "longitude": -117.9190469
+      },
+      "elevationMeters": 42.549,
+      "id": "65d5593e-9920-4fc2-9858-5d1f7f9a0503",
+      "kind": "shop",
+      "name": "Fantasyland Merch Cart",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8102665,
+        "longitude": -117.9191049
+      },
+      "elevationMeters": 41.974,
+      "id": "3564c2a5-faf3-4de4-9fb0-d63f213ba6fc",
+      "kind": "foodCart",
+      "name": "Popcorn Town Square",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8126085,
+        "longitude": -117.9180928
+      },
+      "elevationMeters": 42.176,
+      "id": "d1fdebe1-5b2f-4893-8024-1865824c3b66",
+      "kind": "shop",
+      "name": "Pixie Hollow Costume Stand",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8120868,
+        "longitude": -117.9170818
+      },
+      "elevationMeters": 42.513,
+      "id": "52724d84-ac37-462a-a0f6-77f9dd36e2d4",
+      "kind": "shop",
+      "name": "Tomorrow Landing",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.81066208632527,
+        "longitude": -117.91885371367098
+      },
+      "elevationMeters": 41.83,
+      "id": "26e3271b-02ff-464d-aec1-ffffdd765198",
+      "kind": "shop",
+      "name": "20th Century Music Company",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.811645,
+        "longitude": -117.9216755
+      },
+      "elevationMeters": 42.39,
+      "id": "3c19111a-e72e-453f-8504-5857fb78ac42",
+      "kind": "foodCart",
+      "name": "Popcorn New Orleans Square",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8122415,
+        "longitude": -117.9175754
+      },
+      "elevationMeters": 42.182,
+      "id": "b1cdaae1-201b-4a29-9c0f-97d211361f38",
+      "kind": "shop",
+      "name": "Little Green Men Store Command",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8155927,
+        "longitude": -117.9184247
+      },
+      "elevationMeters": 44.558,
+      "id": "1bd79fc5-d6e4-4edd-87c1-046fcf781bf5",
+      "kind": "shop",
+      "name": "Engineear Souvenirs",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8111829,
+        "longitude": -117.9187362
+      },
+      "elevationMeters": 41.544,
+      "id": "7cde40e5-e2d1-4286-88e1-8965c09c9b37",
+      "kind": "shop",
+      "name": "Chester Drawer's: Togs for Toddlers",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8112449,
+        "longitude": -117.91887420305304
+      },
+      "elevationMeters": 41.653,
+      "id": "ba72a1a6-d752-423c-92a1-c38dbd4fad2d",
+      "kind": "shop",
+      "name": "Crystal Arts",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.81104842145065,
+        "longitude": -117.9188748324931
+      },
+      "elevationMeters": 41.537,
+      "id": "4bb9bd1f-8694-4a5b-8c63-c874b22a083c",
+      "kind": "shop",
+      "name": "Disney Clothiers LTD.",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8127926,
+        "longitude": -117.9190259
+      },
+      "elevationMeters": 42.534,
+      "id": "7b5736dc-efb6-43a8-8b77-6556ef5a7a54",
+      "kind": "shop",
+      "name": "Enchanted Chamber",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8120333,
+        "longitude": -117.9204787
+      },
+      "elevationMeters": 41.335,
+      "id": "d23c9e3e-660c-4240-b89c-38e8063f5741",
+      "kind": "foodCart",
+      "name": "Popcorn Frontierland",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8121007,
+        "longitude": -117.9174754
+      },
+      "elevationMeters": 42.949,
+      "id": "dfee05d9-313c-4de8-95c2-ce1e8f43245b",
+      "kind": "foodCart",
+      "name": "Churros Tomorrowland",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8130966,
+        "longitude": -117.9208739
+      },
+      "elevationMeters": 42.079,
+      "id": "7604626a-bb0b-45a0-89dd-dddd8949c53b",
+      "kind": "foodCart",
+      "name": "Pretzel Frontierland",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8110109,
+        "longitude": -117.9213795
+      },
+      "elevationMeters": 43.009,
+      "id": "2de97e7b-0a61-4d42-8139-8943287b02e9",
+      "kind": "shop",
+      "name": "Eudora\u2019s Chic Boutique",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8120563,
+        "longitude": -117.9201452
+      },
+      "elevationMeters": 41.877,
+      "id": "a34433ed-3018-45db-a8cf-a887599528bf",
+      "kind": "shop",
+      "name": "Crockett and Russell Hat Co.",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8110898,
+        "longitude": -117.9213487
+      },
+      "elevationMeters": 42.919,
+      "id": "4a5b3fda-8f72-44cf-8e00-c0026f663c82",
+      "kind": "shop",
+      "name": "Cristal d'Orleans",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8112009,
+        "longitude": -117.9209965
+      },
+      "elevationMeters": 42.881,
+      "id": "11bd83c9-1f90-463e-ab0a-8b657f97fa6a",
+      "kind": "shop",
+      "name": "Port Royal Curios and Curiosities",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8110803,
+        "longitude": -117.921266
+      },
+      "elevationMeters": 44.543,
+      "id": "e462ee9c-1c70-4e48-aae6-87fd1b5edaf0",
+      "kind": "shop",
+      "name": "Scenic Art",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8110637,
+        "longitude": -117.921509
+      },
+      "elevationMeters": 42.971,
+      "id": "bfd4cd83-c6fb-4f4e-af65-f4d9121b7601",
+      "kind": "shop",
+      "name": "Pandora",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8111524,
+        "longitude": -117.9214412
+      },
+      "elevationMeters": 42.969,
+      "id": "ed32c314-173f-4312-8733-0dae91d4a2a3",
+      "kind": "shop",
+      "name": "Mlle. Antoinette\u2019s Parfumerie",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8120553,
+        "longitude": -117.9200684
+      },
+      "elevationMeters": 41.825,
+      "id": "54b49258-58a7-4acb-97f4-b750a85abaca",
+      "kind": "shop",
+      "name": "Silver Spurs Supplies",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8110908,
+        "longitude": -117.9211168
+      },
+      "elevationMeters": 42.967,
+      "id": "9c6864cf-5ceb-4f75-bb98-85923432de6f",
+      "kind": "shop",
+      "name": "Pieces of Eight",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8109985,
+        "longitude": -117.9215137
+      },
+      "elevationMeters": 42.879,
+      "id": "c7d7eb80-aae3-40e9-afa9-a850dc0be37b",
+      "kind": "shop",
+      "name": "Art",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8121633,
+        "longitude": -117.9203583
+      },
+      "elevationMeters": 41.428,
+      "id": "03abb79d-940b-4aa5-abf7-0625d39fb50a",
+      "kind": "foodCart",
+      "name": "Churros Frontierland",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8143342,
+        "longitude": -117.9182641
+      },
+      "elevationMeters": 43.35,
+      "id": "fece6c2b-e5a1-4c02-8e92-6eaae0977380",
+      "kind": "foodCart",
+      "name": "Popcorn Fantasyland Theatre",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8113311,
+        "longitude": -117.9175556
+      },
+      "elevationMeters": 41.878,
+      "id": "eef4f3f5-d95c-4627-8082-a6b687fc00e4",
+      "kind": "shop",
+      "name": "Spaceport Document Control",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.810268756582126,
+        "longitude": -117.91885511742701
+      },
+      "elevationMeters": 41.988,
+      "id": "f1054951-aa65-4ca2-8e75-182130af602e",
+      "kind": "foodCart",
+      "name": "Churros Town Square",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.810930814329545,
+        "longitude": -117.91904801846782
+      },
+      "elevationMeters": 41.541,
+      "id": "1fd723cb-6b7c-4e92-bb14-332b0464358c",
+      "kind": "shop",
+      "name": "Fortuosity Shop",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8119787,
+        "longitude": -117.9171676
+      },
+      "elevationMeters": 42.679,
+      "id": "4d1e7245-23c8-4be8-93c7-74d2dab00a9a",
+      "kind": "foodCart",
+      "name": "Tomorrowland Fruit Cart",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.813629,
+        "longitude": -117.9179845
+      },
+      "elevationMeters": 43.016,
+      "id": "6a4c9957-cdb0-491d-b453-e1a7fc00cf40",
+      "kind": "foodCart",
+      "name": "Popcorn Small World",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8099936,
+        "longitude": -117.919531
+      },
+      "elevationMeters": 42.546,
+      "id": "0b0613c9-361d-4de3-afd0-449ea6306234",
+      "kind": "restroom",
+      "name": "Special Accommodation Toilets",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8118207,
+        "longitude": -117.9218082
+      },
+      "elevationMeters": 42.768,
+      "id": "7f8a364c-1fd1-4c80-b34b-5180e2c190d7",
+      "kind": "foodCart",
+      "name": "Churros New Orleans Square",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8120665,
+        "longitude": -117.9174189
+      },
+      "elevationMeters": 42.256,
+      "id": "7de2c1cf-6eaa-4dc7-bffa-fdee3c2ca4be",
+      "kind": "foodCart",
+      "name": "Pretzels Tomorrowland",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8112844,
+        "longitude": -117.9213588
+      },
+      "elevationMeters": 42.738,
+      "id": "56e5da3e-4b61-42e9-99e5-7e68277f6938",
+      "kind": "shop",
+      "name": "Parasols Personalized",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8119654,
+        "longitude": -117.9170924
+      },
+      "elevationMeters": 42.298,
+      "id": "95fcd06f-70e6-4dee-bfe9-23fddde016ad",
+      "kind": "foodCart",
+      "name": "Popcorn Tomorrowland",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8121098,
+        "longitude": -117.9167354
+      },
+      "elevationMeters": 43.6,
+      "id": "ec513208-50ba-449a-bbf9-a35b00fa290a",
+      "kind": "shop",
+      "name": "Star Wars: Launch Bay Shop",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8134668,
+        "longitude": -117.9192838
+      },
+      "elevationMeters": 43.509,
+      "id": "613d55f7-828a-4ef6-859c-13d4aad5c0de",
+      "kind": "shop",
+      "name": "Royal Reception",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8116329,
+        "longitude": -117.9200492
+      },
+      "elevationMeters": 41.33,
+      "id": "175d2118-531c-4c29-bf42-60ce5ab3a404",
+      "kind": "shop",
+      "name": "Tropical Imports",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8133355,
+        "longitude": -117.9173584
+      },
+      "elevationMeters": 43.547,
+      "id": "c06a88fe-d35b-44a6-ba2e-4c954d950a11",
+      "kind": "shop",
+      "name": "Fairytale Arts",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8121267,
+        "longitude": -117.9196723
+      },
+      "elevationMeters": 41.379,
+      "id": "2a84ccf0-70e7-4c0e-b5a6-cbba5c629c23",
+      "kind": "shop",
+      "name": "Frontierland Pin Cart",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8105613,
+        "longitude": -117.918606
+      },
+      "elevationMeters": 41.584,
+      "id": "abce88d1-ece5-4792-ad25-ad7996cf6b85",
+      "kind": "shop",
+      "name": "Main Street Pin Cart",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8144533,
+        "longitude": -117.9217796
+      },
+      "elevationMeters": 43.23,
+      "id": "08e617e6-22fc-408a-aa47-d093f623cbe9",
+      "kind": "shop",
+      "name": "Toydarian Toymaker",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8146259,
+        "longitude": -117.9212114
+      },
+      "elevationMeters": 42.76,
+      "id": "7702cb52-d3f3-44e7-ad83-46f6ae34e699",
+      "kind": "shop",
+      "name": "Dok-Ondar\u2019s Den of Antiquities",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8144229,
+        "longitude": -117.9210312
+      },
+      "elevationMeters": 42.092,
+      "id": "5324c413-2a67-4810-bff3-8c75943f5ee6",
+      "kind": "shop",
+      "name": "Savi's Workshop",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8144613,
+        "longitude": -117.9217017
+      },
+      "elevationMeters": 43.19,
+      "id": "adcfce15-720a-4842-bf4f-a61730cb5d34",
+      "kind": "shop",
+      "name": "Black Spire Outfitters",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8139772,
+        "longitude": -117.9228161
+      },
+      "elevationMeters": 43.232,
+      "id": "d1fc6edc-94f4-4692-a1e0-9585e0cff75f",
+      "kind": "shop",
+      "name": "Resistance Supply",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8143492,
+        "longitude": -117.9217422
+      },
+      "elevationMeters": 43.518,
+      "id": "667ce0b3-af8c-44f5-b88b-8468bf5cf935",
+      "kind": "shop",
+      "name": "Creature Stall",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8142776,
+        "longitude": -117.9209873
+      },
+      "elevationMeters": 42.244,
+      "id": "e4f19f17-f033-4e52-aeeb-7882b4d06b74",
+      "kind": "shop",
+      "name": "Droid Depot",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8144536,
+        "longitude": -117.9216461
+      },
+      "elevationMeters": 43.407,
+      "id": "f134b0a4-df3b-4506-94cc-5b3cdb39a998",
+      "kind": "shop",
+      "name": "Kat Saka's Kettle",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8144178,
+        "longitude": -117.9219262
+      },
+      "elevationMeters": 43.475,
+      "id": "8af0d9b0-8d18-4643-8c99-89c96d8285b2",
+      "kind": "restroom",
+      "name": "Marketplace Restroom",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8142254,
+        "longitude": -117.9206465
+      },
+      "elevationMeters": 42.111,
+      "id": "74dfdd8b-b15b-49b9-aea6-fa89cf3699b9",
+      "kind": "restroom",
+      "name": "SWGE Service Yard Restroom",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.81436,
+        "longitude": -117.9216757
+      },
+      "elevationMeters": 43.399,
+      "id": "056dcbc8-105e-41f3-b802-d351654bb67b",
+      "kind": "shop",
+      "name": "Jewls of Bith",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.815411,
+        "longitude": -117.918707
+      },
+      "elevationMeters": 44.165,
+      "id": "7338def2-2067-47c0-8297-28bdba1700a1",
+      "kind": "shop",
+      "name": "Good Boy! Grocers",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8153977,
+        "longitude": -117.9192943
+      },
+      "elevationMeters": 45.148,
+      "id": "c4e749ef-7c56-4f43-95ea-285f41122473",
+      "kind": "foodCart",
+      "name": "Popcorn Toontown",
+      "park": "disneyland"
+    },
+    {
+      "access": "private",
+      "coord": {
+        "latitude": 33.8176862,
+        "longitude": -117.921181
+      },
+      "elevationMeters": 43.187,
+      "id": "1e4e6d6e-43e1-4d45-a4cf-6501543ab906",
+      "kind": "shop",
+      "name": "Vehicle Service Garage",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8144561,
+        "longitude": -117.9180665
+      },
+      "elevationMeters": 43.801,
+      "id": "fe9dcf1c-2627-45ae-ab1d-e003b393cec3",
+      "kind": "shop",
+      "name": "\"it's a small world\" Toy Shop",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8121574,
+        "longitude": -117.9232718
+      },
+      "elevationMeters": 41.392,
+      "id": "b455e1d5-8185-4b56-ab68-96df7085985a",
+      "kind": "shop",
+      "name": "Gift (shop)",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8123783,
+        "longitude": -117.92224
+      },
+      "elevationMeters": 42.253,
+      "id": "9f98864e-8249-4c2d-9710-7a2dc06613c1",
+      "kind": "shop",
+      "name": "Ray's Berets",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8142297,
+        "longitude": -117.918122
+      },
+      "elevationMeters": 43.199,
+      "id": "bfef3c1a-44f0-461e-90f8-16bf3bb5e3f2",
+      "kind": "shop",
+      "name": "Fantasy Faire Gifts",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8129871,
+        "longitude": -117.9220035
+      },
+      "elevationMeters": 44.136,
+      "id": "0f21c7f6-c4ea-45b0-8749-97ac3c0d72df",
+      "kind": "restroom",
+      "name": "Fort Wilderness",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8136899,
+        "longitude": -117.9195538
+      },
+      "elevationMeters": 43.155,
+      "id": "c96f9dde-1888-48b3-9585-82aebe90f733",
+      "kind": "foodCart",
+      "name": "Village Haus Fruit Cart",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8109613,
+        "longitude": -117.9188365
+      },
+      "elevationMeters": 41.538,
+      "id": "0565bcb2-f08d-4d00-9d43-b34791933dad",
+      "kind": "foodCart",
+      "name": "Main Street Fruit Cart",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8099685,
+        "longitude": -117.9193564
+      },
+      "elevationMeters": 41.634,
+      "id": "dbfbb3b3-7a6a-4936-9a09-e82ee553a6d4",
+      "kind": "shop",
+      "name": "Guide 1",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8099568,
+        "longitude": -117.9185662
+      },
+      "elevationMeters": 42.258,
+      "id": "3fd7f43a-4a1f-4f68-b313-45a639d34f6c",
+      "kind": "shop",
+      "name": "Guide 2",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.812323,
+        "longitude": -117.9164177
+      },
+      "elevationMeters": 42.753,
+      "id": "52b1ce7c-1832-4596-9860-8a9a9fd6a6df",
+      "kind": "shop",
+      "name": "Winner's Circle",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8136825,
+        "longitude": -117.9179036
+      },
+      "elevationMeters": 42.679,
+      "id": "16b1d953-465b-4a65-abbd-a85a35575975",
+      "kind": "shop",
+      "name": "Le Petit Chalet",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8143601,
+        "longitude": -117.9185192
+      },
+      "elevationMeters": 44.739,
+      "id": "f18a2dbc-7925-4ed2-982a-62cb83fb6890",
+      "kind": "restroom",
+      "name": "Fantasyland Theatre Restroom",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8109372,
+        "longitude": -117.9193026
+      },
+      "elevationMeters": 41.602,
+      "id": "c88b87c2-70a3-4ba5-adf0-ed6b33a0204b",
+      "kind": "restroom",
+      "name": "Restroom",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8118478,
+        "longitude": -117.9173952
+      },
+      "elevationMeters": 42.603,
+      "id": "900c2777-4d93-4cb3-812a-73a49a368760",
+      "kind": "shop",
+      "name": "Star Trader",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8097707,
+        "longitude": -117.9184182
+      },
+      "elevationMeters": 41.954,
+      "id": "437c02fe-7d7b-464f-8fca-f1a851678803",
+      "kind": "shop",
+      "name": "Stroller Rental",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.810137271390005,
+        "longitude": -117.91855855626044
+      },
+      "elevationMeters": 41.831,
+      "id": "d464ff6d-e7cd-4389-9496-bf4e6196ac53",
+      "kind": "shop",
+      "name": "Disneyana",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8104084,
+        "longitude": -117.9185094
+      },
+      "elevationMeters": 41.911,
+      "id": "df4f1cb1-023b-492f-a4d2-4d121d608e5d",
+      "kind": "shop",
+      "name": "Mad Hatter of Main Street",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8134352,
+        "longitude": -117.9185397
+      },
+      "elevationMeters": 43.221,
+      "id": "940fbab2-6cd4-4f00-b555-127abefbcfca",
+      "kind": "shop",
+      "name": "Mad Hatter of Fantasyland",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8141278,
+        "longitude": -117.9180724
+      },
+      "elevationMeters": 43.152,
+      "id": "2bcef912-77ad-4cf4-8819-5bc16f61fae5",
+      "kind": "foodCart",
+      "name": "Pretzel Small World",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8124115,
+        "longitude": -117.9205594
+      },
+      "elevationMeters": 41.123,
+      "id": "b35d9f06-33e6-4b66-9375-0be283817ed4",
+      "kind": "shop",
+      "name": "Ship To Shore Market Place",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8124546,
+        "longitude": -117.9195796
+      },
+      "elevationMeters": 42.215,
+      "id": "eb19b44a-056c-465f-9977-608cc40595aa",
+      "kind": "shop",
+      "name": "Fairy Tale Treasures",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8122277,
+        "longitude": -117.9197213
+      },
+      "elevationMeters": 41.592,
+      "id": "03be0cfa-bc31-4d2e-8679-7bc1b3ce8d0f",
+      "kind": "shop",
+      "name": "Westward Ho Trading Co.",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8112719,
+        "longitude": -117.9211114
+      },
+      "elevationMeters": 42.735,
+      "id": "942f5441-aef6-491f-b49b-4d2cbb116e62",
+      "kind": "foodCart",
+      "name": "New Orleans Candy Cart",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8119586,
+        "longitude": -117.9190543
+      },
+      "elevationMeters": 41.549,
+      "id": "55e52576-3c0a-4a85-9f74-5280093e2723",
+      "kind": "foodCart",
+      "name": "Popcorn Hub",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8121863,
+        "longitude": -117.9191108
+      },
+      "elevationMeters": 41.818,
+      "id": "642bb280-37ef-4e0e-a558-471b5eed06a7",
+      "kind": "shop",
+      "name": "Hot Foods Hub",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8123798,
+        "longitude": -117.9188023
+      },
+      "elevationMeters": 41.638,
+      "id": "35eafcc8-2a26-41dd-90f7-167cd14fbbb0",
+      "kind": "foodCart",
+      "name": "Churros Hub",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8120407,
+        "longitude": -117.917364
+      },
+      "elevationMeters": 42.104,
+      "id": "69eefc74-5f27-41a6-9987-6ee99cb0e9bb",
+      "kind": "shop",
+      "name": "Disney Vacation Club Information Both",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8120983,
+        "longitude": -117.9168991
+      },
+      "elevationMeters": 43.773,
+      "id": "2abee99b-9627-4037-8b24-fa1bfa8a2672",
+      "kind": "foodCart",
+      "name": "Lemonade Tomorrowland",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8117426,
+        "longitude": -117.91993
+      },
+      "elevationMeters": 41.553,
+      "id": "29c145a2-1cb3-451a-b787-d7620ce3f71d",
+      "kind": "shop",
+      "name": "Adventureland Bazaar",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8123639,
+        "longitude": -117.9209826
+      },
+      "elevationMeters": 40.68,
+      "id": "384997ef-fde8-447b-8ebe-e0fbd3fb148f",
+      "kind": "restroom",
+      "name": "Harper's Mill Restroom",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8136712,
+        "longitude": -117.9193319
+      },
+      "elevationMeters": 43.33,
+      "id": "85904f3a-da6f-49bd-8096-f624acaf3949",
+      "kind": "foodCart",
+      "name": "Churros Fantasyland",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8138029,
+        "longitude": -117.9178623
+      },
+      "elevationMeters": 42.598,
+      "id": "cbd5cae8-386d-44ea-9c44-3a150a0c06e8",
+      "kind": "foodCart",
+      "name": "Churros Small World",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8119556,
+        "longitude": -117.9199502
+      },
+      "elevationMeters": 41.626,
+      "id": "c934f188-ea16-48f8-98f3-45aac6ca15b8",
+      "kind": "shop",
+      "name": "Pioneer Mercantile",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8145417,
+        "longitude": -117.9203437
+      },
+      "elevationMeters": 42.114,
+      "id": "3adc872c-03c5-4908-a63f-19fbb8c6a0d4",
+      "kind": "shop",
+      "name": "First Order Cargo",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8144274,
+        "longitude": -117.9207009
+      },
+      "elevationMeters": 42.097,
+      "id": "a24a0407-6d4d-4043-81aa-55cf3a4f9459",
+      "kind": "foodCart",
+      "name": "Milk Stand",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8124332,
+        "longitude": -117.9224092
+      },
+      "elevationMeters": 42.098,
+      "id": "b88f964f-a38b-4cf6-b1ce-fba453422f8b",
+      "kind": "foodCart",
+      "name": "Churros and Lemonade Bayou Country",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8097992,
+        "longitude": -117.9194498
+      },
+      "elevationMeters": 41.585,
+      "id": "ddb2395e-251f-4fac-960f-142012faa4ab",
+      "kind": "shop",
+      "name": "Photo Concierge",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8098163,
+        "longitude": -117.9193688
+      },
+      "elevationMeters": 41.352,
+      "id": "b458aefe-9643-412a-9cf7-d4152a4b76b8",
+      "kind": "shop",
+      "name": "Newsstand",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8119579,
+        "longitude": -117.9221531
+      },
+      "elevationMeters": 43.034,
+      "id": "0dab6505-4945-4f6b-b01b-27c62fa64bb2",
+      "kind": "shop",
+      "name": "Madame Leota\u2019s Somewhere Beyond",
+      "park": "disneyland"
+    },
+    {
+      "coord": {
+        "latitude": 33.8056239,
+        "longitude": -117.9197489
+      },
+      "elevationMeters": 40.536,
+      "id": "afbd54c3-b9bf-4c1a-813d-07893e8a07a8",
+      "kind": "restroom",
+      "name": "Pacific Wharf Restroom",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8045496,
+        "longitude": -117.9214746
+      },
+      "elevationMeters": 40.096,
+      "id": "1d687e65-3af2-4947-8a8a-e0d6b06772b8",
+      "kind": "shop",
+      "name": "Midway Mercantile",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8077507,
+        "longitude": -117.9174254
+      },
+      "elevationMeters": 41.384,
+      "id": "f7a210f2-fb93-4a18-a80d-88934606ffbb",
+      "kind": "shop",
+      "name": "Fairfax Market",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8075123,
+        "longitude": -117.9178607
+      },
+      "elevationMeters": 41.614,
+      "id": "df401625-a868-4c86-8e90-d4daef96e277",
+      "kind": "shop",
+      "name": "Off the Page",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8073282,
+        "longitude": -117.9180939
+      },
+      "elevationMeters": 41.499,
+      "id": "51123dc2-09db-4025-8c0c-59f63dbb07c1",
+      "kind": "restroom",
+      "name": "Hollywood Boulevard Restroom",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8078952,
+        "longitude": -117.9168573
+      },
+      "elevationMeters": 41.435,
+      "id": "f68413ee-b831-4494-ac86-39ecc20d89bc",
+      "kind": "restroom",
+      "name": "Backlot Restroom",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8067768,
+        "longitude": -117.9168087
+      },
+      "elevationMeters": 41.445,
+      "id": "e6ca851e-8fa1-408c-8ab9-589f7eeb54eb",
+      "kind": "shop",
+      "name": "Collector's Warehouse",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8062298,
+        "longitude": -117.9234703
+      },
+      "elevationMeters": 40.49,
+      "id": "e879e940-3745-4bfa-a440-ce2f72ece03e",
+      "kind": "restroom",
+      "name": "Paradise Garden Restroom",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8077692,
+        "longitude": -117.9183938
+      },
+      "elevationMeters": 41.555,
+      "id": "6a9d24fe-18f2-42c8-98cd-0d9e58c1d7b4",
+      "kind": "shop",
+      "name": "Gone Hollywood",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8049592,
+        "longitude": -117.9226204
+      },
+      "elevationMeters": 39.673,
+      "id": "7fb2dae7-0b66-4289-b23f-33157a108fe0",
+      "kind": "shop",
+      "name": "Bing Bong\u2019s Sweet Stuff",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8066503,
+        "longitude": -117.9198027
+      },
+      "elevationMeters": 43.469,
+      "id": "8ae9c66c-3e18-48b9-a484-aeefc6e356bb",
+      "kind": "restroom",
+      "name": "Golden Vine Restroom",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8067262,
+        "longitude": -117.9211633
+      },
+      "elevationMeters": 41.629,
+      "id": "b72376c0-10b7-40de-8422-41a01966c1d8",
+      "kind": "foodCart",
+      "name": "Churros Grizzly Peak",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8075954,
+        "longitude": -117.9178992
+      },
+      "elevationMeters": 41.307,
+      "id": "da1a10bd-81a3-48c0-ace3-0d30aa8ce606",
+      "kind": "shop",
+      "name": "Disney Vacation Club Information",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8065035,
+        "longitude": -117.9207924
+      },
+      "elevationMeters": 41.992,
+      "id": "a014d8b1-eb0f-40ae-9233-73bf2297c105",
+      "kind": "restroom",
+      "name": "San Fransico Restroom",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8062684,
+        "longitude": -117.9207858
+      },
+      "elevationMeters": 41.97,
+      "id": "a119633b-542a-42a5-8854-2040e9057d33",
+      "kind": "shop",
+      "name": "Embarcadero Gifts",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8053703,
+        "longitude": -117.9187105
+      },
+      "elevationMeters": 40.382,
+      "id": "afdcf280-c58c-4c75-aaf4-09e9c016426f",
+      "kind": "shop",
+      "name": "Ramone's House of Body Art",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8047524,
+        "longitude": -117.9216224
+      },
+      "elevationMeters": 40,
+      "id": "a2f1c642-b451-444e-8d4a-405eb4e7737b",
+      "kind": "foodCart",
+      "name": "Se\u00f1or Buzz Churros",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8080123,
+        "longitude": -117.9191349
+      },
+      "elevationMeters": 41.194,
+      "id": "3d4b055d-f01b-4e2c-b0a0-3ed62baeafa7",
+      "kind": "shop",
+      "name": "Trolley Treats",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8081571,
+        "longitude": -117.9191322
+      },
+      "elevationMeters": 41.272,
+      "id": "0ae5fdc8-4196-49ac-8043-8fb296b398fc",
+      "kind": "shop",
+      "name": "Julius Katz & Sons",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8082139,
+        "longitude": -117.9191335
+      },
+      "elevationMeters": 41.3,
+      "id": "9315fe43-0ee8-485c-a3a4-ca1ba6832b29",
+      "kind": "shop",
+      "name": "Julius Katz",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8085839,
+        "longitude": -117.9187701
+      },
+      "elevationMeters": 41.111,
+      "id": "d6c9a624-81c6-4afe-a501-700345184410",
+      "kind": "shop",
+      "name": "Oswald's Filling Station",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8082663,
+        "longitude": -117.9192074
+      },
+      "elevationMeters": 41.24,
+      "id": "99c21c74-39b7-498b-946a-49d063b5927f",
+      "kind": "shop",
+      "name": "Kingswell Shop",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8082886,
+        "longitude": -117.919092
+      },
+      "elevationMeters": 41.184,
+      "id": "328b7fc2-2ef8-4b7b-9741-aeb7c91ea2fe",
+      "kind": "shop",
+      "name": "Mortimer's Market",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8080813,
+        "longitude": -117.9191309
+      },
+      "elevationMeters": 41.255,
+      "id": "301bbc41-cf63-43f5-8d80-a27b81eb4508",
+      "kind": "shop",
+      "name": "Atwater Ink & Paint",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8084491,
+        "longitude": -117.9192583
+      },
+      "elevationMeters": 41.17,
+      "id": "985537d1-2b0e-4df5-882d-8dc426c6dcb5",
+      "kind": "restroom",
+      "name": "Buena Vista Street Restroom",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8056262,
+        "longitude": -117.9192101
+      },
+      "elevationMeters": 40.522,
+      "id": "9212d580-2ad1-4115-8b84-57e32644afe4",
+      "kind": "restroom",
+      "name": "Carsland Restroom",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8076482,
+        "longitude": -117.9194911
+      },
+      "elevationMeters": 41.126,
+      "id": "1391ee25-5a1f-49a3-b32f-123a279b1269",
+      "kind": "foodCart",
+      "name": "Willie's Churros",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8052968,
+        "longitude": -117.9186207
+      },
+      "elevationMeters": 40.192,
+      "id": "257dd3cd-86b9-4845-ba98-68c790e8a333",
+      "kind": "shop",
+      "name": "Lubeorama",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8062625,
+        "longitude": -117.9226275
+      },
+      "elevationMeters": 40.54,
+      "id": "114c50bf-39f7-423e-9d54-a4473d7b14a9",
+      "kind": "foodCart",
+      "name": "Churros Paradise Park",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8078057,
+        "longitude": -117.9200195
+      },
+      "elevationMeters": 43.095,
+      "id": "34c5c97f-4510-43b2-9851-bc30a08e4822",
+      "kind": "shop",
+      "name": "Grizzly Peak Refreshments",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8048443,
+        "longitude": -117.9220765
+      },
+      "elevationMeters": 39.437,
+      "id": "a8b7cf7f-1908-4aca-b049-9faad8ca4c3e",
+      "kind": "foodCart",
+      "name": "Popcorn Pixar Pier",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8067385,
+        "longitude": -117.9195735
+      },
+      "elevationMeters": 40.893,
+      "id": "4f4d26cc-603d-444f-8e95-486f23538422",
+      "kind": "shop",
+      "name": "Disney Vacation Club Info Kiosk",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8045033,
+        "longitude": -117.9209152
+      },
+      "elevationMeters": 39.864,
+      "id": "f1122fce-111c-49ce-bd6e-d61767105e9c",
+      "kind": "shop",
+      "name": "Jack Jack Cookie Num Nums",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8053492,
+        "longitude": -117.9209434
+      },
+      "elevationMeters": 38.16,
+      "id": "ccf8f14e-79db-46b7-b8cf-0ad1121c5c50",
+      "kind": "restroom",
+      "name": "Restroom",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8077649,
+        "longitude": -117.9178436
+      },
+      "elevationMeters": 41.425,
+      "id": "af99b449-5d3b-4374-b519-2a9834bfc686",
+      "kind": "foodCart",
+      "name": "Churros Hollywood",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8073259,
+        "longitude": -117.9170363
+      },
+      "elevationMeters": 40.959,
+      "id": "aad4c9db-0e74-4fd2-9752-e34901d980a7",
+      "kind": "shop",
+      "name": "Shawarma Palace Too",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8043661,
+        "longitude": -117.92127
+      },
+      "elevationMeters": 39.761,
+      "id": "de09e2b8-8762-4641-bde4-643a3f1ae546",
+      "kind": "restroom",
+      "name": "Boardwalk Restroom",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8054839,
+        "longitude": -117.9202464
+      },
+      "elevationMeters": 40.447,
+      "id": "92e3beb3-8217-4d09-a40a-e196f8a7ec50",
+      "kind": "shop",
+      "name": "Maker's Market",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8064348,
+        "longitude": -117.9176104
+      },
+      "elevationMeters": 40.935,
+      "id": "944dbbd1-b82b-4cb9-9381-605e2da7a82f",
+      "kind": "shop",
+      "name": "Avengers Vault",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8067787,
+        "longitude": -117.918137
+      },
+      "elevationMeters": 40.936,
+      "id": "4fc1ac4b-64c8-4f1c-86e5-f155295b2c5f",
+      "kind": "restroom",
+      "name": "Avengers Campus Restroom",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8052916,
+        "longitude": -117.920621
+      },
+      "elevationMeters": 38.18,
+      "id": "f4955bef-9e1f-4def-9b9d-0dd6c7332c18",
+      "kind": "shop",
+      "name": "Knick's Knacks",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8043722,
+        "longitude": -117.9212577
+      },
+      "elevationMeters": 39.772,
+      "id": "35eedf3a-6473-4f0b-b8ab-4192d62d4bec",
+      "kind": "restroom",
+      "name": "Boardwalk Restroom",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8078912,
+        "longitude": -117.920137
+      },
+      "elevationMeters": 41.098,
+      "id": "89bf7865-8839-4cdc-9d12-18c0cbcac73c",
+      "kind": "shop",
+      "name": "Humphrey's Service & Supplies",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8084613,
+        "longitude": -117.9177847
+      },
+      "elevationMeters": 41.44,
+      "id": "e32a2e55-3e86-4baf-951b-bd309ef0946b",
+      "kind": "shop",
+      "name": "Super Store",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8077476,
+        "longitude": -117.9209403
+      },
+      "elevationMeters": 42.105,
+      "id": "6095b26a-d9a4-473d-905b-58ab85b0817b",
+      "kind": "shop",
+      "name": "Disney Vacation Club Info Booth",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8065677,
+        "longitude": -117.9207808
+      },
+      "elevationMeters": 41.845,
+      "id": "c23822d4-79c6-4c0d-8b03-13687fa904c2",
+      "kind": "shop",
+      "name": "Kiosk (shop)",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.80574,
+        "longitude": -117.9186189
+      },
+      "elevationMeters": 40.498,
+      "id": "8e63abdd-31f5-4062-83d4-bac650d01307",
+      "kind": "shop",
+      "name": "Radiator Springs Curious",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8061031,
+        "longitude": -117.9223771
+      },
+      "elevationMeters": 40.727,
+      "id": "ea2d4e2e-a212-4183-98f9-5bd6c24de63c",
+      "kind": "foodCart",
+      "name": "Lemonade Paradise Park",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8073406,
+        "longitude": -117.9181166
+      },
+      "elevationMeters": 41.499,
+      "id": "a01745e3-ca7f-46eb-bc1b-8c4e01b25aa6",
+      "kind": "restroom",
+      "name": "Hollywood Boulevard Restroom",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8059466,
+        "longitude": -117.9192937
+      },
+      "elevationMeters": 40.684,
+      "id": "7c21a7a7-af4c-4cd5-a94d-8ae6a8d6791f",
+      "kind": "shop",
+      "name": "Sarge's Surplus Hut",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8062793,
+        "longitude": -117.9225476
+      },
+      "elevationMeters": 40.568,
+      "id": "8ea5e501-c60f-449b-9cf1-1b19531ea8e2",
+      "kind": "shop",
+      "name": "Paradise Pier Sunglass Hut",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8077376,
+        "longitude": -117.9186435
+      },
+      "elevationMeters": 41.413,
+      "id": "c1da8b83-2f6f-45fa-99e6-9478ec6239e2",
+      "kind": "foodCart",
+      "name": "Hot Popcorn Limited",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8082034,
+        "longitude": -117.9204467
+      },
+      "elevationMeters": 40.984,
+      "id": "6e04a58e-c2a7-4cdf-a764-36192c18f1ee",
+      "kind": "foodCart",
+      "name": "Popcorn Grizzly Peak",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8079984,
+        "longitude": -117.9203499
+      },
+      "elevationMeters": 41.906,
+      "id": "7480d1ed-0e90-479b-a595-1707178d7317",
+      "kind": "restroom",
+      "name": "Grizzly Peak Airfield Restroom",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8080373,
+        "longitude": -117.9176442
+      },
+      "elevationMeters": 41.25,
+      "id": "4d111a81-1da5-4f90-869f-683236098e04",
+      "kind": "shop",
+      "name": "Super Store",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8083512,
+        "longitude": -117.918627
+      },
+      "elevationMeters": 41.383,
+      "id": "e1b9e656-96e8-4dc7-8caa-f4019606c72d",
+      "kind": "shop",
+      "name": "Los Feliz Five and Dime",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8063008,
+        "longitude": -117.9222133
+      },
+      "elevationMeters": 40.747,
+      "id": "8bc1d1fd-01af-46c1-ade6-9ab1e487fcf6",
+      "kind": "shop",
+      "name": "Seaside Suveniors",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8060937,
+        "longitude": -117.919449
+      },
+      "elevationMeters": 40.918,
+      "id": "b7e18433-50aa-4efb-918a-3658094af609",
+      "kind": "shop",
+      "name": "Fillmore's Taste-in",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8055018,
+        "longitude": -117.9229989
+      },
+      "elevationMeters": 39.846,
+      "id": "691bd9e6-e054-4b02-93f9-d5a15481e190",
+      "kind": "shop",
+      "name": "Chiller Paradise Park",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8059126,
+        "longitude": -117.9207544
+      },
+      "elevationMeters": 41.668,
+      "id": "d6392d7a-d3f4-4852-b19c-8cb583e94363",
+      "kind": "shop",
+      "name": "Laod Bhang's Pin Traders",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8082224,
+        "longitude": -117.9187074
+      },
+      "elevationMeters": 41.419,
+      "id": "fd78f17d-7485-4354-8748-7463174a3d85",
+      "kind": "shop",
+      "name": "Big Top Toys",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8079861,
+        "longitude": -117.918717
+      },
+      "elevationMeters": 41.364,
+      "id": "47cbb986-5425-43ff-b5ac-9664443dc84b",
+      "kind": "shop",
+      "name": "Elias & Company Department Store",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8072848,
+        "longitude": -117.920903
+      },
+      "elevationMeters": 41.986,
+      "id": "08b9f0db-3bd8-4ef5-aabf-17faa5809065",
+      "kind": "shop",
+      "name": "Rushin' River Outfitters",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8063893,
+        "longitude": -117.9185079
+      },
+      "elevationMeters": 40.942,
+      "id": "3f697005-02df-4d1b-b22b-51750714cb26",
+      "kind": "shop",
+      "name": "WEB Suppliers",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8071164,
+        "longitude": -117.9170108
+      },
+      "elevationMeters": 40.961,
+      "id": "9713967f-8985-45e3-9fe1-70f25eff5ab7",
+      "kind": "shop",
+      "name": "Terran Treats",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8066488,
+        "longitude": -117.9180177
+      },
+      "elevationMeters": 40.86,
+      "id": "815afaf7-b7e1-4212-9785-719a3861668f",
+      "kind": "shop",
+      "name": "Campus Supply Module",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.8065247,
+        "longitude": -117.9181199
+      },
+      "elevationMeters": 40.799,
+      "id": "e7afd0e2-e5b7-4058-a06b-92311724955e",
+      "kind": "shop",
+      "name": "Shawarma Palace",
+      "park": "california-adventure"
+    },
+    {
+      "coord": {
+        "latitude": 33.808765537072084,
+        "longitude": -117.91897058496303
+      },
+      "elevationMeters": 40.863,
+      "id": "832fcd51-ea19-4e77-85c7-75d5843b127c",
+      "kind": "parkEntrance",
+      "name": "Main Gate",
+      "park": "california-adventure",
+      "themeParksEntityID": "832fcd51-ea19-4e77-85c7-75d5843b127c"
+    }
+  ]
+}
