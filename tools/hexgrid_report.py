@@ -4,7 +4,8 @@
 Usage:
     tools/hexgrid_report.py [--content-dir DIR] [--threshold 5]
 
-Read-only. Answers "is the grid done?" with two checks:
+Read-only. Answers "is the grid done?" with two gating checks and one
+informational one:
 
 1. Snap audit — every POI (graph.json + pois_authored.json, with
    poi_entrance_overrides.json applied) must have a passable cell within
@@ -23,6 +24,15 @@ Read-only. Answers "is the grid done?" with two checks:
    in the painter. POIs whose nearest cell sits on a stray island (or
    on no component at all) are flagged — they'd pass a naive snap audit
    but every route to them would fail.
+
+3. Stairs / ramp audit (informational, not gating) — stairs are a hard
+   barrier for a wheelchair group in the app, so every staircase whose
+   two ends have no step-free connection (or only a very long one) is
+   listed with a centroid to jump to. Mirrors `HexGrid.stairsRampAudit`
+   in themed/Routing/StairsRampAudit.swift: same clustering, same
+   diameter-through-the-stairs choice of ends, same 3× + 40 m detour
+   threshold. The fix is nearly always painting a ramp that exists in the
+   park but not in the grid.
 
 Exit status: 0 when the gate passes, 1 when anything fails — suitable
 for CI next to check_manifest.py.
@@ -166,6 +176,134 @@ def connected_components(passable: set[tuple[int, int]]) -> dict[tuple[int, int]
                     queue.append(n)
         next_id += 1
     return component
+
+
+# --- stairs / ramp audit ------------------------------------------------------
+
+STAIRS_FLAG = 1  # AccessibilityFlags.stairs (themed/Routing/RoutingGraph.swift)
+DETOUR_RATIO = 3.0
+DETOUR_SLACK_METERS = 40.0
+SEARCH_CAP_MULTIPLIER = 2.0
+
+
+def stairs_ramp_audit(
+    cells: list[dict],
+    proj: Projection,
+    centers: dict[tuple[int, int], tuple[float, float]],
+) -> list[dict]:
+    """Mirrors HexGrid.stairsRampAudit. Returns findings worst-first.
+
+    Each finding: {"cells": [(q, r), ...], "centroid": (lat, lng),
+    "severity": "noStepFreeAlternative" | "longDetour",
+    "viaStairsMeters": float, "stepFreeMeters": float | None}.
+    """
+    flat_to_flat = proj.apothem * 2.0
+    passable = {(c["q"], c["r"]) for c in cells if c["kind"] != "restricted"}
+    stairs = {
+        (c["q"], c["r"]) for c in cells
+        if c["kind"] != "restricted" and (c["accessibility"] & STAIRS_FLAG)
+    }
+    step_free = passable - stairs
+
+    def neighbors(cell):
+        q, r = cell
+        return [(q + dq, r + dr) for dq, dr in FLAT_TOP_DIRECTIONS]
+
+    # 1. Stairs clusters (6-neighbour adjacency among stairs cells).
+    clusters = []
+    seen: set[tuple[int, int]] = set()
+    for start in sorted(stairs):
+        if start in seen:
+            continue
+        seen.add(start)
+        cluster = []
+        queue = deque([start])
+        while queue:
+            c = queue.popleft()
+            cluster.append(c)
+            for n in neighbors(c):
+                if n in stairs and n not in seen:
+                    seen.add(n)
+                    queue.append(n)
+        clusters.append(sorted(cluster))
+    if not clusters:
+        return []
+
+    # 2. Step-free component labels.
+    component = connected_components(step_free)
+
+    findings = []
+    for cluster in clusters:
+        cluster_set = set(cluster)
+        portals = {n for c in cluster for n in neighbors(c) if n in step_free}
+        if len(portals) < 2:
+            continue
+        walkable = cluster_set | portals
+
+        def farthest_portal(start):
+            dist = {start: 0}
+            queue = deque([start])
+            best = (start, 0)
+            while queue:
+                c = queue.popleft()
+                d = dist[c]
+                if c in portals and d > best[1]:
+                    best = (c, d)
+                for n in neighbors(c):
+                    if n in walkable and n not in dist:
+                        dist[n] = d + 1
+                        queue.append(n)
+            return best
+
+        end_a, _ = farthest_portal(min(portals))
+        end_b, via_hops = farthest_portal(end_a)
+        if via_hops < 2:
+            continue
+        via_meters = via_hops * flat_to_flat
+        lat = sum(centers[c][0] for c in cluster) / len(cluster)
+        lng = sum(centers[c][1] for c in cluster) / len(cluster)
+        base = {
+            "cells": cluster,
+            "centroid": (lat, lng),
+            "viaStairsMeters": via_meters,
+        }
+        if component.get(end_a) != component.get(end_b):
+            findings.append({**base, "severity": "noStepFreeAlternative",
+                             "stepFreeMeters": None})
+            continue
+
+        threshold = via_meters * DETOUR_RATIO + DETOUR_SLACK_METERS
+        cap_hops = math.ceil(threshold * SEARCH_CAP_MULTIPLIER / flat_to_flat)
+        # Capped BFS over step-free cells from end_a to end_b.
+        dist = {end_a: 0}
+        queue = deque([end_a])
+        step_free_hops = None
+        while queue and step_free_hops is None:
+            c = queue.popleft()
+            d = dist[c]
+            if d >= cap_hops:
+                continue
+            for n in neighbors(c):
+                if n in step_free and n not in dist:
+                    if n == end_b:
+                        step_free_hops = d + 1
+                        break
+                    dist[n] = d + 1
+                    queue.append(n)
+        step_free_meters = (
+            None if step_free_hops is None else step_free_hops * flat_to_flat
+        )
+        if step_free_meters is not None and step_free_meters <= threshold:
+            continue
+        findings.append({**base, "severity": "longDetour",
+                         "stepFreeMeters": step_free_meters})
+
+    def sort_key(f):
+        severity_rank = 0 if f["severity"] == "noStepFreeAlternative" else 1
+        detour = f["stepFreeMeters"] if f["stepFreeMeters"] is not None else math.inf
+        return (severity_rank, -detour, f["cells"][0])
+
+    return sorted(findings, key=sort_key)
 
 
 # --- report -------------------------------------------------------------------
@@ -393,6 +531,32 @@ def main() -> None:
         print("  every snapped POI is on the mainland")
     print()
 
+    # --- stairs / ramp audit (informational) ---
+    stairs_findings = stairs_ramp_audit(cells, proj, centers)
+    stairs_cells = sum(
+        1 for c in cells
+        if c["kind"] != "restricted" and (c["accessibility"] & STAIRS_FLAG)
+    )
+    disconnected = [f for f in stairs_findings if f["severity"] == "noStepFreeAlternative"]
+    print("=== Stairs / ramp audit (informational) ===")
+    print(f"stairs cells: {stairs_cells}; staircases flagged: {len(stairs_findings)} "
+          f"({len(disconnected)} with no step-free alternative, "
+          f"{len(stairs_findings) - len(disconnected)} long detours)")
+    for f in stairs_findings[:20]:
+        lat, lng = f["centroid"]
+        if f["stepFreeMeters"] is None:
+            around = ("no step-free path" if f["severity"] == "noStepFreeAlternative"
+                      else "step-free path beyond search cap")
+        else:
+            around = f"{f['stepFreeMeters']:.0f} m step-free"
+        print(f"  {len(f['cells']):4d} cells, {f['viaStairsMeters']:.0f} m via stairs, "
+              f"{around} — near ({lat:.6f}, {lng:.6f})")
+    if len(stairs_findings) > 20:
+        print(f"  (+ {len(stairs_findings) - 20} more)")
+    if stairs_findings:
+        print("  note: wheelchair groups can't route across these; paint the ramp.")
+    print()
+
     # --- gate ---
     problems = []
     if failures:
@@ -437,6 +601,21 @@ def main() -> None:
                 for name, _, size, poi_id in on_stray
             ],
             "bridgedIslands": bridged_islands,
+            "stairsCells": stairs_cells,
+            "stairsFindings": [
+                {
+                    "cell": list(f["cells"][0]),
+                    "cells": len(f["cells"]),
+                    "severity": f["severity"],
+                    "viaStairsMeters": round(f["viaStairsMeters"], 1),
+                    "stepFreeMeters": (
+                        None if f["stepFreeMeters"] is None
+                        else round(f["stepFreeMeters"], 1)
+                    ),
+                    "centroid": [round(f["centroid"][0], 6), round(f["centroid"][1], 6)],
+                }
+                for f in stairs_findings
+            ],
             "problems": problems,
             "gate": "FAIL" if problems else "PASS",
         }
